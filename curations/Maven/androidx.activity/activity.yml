@@ -1,0 +1,9 @@
+- id: "Maven:androidx.activity:activity:1.2.0"
+  curations:
+    comment: |
+      No sources artifact found by ORT due to missing meta data. Sources found via Internet search.
+    source_artifact:
+      url: "https://dl.google.com/android/maven2/androidx/activity/activity/1.2.0/activity-1.2.0-sources.jar"
+      hash:
+        algorithm: "SHA-1"
+        value: "db99858022040027c637fdf623d4db4d7823e60b"
