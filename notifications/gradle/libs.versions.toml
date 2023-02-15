@@ -1,5 +1,5 @@
 [versions]
-ort = "7aa61bf96b"
+ort = "eb34b0dd11"
 
 [libraries]
 ortNotifier = { module = "com.github.oss-review-toolkit.ort:notifier", version.ref = "ort" }

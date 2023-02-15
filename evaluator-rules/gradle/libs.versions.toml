@@ -1,5 +1,5 @@
 [versions]
-ort = "7aa61bf96b"
+ort = "eb34b0dd11"
 
 [libraries]
 ortEvaluator = { module = "com.github.oss-review-toolkit.ort:evaluator", version.ref = "ort" }
