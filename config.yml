@@ -1,0 +1,143 @@
+# Copyright (C) 2022 The ORT Project Authors (see <https://github.com/oss-review-toolkit/ort/blob/main/NOTICE>)
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# SPDX-License-Identifier: Apache-2.0
+# License-Filename: LICENSE
+
+# A reference configuration file containing all possible ORT configuration options. Some of those options are mutually
+# exclusive, so this file is only used to show all options and to validate the configuration.
+
+ort:
+  licenseFilePatterns:
+    licenseFilenames:
+    - 'copying'
+    - 'copyright'
+    - 'licence*'
+    - 'license*'
+    - '*.licence'
+    - '*.license'
+    - 'unlicence'
+    - 'unlicense'
+    patentFilenames:
+    - 'patents'
+    rootLicenseFilenames:
+    - 'readme*'
+
+  severeIssueThreshold: ERROR
+  severeRuleViolationThreshold: ERROR
+
+  enableRepositoryPackageCurations: true
+  enableRepositoryPackageConfigurations: true
+
+  deniedProcessEnvironmentVariablesSubstrings:
+    - PASS
+    - SECRET
+    - TOKEN
+    - USER
+  allowedProcessEnvironmentVariableNames:
+    - PASSPORT
+    - USER_HOME
+
+  analyzer:
+    allowDynamicVersions: true
+
+    packageManagers:
+      Gradle:
+        mustRunAfter:
+        - 'NPM'
+
+  downloader:
+    allowMovingRevisions: true
+
+    includedLicenseCategories:
+      - 'copyleft'
+      - 'copyleft-limited'
+
+    sourceCodeOrigins:
+    - 'VCS'
+    - 'ARTIFACT'
+
+  scanner:
+    skipConcluded: true
+
+    archive:
+      enabled: true
+
+      fileStorage:
+        localFileStorage:
+          directory: ~/.ort/scanner/archive
+          compression: false
+
+      postgresStorage:
+        connection:
+          url: '${POSTGRES_URL}'
+          schema: public
+          username: '${POSTGRES_USERNAME}'
+          password: '${POSTGRES_PASSWORD}'
+          sslmode: 'disable'
+          parallelTransactions: 5
+
+    createMissingArchives: false
+
+    detectedLicenseMapping: {}
+
+    options:
+      ScanCode:
+        commandLine: '--copyright --license --info --strip-root --timeout 300'
+        parseLicenseExpressions: true
+
+        minVersion: '30.1.0'
+        maxVersion: '30.2.0'
+
+    storages:
+      local:
+        backend:
+          localFileStorage:
+            directory: ~/.ort/scanner/results
+            compression: false
+
+      postgres:
+        connection:
+          url: '${POSTGRES_URL}'
+          schema: public
+          username: '${POSTGRES_USERNAME}'
+          password: '${POSTGRES_PASSWORD}'
+          sslmode: 'disable'
+          parallelTransactions: 5
+        type: PROVENANCE_BASED
+
+    storageReaders:
+    - 'postgres'
+
+    storageWriters:
+    - 'postgres'
+
+    ignorePatterns:
+    - '**/NOTICE'
+    - '**/META-INF/DEPENDENCIES'
+
+    provenanceStorage:
+      fileStorage:
+        localFileStorage:
+          directory: ~/.ort/scanner/provenance
+          compression: false
+
+      postgresStorage:
+        connection:
+          url: '${POSTGRES_URL}'
+          schema: public
+          username: '${POSTGRES_USERNAME}'
+          password: '${POSTGRES_PASSWORD}'
+          sslmode: 'disable'
+          parallelTransactions: 5
