@@ -13,7 +13,17 @@
     comment: "Set the VCS path of the module inside the multi-module repository."
     vcs:
       path: "src/Middleware/SpaServices.Extensions/src"
+- id: "NuGet::Microsoft.AspNetCore.SpaServices.Extensions:[2.1.8,2.1.33]"
+  curations:
+    comment: "Set the VCS path of the module inside the multi-module repository."
+    vcs:
+      path: "src/Middleware/SpaServices.Extensions/src"
 - id: "NuGet::Microsoft.AspNetCore.SpaServices.Extensions:[2.2.2,5.0.13]"
+  curations:
+    comment: "Set the VCS path of the module inside the multi-module repository."
+    vcs:
+      path: "src/Middleware/SpaServices.Extensions/src"
+- id: "NuGet::Microsoft.AspNetCore.SpaServices.Extensions:[2.2.2,5.0.17]"
   curations:
     comment: "Set the VCS path of the module inside the multi-module repository."
     vcs:

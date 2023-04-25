@@ -13,6 +13,11 @@
     comment: "Set the VCS path of the module inside the multi-module repository."
     vcs:
       path: "src/Razor/test/testassets/Razor.Test.MvcShim"
+- id: "NuGet::Microsoft.AspNetCore.Razor.Test.MvcShim:[2.1.8,2.1.33]"
+  curations:
+    comment: "Set the VCS path of the module inside the multi-module repository."
+    vcs:
+      path: "src/Razor/test/testassets/Razor.Test.MvcShim"
 - id: "NuGet::Microsoft.AspNetCore.Razor.Test.MvcShim:[2.2.2,2.2.13]"
   curations:
     comment: "Set the VCS path of the module inside the multi-module repository."

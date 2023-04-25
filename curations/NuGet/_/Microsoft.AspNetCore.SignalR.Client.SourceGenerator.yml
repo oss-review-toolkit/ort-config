@@ -3,3 +3,8 @@
     comment: "Set the VCS path of the module inside the multi-module repository."
     vcs:
       path: "src/SignalR/clients/csharp/Client.SourceGenerator/src"
+- id: "NuGet::Microsoft.AspNetCore.SignalR.Client.SourceGenerator:[7.0.0,)"
+  curations:
+    comment: "Set the VCS path of the module inside the multi-module repository."
+    vcs:
+      path: "src/SignalR/clients/csharp/Client.SourceGenerator/src"
