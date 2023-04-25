@@ -3,3 +3,8 @@
     comment: "Set the VCS path of the module inside the multi-module repository."
     vcs:
       path: "src/libraries/System.Security.Cryptography"
+- id: "NuGet::System.Security.Cryptography:[7.0.0,)"
+  curations:
+    comment: "Set the VCS path of the module inside the multi-module repository."
+    vcs:
+      path: "src/libraries/System.Security.Cryptography"
