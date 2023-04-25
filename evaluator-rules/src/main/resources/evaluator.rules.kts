@@ -37,7 +37,7 @@ val orgScanIssueTrackerMdLink = "[$orgScanIssueTrackerName](https://jira.example
 fun getLicensesForCategory(category: String): Set<SpdxSingleLicenseExpression> =
     checkNotNull(licenseClassifications.licensesByCategory[category]) {
         "Failed to obtain the license for category '$category', because that category does not exist."
-    }
+    }//test
 
 val claLicenses = getLicensesForCategory("cla")
 val commercialLicenses = getLicensesForCategory("commercial")
