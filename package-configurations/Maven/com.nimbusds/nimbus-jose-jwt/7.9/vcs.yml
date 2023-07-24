@@ -1,0 +1,11 @@
+---
+id: "Maven:com.nimbusds:nimbus-jose-jwt:7.9"
+vcs:
+  type: "Git"
+  url: "https://bitbucket.org/connect2id/nimbus-jose-jwt.git"
+  revision: "21263f5f55c42bd2047c28899d4882537befe198"
+path_excludes:
+- pattern: "CHANGELOG.txt"
+  reason: "BUILD_TOOL_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"

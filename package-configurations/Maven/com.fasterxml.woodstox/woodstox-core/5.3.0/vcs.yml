@@ -1,0 +1,11 @@
+---
+id: "Maven:com.fasterxml.woodstox:woodstox-core:5.3.0"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/FasterXML/woodstox.git"
+  revision: "7e3eeef95cbe7a98d115e88c1824b6912e3f3f28"
+path_excludes:
+- pattern: "docs/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"

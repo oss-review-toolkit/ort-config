@@ -1,0 +1,66 @@
+---
+id: "Maven:org.yaml:snakeyaml:1.33"
+vcs:
+  type: "Git"
+  url: "http://bitbucket.org/snakeyaml/snakeyaml"
+  revision: "7f5106920d7754ecab734725ba577083e55c7204"
+path_excludes:
+- pattern: ".mvn/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "src/changes.xml"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/etc/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"
+- pattern: "bitbucket-pipelines.yml"
+  reason: "BUILD_TOOL_OF"
+- pattern: "mvnw"
+  reason: "BUILD_TOOL_OF"
+- pattern: "mvnw.cmd"
+  reason: "BUILD_TOOL_OF"
+license_finding_curations:
+- path: "src/main/java/org/yaml/snakeyaml/external/biz/base64Coder/Base64Coder.java"
+  detected_license: "BSD-3-Clause"
+  concluded_license: "Apache-2.0+ OR BSD-2-Clause OR EPL-1.0+ OR GPL-2.0-or-later OR LGPL-2.1-or-later"
+  reason: "INCORRECT"
+  comment: > 
+    Match on 'EPL, Eclipse Public License, V1.0 or later, http://www.eclipse.org/legal
+    LGPL, GNU Lesser General Public License, V2.1 or later, http://www.gnu.org/licenses/lgpl.html
+    GPL, GNU General Public License, V2 or later, http://www.gnu.org/licenses/gpl.html
+    AL, Apache License, V2.0 or later, http://www.apache.org/licenses
+    BSD, BSD License, http://www.opensource.org/licenses/bsd-license.php', see 
+    https://bitbucket.org/snakeyaml/snakeyaml/src/59ddbb3304bb8e22e2004d74cddaf9ed4086632e/src/main/java/org/yaml/snakeyaml/external/biz/base64Coder/Base64Coder.java#lines-4:11
+- path: "src/main/java/org/yaml/snakeyaml/external/biz/base64Coder/Base64Coder.java"
+  detected_license: "EPL-1.0"
+  concluded_license: "Apache-2.0+ OR BSD-2-Clause OR EPL-1.0+ OR GPL-2.0-or-later OR LGPL-2.1-or-later"
+  reason: "INCORRECT"
+  comment: > 
+    Match on 'EPL, Eclipse Public License, V1.0 or later, http://www.eclipse.org/legal
+    LGPL, GNU Lesser General Public License, V2.1 or later, http://www.gnu.org/licenses/lgpl.html
+    GPL, GNU General Public License, V2 or later, http://www.gnu.org/licenses/gpl.html
+    AL, Apache License, V2.0 or later, http://www.apache.org/licenses
+    BSD, BSD License, http://www.opensource.org/licenses/bsd-license.php', see 
+    https://bitbucket.org/snakeyaml/snakeyaml/src/59ddbb3304bb8e22e2004d74cddaf9ed4086632e/src/main/java/org/yaml/snakeyaml/external/biz/base64Coder/Base64Coder.java#lines-4:11
+- path: "src/main/java/org/yaml/snakeyaml/external/biz/base64Coder/Base64Coder.java"
+  detected_license: "GPL-2.0-or-later"
+  concluded_license: "Apache-2.0+ OR BSD-2-Clause OR EPL-1.0+ OR GPL-2.0-or-later OR LGPL-2.1-or-later"
+  reason: "INCORRECT"
+  comment: > 
+    Match on 'EPL, Eclipse Public License, V1.0 or later, http://www.eclipse.org/legal
+    LGPL, GNU Lesser General Public License, V2.1 or later, http://www.gnu.org/licenses/lgpl.html
+    GPL, GNU General Public License, V2 or later, http://www.gnu.org/licenses/gpl.html
+    AL, Apache License, V2.0 or later, http://www.apache.org/licenses
+    BSD, BSD License, http://www.opensource.org/licenses/bsd-license.php', see 
+    https://bitbucket.org/snakeyaml/snakeyaml/src/59ddbb3304bb8e22e2004d74cddaf9ed4086632e/src/main/java/org/yaml/snakeyaml/external/biz/base64Coder/Base64Coder.java#lines-4:11
+- path: "src/main/java/org/yaml/snakeyaml/external/biz/base64Coder/Base64Coder.java" 
+  detected_license: "LGPL-2.1-or-later"
+  concluded_license: "Apache-2.0+ OR BSD-2-Clause OR EPL-1.0+ OR GPL-2.0-or-later OR LGPL-2.1-or-later"
+  reason: "INCORRECT"
+  comment: > 
+    Match on 'EPL, Eclipse Public License, V1.0 or later, http://www.eclipse.org/legal
+    LGPL, GNU Lesser General Public License, V2.1 or later, http://www.gnu.org/licenses/lgpl.html
+    GPL, GNU General Public License, V2 or later, http://www.gnu.org/licenses/gpl.html
+    AL, Apache License, V2.0 or later, http://www.apache.org/licenses
+    BSD, BSD License, http://www.opensource.org/licenses/bsd-license.php', see 
+    https://bitbucket.org/snakeyaml/snakeyaml/src/59ddbb3304bb8e22e2004d74cddaf9ed4086632e/src/main/java/org/yaml/snakeyaml/external/biz/base64Coder/Base64Coder.java#lines-4:11

@@ -1,0 +1,13 @@
+---
+id: "Maven:com.jayway.jsonpath:json-path:2.7.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/jayway/JsonPath.git"
+  revision: "8cdaaef9009b0dd0d9335ffb1ccbe03b7fe8a586"
+path_excludes:
+- pattern: "gradle/*.gradle"
+  reason: "BUILD_TOOL_OF"
+- pattern: "gradlew.bat"
+  reason: "BUILD_TOOL_OF"
+- pattern: "json-path-web-test/**"
+  reason: "TEST_OF"

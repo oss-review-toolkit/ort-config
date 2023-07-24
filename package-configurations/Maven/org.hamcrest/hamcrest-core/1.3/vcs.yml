@@ -1,0 +1,11 @@
+---
+id: "Maven:org.hamcrest:hamcrest-core:1.3"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/hamcrest/JavaHamcrest.git"
+  revision: "36d525e1e425006939a77aec5183aecd7c775b05"
+path_excludes:
+- pattern: "hamcrest-examples/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "hamcrest-unit-test/**"
+  reason: "TEST_OF"

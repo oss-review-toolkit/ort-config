@@ -1,0 +1,15 @@
+---
+id: "Maven:javax.activation:javax.activation-api:1.2.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/javaee/activation.git"
+  revision: "8f8ec08d736983c839d31a7bd98d29594e508785"
+path_excludes:
+- pattern: "CONTRIBUTING.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "activation/src/main/java/doc-files/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "demo/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "doc/**"
+  reason: "DOCUMENTATION_OF"

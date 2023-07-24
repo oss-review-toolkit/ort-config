@@ -1,0 +1,19 @@
+---
+id: "Maven:org.assertj:assertj-core:3.23.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/assertj/assertj-core.git"
+  revision: "0256688fcf02d7c1c1940b1226a24fb5680ac3a3"
+path_excludes:
+- pattern: ".mvn/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "CONTRIBUTING.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/it/junit4-with-opentest4j/**"
+  reason: "TEST_OF"
+- pattern: "src/it/testng-with-junit4/**"
+  reason: "TEST_OF"
+- pattern: "src/main/javadoc/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"

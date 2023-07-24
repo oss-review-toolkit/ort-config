@@ -1,0 +1,9 @@
+---
+id: "Maven:org.jboss.logging:jboss-logging:3.5.0.Final"
+vcs:
+  type: "Git"
+  url: "https://github.com/jboss-logging/jboss-logging.git"
+  revision: "b9581c2ea23b25662d8e4f94486b17e40c8c6024"
+path_excludes:
+- pattern: "src/test/**"
+  reason: "TEST_OF"

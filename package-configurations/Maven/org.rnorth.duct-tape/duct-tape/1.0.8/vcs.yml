@@ -1,0 +1,11 @@
+---
+id: "Maven:org.rnorth.duct-tape:duct-tape:1.0.8"
+vcs:
+  type: "Git"
+  url: "https://github.com/rnorth/duct-tape.git"
+  revision: "5cafd804b4e58a11763de84a106edbd2026165f0"
+path_excludes:
+- pattern: ".mvn/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "docs/**"
+  reason: "DOCUMENTATION_OF"

@@ -1,0 +1,9 @@
+---
+id: "Maven:org.codehaus.plexus:plexus-classworlds:2.6.0"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/codehaus-plexus/plexus-classworlds.git"
+  revision: "71132de9527b7fa154160a5bf679ea79a7d161a3"
+path_excludes:
+- pattern: "src/test/**"
+  reason: "TEST_OF"

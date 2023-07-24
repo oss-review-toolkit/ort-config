@@ -1,0 +1,6 @@
+---
+id: "Maven:org.apache.hbase.thirdparty:hbase-shaded-netty:4.1.4"
+source_artifact_url: "https://repo.maven.apache.org/maven2/org/apache/hbase/thirdparty/hbase-shaded-netty/4.1.4/hbase-shaded-netty-4.1.4-sources.jar"
+path_excludes:
+- pattern: "org/apache/hbase/thirdparty/io/netty/util/internal/shaded/org/jctools/queues/spec/**"
+  reason: "DOCUMENTATION_OF"

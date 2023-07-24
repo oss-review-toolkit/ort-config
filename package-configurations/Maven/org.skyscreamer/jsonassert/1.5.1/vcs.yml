@@ -1,0 +1,9 @@
+---
+id: "Maven:org.skyscreamer:jsonassert:1.5.1"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/skyscreamer/JSONassert.git"
+  revision: "be6313959dbc218dfd4ad7cbce818840f6133dea"
+path_excludes:
+- pattern: "src/test/**"
+  reason: "TEST_OF"

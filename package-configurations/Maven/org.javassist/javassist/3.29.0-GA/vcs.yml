@@ -1,0 +1,13 @@
+---
+id: "Maven:org.javassist:javassist:3.29.0-GA"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/jboss-javassist/javassist.git"
+  revision: "2423b4961edf1c43c6b05b9e375b1c100598021f"
+path_excludes:
+- pattern: "src/main/javassist/tools/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"
+- pattern: "tutorial/**"
+  reason: "DOCUMENTATION_OF"

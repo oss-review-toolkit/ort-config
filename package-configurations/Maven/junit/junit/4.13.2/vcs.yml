@@ -1,0 +1,11 @@
+---
+id: "Maven:junit:junit:4.13.2"
+vcs:
+  type: "Git"
+  url: "https://github.com/junit-team/junit4.git"
+  revision: "05fe2a64f59127c02135be22f416e91260d6ede6"
+path_excludes:
+- pattern: "CONTRIBUTING.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/site/resources/scripts/**"
+  reason: "BUILD_TOOL_OF"

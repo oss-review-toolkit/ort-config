@@ -1,0 +1,8 @@
+---
+id: "Maven:org.eclipse.platform:org.eclipse.osgi:3.18.400"
+source_artifact_url: "https://repo.maven.apache.org/maven2/org/eclipse/platform/org.eclipse.osgi/3.18.400/org.eclipse.osgi-3.18.400-sources.jar"
+path_excludes:
+- pattern: "org/eclipse/osgi/internal/debug/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "org/eclipse/osgi/service/debug/**"
+  reason: "BUILD_TOOL_OF"

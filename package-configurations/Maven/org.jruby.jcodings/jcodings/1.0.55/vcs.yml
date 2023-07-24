@@ -1,0 +1,11 @@
+---
+id: "Maven:org.jruby.jcodings:jcodings:1.0.55"
+vcs:
+  type: "Git"
+  url: "https://github.com/jruby/jcodings.git"
+  revision: "11a1fdc0a1267e962b0f0359a7fd640aa9e07d81"
+path_excludes:
+- pattern: "scripts/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "test/**"
+  reason: "TEST_OF"

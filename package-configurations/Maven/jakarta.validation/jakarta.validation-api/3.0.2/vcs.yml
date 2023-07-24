@@ -1,0 +1,13 @@
+---
+id: "Maven:jakarta.validation:jakarta.validation-api:3.0.2"
+vcs:
+  type: "Git"
+  url: "https://github.com/eclipse-ee4j/beanvalidation-api.git"
+  revision: "883781357b5b263301aeb70dc27d7475dbda6c16"
+path_excludes:
+- pattern: "src/main/javadoc/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/main/scripts/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"

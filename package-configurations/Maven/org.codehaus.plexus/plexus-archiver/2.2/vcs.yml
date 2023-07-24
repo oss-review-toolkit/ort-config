@@ -1,0 +1,9 @@
+---
+id: "Maven:org.codehaus.plexus:plexus-archiver:2.2"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/sonatype/plexus-archiver.git"
+  revision: "450d32090077c51efd34d87f6ddc88e407a9afed"
+path_excludes:
+- pattern: "src/test/**"
+  reason: "TEST_OF"

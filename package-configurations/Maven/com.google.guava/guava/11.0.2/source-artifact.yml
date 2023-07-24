@@ -1,0 +1,6 @@
+---
+id: "Maven:com.google.guava:guava:11.0.2"
+source_artifact_url: "https://repo.maven.apache.org/maven2/com/google/guava/guava/11.0.2/guava-11.0.2-sources.jar"
+path_excludes:
+- pattern: "com/google/common/primitives/generate.sh"
+  reason: "BUILD_TOOL_OF"

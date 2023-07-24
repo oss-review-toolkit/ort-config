@@ -1,0 +1,9 @@
+---
+id: "Maven:org.jruby.joni:joni:2.1.31"
+vcs:
+  type: "Git"
+  url: "https://github.com/jruby/joni.git"
+  revision: "9a4074e2047cee0401a2b13c0236cd4753ecdb46"
+path_excludes:
+- pattern: "test/**"
+  reason: "TEST_OF"

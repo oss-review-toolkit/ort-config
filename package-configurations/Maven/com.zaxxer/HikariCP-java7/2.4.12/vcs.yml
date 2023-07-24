@@ -1,0 +1,9 @@
+---
+id: "Maven:com.zaxxer:HikariCP-java7:2.4.12"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/brettwooldridge/HikariCP.git"
+  revision: "3d6ce244465ddeedec0177ba8b0c399aecbe281c"
+path_excludes:
+- pattern: "src/test/**"
+  reason: "TEST_OF"
