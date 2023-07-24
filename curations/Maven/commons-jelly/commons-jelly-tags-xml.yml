@@ -1,0 +1,9 @@
+- id: "Maven:commons-jelly:commons-jelly-tags-xml:1.1"
+  curations:
+    comment: |
+      Outdated SCM URL in POM.
+    homepage_url: "https://commons.apache.org/proper/commons-jelly/"
+    vcs:
+      type: "Subversion"
+      url: "http://svn.apache.org/repos/asf/commons/proper/jelly"
+      revision: "tags/commons-jelly-tags-xml-1.1"

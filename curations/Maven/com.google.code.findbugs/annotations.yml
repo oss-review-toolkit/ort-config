@@ -1,0 +1,18 @@
+- id: "Maven:com.google.code.findbugs:annotations:"
+  curations:
+    comment: |
+      Repository moved to GitHub.
+    vcs:
+      url: "https://github.com/findbugsproject/findbugs.git"
+- id: "Maven:com.google.code.findbugs:annotations:(,2.0["
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "findbugs/src/java5/edu/umd/cs/findbugs/annotations"
+- id: "Maven:com.google.code.findbugs:annotations:]2.0,)"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "findbugs/src/java/edu/umd/cs/findbugs/annotations"

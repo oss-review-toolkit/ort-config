@@ -1,0 +1,22 @@
+- id: "Maven:com.sun.jersey:jersey-core:1.17.1"
+  curations:
+    comment: |
+      The POM file lacks a 'licenses' tag but the XML comment at the top says that it is licensed under 'CDDL-1.1 OR
+      GPL-2.0-only WITH Classpath-exception-2.0', see
+      https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.17.1/jersey-core-1.17.1.pom,
+      https://web.archive.org/web/20150923052903/https://glassfish.java.net/public/faq/GF_FAQ_2.html#terms and
+      https://web.archive.org/web/20170430040528/https://glassfish.java.net/public/CDDL+GPL_1_1.html. The scan
+      additionally detects the 'Apache-2.0', 'CDDL-1.0', 'CDDL-1.1' and 'MIT' licenses. The 'MIT' license is just found
+      in 'javax/ws/rs/core/GenericEntity.java' which is a false positive. The 'Apache-2.0' and 'CDDL-1-0' licenses are
+      valid findings inside several source
+      files.
+    concluded_license: "CDDL-1.0 AND CDDL-1.1 AND Apache-2.0"
+- id: "Maven:com.sun.jersey:jersey-core:1.9"
+  curations:
+    comment: |
+      All Jersey packages are dual-licensed under CDDL 1.1 or GPL 2 with classpath exception, see
+      https://jersey.github.io/license.html. However, the POMs do not declare any license but only contain the license
+      text as an XML comment, see e.g.
+      https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.pom.
+    declared_license_mapping:
+      "": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0"

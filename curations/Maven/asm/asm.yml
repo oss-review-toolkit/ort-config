@@ -1,0 +1,7 @@
+- id: "Maven:asm:asm:"
+  curations:
+    comment: |
+      Repository moved to https://gitlab.ow2.org.
+    vcs:
+      type: "Git"
+      url: "https://gitlab.ow2.org/asm/asm.git"

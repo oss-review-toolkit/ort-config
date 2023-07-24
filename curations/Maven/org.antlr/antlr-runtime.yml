@@ -1,0 +1,6 @@
+- id: "Maven:org.antlr:antlr-runtime:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "runtime/Java/src/main/java/org/antlr/runtime"

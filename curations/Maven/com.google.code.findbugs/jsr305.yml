@@ -6,13 +6,39 @@
       type: "Git"
       url: "https://github.com/findbugsproject/findbugs.git"
       path: "findbugs"
+- id: "Maven:com.google.code.findbugs:jsr305:1.3.9"
+  curations:
+    comment: |
+      Old versions of jsr305 do not have a sources artifact published and the original repo at
+      https://findbugs.googlecode.com/svn/trunk/ is gone as Google Code did shut down. However, the new GitHub home has
+      jsr305.jar committed, and it includes the source code (and class
+      files).
+    source_artifact:
+      url: "https://github.com/findbugsproject/findbugs/raw/1.3.9/findbugs/lib/jsr305.jar"
+      hash:
+        value: "516c03b21d50a644d538de0f0369c620989cd8f0"
+        algorithm: "SHA-1"
 - id: "Maven:com.google.code.findbugs:jsr305:2.0.1"
   curations:
     comment: |
-      While no sources artifact has been published for this version, the Git repository contains a "jsr305.jar" file
-      which includes the source code (but also the class files).
+      Old versions of jsr305 do not have a sources artifact published and the original repo at
+      https://findbugs.googlecode.com/svn/trunk/ is gone as Google Code did shut down. However, the new GitHub home has
+      jsr305.jar committed, and it includes the source code (and class
+      files).
     source_artifact:
       url: "https://github.com/findbugsproject/findbugs/raw/2.0.1/findbugs/lib/jsr305.jar"
       hash:
         value: "516c03b21d50a644d538de0f0369c620989cd8f0"
-        algorithm: "SHA1"
+        algorithm: "SHA-1"
+- id: "Maven:com.google.code.findbugs:jsr305:3.0.0"
+  curations:
+    comment: |
+      Old versions of jsr305 do not have a sources artifact published and the original repo at
+      https://findbugs.googlecode.com/svn/trunk/ is gone as Google Code did shut down. However, the new GitHub home has
+      jsr305.jar committed, and it includes the source code (and class
+      files).
+    source_artifact:
+      url: "https://github.com/findbugsproject/findbugs/raw/3.0.0/findbugs/lib/jsr305.jar"
+      hash:
+        value: "5871fb60dc68d67da54a663c3fd636a10a532948"
+        algorithm: "SHA-1"

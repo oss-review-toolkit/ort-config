@@ -1,0 +1,14 @@
+- id: "Maven:org.codehaus.jackson:jackson-mapper-asl"
+  curations:
+    vcs:
+      type: "Git"
+      url: "https://github.com/codehaus/jackson.git"
+    comment: |
+      VCS URL in package meta data SCM (classworlds.codehaus.org)
+      is not longer available as codehouse.org shutdown in 2015.
+- id: "Maven:org.codehaus.jackson:jackson-mapper-asl:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "src/mapper"

@@ -1,0 +1,6 @@
+- id: "Maven:org.testcontainers:junit-jupiter:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "modules/junit-jupiter/src/main/java/org/testcontainers/junit/jupiter"

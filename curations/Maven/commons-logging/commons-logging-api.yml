@@ -1,0 +1,7 @@
+- id: "Maven:commons-logging:commons-logging-api:"
+  curations:
+    comment: |
+      Code repository in package meta data is no longer available anymore.
+    vcs:
+      type: "Subversion"
+      url: "http://svn.apache.org/repos/asf/commons/proper/logging/trunk"

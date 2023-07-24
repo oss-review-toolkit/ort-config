@@ -1,0 +1,8 @@
+- id: "Maven:commons-beanutils::"
+  curations:
+    comment: |
+      SVN repository was moved to Git, see
+      http://svn.apache.org/repos/asf/commons/proper/beanutils/BEANUTILSnowUsesGit.txt.
+    vcs:
+      type: "Git"
+      url: "https://github.com/apache/commons-beanutils.git"

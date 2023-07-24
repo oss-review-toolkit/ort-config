@@ -1,0 +1,8 @@
+- id: "Maven:jakarta-regexp:jakarta-regexp:"
+  curations:
+    comment: |
+      No VCS information in
+      POM.
+    vcs:
+      type: "Subversion"
+      url: "http://svn.apache.org/repos/asf/jakarta/regexp"

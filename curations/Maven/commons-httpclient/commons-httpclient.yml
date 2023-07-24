@@ -1,0 +1,7 @@
+- id: "Maven:commons-httpclient:commons-httpclient:"
+  curations:
+    comment: |
+      Repository moved, see
+      https://svn.apache.org/repos/asf/jakarta/httpcomponents/oac.hc3x/README.txt.
+    vcs:
+      url: "https://svn.apache.org/repos/asf/httpcomponents/oac.hc3x/trunk/"

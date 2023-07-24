@@ -1,0 +1,9 @@
+- id: "Maven:org.apache.hadoop:hadoop-client-runtime:"
+  curations:
+    comment: |
+      No source artifact published and no SCM section in POM
+      file.
+    vcs:
+      type: "Git"
+      url: "https://github.com/apache/hadoop.git"
+      path: "hadoop-client-modules/hadoop-client-runtime"

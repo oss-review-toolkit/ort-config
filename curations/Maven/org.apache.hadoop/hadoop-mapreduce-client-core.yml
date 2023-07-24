@@ -1,0 +1,8 @@
+- id: "Maven:org.apache.hadoop:hadoop-mapreduce-client-core:"
+  curations:
+    comment: |
+      No SCM info in pom.xml and no source artifacts
+      published.
+    vcs:
+      url: "https://git-wip-us.apache.org/repos/asf/hadoop.git"
+      path: "hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main"

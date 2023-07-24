@@ -1,0 +1,18 @@
+- id: "Maven:com.amazonaws:aws-java-sdk-models:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      type: "Git"
+      url: "https://github.com/aws/aws-sdk-java.git"
+      path: "aws-java-sdk-models"
+- id: "Maven:com.amazonaws:aws-java-sdk-models:"
+  curations:
+    comment: |
+      The `pom.xml` and `LICENSE` files say that it is licensed under the Apache-2.0. Additionally detected licenses
+      are LicenseRef-scancode-proprietary, LicenseRef-scancode-public-domain and MIT which all refer to either
+      `model.json` or `intermediate.json`. All these are references to non-applicable licenses. Concluding the license
+      for all current and future versions as this package always contains data models (not code) that are used by other
+      AWS libraries. Examples: 'AWS Billing and Cost Management User Guide', 'For example, MIT', and 'For example,
+      https://opensource.org/licenses/MIT'.
+    concluded_license: "Apache-2.0"

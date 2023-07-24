@@ -1,0 +1,15 @@
+- id: "Maven:com.google.code.findbugs:jFormatString:2.0.1"
+  curations:
+    comment: |
+      Old versions of jFormatString do not have a sources artifact published and the original repo at
+      https://findbugs.googlecode.com/svn/trunk/ is gone as Google Code did shut down. However, the new GitHub home has
+      jFormatString.jar committed, and it includes the source code (and class files). License concluded based on links
+      below and the license stated in various *.java files in jFormatString.jar.
+      https://github.com/findbugsproject/findbugs/releases/tag/2.0.1
+      https://github.com/findbugsproject/findbugs/blob/2.0.1/findbugs/licenses/LICENSE-jFormatString.txt
+    concluded_license: "GPL-2.0-only WITH Classpath-exception-2.0"
+    source_artifact:
+      url: "https://github.com/findbugsproject/findbugs/raw/2.0.1/findbugs/lib/jFormatString.jar"
+      hash:
+        value: "686faafff86cdde6e75975149a1be8f9b6dbb7c0"
+        algorithm: "SHA-1"
