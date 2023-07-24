@@ -1,0 +1,9 @@
+---
+id: "Maven:org.codehaus.plexus:plexus-interpolation:1.25"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/codehaus-plexus/plexus-interpolation.git"
+  revision: "a0d6b071544c989dd7216f9482f393b79aceaa03"
+path_excludes:
+- pattern: "src/test/**"
+  reason: "TEST_OF"

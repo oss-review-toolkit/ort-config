@@ -1,0 +1,17 @@
+---
+id: "Maven:com.squareup.okhttp:okhttp:2.7.5"
+vcs:
+  type: "Git"
+  url: "https://github.com/square/okhttp.git"
+  revision: "6e236ce3b80f21369dc544f0e1053ff71be8689b"
+path_excludes:
+- pattern: "**/src/test/**"
+  reason: "TEST_OF"
+license_finding_curations:
+- path: "website/static/html5shiv.min.js"
+  detected_license: "GPL-2.0-only"
+  concluded_license: "GPL-2.0-only OR MIT"
+  reason: "INCORRECT"
+  comment: >
+    Match on 'MIT/GPL2 Licensed', see 
+    https://github.com/square/okhttp/blob/parent-2.7.5/website/static/html5shiv.min.js#L2C60-L2C77

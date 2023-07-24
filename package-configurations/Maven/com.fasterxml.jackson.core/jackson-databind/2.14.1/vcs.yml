@@ -1,0 +1,17 @@
+---
+id: "Maven:com.fasterxml.jackson.core:jackson-databind:2.14.1"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/FasterXML/jackson-databind.git"
+  revision: "fccf8c1ecdaf8d1f3e94d72c152643a05fea0446"
+path_excludes:
+- pattern: ".github/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: ".mvn/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "docs/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "release-notes/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"

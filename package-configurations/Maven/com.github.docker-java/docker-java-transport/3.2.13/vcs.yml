@@ -1,0 +1,11 @@
+---
+id: "Maven:com.github.docker-java:docker-java-transport:3.2.13"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/docker-java/docker-java.git"
+  revision: "ddfaf5634475786b0392c7c632cf1c3473f635a7"
+path_excludes:
+- pattern: ".mvn/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "docker-java/src/test/**"
+  reason: "TEST_OF"

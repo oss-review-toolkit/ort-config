@@ -1,0 +1,9 @@
+---
+id: "Maven:com.googlecode.javaewah:JavaEWAH:1.1.13"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/lemire/javaewah.git"
+  revision: "ae08e93e11e8be2258d9581474553dc3d41074e3"
+path_excludes:
+- pattern: "src/test/**"
+  reason: "TEST_OF"

@@ -1,0 +1,15 @@
+---
+id: "Maven:org.projectlombok:lombok:1.18.26"
+vcs:
+  type: "Git"
+  url: "https://github.com/projectlombok/lombok.git"
+  revision: "566dfe73ca11ed60e1a5b545872cefc4f0c8f976"
+path_excludes:
+- pattern: "doc/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/core/lombok/core/debug/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "src/utils/lombok/core/debug/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "test/**"
+  reason: "TEST_OF"

@@ -1,0 +1,11 @@
+---
+id: "Maven:jakarta.annotation:jakarta.annotation-api:2.1.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/eclipse-ee4j/common-annotations-api.git"
+  revision: "3443c70a3c0942887d04649841947aad755a257e"
+path_excludes:
+- pattern: "api/src/main/javadoc/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "spec/**"
+  reason: "DOCUMENTATION_OF"

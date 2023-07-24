@@ -1,0 +1,23 @@
+---
+id: "Maven:org.eclipse.platform:org.eclipse.core.resources:3.17.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/eclipse-platform/eclipse.platform.resources.git"
+  revision: "ed20db969ad6267ab5360ede8b71c2b4d1894112"
+path_excludes:
+- pattern: ".mvn/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "bundles/org.eclipse.core.filesystem/natives/unix/**/Makefile"
+  reason: "BUILD_TOOL_OF"
+- pattern: "bundles/org.eclipse.core.resources/doc/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "bundles/org.eclipse.core.resources/scripts/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "bundles/org.eclipse.core.resources/src/org/eclipse/core/internal/propertytester/**"
+  reason: "TEST_OF"
+- pattern: "bundles/org.eclipse.core.tools.resources/src/org/eclipse/core/tools/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "examples/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "tests/**"
+  reason: "TEST_OF"

@@ -1,0 +1,19 @@
+---
+id: "Maven:commons-io:commons-io:2.11.0"
+vcs:
+  type: "Git"
+  url: "https://gitbox.apache.org/repos/asf/commons-io.git"
+  revision: "8985de8fe74f6622a419b37a6eed0dbc484dc128"
+path_excludes:
+- pattern: ".github/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: ".travis.yml"
+  reason: "BUILD_TOOL_OF"
+- pattern: "CODE_OF_CONDUCT.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "CONTRIBUTING.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "SECURITY.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"

@@ -1,0 +1,9 @@
+---
+id: "Maven:org.codehaus.plexus:plexus-io:2.0.4"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/sonatype/plexus-io.git"
+  revision: "2767dfe1e243d206aa24fa677de5622532de700d"
+path_excludes:
+- pattern: "src/test/**"
+  reason: "TEST_OF"

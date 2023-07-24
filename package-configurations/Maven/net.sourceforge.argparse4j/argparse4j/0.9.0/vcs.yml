@@ -1,0 +1,11 @@
+---
+id: "Maven:net.sourceforge.argparse4j:argparse4j:0.9.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/argparse4j/argparse4j.git"
+  revision: "539dce0292366182b4e287ccc644230c7fd99963"
+path_excludes:
+- pattern: "extensions/hadoop/src/test/**"
+  reason: "TEST_OF"
+- pattern: "main/src/test/**"
+  reason: "TEST_OF"

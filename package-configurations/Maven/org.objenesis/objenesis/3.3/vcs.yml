@@ -1,0 +1,23 @@
+---
+id: "Maven:org.objenesis:objenesis:3.3"
+vcs:
+  type: "Git"
+  url: "https://github.com/easymock/objenesis.git"
+  revision: "15c04843c5aabbe31052aa5ac33c7c2c5e6dc8c6"
+path_excludes:
+- pattern: ".idea/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: ".mvn/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "CONTRIBUTING.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "benchmark/**"
+  reason: "TEST_OF"
+- pattern: "exotic/src/test/**"
+  reason: "TEST_OF"
+- pattern: "main/src/test/**"
+  reason: "TEST_OF"
+- pattern: "tck/src/test/**"
+  reason: "TEST_OF"
+- pattern: "test/**"
+  reason: "TEST_OF"

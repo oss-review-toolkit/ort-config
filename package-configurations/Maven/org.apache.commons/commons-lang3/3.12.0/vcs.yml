@@ -1,0 +1,21 @@
+---
+id: "Maven:org.apache.commons:commons-lang3:3.12.0"
+vcs:
+  type: "Git"
+  url: "http://gitbox.apache.org/repos/asf/commons-lang.git"
+  revision: "105a350b154eac7c3f3a6bac94ec2cfb0fbe232b"
+path_excludes:
+- pattern: ".github/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: ".travis.yml"
+  reason: "BUILD_TOOL_OF"
+- pattern: "CONTRIBUTING.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "SECURITY.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/site/resources/checkstyle/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "src/site/resources/release-notes/RELEASE-NOTES*"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"

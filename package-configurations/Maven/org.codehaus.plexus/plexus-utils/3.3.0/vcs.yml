@@ -1,0 +1,11 @@
+---
+id: "Maven:org.codehaus.plexus:plexus-utils:3.3.0"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/codehaus-plexus/plexus-utils.git"
+  revision: "0e25d74d16b8ce748038f572806052bb37ccbb38"
+path_excludes:
+- pattern: "src/main/javadoc/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"

@@ -1,0 +1,15 @@
+---
+id: "Maven:com.fasterxml.jackson.core:jackson-core:2.14.1"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/FasterXML/jackson-core.git"
+  revision: "2be384b1688f057ce6a0e01c5f54eebc4a8d99d8"
+path_excludes:
+- pattern: ".github/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: ".mvn/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "docs/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"

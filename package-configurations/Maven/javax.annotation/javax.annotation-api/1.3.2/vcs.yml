@@ -1,0 +1,11 @@
+---
+id: "Maven:javax.annotation:javax.annotation-api:1.3.2"
+vcs:
+  type: "Git"
+  url: "https://github.com/javaee/javax.annotation.git"
+  revision: "5000694c178b93a952510dff6afcc2101e6e0490"
+path_excludes:
+- pattern: "CONTRIBUTING.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/main/javadoc/**"
+  reason: "DOCUMENTATION_OF"

@@ -1,0 +1,13 @@
+---
+id: "Maven:org.eclipse.platform:org.eclipse.core.contenttype:3.8.100"
+vcs:
+  type: "Git"
+  url: "https://git.eclipse.org/r/platform/eclipse.platform.runtime.git"
+  revision: "df72c6bb14c437e1fb3929045da19a89fc7c66c2"
+path_excludes:
+- pattern: "bundles/org.eclipse.core.expressions/src/org/eclipse/core/internal/expressions/propertytester/**"
+  reason: "TEST_OF"
+- pattern: "bundles/org.eclipse.core.tools/src/org/eclipse/core/tools/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "tests/**"
+  reason: "TEST_OF"

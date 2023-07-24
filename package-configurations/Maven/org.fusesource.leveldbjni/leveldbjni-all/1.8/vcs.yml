@@ -1,0 +1,19 @@
+---
+id: "Maven:org.fusesource.leveldbjni:leveldbjni-all:1.8"
+vcs:
+  type: "Git"
+  url: "https://github.com/fusesource/leveldbjni.git"
+  revision: "fff9b01e42b1c88f02b81481d5f1de07a2e4ad84"
+path_excludes:
+- pattern: "**/src/test/**"
+  reason: "TEST_OF"
+- pattern: "leveldbjni/src/main/native-package/configure"
+  reason: "BUILD_TOOL_OF"
+- pattern: "**/m4/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "**/*.m4"
+  reason: "BUILD_TOOL_OF"
+- pattern: "**/autotools/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "**/Makefile.*"
+  reason: "BUILD_TOOL_OF"

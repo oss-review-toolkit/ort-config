@@ -1,0 +1,15 @@
+---
+id: "Maven:com.mysql:mysql-connector-j:8.0.31"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/mysql/mysql-connector-j.git"
+  revision: "0c86fc148d567b62266c2302bdad0f1e7a7e4eba"
+path_excludes:
+- pattern: "CHANGES"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/build/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "src/demo/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"

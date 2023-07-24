@@ -1,0 +1,19 @@
+---
+id: "Maven:org.codehaus.plexus:plexus-component-annotations:2.0.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/codehaus-plexus/plexus-containers.git"
+  revision: "4f0fabaf9984fb2647af9fdc67144b43d460950b"
+path_excludes:
+- pattern: "plexus-component-metadata/src/it/descriptor-1/src/main/java/testing/**"
+  reason: "TEST_OF"
+- pattern: "plexus-component-metadata/src/test/**"
+  reason: "TEST_OF"
+- pattern: "plexus-container-default/src/it/multi-plexus.xml/src/main/java/org/codehaus/plexus/test/**"
+  reason: "TEST_OF"
+- pattern: "plexus-container-default/src/it/multi-plexus.xml/src/test/**"
+  reason: "TEST_OF"
+- pattern: "plexus-container-default/src/it/test-fodder/**"
+  reason: "TEST_OF"
+- pattern: "plexus-container-default/src/test/**"
+  reason: "TEST_OF"
