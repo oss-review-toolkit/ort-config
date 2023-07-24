@@ -1,0 +1,6 @@
+- id: "Maven:org.eclipse.jgit:org.eclipse.jgit.benchmarks:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "org.eclipse.jgit.benchmarks"

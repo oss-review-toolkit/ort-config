@@ -1,0 +1,6 @@
+- id: "Maven:org.springframework.boot:spring-boot-starter-validation:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "spring-boot-project/spring-boot-starters/spring-boot-starter-validation"

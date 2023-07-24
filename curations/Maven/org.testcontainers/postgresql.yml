@@ -1,0 +1,6 @@
+- id: "Maven:org.testcontainers:postgresql:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "modules/postgresql/src/main/java/org/testcontainers/containers"

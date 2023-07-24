@@ -1,0 +1,10 @@
+- id: "Maven:org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:1.0.1"
+  curations:
+    comment: |
+      Original repository no longer functional, found mirror via internet/Git history
+      search.
+    vcs:
+      type: "Git"
+      url: "https://github.com/apache/geronimo-specs.git"
+      revision: "3fca1a167f8da52aa6a69d83547345d904e3ed47"
+      path: "geronimo-jta_1.0.1B_spec"

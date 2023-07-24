@@ -1,0 +1,19 @@
+- id: "Maven:xmlenc:xmlenc:0.52"
+  curations:
+    comment: |
+      VCS information in POM only has URL and correct revision cannot be found in
+      CVS.
+    source_artifact:
+      url: "https://downloads.sourceforge.net/project/xmlenc/xmlenc/0.52/xmlenc-0.52.tgz"
+      hash:
+        value: "937327f85eb124e92ecf1b93cd413191c39cc59c"
+        algorithm: "SHA-1"
+- id: "Maven:xmlenc:xmlenc:0.52"
+  curations:
+    comment: |
+      The declared license is ambiguous. Map it according to the license in the MvnRepo, see
+      https://mvnrepository.com/artifact/xmlenc/xmlenc/0.52 License section, and in the source code, COPYRIGHT file
+      shows BSD-2-Clause, see also
+      https://search.maven.org/remotecontent?filepath=xmlenc/xmlenc/0.52/xmlenc-0.52.pom
+    declared_license_mapping:
+      The BSD License: "BSD-2-Clause"

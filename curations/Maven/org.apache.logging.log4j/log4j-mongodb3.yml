@@ -1,0 +1,6 @@
+- id: "Maven:org.apache.logging.log4j:log4j-mongodb3:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "log4j-mongodb3"

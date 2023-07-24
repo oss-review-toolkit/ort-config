@@ -1,0 +1,6 @@
+- id: "Maven:io.micrometer:micrometer-registry-cloudwatch2:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "implementations/micrometer-registry-cloudwatch2"

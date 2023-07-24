@@ -1,0 +1,9 @@
+- id: "Maven:org.apache.httpcomponents:httpclient-android:4.3.3"
+  curations:
+    comment: |
+      Found JAR found in Maven.
+    source_artifact:
+      url: "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-android/4.3.3/httpclient-android-4.3.3-source.jar"
+      hash:
+        value: "47e7c08caff2f23993c0426e5eda34cfc9a9392f"
+        algorithm: "SHA-1"

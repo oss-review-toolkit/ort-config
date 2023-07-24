@@ -1,0 +1,6 @@
+- id: "Maven:javax.persistence:javax.persistence-api:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "javax.persistence-api"

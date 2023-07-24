@@ -1,0 +1,16 @@
+- id: "Maven:javax.cache:cache-api:"
+  curations:
+    comment: |
+      The VCS URL specified in the POM file is wrong, see
+      https://github.com/jsr107/jsr107spec/blob/v1.0.0/pom.xml#L225-L230
+    vcs:
+      url: "https://github.com/jsr107/jsr107spec.git"
+- id: "Maven:javax.cache:cache-api:1.0.0"
+  curations:
+    comment: |
+      The license text for this version of the package is https://github.com/jsr107/jsr107spec/blob/v1.0.0/LICENSE.txt,
+      which is the same the license text for
+      LicenseRef-scancode-jsr-107-jcache-spec-2013.
+    declared_license_mapping:
+      ? "JSR-000107 JCACHE 2.9 Public Review - Updated Specification\n                License"
+      : "LicenseRef-scancode-jsr-107-jcache-spec-2013"

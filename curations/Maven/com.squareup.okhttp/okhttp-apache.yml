@@ -1,0 +1,6 @@
+- id: "Maven:com.squareup.okhttp:okhttp-apache:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "okhttp-apache"

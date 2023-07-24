@@ -1,7 +1,13 @@
-- id: "Maven:org.antlr:antlr4-runtime:[4.0,5.0.0["
+- id: "Maven:org.antlr:antlr4-runtime:"
   curations:
     comment: |
-      The library is licensed under BSD-3-Clause, see:
-      https://github.com/antlr/antlr4/blob/4.0/LICENSE.txt
+      The declared license is ambiguous. Map it according to the root license, see
+      https://github.com/antlr/antlr4/blob/4.7.1/LICENSE.txt.
     declared_license_mapping:
-        "The BSD License": "BSD-3-Clause"
+      The BSD License: "BSD-3-Clause"
+- id: "Maven:org.antlr:antlr4-runtime:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "runtime/Java"

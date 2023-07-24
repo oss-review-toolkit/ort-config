@@ -1,0 +1,6 @@
+- id: "Maven:org.springframework.boot:spring-boot-starter-data-jpa:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "spring-boot-project/spring-boot-starters/spring-boot-starter-data-jpa"

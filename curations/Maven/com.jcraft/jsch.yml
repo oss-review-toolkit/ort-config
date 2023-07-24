@@ -1,0 +1,10 @@
+- id: "Maven:com.jcraft:jsch:0.1.38"
+  curations:
+    comment: |
+      There is no official repository at all hosting the source code, and only newer versions publish sources
+      artifacts.
+    source_artifact:
+      url: "https://master.dl.sourceforge.net/project/jsch/jsch/0.1.38/jsch-0.1.38.zip"
+      hash:
+        value: "7c10316a5145013b2fa91eafdef1da0e2f08045f"
+        algorithm: "SHA-1"
