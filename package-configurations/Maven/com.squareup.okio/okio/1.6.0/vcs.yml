@@ -1,0 +1,13 @@
+---
+id: "Maven:com.squareup.okio:okio:1.6.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/square/okio.git"
+  revision: "c8ee50f9002e1ab86760dbcb815ecdd492f4db65"
+path_excludes:
+- pattern: "CONTRIBUTING.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "benchmarks/**"
+  reason: "TEST_OF"
+- pattern: "okio/src/test/**"
+  reason: "TEST_OF"

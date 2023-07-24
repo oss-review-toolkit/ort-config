@@ -1,0 +1,9 @@
+---
+id: "Maven:org.apache.maven.shared:maven-shared-utils:3.2.1"
+vcs:
+  type: "Git"
+  url: "https://gitbox.apache.org/repos/asf/maven-shared-utils.git"
+  revision: "f7db03e0dab71ff10e8d64570fa45bb56d11a2c6"
+path_excludes:
+- pattern: "src/test/**"
+  reason: "TEST_OF"

@@ -1,0 +1,9 @@
+---
+id: "Maven:org.xerial.snappy:snappy-java:1.0.5"
+vcs:
+  type: "Git"
+  url: "https://github.com/xerial/snappy-java.git"
+  revision: "fde51d8317dcf92c66ebf151298cc604aff65db5"
+path_excludes:
+- pattern: "src/test/**"
+  reason: "TEST_OF"

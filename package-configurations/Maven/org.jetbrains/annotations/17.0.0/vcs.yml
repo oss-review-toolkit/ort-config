@@ -1,0 +1,11 @@
+---
+id: "Maven:org.jetbrains:annotations:17.0.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/JetBrains/java-annotations.git"
+  revision: "c23fe740538d8a9de6d29e368ecda589fcc0f8c1"
+path_excludes:
+- pattern: "CONTRIBUTING.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "build.gradle"
+  reason: "BUILD_TOOL_OF"

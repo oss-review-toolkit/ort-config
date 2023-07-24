@@ -1,0 +1,19 @@
+---
+id: "Maven:org.checkerframework:checker-qual:3.5.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/typetools/checker-framework.git"
+  revision: "052a421f4132bb2238d7327451ff054307914e06"
+path_excludes:
+- pattern: "CONTRIBUTING.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "build.gradle"
+  reason: "BUILD_TOOL_OF"
+- pattern: "changelog.txt"
+  reason: "BUILD_TOOL_OF"
+- pattern: "dataflow/manual/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "docs/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "gradlew.bat"
+  reason: "BUILD_TOOL_OF"

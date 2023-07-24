@@ -1,0 +1,15 @@
+---
+id: "Maven:io.dropwizard.metrics:metrics-core:4.2.14"
+vcs:
+  type: "Git"
+  url: "https://github.com/dropwizard/metrics.git"
+  revision: "6fba7ec0d10db7f12222f69fa1ec478e70cd5188"
+path_excludes:
+- pattern: ".mvn/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "docs/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "metrics-caffeine/src/test/**"
+  reason: "TEST_OF"
+- pattern: "metrics-caffeine3/src/test/**"
+  reason: "TEST_OF"

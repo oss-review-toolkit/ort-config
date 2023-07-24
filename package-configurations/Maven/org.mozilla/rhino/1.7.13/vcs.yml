@@ -1,0 +1,21 @@
+---
+id: "Maven:org.mozilla:rhino:1.7.13"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/mozilla/rhino.git"
+  revision: "a3ac11a1eff1115d357b136df4f9d6176f1a2389"
+path_excludes:
+- pattern: "build.gradle"
+  reason: "BUILD_TOOL_OF"
+- pattern: "examples/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "gradlew.bat"
+  reason: "BUILD_TOOL_OF"
+- pattern: "src/org/mozilla/javascript/debug/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "test262/**"
+  reason: "TEST_OF"
+- pattern: "testsrc/**"
+  reason: "TEST_OF"
+- pattern: "toolsrc/org/mozilla/javascript/tools/**"
+  reason: "BUILD_TOOL_OF"

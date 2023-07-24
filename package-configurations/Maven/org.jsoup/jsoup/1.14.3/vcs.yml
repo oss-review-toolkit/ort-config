@@ -1,0 +1,9 @@
+---
+id: "Maven:org.jsoup:jsoup:1.14.3"
+vcs:
+  type: "Git"
+  url: "https://github.com/jhy/jsoup.git"
+  revision: "00061629b5b91f09afbfea7eae3710bb3253c5b9"
+path_excludes:
+- pattern: "src/test/**"
+  reason: "TEST_OF"

@@ -1,0 +1,9 @@
+---
+id: "Maven:com.migvisor:mmc:4.4.0.0-SNAPSHOT"
+vcs:
+  type: "Git"
+  url: "ssh://git@bitbucket.org/migvisor/mmc.git"
+  revision: "0bd47ff925a95095da6138aaf1b392701381823e"
+path_excludes:
+- pattern: ".mvn/**"
+  reason: "BUILD_TOOL_OF"

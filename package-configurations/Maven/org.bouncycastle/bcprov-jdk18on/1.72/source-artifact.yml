@@ -1,0 +1,8 @@
+---
+id: "Maven:org.bouncycastle:bcprov-jdk18on:1.72"
+source_artifact_url: "https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.72/bcprov-jdk18on-1.72-sources.jar"
+path_excludes:
+- pattern: "org/bouncycastle/pqc/legacy/math/ntru/euclid/test/**"
+  reason: "TEST_OF"
+- pattern: "org/bouncycastle/pqc/legacy/math/ntru/polynomial/test/**"
+  reason: "TEST_OF"

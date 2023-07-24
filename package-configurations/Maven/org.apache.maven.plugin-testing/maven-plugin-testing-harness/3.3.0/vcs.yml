@@ -1,0 +1,13 @@
+---
+id: "Maven:org.apache.maven.plugin-testing:maven-plugin-testing-harness:3.3.0"
+vcs:
+  type: "Git"
+  url: "https://git-wip-us.apache.org/repos/asf/maven-plugin-testing.git"
+  revision: "7733ae9dfa24bba9f92c4d2335acf35f553fae82"
+path_excludes:
+- pattern: "maven-plugin-testing-harness/**"
+  reason: "TEST_OF"
+- pattern: "maven-plugin-testing-tools/**"
+  reason: "TEST_OF"
+- pattern: "maven-test-tools/**"
+  reason: "TEST_OF"

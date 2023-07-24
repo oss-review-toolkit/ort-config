@@ -1,0 +1,36 @@
+---
+id: "Maven:com.mysql:mysql-connector-j:8.0.32"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/mysql/mysql-connector-j.git"
+  revision: "fa4912a849140828e48162a2c396c8df0091bed7"
+path_excludes:
+- pattern: "CHANGES"
+  reason: "DOCUMENTATION_OF"
+- pattern: "build.xml"
+  reason: "BUILD_TOOL_OF"
+- pattern: "src/build/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "src/demo/**"
+  reason: "EXAMPLE_OF"
+- pattern: "src/main/doc/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"
+license_finding_curations:
+- path: "README.md"
+  start_lines: "3"
+  line_count: 1
+  detected_license: "GPL-2.0-only"
+  reason: "INCORRECT"
+  comment: >
+    The scanner matches `GPLv2 with FOSS exception`, see
+    https://github.com/mysql/mysql-connector-j/blob/8.0.32/README.md?plain=1#L3
+  concluded_license: "GPL-2.0-only WITH Universal-FOSS-exception-1.0"
+- path: "LICENSE"
+  detected_license: "GPL-2.0-only"
+  reason: "INCORRECT"
+  comment: >
+    GPL-2.0-only comes with an exception, see
+    https://github.com/mysql/mysql-connector-j/blob/8.0.32/LICENSE#L17-L36
+  concluded_license: "GPL-2.0-only WITH Universal-FOSS-exception-1.0"

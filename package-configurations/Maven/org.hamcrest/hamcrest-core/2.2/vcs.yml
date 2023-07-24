@@ -1,0 +1,11 @@
+---
+id: "Maven:org.hamcrest:hamcrest-core:2.2"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/hamcrest/JavaHamcrest.git"
+  revision: "60454d3c3e2eac8f3049dfbef2900a989a8b8624"
+path_excludes:
+- pattern: "build.gradle"
+  reason: "BUILD_TOOL_OF"
+- pattern: "docs/**"
+  reason: "DOCUMENTATION_OF"

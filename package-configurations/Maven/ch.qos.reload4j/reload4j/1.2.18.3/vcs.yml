@@ -1,0 +1,23 @@
+---
+id: "Maven:ch.qos.reload4j:reload4j:1.2.18.3"
+vcs:
+  type: "Git"
+  url: "https://github.com/qos-ch/reload4j.git"
+  revision: "493dabf689321c160a60aee5c6698a532a38e323"
+path_excludes:
+- pattern: ".github/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "INSTALL"
+  reason: "DOCUMENTATION_OF"
+- pattern: "contribs/SvenReimers/gui/examples/**"
+  reason: "EXAMPLE_OF"
+- pattern: "examples/**"
+  reason: "EXAMPLE_OF"
+- pattern: "src/main/javadoc/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/performance/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"
+- pattern: "tests/**"
+  reason: "TEST_OF"

@@ -1,0 +1,19 @@
+---
+id: "Maven:org.checkerframework:checker-compat-qual:2.0.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/typetools/checker-framework.git"
+  revision: "73838f96c661ba21d3f1d02e14597a5878661267"
+path_excludes:
+- pattern: "changelog.txt"
+  reason: "BUILD_TOOL_OF"
+- pattern: "checker/manual/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "dataflow/manual/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "eclipse/checker-framework-eclipse-update-site/manual/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "stubparser/test/**"
+  reason: "TEST_OF"
+- pattern: "tutorial/**"
+  reason: "DOCUMENTATION_OF"

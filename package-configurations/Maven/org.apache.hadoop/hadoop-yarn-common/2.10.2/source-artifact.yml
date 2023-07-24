@@ -1,0 +1,6 @@
+---
+id: "Maven:org.apache.hadoop:hadoop-yarn-common:2.10.2"
+source_artifact_url: "https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.10.2/hadoop-yarn-common-2.10.2-sources.jar"
+path_excludes:
+- pattern: "org/apache/hadoop/yarn/webapp/example/**"
+  reason: "DOCUMENTATION_OF"

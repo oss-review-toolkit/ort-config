@@ -1,0 +1,15 @@
+---
+id: "Maven:org.apache.commons:commons-lang3:3.8.1"
+vcs:
+  type: "Git"
+  url: "http://git-wip-us.apache.org/repos/asf/commons-lang.git"
+  revision: "eb5b11a25c9e61f9b25a540682816ebb103b735c"
+path_excludes:
+- pattern: ".travis.yml"
+  reason: "BUILD_TOOL_OF"
+- pattern: "**/RELEASE-NOTES*"
+  reason: "DOCUMENTATION_OF"
+- pattern: "CONTRIBUTING.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"
