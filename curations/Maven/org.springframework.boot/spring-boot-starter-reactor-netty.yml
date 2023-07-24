@@ -1,0 +1,7 @@
+- id: "Maven:org.springframework.boot:spring-boot-starter-reactor-netty:]1.9999,)"
+  curations:
+    comment: |
+      This library resides in its own dir in the VCS referred to by parent artifact, see
+      https://github.com/spring-projects/spring-boot/commit/0ba4830b4fb20deea040ca5e1c9a34651708b222.
+    vcs:
+      path: "spring-boot-project/spring-boot-starters/spring-boot-starter-reactor-netty"

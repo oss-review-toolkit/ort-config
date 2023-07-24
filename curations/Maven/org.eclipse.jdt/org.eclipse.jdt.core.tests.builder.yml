@@ -1,0 +1,6 @@
+- id: "Maven:org.eclipse.jdt:org.eclipse.jdt.core.tests.builder:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "org.eclipse.jdt.core.tests.builder"

@@ -1,0 +1,8 @@
+- id: "Maven:commons-codec:commons-codec:1.2"
+  curations:
+    comment: |
+      No SCM tag in POM and no sources artifacts published.
+    vcs:
+      type: "Git"
+      url: "https://github.com/apache/commons-codec.git"
+      revision: "2c0905a09d5d04db7e572172bf2ead04293477a2"

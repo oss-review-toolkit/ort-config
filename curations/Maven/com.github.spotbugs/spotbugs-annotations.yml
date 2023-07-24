@@ -1,0 +1,6 @@
+- id: "Maven:com.github.spotbugs:spotbugs-annotations:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "spotbugs-annotations/src/main/java/edu/umd/cs/findbugs/annotations/"

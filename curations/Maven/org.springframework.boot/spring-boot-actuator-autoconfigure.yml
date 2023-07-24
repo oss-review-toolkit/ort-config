@@ -1,0 +1,6 @@
+- id: "Maven:org.springframework.boot:spring-boot-actuator-autoconfigure:]1.9999,2.4.0]"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "spring-boot-project/spring-boot-actuator-autoconfigure"

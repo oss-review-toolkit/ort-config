@@ -1,0 +1,18 @@
+- id: "Maven:classworlds:classworlds"
+  curations:
+    vcs:
+      type: "Git"
+      url: "https://github.com/codehaus/classworlds.git"
+    comment: |
+      VCS URL in package meta data SCM (classworlds.codehaus.org)
+      is not longer available as codehouse.org shutdown in 2015.
+- id: "Maven:classworlds:classworlds:1.1-alpha-2"
+  curations:
+    comment: "Code revision can not be resolved by ORT due to used version delimiters."
+    vcs:
+      revision: "b23384e616e6f51fd63540183105a283d8730d46"
+- id: "Maven:classworlds:classworlds:1.1-alpha-1"
+  curations:
+    comment: "Code revision can not be resolved by ORT due to used version delimiters."
+    vcs:
+      revision: "c8561e9d1a7f9f9f1dcd2fbbd9e0c46e2f9fe1e7"

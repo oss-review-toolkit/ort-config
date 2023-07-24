@@ -1,0 +1,6 @@
+- id: "Maven:org.testcontainers:mysql:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "modules/mysql"

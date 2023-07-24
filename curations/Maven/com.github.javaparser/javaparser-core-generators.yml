@@ -1,0 +1,6 @@
+- id: "Maven:com.github.javaparser:javaparser-core-generators:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "javaparser-core-generators"

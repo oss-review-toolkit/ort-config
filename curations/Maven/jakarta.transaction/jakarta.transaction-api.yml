@@ -1,0 +1,6 @@
+- id: "Maven:jakarta.transaction:jakarta.transaction-api:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "api"

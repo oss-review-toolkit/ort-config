@@ -1,0 +1,6 @@
+- id: "Maven:org.apache.hbase:hbase-common:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "hbase-common"

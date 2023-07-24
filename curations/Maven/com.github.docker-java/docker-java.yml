@@ -1,0 +1,6 @@
+- id: "Maven:com.github.docker-java:docker-java:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "docker-java"

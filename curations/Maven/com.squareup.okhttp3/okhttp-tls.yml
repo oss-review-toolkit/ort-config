@@ -1,0 +1,6 @@
+- id: "Maven:com.squareup.okhttp3:okhttp-tls:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "okhttp-tls"

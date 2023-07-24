@@ -1,0 +1,6 @@
+- id: "Maven:io.netty:netty-common:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "common"

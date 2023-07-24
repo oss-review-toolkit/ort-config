@@ -1,0 +1,6 @@
+- id: "Maven:com.github.javaparser:javaparser-symbol-solver-testing:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "javaparser-symbol-solver-testing"

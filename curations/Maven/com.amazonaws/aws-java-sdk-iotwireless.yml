@@ -1,0 +1,8 @@
+- id: "Maven:com.amazonaws:aws-java-sdk-iotwireless:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      type: "Git"
+      url: "https://github.com/aws/aws-sdk-java.git"
+      path: "aws-java-sdk-iotwireless"

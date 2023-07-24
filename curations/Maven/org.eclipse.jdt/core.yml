@@ -1,0 +1,7 @@
+- id: "Maven:org.eclipse.jdt:core:"
+  curations:
+    comment: |
+      No VCS URL defined in POM.
+    vcs:
+      type: "Git"
+      url: "https://github.com/eclipse-jdt/eclipse.jdt.core.git"

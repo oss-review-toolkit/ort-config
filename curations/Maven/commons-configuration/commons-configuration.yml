@@ -1,0 +1,7 @@
+- id: "Maven:commons-configuration:commons-configuration:"
+  curations:
+    comment: |
+      Project moved from SVN to Git.
+    vcs:
+      type: "Git"
+      url: "https://github.com/apache/commons-configuration.git"

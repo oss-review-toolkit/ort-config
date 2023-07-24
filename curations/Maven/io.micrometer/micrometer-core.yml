@@ -1,0 +1,6 @@
+- id: "Maven:io.micrometer:micrometer-core:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "micrometer-core/src/main/java/io/micrometer/core"
