@@ -1,0 +1,28 @@
+---
+id: "Maven:org.apache.hbase:hbase-common:2.5.5"
+vcs:
+  type: "Git"
+  url: "https://gitbox.apache.org/repos/asf/hbase.git"
+  revision: "7ebd4381261fefd78fc2acf258a95184f4147cee"
+path_excludes:
+- pattern: "hbase-common/src/test/**"
+  reason: "TEST_OF"
+license_finding_curations:
+- path: "hbase-common/src/main/java/org/apache/hadoop/hbase/io/compress/Compression.java"
+  start_lines: 96
+  detected_license: "LicenseRef-scancode-other-permissive"
+  concluded_license: "NONE"
+  reason: "DOCUMENTATION_OF"
+  comment: |
+    Match 'LZO is GPL' in
+    https://github.com/apache/hbase/blob/2.5.5/hbase-common/src/main/java/org/apache/hadoop/hbase/util/JenkinsHash.java
+- path: "hbase-common/src/main/java/org/apache/hadoop/hbase/io/compress/Compression.java"
+  start_lines: 147
+  detected_license: "GPL-1.0-or-later"
+  concluded_license: "NONE"
+  reason: "DOCUMENTATION_OF"
+  comment: |
+    Match 'LZO is GPL' in
+    https://github.com/apache/hbase/blob/2.5.5/hbase-common/src/main/java/org/apache/hadoop/hbase/io/compress/Compression.java#L147
+    LZO is not shipped with official Hadoop distribution but is optional compression package available from
+    various sources such as https://github.com/twitter/hadoop-lzo.

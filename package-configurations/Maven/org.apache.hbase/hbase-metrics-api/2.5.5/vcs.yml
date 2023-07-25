@@ -1,0 +1,9 @@
+---
+id: "Maven:org.apache.hbase:hbase-metrics-api:2.5.5"
+vcs:
+  type: "Git"
+  url: "https://gitbox.apache.org/repos/asf/hbase.git"
+  revision: "7ebd4381261fefd78fc2acf258a95184f4147cee"
+path_excludes:
+- pattern: "hbase-metrics-api/src/test/**"
+  reason: "TEST_OF"

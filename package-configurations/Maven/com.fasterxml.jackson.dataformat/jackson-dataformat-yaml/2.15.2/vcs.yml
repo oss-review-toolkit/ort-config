@@ -1,0 +1,11 @@
+---
+id: "Maven:com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.15.2"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/FasterXML/jackson-dataformats-text.git"
+  revision: "19554b4e4daf2f400bcba8b30fc44a6d6c40101a"
+path_excludes:
+- pattern: ".mvn/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "docs/**"
+  reason: "DOCUMENTATION_OF"

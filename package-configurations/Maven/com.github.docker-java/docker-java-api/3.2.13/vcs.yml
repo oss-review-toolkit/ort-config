@@ -5,7 +5,5 @@ vcs:
   url: "ssh://git@github.com/docker-java/docker-java.git"
   revision: "ddfaf5634475786b0392c7c632cf1c3473f635a7"
 path_excludes:
-- pattern: ".mvn/**"
-  reason: "BUILD_TOOL_OF"
-- pattern: "docker-java/src/test/**"
+- pattern: "src/test/**"
   reason: "TEST_OF"

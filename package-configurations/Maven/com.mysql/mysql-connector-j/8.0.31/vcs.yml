@@ -7,9 +7,77 @@ vcs:
 path_excludes:
 - pattern: "CHANGES"
   reason: "DOCUMENTATION_OF"
+- pattern: "build.xml"
+  reason: "BUILD_TOOL_OF"
 - pattern: "src/build/**"
   reason: "BUILD_TOOL_OF"
 - pattern: "src/demo/**"
-  reason: "DOCUMENTATION_OF"
+  reason: "EXAMPLE_OF"
 - pattern: "src/test/**"
   reason: "TEST_OF"
+license_finding_curations:
+- path: "CHANGES"
+  detected_license: "GPL-1.0-or-later"
+  concluded_license: "GPL-2.0-only WITH Universal-FOSS-exception-1.0"
+  reason: "INCORRECT"
+  comment: |
+    Scanner matches within project's release notes, see
+    https://github.com/mysql/mysql-connector-j/blob/8.0.31/LICENSE
+- path: "LICENSE"
+  concluded_license: "GPL-2.0-only WITH Universal-FOSS-exception-1.0"
+  reason: "INCORRECT"
+  comment: |
+    Matches on various versions of GPL within project's license text, see
+    https://github.com/mysql/mysql-connector-j/blob/8.0.31/LICENSE\n"
+- path: "README.md"
+  start_lines: "3"
+  line_count: 1
+  concluded_license: "GPL-2.0-only WITH Universal-FOSS-exception-1.0"
+  reason: "INCORRECT"
+  comment: |
+    Match on 'GPLv2 with FOSS exception', see
+    https://github.com/mysql/mysql-connector-j/blob/8.0.31/README.md?plain=1#L3
+- path: "build.xml"
+  concluded_license: "GPL-2.0-only WITH Universal-FOSS-exception-1.0"
+  reason: "INCORRECT"
+  comment: |
+    Matches on various versions of GPL within project's license text, see
+    https://github.com/mysql/mysql-connector-j/blob/8.0.31/build.xml
+- path: "src/build/misc/debian.in/copyright"
+  concluded_license: "NONE"
+  reason: "REFERENCE"
+  comment: |
+    Match on 'For licensing information see the LICENSE file in this distribution.', see
+    https://github.com/mysql/mysql-connector-j/blob/8.0.31/src/build/misc/debian.in/copyright#L9
+- path: "src/build/misc/rpm.spec.in"
+  start_lines: "62"
+  line_count: 1
+  concluded_license: "GPL-2.0-only WITH Universal-FOSS-exception-1.0"
+  reason: "INCORRECT"
+  comment: |
+    Match on 'GPLv2', see
+    https://github.com/mysql/mysql-connector-j/blob/8.0.31/src/build/misc/rpm.spec.in#L61
+- path: "src/build/misc/rpm.spec.in"
+  start_lines: "781"
+  line_count: 1
+  concluded_license: "NONE"
+  reason: "DOCUMENTATION_OF"
+  comment: |
+    Match on 'community/gpl server', see
+    https://github.com/mysql/mysql-connector-j/blob/8.0.31/src/test/java/testsuite/BaseTestCase.java#L781
+- path: "src/test/java/testsuite/x/devapi/SecureSessionTest.java"
+  start_lines: "721"
+  line_count: 1
+  concluded_license: "NONE"
+  reason: "DOCUMENTATION_OF"
+  comment: |
+    Match on 'newer GPL servers', see
+    https://github.com/mysql/mysql-connector-j/blob/8.0.31/src/test/java/testsuite/x/devapi/SecureSessionTest.java#L721
+- path: "src/test/java/testsuite/x/devapi/SecureSessionTest.java"
+  start_lines: "942"
+  line_count: 1
+  concluded_license: "NONE"
+  reason: "DOCUMENTATION_OF"
+  comment: |
+    Match on 'newer GPL servers', see
+    https://github.com/mysql/mysql-connector-j/blob/8.0.31/src/test/java/testsuite/x/devapi/SecureSessionTest.java#L942

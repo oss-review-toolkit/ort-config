@@ -1,0 +1,11 @@
+---
+id: "Maven:asm:asm:3.1"
+vcs:
+  type: "Git"
+  url: "https://gitlab.ow2.org/asm/asm.git"
+  revision: "c7fb397ffdf8016777a11044230fa1f706e2ac04"
+path_excludes:
+- pattern: "examples/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "test/**"
+  reason: "TEST_OF"

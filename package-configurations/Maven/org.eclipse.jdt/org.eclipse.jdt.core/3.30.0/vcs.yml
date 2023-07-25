@@ -5,39 +5,39 @@ vcs:
   url: "https://github.com/eclipse-jdt/eclipse.jdt.core.git"
   revision: "21b1f9d0bd80d28d7df6e72b1186625a273e2134"
 path_excludes:
-- pattern: "org.eclipse.jdt.apt.core/scripts/**"
-  reason: "BUILD_TOOL_OF"
-- pattern: "org.eclipse.jdt.apt.core/src/org/eclipse/jdt/apt/core/build/**"
-  reason: "BUILD_TOOL_OF"
-- pattern: "org.eclipse.jdt.apt.core/src/org/eclipse/jdt/apt/core/internal/build/**"
-  reason: "BUILD_TOOL_OF"
-- pattern: "org.eclipse.jdt.apt.pluggable.tests/**"
-  reason: "TEST_OF"
-- pattern: "org.eclipse.jdt.apt.tests/**"
-  reason: "TEST_OF"
-- pattern: "org.eclipse.jdt.apt.ui/scripts/**"
-  reason: "BUILD_TOOL_OF"
-- pattern: "org.eclipse.jdt.compiler.apt.tests/**"
-  reason: "TEST_OF"
-- pattern: "org.eclipse.jdt.compiler.tool.tests/**"
-  reason: "TEST_OF"
-- pattern: "org.eclipse.jdt.compiler.tool/scripts/**"
-  reason: "BUILD_TOOL_OF"
-- pattern: "org.eclipse.jdt.core.internal.tools/src/org/eclipse/jdt/core/internal/tools/**"
-  reason: "BUILD_TOOL_OF"
-- pattern: "org.eclipse.jdt.core.tests.builder/**"
-  reason: "TEST_OF"
-- pattern: "org.eclipse.jdt.core.tests.compiler/**"
-  reason: "TEST_OF"
-- pattern: "org.eclipse.jdt.core.tests.model/**"
-  reason: "TEST_OF"
-- pattern: "org.eclipse.jdt.core.tests.performance/**"
-  reason: "BUILD_TOOL_OF"
 - pattern: "org.eclipse.jdt.core/docker/build-ubuntu-jikespg.sh"
   reason: "BUILD_TOOL_OF"
+- pattern: "org.eclipse.jdt.core/notes/**"
+  reason: "DOCUMENTATION_OF"
+  comment: "Contains the 'Eclipse Platform Build Notes' which are release notes."
 - pattern: "org.eclipse.jdt.core/scripts/**"
   reason: "BUILD_TOOL_OF"
-- pattern: "org.eclipse.jdt.tests.latestBREE/**"
-  reason: "TEST_OF"
-- pattern: "tests-pom/**"
-  reason: "TEST_OF"
+license_finding_curations:
+- path: "org.eclipse.jdt.core/notes/R20_buildnotes_jdt-core.html"
+  start_lines: "147"
+  line_count: 1
+  detected_license: "CPL-1.0"
+  reason: "DOCUMENTATION_OF"
+  comment: |
+    Match on 'Updated about.html file with reference to CPL 1.0.' in release notes 
+    old Eclipse SDK Build 20020624 release, see
+    https://github.com/eclipse-jdt/eclipse.jdt.core/blob/I20220524-1800/org.eclipse.jdt.core/notes/R20_buildnotes_jdt-core.html#L147C5-L147C55
+  concluded_license: "NONE"
+- path: "org.eclipse.jdt.core/model/org/eclipse/jdt/core/IJavaProject.java"
+  start_lines: "448"
+  line_count: 2
+  detected_license: "NOASSERTION WITH Classpath-exception-2.0"
+  reason: "DOCUMENTATION_OF"
+  comment: |
+    Match on 'on the classpath.' in function description, see
+    https://github.com/eclipse-jdt/eclipse.jdt.core/blob/I20220524-1800/org.eclipse.jdt.core/model/org/eclipse/jdt/core/IJavaProject.java#L448
+  concluded_license: "NONE"
+- path: "org.eclipse.jdt.core/model/org/eclipse/jdt/core/IJavaProject.java"
+  start_lines: "563"
+  line_count: 2
+  detected_license: "NOASSERTION WITH Classpath-exception-2.0"
+  reason: "DOCUMENTATION_OF"
+  comment: |
+    Match on 'on this project's resolved classpath' in function description, see
+    https://github.com/eclipse-jdt/eclipse.jdt.core/blob/I20220524-1800/org.eclipse.jdt.core/model/org/eclipse/jdt/core/IJavaProject.java#L562-L563
+  concluded_license: "NONE"
