@@ -1,0 +1,11 @@
+---
+id: "Maven:commons-beanutils:commons-beanutils:1.9.4"
+vcs:
+  type: "Git"
+  url: "https://github.com/apache/commons-beanutils.git"
+  revision: "7f27eb3ee202fe48cf67469603d72c541af9b5c5"
+path_excludes:
+- pattern: "CONTRIBUTING.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"

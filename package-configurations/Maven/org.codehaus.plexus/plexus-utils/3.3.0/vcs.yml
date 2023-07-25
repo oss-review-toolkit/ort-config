@@ -5,7 +5,24 @@ vcs:
   url: "ssh://git@github.com/codehaus-plexus/plexus-utils.git"
   revision: "0e25d74d16b8ce748038f572806052bb37ccbb38"
 path_excludes:
+- pattern: ".travis.yml"
+  reason: "BUILD_TOOL_OF"
+- pattern: "jira/**"
+  reason: "DOCUMENTATION_OF"
+  comment: "Dump of project's bug tracker issues."
 - pattern: "src/main/javadoc/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/site/**"
   reason: "DOCUMENTATION_OF"
 - pattern: "src/test/**"
   reason: "TEST_OF"
+license_finding_curations:
+- path: "/src/main/java/org/codehaus/plexus/util/xml/pull/MXParser.java"
+  detected_license: "LicenseRef-scancode-free-unknown"
+  concluded_license: "xpp"
+  reason: "INCORRECT"
+  comment: |
+    Match on 'This software is open source. See the bottom of this file for the licence.' in
+    https://github.com/codehaus-plexus/plexus-utils/blob/plexus-utils-3.3.0/src/main/java/org/codehaus/plexus/util/xml/pull/MXParser.java#L5C4-L5C78
+    which referes to
+    https://github.com/codehaus-plexus/plexus-utils/blob/plexus-utils-3.3.0/src/main/java/org/codehaus/plexus/util/xml/pull/MXParser.java#L4088-L4111

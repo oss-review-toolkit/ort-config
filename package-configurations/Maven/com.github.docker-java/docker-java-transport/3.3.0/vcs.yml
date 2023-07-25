@@ -1,0 +1,6 @@
+---
+id: "Maven:com.github.docker-java:docker-java-transport:3.3.0"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/docker-java/docker-java.git"
+  revision: "f306650d6d696b7abdf0f1c7cde423b2c1262993"

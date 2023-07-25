@@ -3,4 +3,15 @@ id: "Maven:org.apache.commons:commons-compress:1.21"
 source_artifact_url: "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21-sources.jar"
 path_excludes:
 - pattern: "org/apache/commons/compress/archivers/examples/**"
-  reason: "DOCUMENTATION_OF"
+  reason: "EXAMPLE_OF"
+license_finding_curations:
+- path: "org/apache/commons/compress/archivers/zip/*.java"
+  detected_license: "LicenseRef-scancode-proprietary-license"
+  reason: "REFERENCE"
+  comment: |
+    Match on 'Refer to the section in this document entitled Incorporating PKWARE Proprietary Technology 
+    into Your Product" for more information', see
+    https://github.com/apache/commons-compress/blob/rel/commons-compress-1.23.0/src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java#L241-L243
+    Git blame on sentence so this is a reference to ZIP file format specification, see
+    https://github.com/apache/commons-compress/commit/a433f62
+  concluded_license: "NONE"

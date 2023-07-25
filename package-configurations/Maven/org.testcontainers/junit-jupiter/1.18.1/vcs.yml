@@ -1,0 +1,6 @@
+---
+id: "Maven:org.testcontainers:junit-jupiter:1.18.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/testcontainers/testcontainers-java.git"
+  revision: "c64aab9fd5e3a452ee0faf793560327eb4da9841"

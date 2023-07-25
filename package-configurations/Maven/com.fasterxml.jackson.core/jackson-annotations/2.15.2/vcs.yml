@@ -1,0 +1,9 @@
+---
+id: "Maven:com.fasterxml.jackson.core:jackson-annotations:2.15.2"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/FasterXML/jackson-annotations.git"
+  revision: "87f9c66e6185f0a7401f81146e696d0633b6eddc"
+path_excludes:
+- pattern: ".mvn/**"
+  reason: "BUILD_TOOL_OF"

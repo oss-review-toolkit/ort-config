@@ -1,0 +1,6 @@
+---
+id: "Maven:net.java.dev.jets3t:jets3t:0.9.0"
+source_artifact_url: "https://repo.maven.apache.org/maven2/net/java/dev/jets3t/jets3t/0.9.0/jets3t-0.9.0-sources.jar"
+path_excludes:
+- pattern: "org/jets3t/tests/**"
+  reason: "TEST_OF"

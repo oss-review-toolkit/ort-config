@@ -1,0 +1,9 @@
+---
+id: "Maven:classworlds:classworlds:1.1-alpha-2"
+vcs:
+  type: "Git"
+  url: "https://github.com/codehaus/classworlds.git"
+  revision: "b23384e616e6f51fd63540183105a283d8730d46"
+path_excludes:
+- pattern: "classworlds/src/java/test/**"
+  reason: "TEST_OF"

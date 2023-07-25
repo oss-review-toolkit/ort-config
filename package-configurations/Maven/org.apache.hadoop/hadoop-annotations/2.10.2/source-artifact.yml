@@ -1,6 +1,24 @@
 ---
 id: "Maven:org.apache.hadoop:hadoop-annotations:2.10.2"
 source_artifact_url: "https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.10.2/hadoop-annotations-2.10.2-sources.jar"
-path_excludes:
-- pattern: "org/apache/hadoop/classification/tools/**"
-  reason: "BUILD_TOOL_OF"
+license_finding_curations:
+- path: "META-INF/NOTICE.txt"
+  start_lines: "350"
+  line_count: 1
+  detected_license: "GPL-2.0-only"
+  reason: "INCORRECT"
+  comment: |
+    Match on 'GPL v2 with classpath exceptions' in
+    https://github.com/apache/hadoop/blob/rel/release-2.10.2/NOTICE.txt#L350-L351
+  concluded_license: "GPL-2.0-only WITH Classpath-exception-2.0"
+- path: "META-INF/NOTICE.txt"
+  start_lines: "425"
+  line_count: 1
+  detected_license: "NOASSERTION WITH GCC-exception-3.1"
+  reason: "INCORRECT"
+  comment: |
+    Match on 'This library containd statically linked libstdc++. 
+    This inclusion is allowed by GCC RUntime Library Exception
+    http://gcc.gnu.org/onlinedocs/libstdc++/manual/license.html' in
+    https://github.com/apache/hadoop/blob/rel/release-2.10.2/NOTICE.txt#L424-L426
+  concluded_license: "GPL-3.0-only WITH GCC-exception-3.1"

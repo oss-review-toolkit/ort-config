@@ -7,6 +7,8 @@ vcs:
 path_excludes:
 - pattern: ".github/**"
   reason: "BUILD_TOOL_OF"
+- pattern: ".mvn/**"
+  reason: "BUILD_TOOL_OF"
 - pattern: "CODE_OF_CONDUCT.md"
   reason: "DOCUMENTATION_OF"
 - pattern: "CONTRIBUTING.md"
@@ -14,6 +16,17 @@ path_excludes:
 - pattern: "SECURITY.md"
   reason: "DOCUMENTATION_OF"
 - pattern: "src/main/java/org/apache/commons/compress/archivers/examples/**"
-  reason: "DOCUMENTATION_OF"
+  reason: "EXAMPLE_OF"
 - pattern: "src/test/**"
   reason: "TEST_OF"
+license_finding_curations:
+- path: "src/main/java/org/apache/commons/compress/archivers/zip/*.java"
+  detected_license: "LicenseRef-scancode-proprietary-license"
+  reason: "REFERENCE"
+  comment: |
+    Match on 'Refer to the section in this document entitled Incorporating PKWARE Proprietary Technology 
+    into Your Product" for more information', see
+    https://github.com/apache/commons-compress/blob/rel/commons-compress-1.23.0/src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java#L241-L243
+    Git blame on sentence so this is a reference to ZIP file format specification, see
+    https://github.com/apache/commons-compress/commit/a433f62
+  concluded_license: "NONE"

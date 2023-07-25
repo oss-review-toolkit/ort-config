@@ -1,0 +1,6 @@
+---
+id: "Maven:org.apache.avro:avro:1.7.7"
+source_artifact_url: "https://repo.maven.apache.org/maven2/org/apache/avro/avro/1.7.7/avro-1.7.7-sources.jar"
+path_excludes:
+- pattern: "org/apache/avro/io/parsing/doc-files/**"
+  reason: "DOCUMENTATION_OF"
