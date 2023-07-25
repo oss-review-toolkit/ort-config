@@ -11,5 +11,26 @@ path_excludes:
   reason: "BUILD_TOOL_OF"
 - pattern: "docs/**"
   reason: "DOCUMENTATION_OF"
+- pattern: "release-notes/**"
+  reason: "DOCUMENTATION_OF"
 - pattern: "src/test/**"
   reason: "TEST_OF"
+- pattern: "src/site/**"
+  reason: "DOCUMENTATION_OF"
+license_finding_curations:
+- path: "src/main/resources/META-INF/jackson-core-NOTICE"
+  start_lines: 3
+  detected_license: "LicenseRef-scancode-free-unknown"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: |
+    Match 'Free/Open Source', see 
+    https://github.com/FasterXML/jackson-core/blob/jackson-core-2.14.1/src/main/resources/META-INF/jackson-core-NOTICE#L3C32-L3C48
+- path: "src/main/resources/META-INF/jackson-core-NOTICE"
+  start_lines: 14
+  detected_license: "LicenseRef-scancode-unknown-license-reference"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: |
+    Match 'the accompanying LICENSE file', see 
+    https://github.com/FasterXML/jackson-core/blob/jackson-core-2.14.1/src/main/resources/META-INF/jackson-core-NOTICE#L15C53-L15C82

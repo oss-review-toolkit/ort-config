@@ -1,0 +1,6 @@
+---
+id: "Maven:com.github.stephenc.jcip:jcip-annotations:1.0-1"
+vcs:
+  type: "Git"
+  url: "https://github.com/stephenc/jcip-annotations.git"
+  revision: "2caf34b5a7dde3fa3ae99e7ab58ae4b9da08c216"

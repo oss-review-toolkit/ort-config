@@ -1,0 +1,6 @@
+---
+id: "Maven:com.fasterxml:classmate:1.5.1"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/FasterXML/java-classmate.git"
+  revision: "4eca33ba94dabeffbf0637a4ef44677ca4cdac23"

@@ -5,7 +5,7 @@ vcs:
   url: "https://github.com/qos-ch/logback.git"
   revision: "34a6efc53416709b0f47701e9e7099531cb8b256"
 path_excludes:
-- pattern: "performance/**"
-  reason: "TEST_OF"
-- pattern: "src/test/**"
+- pattern: "logback-classic/performance/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "logback-classic/src/test/**"
   reason: "TEST_OF"

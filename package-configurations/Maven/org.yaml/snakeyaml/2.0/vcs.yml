@@ -5,6 +5,8 @@ vcs:
   url: "http://bitbucket.org/snakeyaml/snakeyaml"
   revision: "59ddbb3304bb8e22e2004d74cddaf9ed4086632e"
 path_excludes:
+- pattern: ".github/**"
+  reason: "BUILD_TOOL_OF"
 - pattern: ".mvn/**"
   reason: "BUILD_TOOL_OF"
 - pattern: "src/changes.xml"

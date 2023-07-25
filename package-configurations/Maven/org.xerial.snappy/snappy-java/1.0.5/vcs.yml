@@ -5,5 +5,43 @@ vcs:
   url: "https://github.com/xerial/snappy-java.git"
   revision: "fde51d8317dcf92c66ebf151298cc604aff65db5"
 path_excludes:
+- pattern: ".github/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "docker/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "lib/**"
+  reason: "BUILD_TOOL_OF"
+  comment: |
+    Header files in lib directory only used to build snappy, see
+    https://github.com/xerial/snappy-java/commit/c82cf5d6f8ba75b6c02d2fbb22b848144e991eff
 - pattern: "src/test/**"
   reason: "TEST_OF"
+license_finding_curations:
+- path: "README.md"
+  start_lines: 5
+  detected_license: "LicenseRef-scancode-free-unknown"
+  concluded_license: "NONE"
+  reason: "DOCUMENTATION_OF"
+  comment: |
+    Match 'Free for both commercial and non-commercial use' in
+    https://github.com/xerial/snappy-java/blob/1.0.5/README.md?plain=1#L5C79-L5C79
+- path: "lib/inc_*/**.h"
+  start_lines: 5
+  detected_license: "LicenseRef-scancode-proprietary-license"
+  concluded_license: "GPL-2.0-only WITH Classpath-exception-2.0"
+  reason: "INCORRECT"
+  comment: |
+    Match on 'ORACLE PROPRIETARY/CONFIDENTIAL' in
+    https://github.com/xerial/snappy-java/blob/1.0.5/lib/inc_linux/jni_md.h#L5, or
+    https://github.com/xerial/snappy-java/blob/1.0.5/lib/inc_win/jni.h#L5
+    JNI is Java Native Interface from Java JDK, now OpenJDK. Files were relicensed by Oracle
+    to GPL-2.0-only WITH Classpath-exception-2.0 see:
+    https://github.com/openjdk/jdk/blob/b938257957f4bcf6cc19c26ec183bac1850407b3/jdk/src/share/javavm/export/jni.h
+- path: "src/test/java/org/xerial/snappy/testdata/calgary/news"
+  start_lines: 7906
+  detected_license: "LicenseRef-scancode-free-unknown"
+  concluded_license: "NONE"
+  reason: "DATA_OF"
+  comment: |
+    Match on 'Shareware' in email subject within test data, see
+    https://github.com/xerial/snappy-java/blob/1.0.5/src/test/java/org/xerial/snappy/testdata/calgary/news#L7906C27-L7906C38

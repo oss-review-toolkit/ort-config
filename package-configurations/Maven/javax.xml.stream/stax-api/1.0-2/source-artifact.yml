@@ -1,0 +1,11 @@
+---
+id: "Maven:javax.xml.stream:stax-api:1.0-2"
+source_artifact_url: "https://repo.maven.apache.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2-sources.jar"
+license_finding_curations:
+- path: "src/javax/xml/stream/XMLInputFactory.java"
+  start_lines: 233
+  detected_license: "LicenseRef-scancode-proprietary-license"
+  concluded_license: "NONE"
+  reason: "DOCUMENTATION_OF"
+  comment: |
+    Match '(may not be modified)'. 

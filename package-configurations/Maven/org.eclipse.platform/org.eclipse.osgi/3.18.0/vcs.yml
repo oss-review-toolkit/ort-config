@@ -1,0 +1,6 @@
+---
+id: "Maven:org.eclipse.platform:org.eclipse.osgi:3.18.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/eclipse-equinox/equinox.binaries.git"
+  revision: "cf3f4f51403eac0fc16be0876fff8a3ceceabacc"

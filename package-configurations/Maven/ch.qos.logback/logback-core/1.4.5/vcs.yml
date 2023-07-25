@@ -5,5 +5,7 @@ vcs:
   url: "https://github.com/qos-ch/logback.git"
   revision: "34a6efc53416709b0f47701e9e7099531cb8b256"
 path_excludes:
-- pattern: "src/test/**"
+- pattern: "logback-core/src/main/java/ch/qos/logback/core/testUtil/**"
+  reason: "TEST_OF"
+- pattern: "logback-core/src/test/**"
   reason: "TEST_OF"

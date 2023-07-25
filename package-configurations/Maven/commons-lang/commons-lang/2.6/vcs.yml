@@ -1,0 +1,9 @@
+---
+id: "Maven:commons-lang:commons-lang:2.6"
+vcs:
+  type: "Git"
+  url: "https://git-wip-us.apache.org/repos/asf/commons-lang.git"
+  revision: "0fe6a434f20b45c027badd89bd393dd4085cf1f2"
+path_excludes:
+- pattern: "src/test/**"
+  reason: "TEST_OF"
