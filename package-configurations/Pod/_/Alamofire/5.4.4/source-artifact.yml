@@ -1,0 +1,13 @@
+---
+id: "PyPI::numpy:1.19.5"
+path_excludes:
+  - pattern: "docs/**"
+    reason: "DOCUMENTATION_OF"
+license_finding_curations:
+  - path: "README.md"
+    start_lines: "221"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    concluded_license: "MIT"
+    reason: "REFERENCE"
+    comment: "License information provided"
