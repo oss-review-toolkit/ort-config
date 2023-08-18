@@ -1,0 +1,14 @@
+---
+id: "Pod::Alamofire:5.4.4"
+source_artifact_url: "https://files.pythonhosted.org/packages/51/60/3f0fe5b7675a461d96b9d6729beecd3532565743278a9c3fe6dd09697fa7/numpy-1.19.5.zip"
+path_excludes:
+  - pattern: "docs/**"
+    reason: "DOCUMENTATION_OF"
+license_finding_curations:
+  - path: "README.md"
+    start_lines: "221"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    concluded_license: "MIT"
+    reason: "REFERENCE"
+    comment: "License information provided"
