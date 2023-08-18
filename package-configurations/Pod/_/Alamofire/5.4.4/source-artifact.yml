@@ -1,14 +1,5 @@
----
 id: "Pod::Alamofire:5.4.4"
 source_artifact_url: "https://github.com/Alamofire/Alamofire/archive/refs/tags/5.4.4.zip"
 path_excludes:
-- pattern: "5.4.4/docs/**"
+- pattern: "**/docs/**"
   reason: "DOCUMENTATION_OF"
-license_finding_curations:
-- path: "5.4.4/README.md"
-  start_lines: "221"
-  line_count: 1
-  detected_license: "NOASSERTION"
-  concluded_license: "MIT"
-  reason: "REFERENCE"
-  comment: "License information provided"
