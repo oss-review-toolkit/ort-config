@@ -3,7 +3,7 @@ id: "Pod::Alamofire:5.4.4"
 vcs:
   type: "Git"
   url: "https://github.com/Alamofire/Alamofire.git"
-  revision:
+  revision:3496
 path_excludes:
 - pattern: "docs/**"
   reason: "DOCUMENTATION_OF"
