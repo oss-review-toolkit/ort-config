@@ -1,4 +1,4 @@
-id: "Pod::Alamofire:5.4.4"
+- id: "Pod::Alamofire:5.4.4"
 source_artifact_url: "https://github.com/Alamofire/Alamofire/archive/refs/tags/5.4.4.zip"
 path_excludes:
 - pattern: "**/docs/**"
