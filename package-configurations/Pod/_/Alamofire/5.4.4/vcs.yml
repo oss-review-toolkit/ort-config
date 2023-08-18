@@ -6,4 +6,4 @@ vcs:
   revision:
 path_excludes:
 - pattern: "docs/**"
-    reason: "DOCUMENTATION_OF"
+  reason: "DOCUMENTATION_OF"
