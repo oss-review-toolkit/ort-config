@@ -1,9 +1,0 @@
----
-id: "Pod::Alamofire:5.4.4"
-vcs:
-  type: "Git"
-  url: "https://github.com/Alamofire/Alamofire.git"
-  revision: "945fc8760267331269c957a6c374353a55f55493"
-path_excludes:
-  - pattern: "docs/**"
-    reason: "DOCUMENTATION_OF"
