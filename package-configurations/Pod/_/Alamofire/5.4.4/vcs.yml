@@ -8,3 +8,5 @@ path_excludes:
 - pattern: "**/docs/**"
   reason: "DOCUMENTATION_OF"
   comment: "This directory contains documentation which is not distributed."
+- pattern: "**/tests/**"
+  reason: "DOCUMENTATION_OF"
