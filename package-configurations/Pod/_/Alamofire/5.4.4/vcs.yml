@@ -21,7 +21,7 @@ license_finding_curations:
   concluded_license: "MIT"
 - path: "CONTRIBUTING.md"
   start_lines: "40"
-  line_count: 24
+  line_count: 25
   detected_license: "LicenseRef-scancode-dco-1.1"
   reason: "DOCUMENTATION_OF"
   comment: "This is a contribution guide file not part of distribution file"
