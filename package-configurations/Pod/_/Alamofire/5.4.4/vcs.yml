@@ -5,5 +5,6 @@ vcs:
   url: "https://github.com/Alamofire/Alamofire.git"
   revision: "d120af1e8638c7da36c8481fd61a66c0c08dc4fc"
 path_excludes:
-- pattern: "**/docs"
+- pattern: "**/docs/**"
   reason: "DOCUMENTATION_OF"
+  comment: "This directory contains documentation which is not distributed."
