@@ -8,7 +8,7 @@ path_excludes:
 - pattern: "**/docs/**"
   reason: "DOCUMENTATION_OF"
   comment: "This directory contains documentation which is not distributed."
-- pattern: "**/tests/**"
+- pattern: "**/Tests/**"
   reason: "DOCUMENTATION_OF"
   comment: "This directory contains documentation which is not distributed."
 license_finding_curations:
@@ -18,4 +18,11 @@ license_finding_curations:
   detected_license: "NOASSERTION"
   reason: "DOCUMENTATION_OF"
   comment: "This is a readme file"
+  concluded_license: "MIT"
+- path: "CONTRIBUTING.md"
+  start_lines: "40"
+  line_count: 24
+  detected_license: "LicenseRef-scancode-dco-1.1"
+  reason: "DOCUMENTATION_OF"
+  comment: "This is a contribution guide file not part of distribution file"
   concluded_license: "MIT"
