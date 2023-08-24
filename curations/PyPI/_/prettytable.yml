@@ -1,0 +1,10 @@
+- id: "PyPI::prettytable:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/jazzband/prettytable/blob/0.7.2/COPYING,
+      https://github.com/jazzband/prettytable/blob/0.7.2/setup.py#L15 and
+      https://github.com/jazzband/prettytable/blob/0.7.2/setup.py#L18.
+    declared_license_mapping:
+      "BSD (3 clause)": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

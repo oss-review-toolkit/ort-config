@@ -1,0 +1,10 @@
+- id: "PyPI::fsspec:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/fsspec/filesystem_spec/blob/2021.04.0/LICENSE,
+      https://github.com/fsspec/filesystem_spec/blob/2021.04.0/setup.py#L19 and
+      https://github.com/fsspec/filesystem_spec/blob/2021.04.0/setup.py#L32.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

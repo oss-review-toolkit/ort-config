@@ -1,0 +1,7 @@
+- id: "PyPI::msal-extensions:"
+  curations:
+    comment: |
+      Code repository location missing in package metadata.
+    vcs:
+      type: "Git"
+      url: "https://github.com/AzureAD/microsoft-authentication-extensions-for-python.git"

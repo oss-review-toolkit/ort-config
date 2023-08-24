@@ -1,0 +1,6 @@
+- id: "PyPI::azure-mgmt-compute:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "sdk/compute/azure-mgmt-compute"

@@ -1,0 +1,9 @@
+- id: "PyPI::traitlets:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/ipython/traitlets/blob/v5.9.0/COPYING.md,
+      https://github.com/ipython/traitlets/blob/v5.9.0/pyproject.toml#L9 and
+      https://github.com/ipython/traitlets/blob/v5.9.0/pyproject.toml#L16.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

@@ -1,0 +1,10 @@
+- id: "PyPI::numba:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/numba/numba/blob/0.57.1/LICENSE,
+      https://github.com/numba/numba/blob/0.57.1/setup.py#L382 and
+      https://github.com/numba/numba/blob/0.57.1/setup.py#L415.
+    declared_license_mapping:
+      "BSD": "BSD-2-Clause"
+      "BSD License": "BSD-2-Clause"

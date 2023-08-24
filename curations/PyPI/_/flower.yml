@@ -1,0 +1,9 @@
+- id: "PyPI::flower:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/mher/flower/blob/v0.9.5/LICENSE,
+      https://github.com/mher/flower/blob/v0.9.5/setup.py#L29 and
+      https://github.com/mher/flower/blob/v0.9.5/setup.py#L55.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

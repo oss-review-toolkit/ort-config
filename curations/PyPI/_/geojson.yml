@@ -1,0 +1,10 @@
+- id: "PyPI::geojson:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/jazzband/geojson/blob/2.4.1/LICENSE.rst,
+      https://github.com/jazzband/geojson/blob/2.4.1/setup.py#L46 and
+      https://github.com/jazzband/geojson/blob/2.4.1/setup.py#L63.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

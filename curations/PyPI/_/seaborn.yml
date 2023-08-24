@@ -1,0 +1,8 @@
+- id: "PyPI::seaborn:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/mwaskom/seaborn/blob/v0.12.2/LICENSE.md and
+      https://github.com/mwaskom/seaborn/blob/v0.12.2/pyproject.toml#L18.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

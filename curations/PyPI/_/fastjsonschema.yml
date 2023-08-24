@@ -1,0 +1,10 @@
+- id: "PyPI::fastjsonschema:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/horejsek/python-fastjsonschema/blob/v2.17.0/LICENSE,
+      https://github.com/horejsek/python-fastjsonschema/blob/v2.17.0/setup.py#L41 and
+      https://github.com/horejsek/python-fastjsonschema/blob/v2.17.0/setup.py#L56.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

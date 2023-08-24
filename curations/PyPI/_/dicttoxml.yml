@@ -1,0 +1,9 @@
+- id: "PyPI::dicttoxml:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/quandyfactory/dicttoxml/blob/v1.7.13/LICENCE.txt,
+      https://github.com/quandyfactory/dicttoxml/blob/v1.7.13/README.md?plain=1#L696-L697 and
+      https://github.com/quandyfactory/dicttoxml/blob/v1.7.13/setup.py#L15.
+    declared_license_mapping:
+      "LICENCE.txt": "GPL-2.0-only"

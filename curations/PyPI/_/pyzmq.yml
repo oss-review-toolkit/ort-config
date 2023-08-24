@@ -1,0 +1,26 @@
+- id: "PyPI::pyzmq:[17.0.0,)"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/zeromq/pyzmq/blob/v22.0.3/COPYING.BSD,
+      https://github.com/zeromq/pyzmq/blob/v22.0.3/COPYING.LESSER,
+      https://github.com/zeromq/pyzmq/blob/v22.0.3/RELICENSE/README.md,
+      https://github.com/zeromq/pyzmq/blob/v22.0.3/setup.py#L1368 and
+      https://github.com/zeromq/pyzmq/blob/v22.0.3/setup.py#L1375-L1376.
+    declared_license_mapping:
+      "BSD License": "(BSD-3-Clause OR MPL-2.0) AND LGPL-3.0-or-later WITH LGPL-3.0-linking-exception"
+      "GNU Library or Lesser General Public License (LGPL)": "(BSD-3-Clause OR MPL-2.0) AND LGPL-3.0-or-later WITH LGPL-3.0-linking-exception"
+      "LGPL+BSD": "(BSD-3-Clause OR MPL-2.0) AND LGPL-3.0-or-later WITH LGPL-3.0-linking-exception"
+- id: "PyPI::pyzmq:(,17.0.0["
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/zeromq/pyzmq/blob/v16.0.1/COPYING.BSD,
+      https://github.com/zeromq/pyzmq/blob/v16.0.1/COPYING.LESSER,
+      https://github.com/zeromq/pyzmq/blob/v16.0.1/setup.py#L3-L14,
+      https://github.com/zeromq/pyzmq/blob/v16.0.1/setup.py#L1233 and
+      https://github.com/zeromq/pyzmq/blob/v16.0.1/setup.py#L1240-L1241.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause AND LGPL-3.0-or-later WITH LGPL-3.0-linking-exception"
+      "GNU Library or Lesser General Public License (LGPL)": "BSD-3-Clause AND LGPL-3.0-or-later WITH LGPL-3.0-linking-exception"
+      "LGPL+BSD": "BSD-3-Clause AND LGPL-3.0-or-later WITH LGPL-3.0-linking-exception"

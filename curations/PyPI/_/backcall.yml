@@ -1,0 +1,10 @@
+- id: "PyPI::backcall:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/takluyver/backcall/blob/cad6e8b/LICENSE,
+      https://github.com/takluyver/backcall/blob/cad6e8b/setup.py#L16 and
+      https://github.com/takluyver/backcall/blob/cad6e8b/setup.py#L20.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

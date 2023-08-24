@@ -1,0 +1,8 @@
+- id: "PyPI::networkx:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/networkx/networkx/blob/networkx-3.1/LICENSE.txt and
+      https://github.com/networkx/networkx/blob/networkx-3.1/setup.py#L45.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

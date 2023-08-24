@@ -1,0 +1,10 @@
+- id: "PyPI::scipy:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/scipy/scipy/blob/v1.11.2/LICENSE.txt,
+      https://github.com/scipy/scipy/blob/v1.11.2/_setup.py#L55 and
+      https://github.com/scipy/scipy/blob/v1.11.2/_setup.py#L494.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

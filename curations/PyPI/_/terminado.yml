@@ -1,0 +1,9 @@
+- id: "PyPI::terminado:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/jupyter/terminado/blob/v0.17.1/LICENSE,
+      https://github.com/jupyter/terminado/blob/v0.17.1/pyproject.toml#L9 and
+      https://github.com/jupyter/terminado/blob/v0.17.1/pyproject.toml#L11.
+    declared_license_mapping:
+      "BSD License": "BSD-2-Clause"

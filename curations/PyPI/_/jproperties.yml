@@ -1,0 +1,10 @@
+- id: "PyPI::jproperties:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/Tblue/python-jproperties/blob/v1.0/LICENSE,
+      https://github.com/Tblue/python-jproperties/blob/v1.0/setup.py#L31 and
+      https://github.com/Tblue/python-jproperties/blob/v1.0/setup.py#L38.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"
+      "BSD 3-Clause License; partially licensed under the Python Software Foundation License": "BSD-3-Clause AND PSF-2.0"

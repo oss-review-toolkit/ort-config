@@ -1,0 +1,10 @@
+- id: "PyPI::geo-py:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/gojuno/geo-py/blob/d1cb96a/LICENSE,
+      https://github.com/gojuno/geo-py/blob/d1cb96a/setup.py#L40 and
+      https://github.com/gojuno/geo-py/blob/d1cb96a/setup.py#L45.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

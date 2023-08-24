@@ -1,0 +1,10 @@
+- id: "PyPI::babel:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/python-babel/babel/blob/1.3/LICENSE,
+      https://github.com/python-babel/babel/blob/1.3/setup.py#L41 and
+      https://github.com/python-babel/babel/blob/1.3/setup.py#L48.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

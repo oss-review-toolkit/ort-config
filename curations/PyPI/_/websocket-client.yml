@@ -1,0 +1,21 @@
+- id: "PyPI::websocket-client:]0.58.0,1.2.0["
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/websocket-client/websocket-client/blob/v1.1.1/LICENSE,
+      https://github.com/websocket-client/websocket-client/blob/v1.1.1/COPYING.LESSER,
+      https://github.com/websocket-client/websocket-client/blob/v1.1.1/setup.py#L43 and
+      https://github.com/websocket-client/websocket-client/blob/v1.1.1/setup.py#L49.
+    declared_license_mapping:
+      "GNU Lesser General Public License v2 or later (LGPLv2+)": "LGPL-2.1-or-later" 
+      "LGPL version 2.1": "LGPL-2.1-or-later"
+- id: "PyPI::websocket-client:(,0.53.0]"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/websocket-client/websocket-client/blob/v0.53.0/LICENSE,
+      https://github.com/websocket-client/websocket-client/blob/v0.53.0/setup.py#L45 and
+      https://github.com/websocket-client/websocket-client/blob/v0.53.0/setup.py#L50.
+    declared_license_mapping:
+      "GNU Library or Lesser General Public License (LGPL)": "LGPL-2.1-or-later" 
+      "LGPL": "LGPL-2.1-or-later"

@@ -1,0 +1,8 @@
+- id: "PyPI::shapely-geojson:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/alekzvik/shapely-geojson/blob/v0.0.2/LICENSE and
+      https://github.com/alekzvik/shapely-geojson/blob/v0.0.2/setup.py#L30.
+    declared_license_mapping:
+      "LICENSE": "MIT"

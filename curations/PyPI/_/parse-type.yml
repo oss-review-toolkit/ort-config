@@ -1,0 +1,9 @@
+- id: "PyPI::parse-type:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/jenisys/parse_type/blob/v0.5.6/LICENSE,
+      https://github.com/jenisys/parse_type/blob/v0.5.6/setup.py#L87 and
+      https://github.com/jenisys/parse_type/blob/v0.5.6/setup.py#L136.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

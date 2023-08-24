@@ -1,0 +1,9 @@
+- id: "PyPI::send2trash:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/arsenetar/send2trash/blob/1.5.0/LICENSE,
+      https://github.com/arsenetar/send2trash/blob/1.5.0/setup.py#L6 and
+      https://github.com/arsenetar/send2trash/blob/1.5.0/setup.py#L29.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

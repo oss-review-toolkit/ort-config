@@ -1,0 +1,10 @@
+- id: "PyPI::markupsafe:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/pallets/markupsafe/blob/1.1.0/LICENSE.rst,
+      https://github.com/pallets/markupsafe/blob/1.1.0/setup.py#L62 and
+      https://github.com/pallets/markupsafe/blob/1.1.0/setup.py#L73.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

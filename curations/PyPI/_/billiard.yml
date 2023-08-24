@@ -1,0 +1,10 @@
+- id: "PyPI::billiard:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/celery/billiard/blob/v3.6.0/LICENSE.txt,
+      https://github.com/celery/billiard/blob/v3.6.0/setup.py#L234 and
+      https://github.com/celery/billiard/blob/v3.6.0/setup.py#L253.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

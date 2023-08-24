@@ -1,0 +1,9 @@
+- id: "PyPI::python-dotenv:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/theskumar/python-dotenv/blob/v1.0.0/LICENSE,
+      https://github.com/theskumar/python-dotenv/blob/v1.0.0/setup.py#L43 and
+      https://github.com/theskumar/python-dotenv/blob/v1.0.0/setup.py#L56.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

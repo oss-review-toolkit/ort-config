@@ -1,0 +1,7 @@
+- id: "PyPI::regex:"
+  curations:
+    comment: |
+      The source code repository has moved from
+      https://bitbucket.org/mrabarnett/mrab-regex to GitHub.
+    vcs:
+      url: "https://github.com/mrabarnett/mrab-regex.git"
