@@ -1,0 +1,9 @@
+- id: "PyPI::jupyter-contrib-core:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/Jupyter-contrib/jupyter_contrib_core/blob/0.4.2/LICENSE.txt,
+      https://github.com/Jupyter-contrib/jupyter_contrib_core/blob/0.4.2/setup.py#L35 and
+      https://github.com/Jupyter-contrib/jupyter_contrib_core/blob/0.4.2/setup.py#L69.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

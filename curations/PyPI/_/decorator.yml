@@ -1,0 +1,10 @@
+- id: "PyPI::decorator:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/micheles/decorator/blob/5.0.9/LICENSE.txt,
+      https://github.com/micheles/decorator/blob/5.0.9/setup.py#L16 and
+      https://github.com/micheles/decorator/blob/5.0.9/setup.py#L24.
+    declared_license_mapping:
+      "new BSD License": "BSD-2-Clause"
+      "BSD License": "BSD-2-Clause"

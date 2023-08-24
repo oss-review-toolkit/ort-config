@@ -1,0 +1,9 @@
+- id: "PyPI::pytest-benchmark:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/ionelmc/pytest-benchmark/blob/v3.4.1/LICENSE,
+      https://github.com/ionelmc/pytest-benchmark/blob/v3.4.1/setup.py#L29 and
+      https://github.com/ionelmc/pytest-benchmark/blob/v3.4.1/setup.py#L48.
+    declared_license_mapping:
+      "BSD License": "BSD-2-Clause"

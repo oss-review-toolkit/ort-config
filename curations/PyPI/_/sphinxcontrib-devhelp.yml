@@ -1,0 +1,9 @@
+- id: "PyPI::sphinxcontrib-devhelp:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/sphinx-doc/sphinxcontrib-devhelp/blob/1.0.5/LICENSE,
+      https://github.com/sphinx-doc/sphinxcontrib-devhelp/blob/1.0.5/pyproject.toml#L15 and
+      https://github.com/sphinx-doc/sphinxcontrib-devhelp/blob/1.0.5/pyproject.toml#L25.
+    declared_license_mapping:
+      "BSD License": "BSD-2-Clause"

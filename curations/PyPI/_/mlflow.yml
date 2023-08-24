@@ -1,0 +1,7 @@
+- id: "PyPI::mlflow:"
+  curations:
+    comment: |
+      Code repository location missing in package metadata.
+    vcs:
+      type: "Git"
+      url: "ssh://git@github.com:mlflow/mlflow.git"

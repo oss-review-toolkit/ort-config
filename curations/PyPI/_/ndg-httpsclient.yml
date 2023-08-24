@@ -1,0 +1,10 @@
+- id: "PyPi::ndg-httpsclient:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/cedadev/ndg_httpsclient/blob/v0.4.0/LICENSE,
+      https://github.com/cedadev/ndg_httpsclient/blob/v0.4.0/setup.py#L112 and
+      https://github.com/cedadev/ndg_httpsclient/blob/v0.4.0/setup.py#L134.
+    declared_license_mapping:
+      "BSD": "BSD - See LICENCE file for details"
+      "BSD License": "BSD-3-Clause"

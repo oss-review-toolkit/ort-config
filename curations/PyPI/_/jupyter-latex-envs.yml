@@ -1,0 +1,10 @@
+- id: "PyPI::jupyter-latex-envs:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/jfbercher/jupyter_latex_envs/blob/918bcd0/LICENSE.txt,
+      https://github.com/jfbercher/jupyter_latex_envs/blob/918bcd0/setup.py#L36 and
+      https://github.com/jfbercher/jupyter_latex_envs/blob/918bcd0/setup.py#L51.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"
+      "Modified BSD": "BSD-3-Clause"

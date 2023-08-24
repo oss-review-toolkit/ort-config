@@ -1,0 +1,10 @@
+- id: "PyPI::jupyter-client:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/jupyter/jupyter_client/blob/v7.0.0/COPYING.md,
+      https://github.com/jupyter/jupyter_client/blob/v7.0.0/setup.py#L32 and
+      https://github.com/jupyter/jupyter_client/blob/v7.0.0/setup.py#L47.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

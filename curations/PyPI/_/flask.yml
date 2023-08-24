@@ -1,0 +1,10 @@
+- id: "PyPI::flask:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/pallets/flask/blob/0.12.3/LICENSE,
+      https://github.com/pallets/flask/blob/0.12.3/setup.py#L63 and
+      https://github.com/pallets/flask/blob/0.12.3/setup.py#L83.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

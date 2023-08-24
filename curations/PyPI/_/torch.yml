@@ -1,0 +1,16 @@
+- id: "PyPI::torch:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/pytorch/pytorch/blob/v2.0.1/LICENSE,
+      https://github.com/pytorch/pytorch/blob/v2.0.1/setup.py#L1258 and
+      https://github.com/pytorch/pytorch/blob/v2.0.1/setup.py#L1268.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"
+- id: "PyPI::torch:"
+  curations:
+    comment: |
+      Code repository location missing in package metadata.
+    vcs:
+      type: "Git"
+      url: "https://github.com/pytorch/pytorch.git"

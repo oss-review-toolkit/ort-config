@@ -1,0 +1,10 @@
+- id: "PyPI::gitpython:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/gitpython-developers/GitPython/blob/3.1.31/LICENSE,
+      https://github.com/gitpython-developers/GitPython/blob/3.1.31/setup.py#L88 and
+      https://github.com/gitpython-developers/GitPython/blob/3.1.31/setup.py#L112.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

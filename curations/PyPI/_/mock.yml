@@ -1,0 +1,8 @@
+- id: "PyPI::mock:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/testing-cabal/mock/blob/5.1.0/LICENSE.txt and
+      https://github.com/testing-cabal/mock/blob/5.1.0/setup.cfg#L12.
+    declared_license_mapping:
+      "BSD License": "BSD-2-Clause"

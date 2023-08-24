@@ -1,0 +1,10 @@
+- id: "PyPI::nbclient:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/jupyter/nbclient/blob/0.5.3/LICENSE,
+      https://github.com/jupyter/nbclient/blob/0.5.3/setup.py#L64 and
+      https://github.com/jupyter/nbclient/blob/0.5.3/setup.py#L71.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

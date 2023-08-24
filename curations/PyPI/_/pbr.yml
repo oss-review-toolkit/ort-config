@@ -1,0 +1,7 @@
+- id: "PyPI::pbr:"
+  curations:
+    comment: |
+      Package code repository is defined but not found by pip.
+    vcs:
+      type: "Git"
+      url: "https://opendev.org/openstack/pbr.git"

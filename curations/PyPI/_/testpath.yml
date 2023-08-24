@@ -1,0 +1,8 @@
+- id: "PyPI::testpath:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/jupyter/testpath/blob/0.6.0/LICENSE and
+      https://github.com/jupyter/testpath/blob/0.6.0/pyproject.toml#L14.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

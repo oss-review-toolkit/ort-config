@@ -1,0 +1,8 @@
+- id: "PyPI::click-plugins:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/click-contrib/click-plugins/blob/1.1/LICENSE.txt and
+      https://github.com/click-contrib/click-plugins/blob/1.1/setup.py#L46.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

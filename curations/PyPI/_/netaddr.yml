@@ -1,0 +1,9 @@
+- id: "PyPI::netaddr:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/netaddr/netaddr/blob/0.8.0/LICENSE,
+      https://github.com/netaddr/netaddr/blob/0.8.0/setup.py#L55 and
+      https://github.com/netaddr/netaddr/blob/0.8.0/setup.py#L122.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

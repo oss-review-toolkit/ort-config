@@ -1,0 +1,9 @@
+- id: "PyPI::requests-oauthlib:"
+  curations:
+    comment: |
+      The declared license is incorrect. Mapping declared license based on
+      https://github.com/requests/requests-oauthlib/blob/v1.3.1/LICENSE,
+      https://github.com/requests/requests-oauthlib/blob/v1.3.1/setup.py#L49 and
+      https://github.com/requests/requests-oauthlib/blob/v1.3.1/setup.py#L54.
+    declared_license_mapping:
+      "BSD License": "ISC"

@@ -1,0 +1,11 @@
+- id: "PyPI::python-dateutil:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/dateutil/dateutil/blob/2.8.1/LICENSE,
+      https://github.com/dateutil/dateutil/blob/2.8.1/setup.cfg#L13 and
+      https://github.com/dateutil/dateutil/blob/2.8.1/setup.cfg#L18-L19.
+    declared_license_mapping:
+      "Apache Software License": "Apache-2.0 AND BSD-3-Clause"
+      "BSD License": "Apache-2.0 AND BSD-3-Clause"
+      "Dual License": "Apache-2.0 AND BSD-3-Clause"

@@ -1,0 +1,9 @@
+- id: "PyPI::pypeln:0.1.9"
+  curations:
+    comment: |
+      Package code repository does not have a tag for this version, see
+      https://github.com/cgarciae/pypeln/releases.
+      Manually found version 0.1.9 from commit history, see
+      https://github.com/cgarciae/pypeln/commit/9b6533bf856d5b34db3177e32c39a608787df699.
+    vcs:
+      revision: "9b6533bf856d5b34db3177e32c39a608787df699"

@@ -1,0 +1,10 @@
+- id: "PyPI::appnope:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/minrk/appnope/blob/0.1.3/LICENSE,
+      https://github.com/minrk/appnope/blob/0.1.3/setup.py#L45 and
+      https://github.com/minrk/appnope/blob/0.1.3/setup.py#L50.
+    declared_license_mapping:
+      "BSD": "BSD-2-Clause"
+      "BSD License": "BSD-2-Clause"

@@ -1,0 +1,9 @@
+- id: "PyPI::pandocfilters:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/jgm/pandocfilters/blob/1.5.0/LICENSE,
+      https://github.com/jgm/pandocfilters/blob/1.5.0/setup.py#L17 and
+      https://github.com/jgm/pandocfilters/blob/1.5.0/setup.py#L25.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

@@ -1,0 +1,10 @@
+- id: "PyPI::imageio:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/imageio/imageio/blob/v2.5.0/LICENSE,
+      https://github.com/imageio/imageio/blob/v2.5.0/setup.py#L209 and
+      https://github.com/imageio/imageio/blob/v2.5.0/setup.py#L235.
+    declared_license_mapping:
+      "(new) BSD": "BSD-2-Clause"
+      "BSD License": "BSD-2-Clause"

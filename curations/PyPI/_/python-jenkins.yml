@@ -1,0 +1,10 @@
+- id: "PyPI::python-jenkins:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://opendev.org/jjb/python-jenkins/src/tag/1.8.1/COPYING,
+      https://opendev.org/jjb/python-jenkins/src/tag/1.8.1/setup.cfg#L9 and
+      https://opendev.org/jjb/python-jenkins/src/tag/1.8.1/setup.cfg#L19.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

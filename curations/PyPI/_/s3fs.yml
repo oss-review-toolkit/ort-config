@@ -1,0 +1,10 @@
+- id: "PyPI::s3fs:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/fsspec/s3fs/blob/2023.6.0/LICENSE.txt,
+      https://github.com/fsspec/s3fs/blob/2023.6.0/setup.py#L21 and
+      https://github.com/fsspec/s3fs/blob/2023.6.0/setup.py#L32.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

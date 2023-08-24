@@ -1,0 +1,6 @@
+- id: "PyPI::azure-mgmt-advisor:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "sdk/advisor/azure-mgmt-advisor"

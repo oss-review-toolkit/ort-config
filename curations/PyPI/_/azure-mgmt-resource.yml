@@ -1,0 +1,6 @@
+- id: "PyPI::azure-mgmt-resource:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "sdk/resources/azure-mgmt-resource"

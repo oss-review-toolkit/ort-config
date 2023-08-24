@@ -1,0 +1,9 @@
+- id: "PyPI::papermill:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/nteract/papermill/blob/2.3.4/LICENSE,
+      https://github.com/nteract/papermill/blob/2.3.4/setup.py#L72 and
+      https://github.com/nteract/papermill/blob/2.3.4/setup.py#L93.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

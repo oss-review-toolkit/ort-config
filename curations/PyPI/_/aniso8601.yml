@@ -1,0 +1,8 @@
+- id: "PyPI::aniso8601:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://bitbucket.org/nielsenb/aniso8601/src/v9.0.0/LICENSE and
+      https://bitbucket.org/nielsenb/aniso8601/src/v9.0.0/setup.py#lines-34.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

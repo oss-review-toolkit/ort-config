@@ -1,0 +1,10 @@
+- id: "PyPI::behave:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/behave/behave/blob/v1.2.5/LICENSE,
+      https://github.com/behave/behave/blob/v1.2.5/setup.py#L83 and
+      https://github.com/behave/behave/blob/v1.2.5/setup.py#L98.
+    declared_license_mapping:
+      "BSD": "BSD-2-Clause"
+      "BSD License": "BSD-2-Clause"

@@ -1,0 +1,10 @@
+- id: "PyPI::ijson:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/ICRAR/ijson/blob/v3.2.1/LICENSE.txt,
+      https://github.com/ICRAR/ijson/blob/v3.2.1/setup.py#L25 and
+      https://github.com/ICRAR/ijson/blob/v3.2.1/setup.py#L32.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

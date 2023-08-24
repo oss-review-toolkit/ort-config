@@ -1,0 +1,8 @@
+- id: "PyPI::pyhamcrest:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/hamcrest/PyHamcrest/blob/V2.0.4/LICENSE.txt and
+      https://github.com/hamcrest/PyHamcrest/blob/V2.0.4/pyproject.toml#L30.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

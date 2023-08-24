@@ -1,0 +1,9 @@
+- id: "PyPI::pyasn1-modules:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/etingof/pyasn1-modules/blob/v0.2.8/LICENSE.txt,
+      https://github.com/etingof/pyasn1-modules/blob/v0.2.8/setup.py#L28 and
+      https://github.com/etingof/pyasn1-modules/blob/v0.2.8/setup.py#L104.
+    declared_license_mapping:
+      "BSD License": "BSD-2-Clause"

@@ -1,0 +1,10 @@
+- id: "PyPI::colorama:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/tartley/colorama/blob/v0.3.3/LICENSE.txt,
+      https://github.com/tartley/colorama/blob/v0.3.3/setup.py#L46 and
+      https://github.com/tartley/colorama/blob/v0.3.3/setup.py#L53.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

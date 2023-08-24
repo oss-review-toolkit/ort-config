@@ -1,0 +1,10 @@
+- id: "PyPI::flask-restful:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/flask-restful/flask-restful/blob/v0.3.9/LICENSE,
+      https://github.com/flask-restful/flask-restful/blob/v0.3.9/setup.py#L34 and
+      https://github.com/flask-restful/flask-restful/blob/v0.3.9/setup.py#L50.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

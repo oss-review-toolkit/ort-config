@@ -1,0 +1,9 @@
+- id: "PyPI::voila:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/voila-dashboards/voila/blob/v0.5.1/LICENSE,
+      https://github.com/voila-dashboards/voila/blob/v0.5.1/pyproject.toml#L28 and
+      https://github.com/voila-dashboards/voila/blob/v0.5.1/pyproject.toml#L51-L52.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"
