@@ -1,0 +1,10 @@
+- id: "PyPI::mistune:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/lepture/mistune/blob/v0.8.4/LICENSE,
+      https://github.com/lepture/mistune/blob/v0.8.4/setup.py#L20 and
+      https://github.com/lepture/mistune/blob/v0.8.4/setup.py#L30.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

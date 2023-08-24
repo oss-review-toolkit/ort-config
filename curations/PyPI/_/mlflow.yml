@@ -1,7 +1,7 @@
-- id: "PyPI::tensorflow:"
+- id: "PyPI::mlflow:"
   curations:
     comment: |
       Code repository location missing in package metadata.
     vcs:
       type: "Git"
-      url: "https://github.com/tensorflow/tensorflow.git"
+      url: "ssh://git@github.com:mlflow/mlflow.git"

@@ -1,0 +1,10 @@
+- id: "PyPI::docutils:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://repo.or.cz/docutils.git/blob/3d2c17378766866d6f43f30be95d1d1d944f29c8:/COPYING.txt,
+      https://repo.or.cz/docutils.git/blob/3d2c17378766866d6f43f30be95d1d1d944f29c8:/setup.py#l39 and
+      https://repo.or.cz/docutils.git/blob/3d2c17378766866d6f43f30be95d1d1d944f29c8:/setup.py#l89.
+    declared_license_mapping:
+      "BSD License": "BSD-2-Clause"
+      "GNU General Public License (GPL)": "GPL-3.0-or-later"

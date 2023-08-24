@@ -1,0 +1,9 @@
+- id: "PyPI::sphinxcontrib-serializinghtml:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/sphinx-doc/sphinxcontrib-serializinghtml/blob/1.1.6/LICENSE,
+      https://github.com/sphinx-doc/sphinxcontrib-serializinghtml/blob/1.1.9/pyproject.toml#L16 and
+      https://github.com/sphinx-doc/sphinxcontrib-serializinghtml/blob/1.1.9/pyproject.toml#L26.
+    declared_license_mapping:
+      "BSD License": "BSD-2-Clause"

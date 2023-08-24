@@ -1,0 +1,10 @@
+- id: "PyPI::pockets:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/RobRuana/pockets/blob/777724c/LICENSE,
+      https://github.com/RobRuana/pockets/blob/777724c/setup.py#L23 and
+      https://github.com/RobRuana/pockets/blob/777724c/setup.py#L34.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

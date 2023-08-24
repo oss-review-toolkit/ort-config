@@ -1,0 +1,8 @@
+- id: "PyPI::celery:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/celery/celery/blob/v4.2.2/LICENSE and
+      https://github.com/celery/celery/blob/v4.2.2/setup.py#L84.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

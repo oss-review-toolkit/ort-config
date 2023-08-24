@@ -1,0 +1,7 @@
+- id: "PyPI::ipython:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/ipython/ipython/blob/7.9.0/LICENSE.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

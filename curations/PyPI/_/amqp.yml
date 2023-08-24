@@ -1,0 +1,8 @@
+- id: "PyPI::amqp:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/celery/py-amqp/blob/v2.4.2/LICENSE and
+      https://github.com/celery/py-amqp/blob/v2.4.2/setup.py#L29.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

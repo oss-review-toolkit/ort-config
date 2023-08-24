@@ -1,0 +1,9 @@
+- id: "PyPI::snowballstemmer:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/snowballstem/snowball/blob/v2.2.0/COPYING,
+      https://github.com/snowballstem/snowball/blob/v2.2.0/python/setup.py#L39 and
+      https://github.com/snowballstem/snowball/blob/v2.2.0/python/setup.py#L74.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

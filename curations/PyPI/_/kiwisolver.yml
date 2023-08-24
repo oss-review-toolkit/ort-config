@@ -1,0 +1,8 @@
+- id: "PyPI::kiwisolver:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/nucleic/kiwi/blob/1.4.5/LICENSE and
+      https://github.com/nucleic/kiwi/blob/1.4.5/pyproject.toml#L22.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

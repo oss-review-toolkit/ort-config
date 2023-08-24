@@ -1,0 +1,8 @@
+- id: "PyPI::jira:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/pycontribs/jira/blob/3.5.1/LICENSE and
+      https://github.com/pycontribs/jira/blob/3.5.1/setup.cfg#L29.
+    declared_license_mapping:
+      "BSD License": "BSD-2-Clause"

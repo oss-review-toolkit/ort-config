@@ -1,0 +1,10 @@
+- id: "PyPI::isodate:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/gweis/isodate/blob/0.6.1/setup.py#L3-L26,
+      https://github.com/gweis/isodate/blob/0.6.1/setup.py#L50 and
+      https://github.com/gweis/isodate/blob/0.6.1/setup.py#L61.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

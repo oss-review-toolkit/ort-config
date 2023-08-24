@@ -1,0 +1,30 @@
+- id: "PyPI::pycryptodomex:"
+  curations:
+    comment: |
+      Set package code repository location so all applicable licenses can be found.
+    source_artifact:
+      url: ""
+      hash:
+        value: ""
+        algorithm: ""
+    vcs:
+      type: "Git"
+      url: "https://github.com/Legrandin/pycryptodome"
+- id: "PyPI::pycryptodome:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/Legrandin/pycryptodome/blob/v3.9.9/LICENSE.rst,
+      https://github.com/Legrandin/pycryptodome/blob/v3.9.9/setup.py#L480-L482 and
+      https://github.com/Legrandin/pycryptodome/blob/v3.9.9/setup.py#L498.
+    declared_license_mapping:
+      "Apache Software License": "Apache-2.0 AND BSD-2-Clause AND LicenseRef-scancode-public-domain"
+      "BSD License": "Apache-2.0 AND BSD-2-Clause AND LicenseRef-scancode-public-domain"
+      "BSD, Public Domain, Apache": "Apache-2.0 AND BSD-2-Clause AND LicenseRef-scancode-public-domain"
+      "Public Domain": "Apache-2.0 AND BSD-2-Clause AND LicenseRef-scancode-public-domain"
+- id: "PyPI::pycryptodome:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "lib/Crypto"

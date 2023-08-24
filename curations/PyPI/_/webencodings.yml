@@ -1,0 +1,10 @@
+- id: "PyPI::webencodings:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/gsnedders/python-webencodings/blob/v0.5.1/LICENSE,
+      https://github.com/gsnedders/python-webencodings/blob/v0.5.1/setup.py#L22 and
+      https://github.com/gsnedders/python-webencodings/blob/v0.5.1/setup.py#L32.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

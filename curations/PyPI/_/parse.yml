@@ -1,0 +1,8 @@
+- id: "PyPI::parse:"
+  curations:
+    comment: |
+      The declared license is incorrect. Mapping declared license based on
+      https://github.com/r1chardj0n3s/parse/blob/1.18.0/LICENSE and
+      https://github.com/r1chardj0n3s/parse/blob/1.18.0/setup.py#L32.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

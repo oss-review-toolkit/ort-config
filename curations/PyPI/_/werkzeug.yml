@@ -1,0 +1,9 @@
+- id: "PyPI::werkzeug:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/pallets/werkzeug/blob/2.3.7/LICENSE.rst,
+      https://github.com/pallets/werkzeug/blob/2.3.7/pyproject.toml#L5 and
+      https://github.com/pallets/werkzeug/blob/2.3.7/pyproject.toml#L11.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

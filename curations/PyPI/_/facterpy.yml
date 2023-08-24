@@ -1,0 +1,10 @@
+- id: "PyPI::facterpy:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/knorby/facterpy/blob/v0.1/LICENSE,
+      https://github.com/knorby/facterpy/blob/v0.1/setup.py#L21 and
+      https://github.com/knorby/facterpy/blob/v0.1/setup.py#L31.
+    declared_license_mapping:
+      "BSD": "BSD-2-Clause"
+      "BSD License": "BSD-2-Clause"

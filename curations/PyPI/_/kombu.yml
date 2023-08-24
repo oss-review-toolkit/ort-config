@@ -1,0 +1,10 @@
+- id: "PyPI::kombu:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/celery/kombu/blob/v4.6.11/LICENSE,
+      https://github.com/celery/kombu/blob/v4.6.11/setup.py#L119 and
+      https://github.com/celery/kombu/blob/v4.6.11/setup.py#L142.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

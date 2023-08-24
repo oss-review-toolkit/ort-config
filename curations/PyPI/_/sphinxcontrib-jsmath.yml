@@ -1,0 +1,9 @@
+- id: "PyPI::sphinxcontrib-jsmath:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/sphinx-doc/sphinxcontrib-jsmath/blob/1.0.1/LICENSE,
+      https://github.com/sphinx-doc/sphinxcontrib-jsmath/blob/1.0.1/setup.py#L36 and
+      https://github.com/sphinx-doc/sphinxcontrib-jsmath/blob/1.0.1/setup.py#L48.
+    declared_license_mapping:
+      "BSD License": "BSD-2-Clause"

@@ -1,0 +1,10 @@
+- id: "PyPI::shapely:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/jupyter-widgets/ipywidgets/blob/v5.0.0/COPYING.md,
+      https://github.com/shapely/shapely/blob/1.7.1/setup.py#L198 and
+      https://github.com/shapely/shapely/blob/1.7.1/setup.py#L218.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"
