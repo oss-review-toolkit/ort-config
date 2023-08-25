@@ -1,7 +1,8 @@
 - id: "PyPI::asgiref:(,4.0.0["
   curations:
     comment: |
-      The library is licensed under BSD-3-Clause, see:
-      https://github.com/django/asgiref/blob/main/LICENSE
+      Mapping declared license based on
+      https://github.com/django/asgiref/blob/3.6.0/LICENSE and
+      https://github.com/django/asgiref/blob/3.6.0/setup.cfg#L14.
     declared_license_mapping:
       "BSD License": "BSD-3-Clause"

@@ -1,7 +1,10 @@
 - id: "PyPI::fakeredis:(,2.0.0["
   curations:
     comment: |
-      The library is licensed under BSD-3-Clause, see:
-      https://github.com/jamesls/fakeredis/blob/master/COPYING
+      Mapping declared license based on
+      https://github.com/jamesls/fakeredis/blob/v0.4.1/COPYING,
+      https://github.com/jamesls/fakeredis/blob/v0.4.1/setup.py#L12 and
+      https://github.com/jamesls/fakeredis/blob/v0.4.1/setup.py#L21.
     declared_license_mapping:
+      "BSD": "BSD-3-Clause"
       "BSD License": "BSD-3-Clause"

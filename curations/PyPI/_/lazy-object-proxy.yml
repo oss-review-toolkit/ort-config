@@ -1,7 +1,9 @@
-- id: "PyPI::lazy-object-proxy:(,2.0.0["
+- id: "PyPI::lazy-object-proxy:"
   curations:
     comment: |
-      The library is licensed under BSD-2-Clause, see:
-      https://github.com/ionelmc/python-lazy-object-proxy/blob/master/LICENSE
+      Mapping declared license based on
+      https://github.com/ionelmc/python-lazy-object-proxy/blob/v1.9.0/LICENSE,
+      https://github.com/ionelmc/python-lazy-object-proxy/blob/v1.9.0/setup.py#L79 and
+      https://github.com/ionelmc/python-lazy-object-proxy/blob/v1.9.0/setup.py#L97
     declared_license_mapping:
       "BSD License": "BSD-2-Clause"
