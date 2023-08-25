@@ -1,7 +1,9 @@
-- id: "PyPI::starlette:(,1.0.0["
+- id: "PyPI::starlette"
   curations:
     comment: |
-      The library is licensed under BSD-3-Clause, see:
-      https://github.com/encode/starlette/blob/master/LICENSE.md
+      Mapping declared license based on
+      https://github.com/encode/starlette/blob/0.31.0/LICENSE.md,
+      https://github.com/encode/starlette/blob/0.31.0/pyproject.toml#L10 and
+      https://github.com/encode/starlette/blob/0.31.0/pyproject.toml#L20.
     declared_license_mapping:
-      "BSD License": "BSD-3-Clause"
+      "BSD License": "BSD-2-Clause"

@@ -1,7 +1,11 @@
-- id: "PyPI::packaging:(,22.0["
+- id: "PyPI::packaging:"
   curations:
     comment: |
-      The library is licensed under BSD-2-Clause, see:
-      https://github.com/pypa/packaging/blob/main/LICENSE.BSD
+      Mapping declared license based on
+      https://github.com/pypa/packaging/blob/20.9/LICENSE,
+      https://github.com/pypa/packaging/blob/20.9/LICENSE.BSD,
+      https://github.com/pypa/packaging/blob/20.9/LICENSE.APACHE and
+      https://github.com/pypa/packaging/blob/20.9/setup.py#L56-L57.
     declared_license_mapping:
-      "BSD License": "BSD-2-Clause"
+      Apache Software License: "Apache-2.0 OR BSD-2-Clause"
+      BSD License: "Apache-2.0 OR BSD-2-Clause"

@@ -10,7 +10,7 @@
     vcs:
       type: "Git"
       url: "https://github.com/Legrandin/pycryptodome"
-- id: "PyPI::pycryptodome:"
+- id: "PyPI::pycryptodomex:"
   curations:
     comment: |
       Mapping declared license based on
@@ -22,7 +22,7 @@
       "BSD License": "Apache-2.0 AND BSD-2-Clause AND LicenseRef-scancode-public-domain"
       "BSD, Public Domain, Apache": "Apache-2.0 AND BSD-2-Clause AND LicenseRef-scancode-public-domain"
       "Public Domain": "Apache-2.0 AND BSD-2-Clause AND LicenseRef-scancode-public-domain"
-- id: "PyPI::pycryptodome:"
+- id: "PyPI::pycryptodomex:"
   curations:
     comment: |
       Package resides in its own directory within project's code repository.
