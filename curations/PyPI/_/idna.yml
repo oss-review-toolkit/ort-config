@@ -1,7 +1,9 @@
-- id: "PyPI::idna:(,4.0["
+- id: "PyPI::idna:"
   curations:
     comment: |
-      The library is licensed under BSD-3-Clause, see:
-      https://github.com/kjd/idna/blob/master/LICENSE.md
+      Mapping declared license based on
+      https://github.com/kjd/idna/blob/v3.2/LICENSE.md,
+      https://github.com/kjd/idna/blob/v3.2/setup.py#L32 and
+      https://github.com/kjd/idna/blob/v3.2/setup.py#L38.
     declared_license_mapping:
       "BSD License": "BSD-3-Clause"
