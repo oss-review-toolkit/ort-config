@@ -1,0 +1,11 @@
+---
+id: "NPM::color-name:1.1.4"
+vcs:
+  type: "Git"
+  url: "https://github.com/colorjs/color-name.git"
+  revision: "4536ce5944f56659a2dfb2198eaf81b5ad5f2ad9"
+path_excludes:
+- pattern: "docs/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "test/**"
+  reason: "TEST_OF"
