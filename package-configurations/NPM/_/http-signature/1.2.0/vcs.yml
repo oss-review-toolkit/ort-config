@@ -1,0 +1,11 @@
+---
+id: "NPM::http-signature:1.2.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/TritonDataCenter/node-http-signature.git"
+  revision: "523e7c5a3a081e046813f62ab182e294a08eaf0d"
+path_excludes:
+- pattern: "docs/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "test/**"
+  reason: "TEST_OF"
