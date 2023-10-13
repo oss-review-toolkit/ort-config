@@ -2,9 +2,9 @@ name: Generate and release curations
 
 on:
   workflow_dispatch:
-  release:
-    types:
-      - created
+  push:
+    tags:
+      - 'cariad_v[0-9]+.[0-9]+.[0-9]+'
 
 jobs:
   curations:
@@ -23,19 +23,12 @@ jobs:
           ./gradlew tasks --group "generate curations"
           ./gradlew -P githubUsername=oauth2 -P githubToken=${{ secrets.GITHUB_TOKEN }} generateAspNetCoreCuration
           ./gradlew tasks --group "verification"
-      - name: Upload results as artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: curations
-          path: curations
+
       - name: Create curations.tar.gz
         run: tar -czf curations.tar.gz -C curations/ .
-      - name: Upload curations.tar.gz
-        uses: actions/upload-release-asset@v1.0.2
+
+      - name: Create GitHub Release
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
-        with:
-          upload_url: ${{ github.event.release.upload_url }}
-          asset_path: ./curations.tar.gz
-          asset_name: curations.tar.gz
-          asset_content_type: application/gzip
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create ${{ github.ref_name }} --generate-notes --latest ./curations.tar.gz
