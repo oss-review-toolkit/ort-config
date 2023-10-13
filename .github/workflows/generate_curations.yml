@@ -2,9 +2,9 @@ name: Generate and release curations
 
 on:
   workflow_dispatch:
-  push:
-    tags:
-      - cariad_v*
+  release:
+    types:
+      - created
 
 jobs:
   curations:
