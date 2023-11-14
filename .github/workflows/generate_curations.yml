@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     tags:
-      - 'cariad_v[0-9]+.[0-9]+.[0-9]+'
+      - "cariad_v[0-9]+.[0-9]+.[0-9]+"
 
 jobs:
   curations:
@@ -28,7 +28,15 @@ jobs:
         run: tar -czf curations.tar.gz -C curations/ .
 
       - name: Create GitHub Release
+        if: ${{ github.event_name == 'push' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release create ${{ github.ref_name }} --generate-notes --latest ./curations.tar.gz
+
+      - name: Upload to artifactory
+        run: |
+          echo "${{ secrets.PLATOSS_CERT_BASE64  }}" | base64 -d > platoss-bundle.pem
+          echo "${{ secrets.PLATOSS_KEY_BASE64  }}" | base64 -d >> platoss-bundle.pem
+          curl --cert platoss-bundle.pem -u "${{ secrets.PLATOSS_JFROG_USER }}:${{ secrets.PLATOSS_JFROG_TOKEN }}" -T ./curations.tar.gz \
+            "https://jfrog.hub.vwgroup.com/artifactory/optima-generic-internal/test/curations.tar.gz"
