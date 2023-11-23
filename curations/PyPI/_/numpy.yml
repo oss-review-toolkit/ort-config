@@ -1,0 +1,7 @@
+- id: "PyPI::numpy"
+  curations:
+    comment: |
+      The library is licensed under BSD-3-Clause, see:
+      https://github.com/numpy/numpy/blob/main/LICENSE.txt
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"
