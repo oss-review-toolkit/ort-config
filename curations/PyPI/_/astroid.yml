@@ -1,7 +1,9 @@
-- id: "PyPI::astroid:(,3.0.0["
+- id: "PyPI::astroid:"
   curations:
     comment: |
-      The library is licensed under LGPL-2.1-or-later, see:
-      https://github.com/PyCQA/astroid/blob/main/LICENSE
+      Mapping declared license based on
+      https://github.com/pylint-dev/astroid/blob/v2.8.1/LICENSE,
+      https://github.com/pylint-dev/astroid/blob/v2.8.1/setup.cfg#L10 and
+      https://github.com/pylint-dev/astroid/blob/v2.8.1/setup.cfg#L16.
     declared_license_mapping:
       "GNU Lesser General Public License v2 (LGPLv2)": "LGPL-2.1-or-later"

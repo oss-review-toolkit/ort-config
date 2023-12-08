@@ -1,0 +1,9 @@
+- id: "PyPI::jq:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/mwilliamson/jq.py/blob/1.2.1/LICENSE,
+      https://github.com/mwilliamson/jq.py/blob/1.2.1/setup.py#L121 and
+      https://github.com/mwilliamson/jq.py/blob/1.2.1/setup.py#L127.
+    declared_license_mapping:
+      "BSD License": "BSD-2-Clause"

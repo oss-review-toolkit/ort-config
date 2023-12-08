@@ -1,0 +1,6 @@
+- id: "PyPI::azure-mgmt-dns:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "sdk/network/azure-mgmt-dns"

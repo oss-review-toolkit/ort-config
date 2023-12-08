@@ -1,0 +1,9 @@
+- id: "PyPI::psutil:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/giampaolo/psutil/blob/release-5.9.3/LICENSE,
+      https://github.com/giampaolo/psutil/blob/release-5.9.3/setup.py#L363 and
+      https://github.com/giampaolo/psutil/blob/release-5.9.3/setup.py#L373.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

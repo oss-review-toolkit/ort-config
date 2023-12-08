@@ -1,0 +1,8 @@
+- id: "PyPI::numpy:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/numpy/numpy/blob/v1.25.0/LICENSE.txt and
+      https://github.com/numpy/numpy/blob/v1.25.0/setup.py#L91.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

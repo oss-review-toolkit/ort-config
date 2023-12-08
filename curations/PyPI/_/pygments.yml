@@ -1,0 +1,9 @@
+- id: "PyPI::pygments:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/pygments/pygments/blob/2.16.1/LICENSE,
+      https://github.com/pygments/pygments/blob/2.16.1/pyproject.toml#L10 and
+      https://github.com/pygments/pygments/blob/2.16.1/pyproject.toml#L28.
+    declared_license_mapping:
+      "BSD License": "BSD-2-Clause"

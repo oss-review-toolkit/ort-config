@@ -1,0 +1,10 @@
+- id: "PyPI::tifffile:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/cgohlke/tifffile/blob/v2023.8.12/LICENSE,
+      https://github.com/cgohlke/tifffile/blob/v2023.8.12/setup.py#L72 and
+      https://github.com/cgohlke/tifffile/blob/v2023.8.12/setup.py#L130.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

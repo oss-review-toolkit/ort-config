@@ -1,0 +1,7 @@
+- id: "PyPI::traittypes:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://files.pythonhosted.org/packages/8a/71/0578e44d2110f93c2136eb705f5b11e706e1e8ea3acaaaeac043bd40d8fd/traittypes-0.2.1.tar.gz.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

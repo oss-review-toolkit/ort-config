@@ -1,0 +1,9 @@
+- id: "PyPI::pandas:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/pandas-dev/pandas/blob/v1.3.5/LICENSE,
+      https://github.com/pandas-dev/pandas/blob/v1.3.5/setup.cfg#L10 and
+      https://github.com/pandas-dev/pandas/blob/v1.3.5/setup.cfg#L16.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

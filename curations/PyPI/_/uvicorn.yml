@@ -1,7 +1,9 @@
-- id: "PyPI::uvicorn:(,1.0.0["
+- id: "PyPI::uvicorn:"
   curations:
     comment: |
-      The library is licensed under BSD-3-Clause, see:
-      https://github.com/encode/uvicorn/blob/master/LICENSE.md
+      Mapping declared license based on
+      https://github.com/encode/uvicorn/blob/0.23.2/LICENSE.md,
+      https://github.com/encode/uvicorn/blob/0.23.2/pyproject.toml#L10 and
+      https://github.com/encode/uvicorn/blob/0.23.2/pyproject.toml#L19.
     declared_license_mapping:
       "BSD License": "BSD-3-Clause"

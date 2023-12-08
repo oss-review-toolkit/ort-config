@@ -1,0 +1,8 @@
+- id: "PyPI::nbformat:"
+  curations:
+    comment: |
+      The declared license is ambiguous. Map it according to the root license, see
+      https://github.com/jupyter/nbformat/blob/373d926154d47fa09c453958720786f8ee8aa737/setup.py#L76 and
+      https://github.com/jupyter/nbformat/blob/373d926154d47fa09c453958720786f8ee8aa737/COPYING.md.
+    declared_license_mapping:
+      BSD License: "BSD-3-Clause"

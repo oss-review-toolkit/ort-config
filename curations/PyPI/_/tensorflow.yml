@@ -1,0 +1,7 @@
+- id: "PyPI::tensorflow:"
+  curations:
+    comment: |
+      Code repository location missing in package metadata.
+    vcs:
+      type: "Git"
+      url: "https://github.com/tensorflow/tensorflow.git"

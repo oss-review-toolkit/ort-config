@@ -1,0 +1,10 @@
+- id: "PyPI::oauthlib:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/oauthlib/oauthlib/blob/v3.2.2/LICENSE,
+      https://github.com/oauthlib/oauthlib/blob/v3.2.2/setup.py#L35 and
+      https://github.com/oauthlib/oauthlib/blob/v3.2.2/setup.py#L48.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

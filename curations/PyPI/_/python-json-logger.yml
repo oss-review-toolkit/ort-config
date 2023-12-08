@@ -1,0 +1,10 @@
+- id: "PyPI::python-json-logger:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/madzak/python-json-logger/blob/v2.0.7/LICENSE,
+      https://github.com/madzak/python-json-logger/blob/v2.0.7/setup.py#L13 and
+      https://github.com/madzak/python-json-logger/blob/v2.0.7/setup.py#L29.
+    declared_license_mapping:
+      "BSD": "BSD-2-Clause"
+      "BSD License": "BSD-2-Clause"

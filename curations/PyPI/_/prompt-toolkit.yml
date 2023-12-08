@@ -1,0 +1,8 @@
+- id: "PyPI::prompt-toolkit:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/prompt-toolkit/python-prompt-toolkit/blob/3.0.32/LICENSE and
+      https://github.com/prompt-toolkit/python-prompt-toolkit/blob/3.0.32/setup.py#L49.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

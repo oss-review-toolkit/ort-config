@@ -1,0 +1,9 @@
+- id: "PyPI::threadpoolctl:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/joblib/threadpoolctl/blob/3.2.0/LICENSE,
+      https://github.com/joblib/threadpoolctl/blob/3.2.0/pyproject.toml#L12 and
+      https://github.com/joblib/threadpoolctl/blob/3.2.0/pyproject.toml#L15.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

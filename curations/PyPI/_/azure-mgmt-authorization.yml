@@ -1,0 +1,6 @@
+- id: "PyPI::azure-mgmt-authorization:"
+  curations:
+    comment: |
+      Package resides in its own directory within project's code repository.
+    vcs:
+      path: "sdk/authorization/azure-mgmt-authorization"

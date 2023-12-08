@@ -1,0 +1,8 @@
+- id: "PyPI::gitdb:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/gitpython-developers/gitdb/blob/4.0.10/LICENSE and
+      https://github.com/gitpython-developers/gitdb/blob/4.0.10/setup.py#L21.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

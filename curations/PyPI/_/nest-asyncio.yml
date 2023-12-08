@@ -1,0 +1,10 @@
+- id: "PyPI::nest-asyncio:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/erdewit/nest_asyncio/blob/v1.5.1/LICENSE,
+      https://github.com/erdewit/nest_asyncio/blob/v1.5.1/setup.cfg#L6 and
+      https://github.com/erdewit/nest_asyncio/blob/v1.5.1/setup.cfg#L16C1-L16C1.
+    declared_license_mapping:
+      "BSD": "BSD-2-Clause"
+      "BSD License": "BSD-2-Clause"

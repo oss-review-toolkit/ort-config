@@ -1,0 +1,8 @@
+- id: "PyPI::pyproj:(,2.6.0["
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/pyproj4/pyproj/blob/v2.0.2/LICENSE and
+      https://github.com/pyproj4/pyproj/blob/v2.0.2/setup.py#L174.
+    declared_license_mapping:
+      "OSI Approved": "MIT"

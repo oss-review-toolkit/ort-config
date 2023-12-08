@@ -1,0 +1,10 @@
+- id: "PyPI::glob2:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/miracle2k/python-glob2/blob/v0.7/LICENSE,
+      https://github.com/miracle2k/python-glob2/blob/v0.7/setup.py#L30 and
+      https://github.com/miracle2k/python-glob2/blob/v0.7/setup.py#L35.
+    declared_license_mapping:
+      "BSD": "BSD-2-Clause"
+      "BSD License": "BSD-2-Clause"

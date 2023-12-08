@@ -1,0 +1,10 @@
+- id: "PyPI::pydata-sphinx-theme:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/pydata/pydata-sphinx-theme/blob/v0.7.1/LICENSE,
+      https://github.com/pydata/pydata-sphinx-theme/blob/v0.7.1/setup.py#L43 and
+      https://github.com/pydata/pydata-sphinx-theme/blob/v0.7.1/setup.py#L62.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

@@ -1,0 +1,16 @@
+- id: "PyPI::opencv-contrib-python:"
+  curations:
+    comment: |
+      Code repository location missing in package metadata,
+      package resides in its own directory within project's code repository.
+    vcs:
+      type: "Git"
+      url: "https://github.com/skvark/opencv-python.git"
+      path: "opencv_contrib"
+- id: "PyPI::opencv-contrib-python:4.1.2.30"
+  curations:
+    comment: |
+      Version is labeled with Git tag named '30' instead of 4.1.2.30.
+      Manually found the correct revision.
+    vcs:
+      revision: "61a7ec4441816d7ff8e951ba3f8ac1f10f6bd252"

@@ -1,0 +1,9 @@
+- id: "PyPI::commonmark:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/rolandshoemaker/CommonMark-py/blob/v0.5.2/LICENSE,
+      https://github.com/rolandshoemaker/CommonMark-py/blob/v0.5.2/setup.py#L9 and
+      https://github.com/rolandshoemaker/CommonMark-py/blob/v0.5.2/setup.py#L23.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

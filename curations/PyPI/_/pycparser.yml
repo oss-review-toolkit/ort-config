@@ -1,7 +1,10 @@
-- id: "PyPI::pycparser:(,3.0["
+- id: "PyPI::pycparser:"
   curations:
     comment: |
-      The library is licensed under BSD-3-Clause, see:
-      https://github.com/eliben/pycparser/blob/master/LICENSE
+      Mapping declared license based on
+      https://github.com/eliben/pycparser/blob/release_v2.21/LICENSE,
+      https://github.com/eliben/pycparser/blob/release_v2.21/setup.py#L45 and
+      https://github.com/eliben/pycparser/blob/release_v2.21/setup.py#L54.
     declared_license_mapping:
+      "BSD": "BSD-3-Clause"
       "BSD License": "BSD-3-Clause"

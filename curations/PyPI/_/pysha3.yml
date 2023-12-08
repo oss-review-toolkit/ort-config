@@ -1,0 +1,9 @@
+- id: "PyPI::pysha3:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/tiran/pysha3/blob/0.3/LICENSE,
+      https://github.com/tiran/pysha3/blob/0.3/setup.py#L72 and
+      https://github.com/tiran/pysha3/blob/0.3/setup.py#L78-L79.
+    declared_license_mapping:
+      'PSFL (Keccak: CC0 1.0 Universal)': "PSF-2.0 AND CC0-1.0"

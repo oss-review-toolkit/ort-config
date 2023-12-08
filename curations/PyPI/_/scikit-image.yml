@@ -1,0 +1,14 @@
+- id: "PyPI::scikit-image:"
+  curations:
+    comment: |
+      Code repository location missing in package metadata.
+    vcs:
+      type: "Git"
+      url: "https://github.com/scikit-image/scikit-image.git"
+- id: "PyPI::scikit-image:"
+  curations:
+    comment: |
+      The declared license is ambiguous. Map it according to the root license, see
+      https://github.com/scikit-image/scikit-image/blob/v0.18.1/LICENSE.txt.
+    declared_license_mapping:
+      BSD License: "BSD-3-Clause"

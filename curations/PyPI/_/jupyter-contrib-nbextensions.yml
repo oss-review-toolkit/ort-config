@@ -1,0 +1,11 @@
+- id: "PyPI::jupyter-contrib-nbextensions:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/ipython-contrib/jupyter_contrib_nbextensions/blob/0.7.0/COPYING.rst,
+      https://github.com/ipython-contrib/jupyter_contrib_nbextensions/blob/0.7.0/LICENSE.txt,
+      https://github.com/ipython-contrib/jupyter_contrib_nbextensions/blob/0.7.0/setup.py#L52 and
+      https://github.com/ipython-contrib/jupyter_contrib_nbextensions/blob/0.7.0/setup.py#L106.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

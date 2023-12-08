@@ -1,0 +1,7 @@
+- id: "PyPI::typing:"
+  curations:
+    comment: |
+      Code repository location missing in package metadata.
+    vcs:
+      type: "Git"
+      url: "https://github.com/python/typing.git"

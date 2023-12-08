@@ -1,0 +1,9 @@
+- id: "PyPI::protobuf:"
+  curations:
+    comment: |
+      Code repository location missing in package metadata,
+      package resides in its own directory within project's code repository.
+    vcs:
+      type: "Git"
+      url: "https://github.com/protocolbuffers/protobuf.git"
+      path: "python"

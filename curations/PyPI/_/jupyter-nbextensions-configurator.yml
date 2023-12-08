@@ -1,0 +1,9 @@
+- id: "PyPI::jupyter-nbextensions-configurator:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator/blob/0.6.3/LICENSE.txt,
+      https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator/blob/0.6.3/setup.py#L35 and
+      https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator/blob/0.6.3/setup.py#L85.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"

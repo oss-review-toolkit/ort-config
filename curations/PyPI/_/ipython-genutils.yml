@@ -1,0 +1,10 @@
+- id: "PyPI::ipython-genutils:"
+  curations:
+    comment: |
+      Mapping declared license based on
+      https://github.com/ipython/ipython_genutils/blob/0.2.0/COPYING.md,
+      https://github.com/ipython/ipython_genutils/blob/0.2.0/setup.py#L59 and
+      https://github.com/ipython/ipython_genutils/blob/0.2.0/setup.py#L66.
+    declared_license_mapping:
+      "BSD": "BSD-3-Clause"
+      "BSD License": "BSD-3-Clause"

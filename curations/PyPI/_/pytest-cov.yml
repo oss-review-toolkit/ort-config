@@ -1,0 +1,9 @@
+- id: "PyPI::pytest-cov:"
+  curations:
+    comment: |
+      The declared license is incorrect. Mapping declared license based on
+      https://github.com/pytest-dev/pytest-cov/blob/v2.11.1/LICENSE,
+      https://github.com/pytest-dev/pytest-cov/blob/v2.11.1/setup.py#L89 and
+      https://github.com/pytest-dev/pytest-cov/blob/v2.11.1/setup.py#L105.
+    declared_license_mapping:
+      "BSD License": "MIT"

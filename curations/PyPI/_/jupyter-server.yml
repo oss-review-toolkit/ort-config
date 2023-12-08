@@ -1,0 +1,8 @@
+- id: "PyPI::jupyter-server:"
+  curations:
+    comment: |
+      Mapping declared license based on,
+      https://github.com/jupyter-server/jupyter_server/blob/v2.7.2/LICENSE and
+      https://github.com/jupyter-server/jupyter_server/blob/v2.7.2/pyproject.toml#L19.
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"
