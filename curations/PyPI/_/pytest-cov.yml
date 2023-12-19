@@ -1,0 +1,15 @@
+- id: "PyPI::pytest-cov:(,4.1.0]"
+  curations:
+    comment: |
+      The library is licensed under MIT, but according to 
+      this [Pull Request](https://github.com/pytest-dev/pytest-cov/pull/467),
+      the project metadata was mistakenly stating `BSD License`.
+      All versions below 2.12.0 are impacted by this issue.
+      Current (4.1.0) license: https://github.com/pytest-dev/pytest-cov/blob/2c9f2170d8575b21bafb6402eb30ca7de31e20b9/LICENSE
+      Current project metadata: https://github.com/pytest-dev/pytest-cov/blob/2c9f2170d8575b21bafb6402eb30ca7de31e20b9/setup.py
+      License at 2.12.0: https://github.com/pytest-dev/pytest-cov/blob/9692bad8c3501b77cf950d0732ae9cb5c8bb0bd4/LICENSE
+      Project metadata at 2.12.0: https://github.com/pytest-dev/pytest-cov/blob/9692bad8c3501b77cf950d0732ae9cb5c8bb0bd4/setup.py
+      License before 2.12.0: https://github.com/pytest-dev/pytest-cov/blob/5e1913e013eb06d5bd1357695349d0a75fbf0503/LICENSE
+      Project metadata before 2.12.0: https://github.com/pytest-dev/pytest-cov/blob/5e1913e013eb06d5bd1357695349d0a75fbf0503/setup.py
+    declared_license_mapping:
+      "BSD License": "MIT"
