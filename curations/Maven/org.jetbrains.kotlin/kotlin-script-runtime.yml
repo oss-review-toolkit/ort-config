@@ -1,0 +1,8 @@
+- id: "Maven:org.jetbrains.kotlin:kotlin-script-runtime:"
+  curations:
+    comment: |
+      Enforce scanning the source artifact for all 'org.jetbrains.kotlin' libraries, because figuring out the relevant
+      files in the VCS is
+      complex.
+    vcs:
+      url: ""
