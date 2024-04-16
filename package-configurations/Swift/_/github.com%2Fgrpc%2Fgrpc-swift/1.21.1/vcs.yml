@@ -14,7 +14,7 @@ path_excludes:
 license_finding_curations:
   - path: "CONTRIBUTING.md"
     start_lines: "11"
-    line_count: 5
+    line_count: 4
     detected_license: "NOASSERTION"
     reason: "DOCUMENTATION_OF"
     comment: "This is a contribution file"

@@ -6,8 +6,8 @@ vcs:
   revision: "025bcb1165deab2e20d4eaba79967ce73013f496"
 license_finding_curations:
 - path: "README.md"
-  start_lines: "64"
-  line_count: 1
+  start_lines: "62"
+  line_count: 5
   detected_license: "NOASSERTION"
   concluded_license: "Apache-2.0 WITH Swift-exception"
   reason: "INCORRECT"

@@ -12,7 +12,7 @@ path_excludes:
     reason: "DOCUMENTATION_OF"
     comment: "This directory contains git related data"
 license_finding_curations:
-  - path: "NOTICE.txt	"
+  - path: "NOTICE.txt"
     start_lines: "41"
     line_count: 1
     detected_license: "NOASSERTION"
