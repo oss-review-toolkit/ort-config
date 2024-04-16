@@ -1,0 +1,63 @@
+---
+id: "Swift::github.com/apple/swift-nio:2.64.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-nio.git"
+  revision: "fc63f0cf4e55a4597407a9fc95b16a2bc44b4982"
+path_excludes:
+  - pattern: "**/Tests/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains documentation which is not distributed."
+  - pattern: "**/.github/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains git related data"
+license_finding_curations:
+  - path: "CONTRIBUTING.md"
+    start_lines: "5"
+    line_count: 2
+    detected_license: "NOASSERTION"
+    reason: "INCORRECT"
+    comment: "This is a contribution file"
+    concluded_license: "Apache-2.0"
+  - path: "scripts/soundness.sh"
+    start_lines: "64"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    reason: "INCORRECT"
+    comment: "This is a script file"
+    concluded_license: "Apache-2.0"
+  - path: "scripts/soundness.sh"
+    start_lines: "83"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    reason: "INCORRECT"
+    comment: "This is a script file"
+    concluded_license: "Apache-2.0"
+  - path: "scripts/soundness.sh"
+    start_lines: "102"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    reason: "INCORRECT"
+    comment: "This is a script file"
+    concluded_license: "Apache-2.0"
+  - path: "scripts/soundness.sh"
+    start_lines: "121"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    reason: "INCORRECT"
+    comment: "This is a script file"
+    concluded_license: "Apache-2.0"
+  - path: "NOTICE.txt"
+    start_lines: "41"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    reason: "DOCUMENTATION_OF"
+    comment: "This is a NOTICE file"
+    concluded_license: "Apache-2.0"
+  - path: "NOTICE.txt"
+    start_lines: "87"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    reason: "DOCUMENTATION_OF"
+    comment: "This is a NOTICE file"
+    concluded_license: "Apache-2.0"
