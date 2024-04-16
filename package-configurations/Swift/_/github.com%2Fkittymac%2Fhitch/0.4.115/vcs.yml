@@ -1,0 +1,21 @@
+---
+id: "Swift::github.com/kittymac/hitch:0.4.115"
+vcs:
+  type: "Git"
+  url: "https://github.com/KittyMac/Hitch.git"
+  revision: "0698c164bd972c15e64f517dba63716b7217087b"
+license_finding_curations:
+- path: "Sources/Hitch/Hitch+MD5.swift"
+  start_lines: "13"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "README.md"
+  start_lines: "109"
+  line_count: 3
+  detected_license: "GPL-2.0-or-later"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Matched to 'no GNU-like copyleft restrictions.'"

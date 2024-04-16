@@ -1,0 +1,25 @@
+---
+id: "Swift::github.com/apple/swift-collections:1.0.3"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-collections.git"
+  revision: "f504716c27d2e5d4144fa4794b12129301d17729"
+path_excludes:
+  - pattern: "**/.github/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains git related data"
+license_finding_curations:
+- path: "CONTRIBUTING.md"
+  start_lines: "3"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0 WITH Swift-exception"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "README.md"
+  start_lines: "97"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0 WITH Swift-exception"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

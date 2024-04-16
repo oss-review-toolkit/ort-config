@@ -1,0 +1,22 @@
+id: "Swift::github.com/grpc/grpc-swift:1.11.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/grpc/grpc-swift.git"
+  revision: "87cecdeb2aae6b359b754d0dc7099e8237cf1824"
+license_finding_curations:
+  - path: "CONTRIBUTING.md"
+    start_lines: "11"
+    line_count: 4
+    detected_license: "NOASSERTION"
+    reason: "DOCUMENTATION_OF"
+    comment: "This is a contribution file"
+    concluded_license: "Apache-2.0"
+  - path: "Performance/allocations/test-allocation-counts.sh"
+    concluded_license: "Apache-2.0"
+    reason: "INCORRECT"
+  - path: "Performance/allocations/test-utils.sh"
+    concluded_license: "Apache-2.0"
+    reason: "INCORRECT"
+  - path: "Performance/allocations/tests/run-allocation-counter-tests.sh"
+    concluded_license: "Apache-2.0"
+    reason: "INCORRECT"

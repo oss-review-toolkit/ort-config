@@ -1,0 +1,49 @@
+---
+id: "Swift::github.com/apple/swift-nio-extras:1.10.2"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-nio-extras.git"
+  revision: "f73ca5ee9c6806800243f1ac415fcf82de9a4c91"
+license_finding_curations:
+- path: "CONTRIBUTING.md"
+  start_lines: "5"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Referece to LICENSE file"
+- path: "NOTICE.txt"
+  start_lines: "32"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Referece to Apache-2.0 website"
+- path: "scripts/generate_linux_tests.rb"
+  start_lines: "40"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"
+- path: "scripts/soundness.sh"
+  start_lines: "84"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"
+- path: "scripts/soundness.sh"
+  start_lines: "103"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"
+- path: "scripts/soundness.sh"
+  start_lines: "122"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"
