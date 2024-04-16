@@ -7,7 +7,7 @@ vcs:
 license_finding_curations:
 - path: "README.md"
   start_lines: "62"
-  line_count: 5
+  line_count: 3
   detected_license: "NOASSERTION"
   concluded_license: "Apache-2.0 WITH Swift-exception"
   reason: "INCORRECT"
