@@ -1,0 +1,56 @@
+---
+id: "Swift::github.com/apple/swift-nio-ssl:2.26.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-nio-ssl.git"
+  revision: "7c381eb6083542b124a6c18fae742f55001dc2b5"
+license_finding_curations:
+- path: "CONTRIBUTING.md"
+  start_lines: "5"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Referece to LICENSE file"
+- path: "NOTICE.md"
+  start_lines: "41"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Referece to Apache-2.0 website"
+- path: "scripts/soundness.sh"
+  start_lines: "70"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"
+- path: "scripts/soundness.sh"
+  start_lines: "89"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"
+- path: "scripts/soundness.sh"
+  start_lines: "108"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"
+- path: "scripts/soundness.sh"
+  start_lines: "127"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"
+- path: "scripts/vendor-boringssl.sh"
+  start_lines: "9"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"

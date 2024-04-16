@@ -1,0 +1,14 @@
+---
+id: "Swift::github.com/kittymac/hitch:0.4.127"
+vcs:
+  type: "Git"
+  url: "https://github.com/KittyMac/Hitch.git"
+  revision: "b80898f91efe103980766313e536516b8846f23d"
+license_finding_curations:
+- path: "Sources/Hitch/Hitch+MD5.swift"
+  start_lines: "13"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

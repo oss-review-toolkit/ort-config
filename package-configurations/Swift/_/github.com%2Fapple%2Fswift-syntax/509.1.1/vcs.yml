@@ -1,0 +1,14 @@
+---
+id: "Swift::github.com/apple/swift-syntax:509.1.1"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/apple/swift-syntax.git"
+  revision: "64889f0c732f210a935a0ad7cda38f77f876262d"
+license_finding_curations:
+- path: "README.md"
+  start_lines: "117"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0 WITH Swift-exception"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
