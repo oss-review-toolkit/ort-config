@@ -1,0 +1,49 @@
+---
+id: "Swift::github.com/apple/swift-metrics:2.4.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-metrics.git"
+  revision: "971ba26378ab69c43737ee7ba967a896cb74c0d1"
+license_finding_curations:
+- path: "CONTRIBUTING.md"
+  start_lines: "5"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Referece to LICENSE file"
+- path: "NOTICE.md"
+  start_lines: "32"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Referece to Apache-2.0 website"
+- path: "scripts/generate_linux_tests.rb"
+  start_lines: "42"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Referece to LICENSE file"
+- path: "scripts/soundness.sh"
+  start_lines: "99"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"
+- path: "scripts/soundness.sh"
+  start_lines: "118"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"
+- path: "scripts/soundness.sh"
+  start_lines: "137"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"

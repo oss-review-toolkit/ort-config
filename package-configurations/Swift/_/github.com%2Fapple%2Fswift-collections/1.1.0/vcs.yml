@@ -1,0 +1,67 @@
+---
+id: "Swift::github.com/apple/swift-collections:1.1.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-collections.git"
+  revision: "94cf62b3ba8d4bed62680a282d4c25f9c63c2efb"
+path_excludes:
+  - pattern: "**/.github/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains git related data"
+license_finding_curations:
+- path: "CONTRIBUTING.md"
+  start_lines: "3"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0 WITH Swift-exception"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "README.md"
+  start_lines: "125"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0 WITH Swift-exception"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "Sources/HashTreeCollections/HashNode/_UnsafePath.swift"
+  start_lines: "262"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Matches to 'As a special exception'"
+- path: "Sources/HashTreeCollections/HashNode/_UnsafePath.swift"
+  start_lines: "277"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Matches to 'As a special exception'"
+- path: "Sources/HashTreeCollections/TreeDictionary/TreeDictionary+Collection.swift"
+  start_lines: "215"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Matches to 'As a special exception'"
+- path: "Sources/HashTreeCollections/TreeDictionary/TreeDictionary+Collection.swift"
+  start_lines: "243"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Matches to 'As a special exception'"
+- path: "Sources/HashTreeCollections/TreeSet/TreeSet+Collection.swift"
+  start_lines: "215"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Matches to 'As a special exception'"
+- path: "Sources/HashTreeCollections/TreeSet/TreeSet+Collection.swift"
+  start_lines: "243"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Matches to 'As a special exception'"
