@@ -1,0 +1,21 @@
+---
+id: "Swift::github.com/open-telemetry/opentelemetry-swift:1.7.0"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/open-telemetry/opentelemetry-swift.git"
+  revision: "8d6fa745c186e3b7556f330b5236da25fa7c9d62"
+license_finding_curations:
+- path: "CONTRIBUTING.md"
+  start_lines: "6"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Referece to Contributor License Agreement"
+- path: "CONTRIBUTING.md"
+  start_lines: "102"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Referece to Contributor License Agreement"

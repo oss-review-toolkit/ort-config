@@ -1,0 +1,42 @@
+---
+id: "Swift::github.com/apple/swift-http-types:1.0.3"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-http-types.git"
+  revision: "12358d55a3824bd5fed310b999ea8cf83a9a1a65"
+license_finding_curations:
+- path: "NOTICE.txt"
+  start_lines: "32"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Reference to Apache-2.0 website"
+- path: "scripts/soundness.sh"
+  start_lines: "76"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"
+- path: "scripts/soundness.sh"
+  start_lines: "95"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"
+- path: "scripts/soundness.sh"
+  start_lines: "114"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"
+- path: "scripts/soundness.sh"
+  start_lines: "133"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"
