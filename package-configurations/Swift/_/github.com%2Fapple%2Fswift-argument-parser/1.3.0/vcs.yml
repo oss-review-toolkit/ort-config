@@ -5,10 +5,10 @@ vcs:
   url: "https://github.com/apple/swift-argument-parser.git"
   revision: "c8ed701b513cf5177118a175d85fbbbcd707ab41"
 license_finding_curations:
-  - path: "CONTRIBUTING.md"
-    start_lines: "3"
-    line_count: 1
-    detected_license: "NOASSERTION"
-    concluded_license: "Apache-2.0 WITH Swift-exception"
-    reason: "INCORRECT"
-    comment: "Matching to Apache-2.0 WITH Swift-exception"
+- path: "CONTRIBUTING.md"
+  start_lines: "3"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0 WITH Swift-exception"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE"

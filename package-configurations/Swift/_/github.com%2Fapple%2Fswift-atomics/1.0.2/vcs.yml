@@ -1,0 +1,28 @@
+---
+id: "Swift::github.com/apple/swift-atomics:1.0.2"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-atomics.git"
+  revision: "919eb1d83e02121cdb434c7bfc1f0c66ef17febe"
+path_excludes:
+  - pattern: "**/Tests/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains documentation which is not distributed."
+  - pattern: "**/.github/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains git related data"
+license_finding_curations:
+  - path: "README.md"
+    start_lines: "180"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    reason: "DOCUMENTATION_OF"
+    comment: "This is a readme file"
+    concluded_license: "Apache-2.0 WITH Swift-exception"
+  - path: "CONTRIBUTING.md"
+    start_lines: "3"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    reason: "DOCUMENTATION_OF"
+    comment: "This is a contribution file"
+    concluded_license: "Apache-2.0 WITH Swift-exception"
