@@ -1,0 +1,14 @@
+---
+id: "Swift::github.com/lunij/snapshotkit:0.1.0"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/lunij/SnapshotKit.git"
+  revision: "2cae5f2d5f082efaa32685148d0a38afc9fd610b"
+license_finding_curations:
+- path: "README.md"
+  start_lines: "219"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "Referece to LICENSE file"

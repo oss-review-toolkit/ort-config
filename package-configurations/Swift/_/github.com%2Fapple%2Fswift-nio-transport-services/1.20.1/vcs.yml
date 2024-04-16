@@ -1,0 +1,35 @@
+---
+id: "Swift::github.com/apple/swift-nio-transport-services:1.20.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-nio-transport-services.git"
+  revision: "6cbe0ed2b394f21ab0d46b9f0c50c6be964968ce"
+license_finding_curations:
+- path: "scripts/soundness.sh"
+  start_lines: "53"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"
+- path: "scripts/soundness.sh"
+  start_lines: "72"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"
+- path: "scripts/soundness.sh"
+  start_lines: "91"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"
+- path: "scripts/soundness.sh"
+  start_lines: "110"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  reason: "INCORRECT"
+  comment: "This is a script file"
+  concluded_license: "Apache-2.0"
