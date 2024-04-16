@@ -1,0 +1,14 @@
+---
+id: "Swift::github.com/apple/swift-argument-parser:1.1.4"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-argument-parser.git"
+  revision: "9f39744e025c7d377987f30b03770805dcb0bcd1"
+license_finding_curations:
+  - path: "CONTRIBUTING.md"
+    start_lines: "3"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    concluded_license: "Apache-2.0 WITH Swift-exception"
+    reason: "INCORRECT"
+    comment: "Matching to Apache-2.0 WITH Swift-exception"
