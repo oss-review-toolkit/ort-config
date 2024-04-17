@@ -1,0 +1,35 @@
+---
+id: "Swift::github.com/swift-server/swift-backtrace:1.3.4"
+vcs:
+  type: "Git"
+  url: "https://github.com/swift-server/swift-backtrace.git"
+  revision: "80746bdd0ac8a7d83aad5d89dac3cbf15de652e6"
+license_finding_curations:
+- path: "scripts/generate_linux_tests.rb"
+  start_lines: "42"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "scripts/soundness.sh"
+  start_lines: "70"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "scripts/soundness.sh"
+  start_lines: "89"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "scripts/soundness.sh"
+  start_lines: "108"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

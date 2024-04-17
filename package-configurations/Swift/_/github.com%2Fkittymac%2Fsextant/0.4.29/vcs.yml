@@ -1,0 +1,14 @@
+---
+id: "Swift::github.com/kittymac/sextant:0.4.29"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/KittyMac/Sextant.git"
+  revision: "7c940fcb7a84c9d1a310707f91e1710c9803d8ea"
+license_finding_curations:
+- path: "README.md"
+  start_lines: "380"
+  line_count: 3
+  detected_license: "GPL-3.0-only"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "Matches to no GNU-like 'copyleft' restrictions"

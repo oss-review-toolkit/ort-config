@@ -1,0 +1,35 @@
+---
+id: "Swift::github.com/swift-server/swift-service-lifecycle:1.0.0-alpha.11"
+vcs:
+  type: "Git"
+  url: "https://github.com/swift-server/swift-service-lifecycle.git"
+  revision: "22363fed316cd9942b56bcd1a1df8875df79b794"
+license_finding_curations:
+- path: "scripts/generate_linux_tests.rb"
+  start_lines: "42"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "scripts/soundness.sh"
+  start_lines: "86"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "scripts/soundness.sh"
+  start_lines: "105"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "scripts/soundness.sh"
+  start_lines: "124"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

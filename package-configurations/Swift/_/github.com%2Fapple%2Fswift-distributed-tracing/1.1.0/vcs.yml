@@ -1,0 +1,28 @@
+---
+id: "Swift::github.com/apple/swift-distributed-tracing:1.1.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-distributed-tracing.git"
+  revision: "7fbb8b23b77ee548b3d0686b6faf735c1b3c7cb8"
+license_finding_curations:
+- path: "scripts/validate_license_headers.sh"
+  start_lines: "60"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "scripts/validate_license_headers.sh"
+  start_lines: "79"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "scripts/validate_license_headers.sh"
+  start_lines: "89"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
