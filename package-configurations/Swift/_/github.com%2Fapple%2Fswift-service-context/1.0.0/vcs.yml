@@ -1,0 +1,35 @@
+---
+id: "Swift::github.com/apple/swift-service-context:1.0.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-service-context.git"
+  revision: "ce0141c8f123132dbd02fd45fea448018762df1b"
+license_finding_curations:
+- path: "scripts/generate_linux_tests.rb"
+  start_lines: "44"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "scripts/validate_license_headers.sh"
+  start_lines: "62"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "scripts/validate_license_headers.sh"
+  start_lines: "82"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "scripts/validate_license_headers.sh"
+  start_lines: "102"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

@@ -1,0 +1,45 @@
+---
+id: "Swift::github.com/google/flatbuffers:23.5.26"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/google/flatbuffers.git"
+  revision: "0100f6a5779831fa7a651e4b67ef389a8752bd9b"
+path_excludes:
+  - pattern: "**/Tests/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains documentation which is not distributed."
+  - pattern: "**/.github/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains git related data"
+  - pattern: "**/docs/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains documentation"
+license_finding_curations:
+  - path: "CONTRIBUTING.md"
+    start_lines: "42"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    reason: "INCORRECT"
+    comment: "This is a contribution file"
+    concluded_license: "NONE"
+  - path: "package.json"
+    start_lines: "32"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    reason: "INCORRECT"
+    comment: "Reference to LICENSE"
+    concluded_license: "Apache-2.0"
+  - path: "python/setup.cfg"
+    start_lines: "5"
+    line_count: 2
+    detected_license: "NOASSERTION"
+    reason: "INCORRECT"
+    comment: "Reference to LICENSE"
+    concluded_license: "Apache-2.0"
+  - path: "python/setup.py"
+    start_lines: "21"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    reason: "INCORRECT"
+    comment: "Reference to LICENSE"
+    concluded_license: "Apache-2.0"
