@@ -18,4 +18,4 @@ license_finding_curations:
   detected_license: "NOASSERTION"
   concluded_license: "NONE"
   reason: "INCORRECT"
-  comment: "Generatior for manual"
+  comment: "Generator for manual"
