@@ -1,35 +1,28 @@
-#
-# License classification generated based on https://scancode-licensedb.aboutcode.org/.
-#
-# This ORT configuration file is provided as an example only. It
-# demonstrates the general configuration capabilities of ORT and does not
-# reflect any real-world configuration used by the ORT contributors, nor
-# are they a recommendation on the configuration to use.
-#
-# Please consult your legal counsel about how ORT should be configured for your use cases.
-#
-# For detailed documentation on this file, see
-# https://github.com/oss-review-toolkit/ort/blob/main/docs/config-file-license-classifications-yml.md.
-#
 ---
+# Example license-classifications.yml based on categorization from
+# https://github.com/nexB/scancode-toolkit/commit/ed644e4
+#
+# To demonstrate how one can insert a custom written offer
+# include-source-code-offer-in-notice-file has been set to
+# true for all licenses of the GPL family.
 categories:
-- name: "cla"
-- name: "commercial"
 - name: "copyleft"
+- name: "strong-copyleft"
 - name: "copyleft-limited"
-- name: "free-restricted"
-- name: "generic"
-- name: "include-in-notice-file"
-- name: "include-source-code-offer-in-notice-file"
-- name: "patent-license"
 - name: "permissive"
-- name: "proprietary-free"
+  description: "Licenses with permissive obligations."
 - name: "public-domain"
-- name: "source-available"
-- name: "unknown"
-- name: "unstated-license"
+- name: "include-in-notice-file"
+  description: >-
+    This category is checked by templates used by the ORT report generator. The licenses associated with this
+    category are included into NOTICE files.
+- name: "include-source-code-offer-in-notice-file"
+  description: >-
+    A marker category that indicates that the licenses assigned to it require that the source code of the packages
+    needs to be provided.
+
 categorizations:
-- id: "0BSD"
+- id: "AGPL-1.0"
   categories:
   - "permissive"
   - "include-in-notice-file"
@@ -65,12 +58,18 @@ categorizations:
   categories:
   - "permissive"
   - "include-in-notice-file"
+  - "include-source-code-offer-in-notice-file"
 - id: "AGPL-1.0-only"
   categories:
   - "copyleft"
   - "include-in-notice-file"
   - "include-source-code-offer-in-notice-file"
 - id: "AGPL-1.0-or-later"
+  categories:
+  - "copyleft"
+  - "include-in-notice-file"
+  - "include-source-code-offer-in-notice-file"
+- id: "AGPL-3.0"
   categories:
   - "copyleft"
   - "include-in-notice-file"
@@ -195,39 +194,14 @@ categorizations:
   categories:
   - "permissive"
   - "include-in-notice-file"
-- id: "Apache-2.0 WITH Swift-exception"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "App-s2p"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "Arphic-1999"
-  categories:
-  - "copyleft"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
 - id: "Artistic-1.0"
   categories:
   - "copyleft-limited"
   - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "Artistic-1.0-Perl"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "Artistic-1.0-cl8"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
 - id: "Artistic-2.0"
   categories:
   - "copyleft-limited"
   - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
 - id: "BSD-1-Clause"
   categories:
   - "permissive"
@@ -244,7 +218,7 @@ categorizations:
   categories:
   - "permissive"
   - "include-in-notice-file"
-- id: "BSD-2-Clause-Views"
+- id: "BSD-2-Clause-NetBSD"
   categories:
   - "permissive"
   - "include-in-notice-file"
@@ -309,10 +283,6 @@ categorizations:
   - "permissive"
   - "include-in-notice-file"
 - id: "BSD-4-Clause"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "BSD-4-Clause-Shortened"
   categories:
   - "permissive"
   - "include-in-notice-file"
@@ -451,10 +421,6 @@ categorizations:
   - "permissive"
   - "include-in-notice-file"
 - id: "CC-BY-2.5"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "CC-BY-2.5-AU"
   categories:
   - "permissive"
   - "include-in-notice-file"
@@ -668,7 +634,6 @@ categorizations:
   categories:
   - "copyleft-limited"
   - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
 - id: "CDDL-1.1"
   categories:
   - "copyleft-limited"
@@ -900,40 +865,19 @@ categorizations:
   categories:
   - "copyleft-limited"
   - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
 - id: "EPL-2.0"
   categories:
   - "copyleft-limited"
   - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "EUDatagrid"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "EUPL-1.0"
-  categories:
-  - "copyleft"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
 - id: "EUPL-1.1"
   categories:
   - "copyleft-limited"
   - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
 - id: "EUPL-1.2"
   categories:
   - "copyleft-limited"
   - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "Elastic-2.0"
-  categories:
-  - "source-available"
-  - "include-in-notice-file"
-- id: "Entessa"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "ErlPL-1.1"
+- id: "GPL-1.0+"
   categories:
   - "copyleft"
   - "include-in-notice-file"
@@ -1120,6 +1064,16 @@ categorizations:
   - "copyleft"
   - "include-in-notice-file"
   - "include-source-code-offer-in-notice-file"
+- id: "GPL-2.0"
+  categories:
+  - "copyleft"
+  - "include-in-notice-file"
+  - "include-source-code-offer-in-notice-file"
+- id: "GPL-2.0+"
+  categories:
+  - "copyleft"
+  - "include-in-notice-file"
+  - "include-source-code-offer-in-notice-file"
 - id: "GPL-2.0-only"
   categories:
   - "copyleft"
@@ -1130,32 +1084,27 @@ categorizations:
   - "copyleft-limited"
   - "include-in-notice-file"
   - "include-source-code-offer-in-notice-file"
+- id: "GPL-2.0-only WITH Font-exception-2.0"
+  categories:
+  - "copyleft-limited"
+  - "include-in-notice-file"
+  - "include-source-code-offer-in-notice-file"
 - id: "GPL-2.0-or-later"
   categories:
   - "copyleft"
   - "include-in-notice-file"
   - "include-source-code-offer-in-notice-file"
-- id: "GPL-2.0-or-later WITH Classpath-exception-2.0"
+- id: "GPL-3.0"
   categories:
-  - "copyleft-limited"
+  - "copyleft"
+  - "include-in-notice-file"
+  - "include-source-code-offer-in-notice-file"
+- id: "GPL-3.0+"
+  categories:
+  - "copyleft"
   - "include-in-notice-file"
   - "include-source-code-offer-in-notice-file"
 - id: "GPL-3.0-only"
-  categories:
-  - "copyleft"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "GPL-3.0-only WITH Autoconf-exception-3.0"
-  categories:
-  - "copyleft"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "GPL-3.0-only WITH Classpath-exception-2.0"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "GPL-3.0-only WITH GCC-exception-3.1"
   categories:
   - "copyleft"
   - "include-in-notice-file"
@@ -1388,41 +1337,10 @@ categorizations:
   categories:
   - "permissive"
   - "include-in-notice-file"
-- id: "Jam"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "JasPer-2.0"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "Kastrup"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "Kazlib"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "Knuth-CTAN"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "LAL-1.2"
-  categories:
-  - "copyleft"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "LAL-1.3"
-  categories:
-  - "copyleft"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
 - id: "LGPL-2.0-only"
   categories:
   - "copyleft-limited"
   - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
 - id: "LGPL-2.0-or-later"
   categories:
   - "copyleft-limited"
@@ -10326,44 +10244,17 @@ categorizations:
   categories:
   - "permissive"
   - "include-in-notice-file"
-- id: "MIT-open-group"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "MIT-testregex"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "MITNFA"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "MMIXware"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "MPEG-SSG"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
 - id: "MPL-1.0"
   categories:
   - "copyleft-limited"
   - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
 - id: "MPL-1.1"
   categories:
   - "copyleft-limited"
   - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
 - id: "MPL-2.0"
   categories:
   - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "MS-LPL"
-  categories:
-  - "permissive"
   - "include-in-notice-file"
 - id: "MS-PL"
   categories:
@@ -10575,189 +10466,14 @@ categorizations:
   categories:
   - "copyleft"
   - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "OFFIS"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
 - id: "OFL-1.0"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OFL-1.0-RFN"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OFL-1.0-no-RFN"
   categories:
   - "permissive"
   - "include-in-notice-file"
 - id: "OFL-1.1"
   categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "OFL-1.1-RFN"
-  categories:
   - "permissive"
   - "include-in-notice-file"
-- id: "OFL-1.1-no-RFN"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OGC-1.0"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OGDL-Taiwan-1.0"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OGL-Canada-2.0"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OGL-UK-1.0"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OGL-UK-2.0"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OGL-UK-3.0"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OGTSL"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "OLDAP-1.1"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "OLDAP-1.2"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "OLDAP-1.3"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "OLDAP-1.4"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "OLDAP-2.0"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OLDAP-2.0.1"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OLDAP-2.1"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OLDAP-2.2"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OLDAP-2.2.1"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OLDAP-2.2.2"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OLDAP-2.3"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OLDAP-2.4"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OLDAP-2.5"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OLDAP-2.6"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OLDAP-2.7"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OLDAP-2.8"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OLFL-1.3"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OML"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OPL-1.0"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "OPL-UK-3.0"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OPUBL-1.0"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "OSET-PL-2.1"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "OSL-1.0"
-  categories:
-  - "copyleft"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "OSL-1.1"
-  categories:
-  - "copyleft"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "OSL-2.0"
-  categories:
-  - "copyleft"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "OSL-2.1"
-  categories:
-  - "copyleft"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "OSL-3.0"
-  categories:
-  - "copyleft"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "OpenPBS-2.3"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
 - id: "OpenSSL"
   categories:
   - "permissive"
@@ -10774,15 +10490,11 @@ categorizations:
   categories:
   - "permissive"
   - "include-in-notice-file"
-- id: "PDDL-1.0"
-  categories:
-  - "public-domain"
-  - "include-in-notice-file"
-- id: "PHP-3.0"
+- id: "SSLeay-standalone"
   categories:
   - "permissive"
   - "include-in-notice-file"
-- id: "PHP-3.01"
+- id: "PSF"
   categories:
   - "permissive"
   - "include-in-notice-file"
@@ -10829,63 +10541,10 @@ categorizations:
   categories:
   - "permissive"
   - "include-in-notice-file"
-- id: "Python-2.0.1"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "QPL-1.0"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "QPL-1.0-INRIA-2004"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "Qhull"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "RHeCos-1.1"
-  categories:
-  - "copyleft"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "RPL-1.1"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "RPL-1.5"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "RPSL-1.0"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "RSA-MD"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "RSCPL"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "Rdisc"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
 - id: "Ruby"
   categories:
   - "copyleft-limited"
   - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
 - id: "SAX-PD"
   categories:
   - "public-domain"
@@ -11149,45 +10808,11 @@ categorizations:
   categories:
   - "public-domain"
   - "include-in-notice-file"
-- id: "VOSTROM"
-  categories:
-  - "copyleft"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "VSL-1.0"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "Vim"
-  categories:
-  - "copyleft"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
 - id: "W3C"
   categories:
   - "permissive"
   - "include-in-notice-file"
-- id: "W3C-19980720"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "W3C-20150513"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
 - id: "WTFPL"
-  categories:
-  - "public-domain"
-  - "include-in-notice-file"
-- id: "Watcom-1.0"
-  categories:
-  - "proprietary-free"
-  - "include-in-notice-file"
-- id: "Widget-Workshop"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "Wsuipa"
   categories:
   - "permissive"
   - "include-in-notice-file"
@@ -11195,78 +10820,6 @@ categorizations:
   categories:
   - "permissive"
   - "include-in-notice-file"
-- id: "X11-distribute-modifications-variant"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "XFree86-1.1"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "XSkat"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "Xdebug-1.03"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "Xerox"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "Xfig"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "Xnet"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "YPL-1.0"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "YPL-1.1"
-  categories:
-  - "copyleft"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "ZPL-1.1"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "ZPL-2.0"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "ZPL-2.1"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "Zed"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "Zeeff"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "Zend-2.0"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "Zimbra-1.3"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "Zimbra-1.4"
-  categories:
-  - "copyleft-limited"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
 - id: "Zlib"
   categories:
   - "permissive"
@@ -11281,30 +10834,12 @@ categorizations:
   - "include-in-notice-file"
 - id: "blessing"
   categories:
-  - "public-domain"
+  - "permissive"
   - "include-in-notice-file"
 - id: "bzip2-1.0.6"
   categories:
   - "permissive"
   - "include-in-notice-file"
-- id: "check-cvs"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "checkmk"
-  categories:
-  - "permissive"
-  - "include-in-notice-file"
-- id: "copyleft-next-0.3.0"
-  categories:
-  - "copyleft"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
-- id: "copyleft-next-0.3.1"
-  categories:
-  - "copyleft"
-  - "include-in-notice-file"
-  - "include-source-code-offer-in-notice-file"
 - id: "curl"
   categories:
   - "permissive"
