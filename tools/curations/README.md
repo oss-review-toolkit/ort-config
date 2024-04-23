@@ -28,9 +28,3 @@ To list all verification tasks use:
 ```
 ./gradlew tasks --group "verification"
 ```
-
-For example, to verify that all package curations adhere to the rules of this repository, use:
-
-```
-./gradlew verifyPackageCurations
-```

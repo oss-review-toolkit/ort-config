@@ -28,4 +28,4 @@ jobs:
     - name: Verify package configurations
       run: ./gradlew -p tools/curations verifyPackageConfigurations
     - name: Verify package curations
-      run: ./gradlew -p tools/curations verifyPackageCurations
+      run: ./scripts/verify-package-curations.main.kts
