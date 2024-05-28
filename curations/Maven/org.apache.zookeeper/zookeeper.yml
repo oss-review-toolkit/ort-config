@@ -9,7 +9,7 @@
     comment: |
       The POM accidentally sets the packaging to POM, while it should be JAR, and thus the package is classified as
       metadata only.
-    is_meta_data_only: false
+    is_metadata_only: false
 - id: "Maven:org.apache.zookeeper:zookeeper:"
   curations:
     comment: |

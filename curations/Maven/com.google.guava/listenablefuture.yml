@@ -7,4 +7,4 @@
   curations:
     comment: |
       The artifact is empty and does not have source code.
-    is_meta_data_only: true
+    is_metadata_only: true
