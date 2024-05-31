@@ -1,0 +1,25 @@
+---
+id: "PyPI::pytest-asyncio:0.21.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/5a/85/d39ef5f69d5597a206f213ce387bcdfa47922423875829f7a98a87d33281/pytest-asyncio-0.21.1.tar.gz"
+license_finding_curations:
+- path: "pytest-asyncio-0.21.1/PKG-INFO"
+  start_lines: "29"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "pytest-asyncio-0.21.1/pytest_asyncio.egg-info/PKG-INFO"
+  start_lines: "29"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "pytest-asyncio-0.21.1/setup.cfg"
+  start_lines: "16"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

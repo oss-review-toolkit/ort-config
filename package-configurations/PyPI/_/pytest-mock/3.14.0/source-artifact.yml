@@ -1,0 +1,11 @@
+---
+id: "PyPI::pytest-mock:3.14.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/c6/90/a955c3ab35ccd41ad4de556596fa86685bf4fc5ffcc62d22d856cfd4e29a/pytest-mock-3.14.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "28"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

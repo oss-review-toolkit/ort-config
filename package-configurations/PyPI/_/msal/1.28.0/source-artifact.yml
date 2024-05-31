@@ -1,0 +1,11 @@
+---
+id: "PyPI::msal:1.28.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/b3/2a/76e64e6a5f0d3d12f4b3ab2cfc8b5e4fcb6982d15213aad9c8e6b20ebeae/msal-1.28.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "27"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

@@ -1,0 +1,25 @@
+---
+id: "PyPI::typing-extensions:4.11.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/f6/f3/b827b3ab53b4e3d8513914586dcca61c355fa2ce8252dea4da56e67bf8f2/typing_extensions-4.11.0.tar.gz"
+license_finding_curations:
+- path: "**/LICENSE"
+  start_lines: "66"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Python-2.0"
+  reason: "INCORRECT"
+  comment: "Python-2.0 LICENSE file"
+- path: "**/pyproject.toml"
+  start_lines: "13"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/CHANGELOG.md"
+  start_lines: "168"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

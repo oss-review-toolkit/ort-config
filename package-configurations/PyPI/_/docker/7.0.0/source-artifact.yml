@@ -1,0 +1,11 @@
+---
+id: "PyPI::docker:7.0.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/25/14/7d40f8f64ceca63c741ee5b5611ead4fb8d3bcaf3e6ab57d2ab0f01712bc/docker-7.0.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "29"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

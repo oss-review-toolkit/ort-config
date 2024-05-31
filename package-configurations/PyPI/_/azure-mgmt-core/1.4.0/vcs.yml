@@ -1,0 +1,14 @@
+---
+id: "PyPI::azure-mgmt-core:1.4.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/Azure/azure-sdk-for-python.git"
+  revision: "fa77a41bf294c9d965ce25f31b46edfdd9398355"
+license_finding_curations:
+- path: "**/README.md"
+  start_lines: "11"
+  line_count: 10
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"

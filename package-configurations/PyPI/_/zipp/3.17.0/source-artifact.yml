@@ -1,0 +1,11 @@
+---
+id: "PyPI::zipp:3.17.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/58/03/dd5ccf4e06dec9537ecba8fcc67bbd4ea48a2791773e469e73f94c3ba9a6/zipp-3.17.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "14"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

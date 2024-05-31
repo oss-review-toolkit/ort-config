@@ -1,0 +1,24 @@
+id: "PyPI::azure-eventhub:5.11.5"
+source_artifact_url: "https://files.pythonhosted.org/packages/50/71/83efe010730a9f8fd4d1b9a66d43345dc33807d29c85dffc9dbeb030231c/azure-eventhub-5.11.5.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "21"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/PKG-INFO"
+  start_lines: "496"
+  line_count: 7
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "**/README.md"
+  start_lines: "472"
+  line_count: 7
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"

@@ -1,0 +1,11 @@
+---
+id: "PyPI::apscheduler:3.10.4"
+source_artifact_url: "https://files.pythonhosted.org/packages/5e/34/5dcb368cf89f93132d9a31bd3747962a9dc874480e54333b0c09fa7d56ac/APScheduler-3.10.4.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "32"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

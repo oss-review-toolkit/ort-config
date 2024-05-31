@@ -1,0 +1,39 @@
+---
+id: "PyPI::azure-keyvault-secrets:4.8.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/cf/e6/e8d647d7230006327fe3ee4ba713c267d456da9814bb3564b8bc960dd396/azure-keyvault-secrets-4.8.0.tar.gz"
+license_finding_curations:
+- path: "azure-keyvault-secrets-4.8.0/azure_keyvault_secrets.egg-info/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "azure-keyvault-secrets-4.8.0/azure_keyvault_secrets.egg-info/PKG-INFO"
+  start_lines: "352"
+  line_count: 10
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "azure-keyvault-secrets-4.8.0/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "azure-keyvault-secrets-4.8.0/PKG-INFO"
+  start_lines: "352"
+  line_count: 10
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "azure-keyvault-secrets-4.8.0/README.md"
+  start_lines: "352"
+  line_count: 10
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"

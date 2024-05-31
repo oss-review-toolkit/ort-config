@@ -1,0 +1,11 @@
+---
+id: "PyPI::docutils:0.21.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/ae/ed/aefcc8cd0ba62a0560c3c18c33925362d46c6075480bfa4df87b28e169a9/docutils-0.21.2.tar.gz"
+license_finding_curations:
+- path: "**/COPYING"
+  start_lines: "146,157,159"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Explaination of Licenses"

@@ -1,0 +1,11 @@
+---
+id: "PyPI::annotated-types:0.6.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/67/fe/8c7b275824c6d2cd17c93ee85d0ee81c090285b6d52f4876ccc47cf9c3c4/annotated_types-0.6.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "6"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

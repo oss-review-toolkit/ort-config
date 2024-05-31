@@ -1,0 +1,25 @@
+---
+id: "PyPI::tzdata:2023.4"
+source_artifact_url: "https://files.pythonhosted.org/packages/4d/60/acd18ca928cc20eace3497b616b6adb8ce1abc810dd4b1a22bc6bdefac92/tzdata-2023.4.tar.gz"
+license_finding_curations:
+- path: "tzdata-2023.4/PKG-INFO"
+  start_lines: "19"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Matched to LICENSE reference"
+- path: "tzdata-2023.4/setup.cfg"
+  start_lines: "11"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Matched to LICENSE reference"
+- path: "tzdata-2023.4/setup.cfg"
+  start_lines: "12"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Matched to LICENSE reference"

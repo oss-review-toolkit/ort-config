@@ -1,0 +1,29 @@
+---
+id: "PyPI::mypy:1.10.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/c3/b6/297734bb9f20ddf5e831cf4a83f422ddef5a29a33463999f0959d9cdc2df/mypy-1.10.0.tar.gz"
+path_excludes:
+  - pattern: "**/test-data/**"
+    reason: "TEST_OF"
+    comment: "This directory contains tests which are not distributed."
+license_finding_curations:
+- path: "mypy-1.10.0/LICENSE"
+  start_lines: "30,33"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/PKG-INFO"
+  start_lines: "26"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "mypy-1.10.0/mypy/typeshed/LICENSE"
+  start_lines: "210"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

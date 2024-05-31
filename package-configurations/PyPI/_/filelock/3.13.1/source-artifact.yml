@@ -1,0 +1,18 @@
+---
+id: "PyPI::filelock:3.13.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/70/70/41905c80dcfe71b22fb06827b8eae65781783d4a14194bce79d16a013263/filelock-3.13.1.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "11"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/PKG-INFO"
+  start_lines: "15"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Unlicense"
+  reason: "INCORRECT"
+  comment: "Reference to Unlicense"

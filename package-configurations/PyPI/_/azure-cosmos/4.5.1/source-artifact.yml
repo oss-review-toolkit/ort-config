@@ -1,0 +1,25 @@
+---
+id: "PyPI::azure-cosmos:4.5.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/9c/2e/18e54cb9ffbb0e55b506dd5797a25b2d2d15bfdb34d0a5ba7a2a2c573f17/azure-cosmos-4.5.1.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "26"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/PKG-INFO"
+  start_lines: "749"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "**/README.md"
+  start_lines: "721"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"

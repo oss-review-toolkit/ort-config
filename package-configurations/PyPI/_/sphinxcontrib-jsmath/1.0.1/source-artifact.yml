@@ -1,0 +1,11 @@
+---
+id: "PyPI::sphinxcontrib-jsmath:1.0.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/b2/e8/9ed3830aeed71f17c026a07a5097edcf44b692850ef215b161b8ad875729/sphinxcontrib-jsmath-1.0.1.tar.gz"
+license_finding_curations:
+- path: "**/setup.cfg"
+  start_lines: "21"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

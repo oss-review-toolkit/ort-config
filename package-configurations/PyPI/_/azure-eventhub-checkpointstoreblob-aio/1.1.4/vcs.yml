@@ -1,0 +1,14 @@
+---
+id: "PyPI::azure-eventhub-checkpointstoreblob-aio:1.1.4"
+vcs:
+  type: "Git"
+  url: "https://github.com/Azure/azure-sdk-for-python.git"
+  revision: "3bc2c9cac829aa8a4e98b09d8efa5b1998acd9f9"
+license_finding_curations:
+- path: "**/README.md"
+  start_lines: "135"
+  line_count: 5
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"

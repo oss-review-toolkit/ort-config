@@ -1,0 +1,11 @@
+---
+id: "PyPI::pydantic-core:2.14.6"
+source_artifact_url: "https://files.pythonhosted.org/packages/b2/7d/8304d8471cfe4288f95a3065ebda56f9790d087edc356ad5bd83c89e2d79/pydantic_core-2.14.6.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "24"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

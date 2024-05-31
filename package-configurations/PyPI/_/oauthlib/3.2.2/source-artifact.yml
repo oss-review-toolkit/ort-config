@@ -1,0 +1,46 @@
+---
+id: "PyPI::oauthlib:3.2.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/6d/fa/fbf4001037904031639e6bfbfc02badfc7e12f137a8afa254df6c4c8a670/oauthlib-3.2.2.tar.gz"
+license_finding_curations:
+- path: "oauthlib-3.2.2/oauthlib.egg-info/PKG-INFO"
+  start_lines: "15"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Typo"
+- path: "oauthlib-3.2.2/oauthlib.egg-info/PKG-INFO"
+  start_lines: "37"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "oauthlib-3.2.2/PKG-INFO"
+  start_lines: "15"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Typo"
+- path: "oauthlib-3.2.2/PKG-INFO"
+  start_lines: "37"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "oauthlib-3.2.2/setup.cfg"
+  start_lines: "2"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "oauthlib-3.2.2/setup.py"
+  start_lines: "47"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Typo"

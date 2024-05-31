@@ -1,0 +1,25 @@
+---
+id: "PyPI::microsoft-kiota-authentication-azure:1.0.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/5c/3a/21929600c477eb5b1deab21db52fdd06d691950b839dd3a01a3085c480ba/microsoft_kiota_authentication_azure-1.0.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "42"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "**/README.md"
+  start_lines: "20"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/pyproject.toml"
+  start_lines: "15"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

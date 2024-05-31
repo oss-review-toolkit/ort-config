@@ -1,0 +1,53 @@
+---
+id: "PyPI::python-dateutil:2.9.0.post0"
+source_artifact_url: "https://files.pythonhosted.org/packages/66/c0/0c8b6ad9f17a802ee498c46e004a0eb49bc148f2fd230864601a86dcf6db/python-dateutil-2.9.0.post0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "10,34"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0 OR BSD-3-Clause"
+  reason: "INCORRECT"
+  comment: "Apache-2.0 OR BSD-3-Clause"
+- path: "**/setup.cfg"
+  start_lines: "16,17"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/README.rst"
+  start_lines: "164"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/NEWS"
+  start_lines: "390"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/NEWS"
+  start_lines: "848"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/CONTRIBUTING.md"
+  start_lines: "58"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0 OR BSD-3-Clause"
+  reason: "INCORRECT"
+  comment: "Apache-2.0 OR BSD-3-Clause"
+- path: "**/AUTHORS"
+  start_lines: "6,10,133"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Explaination of LICENSE history"

@@ -1,0 +1,29 @@
+---
+id: "PyPI::pygments:2.17.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/55/59/8bccf4157baf25e4aa5a0bb7fa3ba8600907de105ebc22b0c78cfbf6f565/pygments-2.17.2.tar.gz"
+path_excludes:
+  - pattern: "**/tests/**"
+    reason: "TEST_OF"
+    comment: "This directory contains tests which are not distributed."
+license_finding_curations:
+- path: "**/descriptions.rst"
+  start_lines: "18"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/PKG-INFO"
+  start_lines: "15,59"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/_mql_builtins.py"
+  start_lines: "643"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

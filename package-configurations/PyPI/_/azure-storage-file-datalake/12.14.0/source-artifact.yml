@@ -1,0 +1,32 @@
+---
+id: "PyPI::azure-storage-file-datalake:12.14.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/92/86/afa6634f1c1a4e5de001f81713d31d6cd1c1afeac82fb109150bab753151/azure-storage-file-datalake-12.14.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/PKG-INFO"
+  start_lines: "316"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/PKG-INFO"
+  start_lines: "316"
+  line_count: 4
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "**/README.md"
+  start_lines: "287"
+  line_count: 4
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"

@@ -1,0 +1,18 @@
+---
+id: "PyPI::fastapi:0.109.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/eb/62/b2c12c2a381040a1d77e1b4fd3e210ffb0488876e9b493069f56eb2db971/fastapi-0.109.1.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "10"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/models.py"
+  start_lines: "92"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

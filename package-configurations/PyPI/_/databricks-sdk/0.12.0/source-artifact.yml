@@ -1,0 +1,11 @@
+---
+id: "PyPI::databricks-sdk:0.12.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/ad/80/2e792fca32074f81d4329a1e0eae0d4a49e04fdd8100a0bbf9235cac5ba7/databricks-sdk-0.12.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "27"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

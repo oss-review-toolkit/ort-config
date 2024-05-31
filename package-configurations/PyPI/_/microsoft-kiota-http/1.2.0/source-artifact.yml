@@ -1,0 +1,25 @@
+---
+id: "PyPI::microsoft-kiota-http:1.2.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/b1/d7/ac40dc4804d2996f6790c6b60c284cd51746389bda35de1fad30b1030855/microsoft_kiota_http-1.2.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "42"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "**/pyproject.toml"
+  start_lines: "14"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/README.md"
+  start_lines: "20"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"

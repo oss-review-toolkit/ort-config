@@ -1,0 +1,11 @@
+---
+id: "PyPI::tzlocal:5.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/04/d3/c19d65ae67636fe63953b20c2e4a8ced4497ea232c43ff8d01db16de8dc0/tzlocal-5.2.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "24"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

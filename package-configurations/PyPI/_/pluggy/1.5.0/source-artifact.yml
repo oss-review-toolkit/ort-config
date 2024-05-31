@@ -1,0 +1,11 @@
+---
+id: "PyPI::pluggy:1.5.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/96/2d/02d4312c973c6050a18b314a5ad0b3210edb65a906f868e31c111dede4a6/pluggy-1.5.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "32"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

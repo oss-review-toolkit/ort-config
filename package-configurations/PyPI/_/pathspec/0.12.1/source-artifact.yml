@@ -1,0 +1,25 @@
+---
+id: "PyPI::pathspec:0.12.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/ca/bc/f35b8446f4531a7cb215605d100cd88b7ac6f44ab3fc94870c120ab3adbf/pathspec-0.12.1.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "131"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MPL-2.0"
+  reason: "INCORRECT"
+  comment: "Mozilla Public License 2.0"
+- path: "**/README.rst"
+  start_lines: "105"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "MPL-2.0"
+  reason: "INCORRECT"
+  comment: "Mozilla Public License 2.0"
+- path: "**/README-dist.rst"
+  start_lines: "105"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "MPL-2.0"
+  reason: "INCORRECT"
+  comment: "Mozilla Public License 2.0"
