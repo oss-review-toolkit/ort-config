@@ -1,0 +1,22 @@
+---
+id: "PyPI::pytest-mock:3.12.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/b3/96/25588c55fbe330b751bd7c7d723c3544957566bc090f6d506551b514f488/pytest-mock-3.12.0.tar.gz"
+path_excludes:
+  - pattern: "**/docs/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains documentation which is not distributed."
+license_finding_curations:
+- path: "pytest-mock-3.12.0/PKG-INFO"
+  start_lines: "30"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "pytest-mock-3.12.0/src/pytest_mock.egg-info/PKG-INFOO"
+  start_lines: "30"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

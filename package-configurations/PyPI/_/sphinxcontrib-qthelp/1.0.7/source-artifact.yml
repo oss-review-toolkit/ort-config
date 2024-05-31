@@ -1,0 +1,18 @@
+---
+id: "PyPI::sphinxcontrib-qthelp:1.0.7"
+source_artifact_url: "https://files.pythonhosted.org/packages/ac/29/705cd4e93e98a8473d62b5c32288e6de3f0c9660d3c97d4e80d3dbbad82b/sphinxcontrib_qthelp-1.0.7.tar.gz"
+license_finding_curations:
+- path: "**/sphinxcontrib.qthelp.po"
+  start_lines: "3"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/sphinxcontrib.qthelp.pot"
+  start_lines: "3"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

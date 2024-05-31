@@ -1,0 +1,11 @@
+---
+id: "PyPI::six:1.16.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/71/39/171f1c67cd00715f190ba0b100d606d440a28c93c7714febeca8b79af85e/six-1.16.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "9"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

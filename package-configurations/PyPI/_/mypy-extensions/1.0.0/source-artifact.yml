@@ -1,0 +1,11 @@
+---
+id: "PyPI::mypy-extensions:1.0.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/98/a4/1ab47638b92648243faf97a5aeb6ea83059cc3624972ab6b8d2316078d3f/mypy_extensions-1.0.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "23"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

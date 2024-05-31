@@ -1,0 +1,18 @@
+---
+id: "PyPI::pre-commit:3.6.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/04/bd/8a672a86e68f542c3f2ae17a9a8fa63babf16d1107be2f5290e5aa4369ba/pre_commit-3.6.2.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "16"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/PKG-INFO"
+  start_lines: "11"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

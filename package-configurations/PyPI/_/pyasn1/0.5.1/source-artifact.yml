@@ -1,0 +1,36 @@
+---
+id: "PyPI::pyasn1:0.5.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/ce/dc/996e5446a94627fe8192735c20300ca51535397e31e7097a3cc80ccf78b7/pyasn1-0.5.1.tar.gz"
+path_excludes:
+  - pattern: "**/docs/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains documentation which is not distributed."
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "42"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/PKG-INFO"
+  start_lines: "218"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-2-Clause"
+  reason: "INCORRECT"
+  comment: "BSD-2-Clause in LICENSE file"
+- path: "**/README.md"
+  start_lines: "175"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-2-Clause"
+  reason: "INCORRECT"
+  comment: "BSD-2-Clause in LICENSE file"
+- path: "**/setup.cfg"
+  start_lines: "8"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

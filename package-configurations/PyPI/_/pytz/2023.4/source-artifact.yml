@@ -1,0 +1,15 @@
+---
+id: "PyPI::pytz:2023.4"
+source_artifact_url: "https://files.pythonhosted.org/packages/ae/fd/c5bafe60236bc2a464452f916b6a1806257109c8954d6a7d19e5d4fb012f/pytz-2023.4.tar.gz"
+path_excludes:
+  - pattern: "**/docs/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains documentation which is not distributed."
+license_finding_curations:
+- path: "pytz-2023.4/setup.cfg"
+  start_lines: "2"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

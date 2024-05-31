@@ -1,0 +1,11 @@
+---
+id: "PyPI::pydantic-settings:2.1.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/a5/10/664e41fd884d8cd3fa8bcd75a537bd82f540b19d7c0d1ff17eef69a2ffa8/pydantic_settings-2.1.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "12"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

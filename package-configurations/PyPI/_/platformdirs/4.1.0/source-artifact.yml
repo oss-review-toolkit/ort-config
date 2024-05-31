@@ -1,0 +1,11 @@
+---
+id: "PyPI::platformdirs:4.1.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/62/d1/7feaaacb1a3faeba96c06e6c5091f90695cc0f94b7e8e1a3a3fe2b33ff9a/platformdirs-4.1.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "11"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

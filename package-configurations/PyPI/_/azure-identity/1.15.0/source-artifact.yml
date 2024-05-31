@@ -1,0 +1,25 @@
+---
+id: "PyPI::azure-identity:1.15.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/74/02/a0545eaa3fb83a6b6c413de4a65e06a02ce887f874a2e74a1240b2169140/azure-identity-1.15.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "23"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/PKG-INFO"
+  start_lines: "395"
+  line_count: 5
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "**/README.md"
+  start_lines: "367"
+  line_count: 5
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"

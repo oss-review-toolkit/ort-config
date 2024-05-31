@@ -1,0 +1,11 @@
+---
+id: "PyPI::starlette:0.35.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/5e/8a/80e0343c8051e522752eaae54e96c814946ac97ae0c08b441620e3a22755/starlette-0.35.1.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "12"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

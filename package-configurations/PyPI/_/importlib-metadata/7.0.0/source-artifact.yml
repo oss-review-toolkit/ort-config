@@ -1,0 +1,11 @@
+---
+id: "PyPI::importlib-metadata:7.0.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/db/5a/392426ddb5edfebfcb232ab7a47e4a827aa1d5b5267a5c20c448615feaa9/importlib_metadata-7.0.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "14"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

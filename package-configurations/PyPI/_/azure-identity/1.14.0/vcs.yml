@@ -1,0 +1,14 @@
+---
+id: "PyPI::azure-identity:1.14.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/Azure/azure-sdk-for-python.git"
+  revision: "d1d0ef616f935b0db64eaf4960ed60af720b152a"
+license_finding_curations:
+- path: "**/README.md"
+  start_lines: "353"
+  line_count: 5
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"

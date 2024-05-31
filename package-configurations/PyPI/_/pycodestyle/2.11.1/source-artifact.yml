@@ -1,0 +1,25 @@
+---
+id: "PyPI::pycodestyle:2.11.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/34/8f/fa09ae2acc737b9507b5734a9aec9a2b35fa73409982f57db1b42f8c3c65/pycodestyle-2.11.1.tar.gz"
+license_finding_curations:
+- path: "**/LICENSE"
+  start_lines: "5"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "MIT License"
+- path: "**/PKG-INFO"
+  start_lines: "26"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/setup.cfg"
+  start_lines: "13"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

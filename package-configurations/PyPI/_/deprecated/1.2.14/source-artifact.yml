@@ -1,0 +1,11 @@
+---
+id: "PyPI::deprecated:1.2.14"
+source_artifact_url: "https://files.pythonhosted.org/packages/92/14/1e41f504a246fc224d2ac264c227975427a85caf37c3979979edb9b1b232/Deprecated-1.2.14.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "36"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

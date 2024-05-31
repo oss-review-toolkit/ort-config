@@ -1,0 +1,11 @@
+---
+id: "PyPI::ecdsa:0.19.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/5e/d0/ec8ac1de7accdcf18cfe468653ef00afd2f609faf67c423efbd02491051b/ecdsa-0.19.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "26"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

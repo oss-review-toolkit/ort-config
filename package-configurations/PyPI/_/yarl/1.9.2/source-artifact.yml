@@ -1,0 +1,29 @@
+---
+id: "PyPI::yarl:1.9.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/5f/3f/04b3c5e57844fb9c034b09c5cb6d2b43de5d64a093c30529fd233e16cf09/yarl-1.9.2.tar.gz"
+path_excludes:
+  - pattern: "**/docs/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains documentation which is not distributed."
+license_finding_curations:
+- path: "yarl-1.9.2/PKG-INFO"
+  start_lines: "21"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "yarl-1.9.2/setup.cfg"
+  start_lines: "2"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "yarl-1.9.2/yarl.egg-info/PKG-INFO"
+  start_lines: "21"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

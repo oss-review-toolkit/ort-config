@@ -1,0 +1,18 @@
+---
+id: "PyPI::frozenlist:1.4.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/cf/3d/2102257e7acad73efc4a0c306ad3953f68c504c16982bbdfee3ad75d8085/frozenlist-1.4.1.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "36"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/setup.cfg"
+  start_lines: "21"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

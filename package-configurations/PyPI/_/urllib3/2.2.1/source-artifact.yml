@@ -1,0 +1,11 @@
+---
+id: "PyPI::urllib3:2.2.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/7a/50/7fd50a27caa0652cd4caf224aa87741ea41d3265ad13f010886167cfcc79/urllib3-2.2.1.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "11"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

@@ -1,0 +1,11 @@
+---
+id: "PyPI::anyio:4.2.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/2d/b8/7333d87d5f03247215d86a86362fd3e324111788c6cdd8d2e6196a6ba833/anyio-4.2.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "25"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

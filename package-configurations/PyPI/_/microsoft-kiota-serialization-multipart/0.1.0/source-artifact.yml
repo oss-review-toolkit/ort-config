@@ -1,0 +1,25 @@
+---
+id: "PyPI::microsoft-kiota-serialization-multipart:0.1.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/28/f7/5dd2a93c4d48b3cb2f058466221b06e1465b85dea36f5cac7aace19be054/microsoft_kiota_serialization_multipart-0.1.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "39"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "**/README.md"
+  start_lines: "20"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "**/README.md"
+  start_lines: "11"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "pyproject.toml"

@@ -1,0 +1,18 @@
+---
+id: "PyPI::fastapi:0.110.3"
+source_artifact_url: "https://files.pythonhosted.org/packages/f3/22/7b9ee50b0a8c48f076a111d6e4071a9d4c25623dc67689c5f3aa375f779b/fastapi-0.110.3.tar.gz"
+path_excludes:
+  - pattern: "**/docs/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains documentation which is not distributed."
+  - pattern: "**/tests/**"
+    reason: "TEST_OF"
+    comment: "This directory contains tests which are not distributed."
+license_finding_curations:
+- path: "fastapi-0.110.3/fastapi/openapi/models.py"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

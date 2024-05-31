@@ -1,0 +1,25 @@
+---
+id: "PyPI::microsoft-kiota-serialization-form:0.1.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/20/72/251e030ed068a56acf13cacbd764b6e79a55dffa32baec2b686e444673d6/microsoft_kiota_serialization_form-0.1.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "40"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "**/PKG-INFO"
+  start_lines: "12"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/README.md"
+  start_lines: "20"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"

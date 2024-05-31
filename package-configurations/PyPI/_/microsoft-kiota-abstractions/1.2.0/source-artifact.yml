@@ -1,0 +1,25 @@
+---
+id: "PyPI::microsoft-kiota-abstractions:1.2.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/30/a3/fe063726cebb6edc796753d2008b0bebecae4759afd5e93681a655d90517/microsoft_kiota_abstractions-1.2.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "40"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "**/pyproject.toml"
+  start_lines: "13"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/README.md"
+  start_lines: "20"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"

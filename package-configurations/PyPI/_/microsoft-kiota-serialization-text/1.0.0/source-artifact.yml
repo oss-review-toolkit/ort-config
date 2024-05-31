@@ -1,0 +1,25 @@
+---
+id: "PyPI::microsoft-kiota-serialization-text:1.0.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/a1/c9/f9c91025559d4c63237b9f232ecd106e0d8ec9a6c8953e5a7a3c4763d808/microsoft_kiota_serialization_text-1.0.0.tar.gz"
+path_excludes:
+  - pattern: "**/docs/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains documentation which is not distributed."
+  - pattern: "**/pyproject.toml"
+    reason: "BUILD_TOOL_OF"
+    comment: "This file contains information for building a binary from source"
+license_finding_curations:
+- path: "microsoft_kiota_serialization_text-1.0.0/README.md"
+  start_lines: "20"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "microsoft_kiota_serialization_text-1.0.0/PKG-INFO"
+  start_lines: "39"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"

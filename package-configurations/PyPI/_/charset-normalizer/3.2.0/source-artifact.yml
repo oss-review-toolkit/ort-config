@@ -1,0 +1,22 @@
+---
+id: "PyPI::charset-normalizer:3.2.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/2a/53/cf0a48de1bdcf6ff6e1c9a023f5f523dfe303e4024f216feac64b6eb7f67/charset-normalizer-3.2.0.tar.gz"
+path_excludes:
+  - pattern: "**/docs/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains documentation which is not distributed."
+license_finding_curations:
+- path: "charset-normalizer-3.2.0/charset_normalizer.egg-info/PKG-INFO"
+  start_lines: "32"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "charset-normalizer-3.2.0/PKG-INFO"
+  start_lines: "32"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

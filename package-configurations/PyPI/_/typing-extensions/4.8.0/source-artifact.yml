@@ -1,0 +1,25 @@
+---
+id: "PyPI::typing-extensions:4.8.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/1f/7a/8b94bb016069caa12fc9f587b28080ac33b4fbb8ca369b98bc0a4828543e/typing_extensions-4.8.0.tar.gz"
+license_finding_curations:
+- path: "**/CHANGELOG.md"
+  start_lines: "96"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/LICENSE"
+  start_lines: "66"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to dual license within LICENSE"
+- path: "**/PKG-INFO"
+  start_lines: "13"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

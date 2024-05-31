@@ -1,0 +1,25 @@
+---
+id: "PyPI::azure-storage-blob:12.19.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/fd/f8/59c209132b3b2993402df6b7e79728726927b53168624e917cd9daaffea8/azure-storage-blob-12.19.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/PKG-INFO"
+  start_lines: "495"
+  line_count: 4
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "**/README.md"
+  start_lines: "466"
+  line_count: 4
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"

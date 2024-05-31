@@ -1,0 +1,11 @@
+---
+id: "PyPI::exceptiongroup:1.1.3"
+source_artifact_url: "https://files.pythonhosted.org/packages/c2/e1/5561ad26f99b7779c28356f73f69a8b468ef491d0f6adf20d7ed0ac98ec1/exceptiongroup-1.1.3.tar.gz"
+license_finding_curations:
+- path: "**/pyproject.toml"
+  start_lines: "18"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

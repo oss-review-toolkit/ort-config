@@ -1,0 +1,18 @@
+---
+id: "PyPI::aiohttp:3.9.5"
+source_artifact_url: "https://files.pythonhosted.org/packages/04/a4/e3679773ea7eb5b37a2c998e25b017cc5349edf6ba2739d1f32855cfb11b/aiohttp-3.9.5.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "34"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/setup.cfg"
+  start_lines: "20"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

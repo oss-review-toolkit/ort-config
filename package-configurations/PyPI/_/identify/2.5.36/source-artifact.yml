@@ -1,0 +1,32 @@
+---
+id: "PyPI::identify:2.5.36"
+source_artifact_url: "https://files.pythonhosted.org/packages/aa/9a/83775a4e09de8b9d774a2217bfe03038c488778e58561e6970daa39b4801/identify-2.5.36.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "17"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/licenses.py"
+  start_lines: "6325"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NCSA"
+  reason: "INCORRECT"
+  comment: "NCSA"
+- path: "**/licenses.py"
+  start_lines: "6387,6415"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "OFL-1.1"
+  reason: "INCORRECT"
+  comment: "OFL-1.1"
+- path: "**/setup.cfg"
+  start_lines: "11"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

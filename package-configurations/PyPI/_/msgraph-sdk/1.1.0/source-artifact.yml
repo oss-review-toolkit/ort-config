@@ -1,0 +1,25 @@
+---
+id: "PyPI::msgraph-sdk:1.1.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/88/13/c1e6487013b33e9287f56372354a6c614ade56ef1e0e7f8a43bbeaf8ab65/msgraph-sdk-1.1.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "40"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/sign_in.py"
+  start_lines: "51"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Explaination of Function"
+- path: "**/PKG-INFO"
+  start_lines: "21"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

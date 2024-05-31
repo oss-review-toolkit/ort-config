@@ -1,0 +1,25 @@
+---
+id: "PyPI::azure-core:1.30.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/51/0d/b76383f028aa3570419edf97ab504cb84b839e3cbc8c8b2048f16bbea2d3/azure-core-1.30.1.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/PKG-INFO"
+  start_lines: "20"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "**/README.md"
+  start_lines: "236"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"

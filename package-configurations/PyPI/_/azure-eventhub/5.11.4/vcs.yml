@@ -1,0 +1,14 @@
+---
+id: "PyPI::azure-eventhub:5.11.4"
+vcs:
+  type: "Git"
+  url: "https://github.com/Azure/azure-sdk-for-python.git"
+  revision: "a4a9f69a18345e6a830533f1ae1bb9d95daebc97"
+license_finding_curations:
+- path: "**/README.md"
+  start_lines: "470"
+  line_count: 7
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"

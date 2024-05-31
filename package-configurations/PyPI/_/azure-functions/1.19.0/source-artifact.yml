@@ -1,0 +1,18 @@
+---
+id: "PyPI::azure-functions:1.19.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/04/9a/c976fae73e9f464dffc84cb78a76619f24bd9f80053a68b87471a6820fd9/azure-functions-1.19.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "57"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "**/README.md"
+  start_lines: "49"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"

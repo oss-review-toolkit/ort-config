@@ -1,0 +1,11 @@
+---
+id: "PyPI::httpcore:0.17.3"
+source_artifact_url: "https://files.pythonhosted.org/packages/63/ad/c98ecdbfe04417e71e143bf2f2fb29128e4787d78d1cedba21bd250c7e7a/httpcore-0.17.3.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "30"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

@@ -1,0 +1,39 @@
+---
+id: "PyPI::azure-eventhub:5.11.6"
+source_artifact_url: "https://files.pythonhosted.org/packages/55/ff/902b3adcbbd27ea77ac198aea453caca0dc47fd370e260c685ba8570edaa/azure-eventhub-5.11.6.tar.gz"
+license_finding_curations:
+- path: "azure-eventhub-5.11.6/azure_eventhub.egg-info/PKG-INFO"
+  start_lines: "21"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "azure-eventhub-5.11.6/azure_eventhub.egg-info/PKG-INFO"
+  start_lines: "496"
+  line_count: 7
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "azure-eventhub-5.11.6/PKG-INFO"
+  start_lines: "21"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "azure-eventhub-5.11.6/PKG-INFO"
+  start_lines: "496"
+  line_count: 7
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "azure-eventhub-5.11.6/README.md"
+  start_lines: "472"
+  line_count: 7
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"

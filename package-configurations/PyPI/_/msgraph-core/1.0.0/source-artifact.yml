@@ -1,0 +1,18 @@
+---
+id: "PyPI::msgraph-core:1.0.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/49/8b/431e1f1a377163118288f77ecc38a775b70224a6f8e99946c5be3521d19a/msgraph-core-1.0.0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "40"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/pyproject.toml"
+  start_lines: "17"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

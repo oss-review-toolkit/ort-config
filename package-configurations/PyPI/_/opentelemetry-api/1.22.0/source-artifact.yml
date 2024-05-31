@@ -1,0 +1,11 @@
+---
+id: "PyPI::opentelemetry-api:1.22.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/e8/56/b485bf0f42ae83a8ff97e861a3869f57415205ab8d1a22dd755319a97701/opentelemetry_api-1.22.0.tar.gz"
+license_finding_curations:
+- path: "opentelemetry_api-1.22.0/PKG-INFO"
+  start_lines: "8"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

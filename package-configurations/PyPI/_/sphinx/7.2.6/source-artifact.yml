@@ -1,0 +1,39 @@
+---
+id: "PyPI::sphinx:7.2.6"
+source_artifact_url: "https://files.pythonhosted.org/packages/73/8e/6e51da4b26665b4b92b1944ea18b2d9c825e753e19180cc5bdc818d0ed3b/sphinx-7.2.6.tar.gz"
+path_excludes:
+  - pattern: "**/doc/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains documentation which is not distributed."
+  - pattern: "**/tests/**"
+    reason: "TEST_OF"
+    comment: "This directory contains tests which are not distributed."
+license_finding_curations:
+- path: "**/LICENSE"
+  start_lines: "4"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-2-Clause"
+  reason: "INCORRECT"
+  comment: "BSD-2-Clause in LICENSE file"
+- path: "**/sphinx.po"
+  start_lines: "3"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/sphinx.pot"
+  start_lines: "3"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/message.pot_t"
+  start_lines: "3"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

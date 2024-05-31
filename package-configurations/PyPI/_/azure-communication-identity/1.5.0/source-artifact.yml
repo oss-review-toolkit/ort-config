@@ -1,0 +1,39 @@
+---
+id: "PyPI::azure-communication-identity:1.5.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/f6/9e/6cbc94f5c01406083960bea219ee9d9313ad925c894b6b5df3df1d3d51a0/azure-communication-identity-1.5.0.tar.gz"
+license_finding_curations:
+- path: "azure-communication-identity-1.5.0/azure_communication_identity.egg-info/PKG-INFO"
+  start_lines: "21"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "azure-communication-identity-1.5.0/azure_communication_identity.egg-info/PKG-INFO"
+  start_lines: "174"
+  line_count: 6
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "azure-communication-identity-1.5.0/PKG-INFO"
+  start_lines: "21"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "azure-communication-identity-1.5.0/PKG-INFO"
+  start_lines: "174"
+  line_count: 6
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"
+- path: "azure-communication-identity-1.5.0/README.md"
+  start_lines: "149"
+  line_count: 6
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement"

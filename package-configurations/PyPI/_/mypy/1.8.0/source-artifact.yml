@@ -1,0 +1,36 @@
+---
+id: "PyPI::mypy:1.8.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/16/22/25fac51008f0a4b2186da0dba3039128bd75d3fab8c07acd3ea5894f95cc/mypy-1.8.0.tar.gz"
+path_excludes:
+- pattern: "**/test-data/**"
+  reason: "TEST_OF"
+  comment: "This directory contains tests which are not distributed."
+license_finding_curations:
+- path: "mypy-1.8.0/LICENSE"
+  start_lines: "30"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "mypy-1.8.0/LICENSE"
+  start_lines: "33"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Python-2.0.1"
+  reason: "INCORRECT"
+  comment: "PSF License reference"
+- path: "**/PKG-INFO"
+  start_lines: "24"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "mypy-1.8.0/mypy/typeshed/LICENSE"
+  start_lines: "210"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Explaination of Licenses in files"

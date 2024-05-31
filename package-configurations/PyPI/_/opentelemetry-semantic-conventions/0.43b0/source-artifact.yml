@@ -1,0 +1,11 @@
+---
+id: "PyPI::opentelemetry-semantic-conventions:0.43b0"
+source_artifact_url: "https://files.pythonhosted.org/packages/6c/1a/c73989de59d71c30922fce91edccda75942156e753d25976640dde0ac051/opentelemetry_semantic_conventions-0.43b0.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "8"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
