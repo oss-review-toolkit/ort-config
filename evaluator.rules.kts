@@ -1546,10 +1546,10 @@ fun RuleSet.vulnerabilityWithHighSeverityInDependencyRule() = packageRule("HIGH_
         -isProject()
         -isExcluded()
         +AnyOf(
-            hasVulnerability(maxAcceptedSeverity, "CVSS2") { value, threshold ->
+            hasVulnerability(maxAcceptedSeverity, "CVSS:2") { value, threshold ->
                 value.toFloat() >= threshold.toFloat()
             },
-            hasVulnerability(maxAcceptedSeverity, "CVSS3") { value, threshold ->
+            hasVulnerability(maxAcceptedSeverity, "CVSS:3") { value, threshold ->
                 value.toFloat() >= threshold.toFloat()
             }
         )
