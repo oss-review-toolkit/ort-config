@@ -1551,6 +1551,12 @@ fun RuleSet.vulnerabilityWithHighSeverityInDependencyRule() = packageRule("HIGH_
             },
             hasVulnerability(maxAcceptedSeverity, "CVSS:3") { value, threshold ->
                 value.toFloat() >= threshold.toFloat()
+            },
+            hasVulnerability(maxAcceptedSeverity, "CVSS:3.1") { value, threshold ->
+                value.toFloat() >= threshold.toFloat()
+            },
+            hasVulnerability(maxAcceptedSeverity, "CVSS:4.0") { value, threshold ->
+                value.toFloat() >= threshold.toFloat()
             }
         )
     }
