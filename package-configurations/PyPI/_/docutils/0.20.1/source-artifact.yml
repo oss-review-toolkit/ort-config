@@ -1,6 +1,13 @@
 ---
 id: "PyPI::docutils:0.20.1"
 source_artifact_url: "https://files.pythonhosted.org/packages/1f/53/a5da4f2c5739cf66290fac1431ee52aff6851c7c8ffd8264f13affd7bcdd/docutils-0.20.1.tar.gz"
+path_excludes:
+  - pattern: "**/docs/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains documentation which is not distributed."
+  - pattern: "**/.github/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains documentation which is not distributed."
 license_finding_curations:
 - path: "**/COPYING"
   start_lines: "146,157,159"
@@ -9,3 +16,31 @@ license_finding_curations:
   concluded_license: "NONE"
   reason: "INCORRECT"
   comment: "Explaination of Licenses"
+- path: "**/COPYING"
+  start_lines: "154"
+  line_count: 1
+  detected_license: "GPL-1.0-or-later"
+  concluded_license: "GPL-3.0-or-later"
+  reason: "INCORRECT"
+  comment: "Link points to GPL-3.0-or-later website"
+- path: "**/PKG-INFO"
+  start_lines: "21"
+  line_count: 1
+  detected_license: "GPL-1.0-or-later"
+  concluded_license: "GPL-3.0-or-later"
+  reason: "INCORRECT"
+  comment: "COPYING shows GPL-3.0-or-later"
+- path: "**/setup.py"
+  start_lines: "100"
+  line_count: 1
+  detected_license: "GPL-1.0-or-later"
+  concluded_license: "GPL-3.0-or-later"
+  reason: "INCORRECT"
+  comment: "COPYING shows GPL-3.0-or-later"
+- path: "**/SOURCES.txt"
+  start_lines: "302"
+  line_count: 3
+  detected_license: "GPL-2.0-only"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "List of files"
