@@ -1,6 +1,16 @@
 ---
 id: "PyPI::fastapi:0.109.1"
 source_artifact_url: "https://files.pythonhosted.org/packages/eb/62/b2c12c2a381040a1d77e1b4fd3e210ffb0488876e9b493069f56eb2db971/fastapi-0.109.1.tar.gz"
+path_excludes:
+  - pattern: "**/docs/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains documentation which is not distributed."
+  - pattern: "**/.github/**"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains documentation which is not distributed."
+  - pattern: "**/test/**"
+    reason: "TEST_OF"
+    comment: "This directory contains tests which are not distributed."
 license_finding_curations:
 - path: "**/PKG-INFO"
   start_lines: "10"
@@ -16,3 +26,24 @@ license_finding_curations:
   concluded_license: "NONE"
   reason: "INCORRECT"
   comment: "Reference to LICENSE file"
+- path: "**/COPYING"
+  start_lines: "154"
+  line_count: 1
+  detected_license: "GPL-1.0-or-later"
+  concluded_license: "GPL-3.0-or-later"
+  reason: "INCORRECT"
+  comment: "Link points to GPL-3.0-or-later website"
+- path: "**/PKG-INFO"
+  start_lines: "18"
+  line_count: 1
+  detected_license: "GPL-1.0-or-later"
+  concluded_license: "GPL-3.0-or-later"
+  reason: "INCORRECT"
+  comment: "COPYING contains GPL-3.0-or-later"
+- path: "**/pyproject.toml"
+  start_lines: "39"
+  line_count: 1
+  detected_license: "GPL-1.0-or-later"
+  concluded_license: "GPL-3.0-or-later"
+  reason: "INCORRECT"
+  comment: "COPYING contains GPL-3.0-or-later"
