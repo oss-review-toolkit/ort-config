@@ -1,4 +1,4 @@
-- id: "Maven:asm:asm:"
+- id: "Maven:asm:asm"
   curations:
     comment: |
       Repository moved to https://gitlab.ow2.org.
