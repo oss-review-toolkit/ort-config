@@ -27,3 +27,11 @@ ort:
 
   severeIssueThreshold: WARNING
   severeRuleViolationThreshold: WARNING
+
+analyzer:
+  skip_excluded: true
+excludes:
+  paths:
+  - pattern: ".optima/**"
+    reason: "DATA_FILE_OF"
+    comment: "Optima definition files"
