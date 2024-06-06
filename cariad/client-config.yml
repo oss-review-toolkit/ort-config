@@ -1,0 +1,29 @@
+ort:
+  deniedProcessEnvironmentVariablesSubstrings:
+    - PASS
+    - SECRET
+    - TOKEN
+    - USER
+
+  force-overwrite: true
+
+  enableRepositoryPackageConfigurations: true
+  enableRepositoryPackageCurations: true
+
+  licenseFilePatterns:
+    licenseFilenames: ["license*"]
+    patentFilenames: ["patents"]
+    rootLicenseFilenames: ["readme*"]
+
+  packageConfigurationProviders:
+    - type: DefaultDir
+    - type: OrtConfig
+
+  packageCurationProviders:
+    - type: DefaultFile
+    - type: DefaultDir
+    - type: OrtConfig
+      enabled: "${USE_ORT_CONFIG_CURATIONS:-true}"
+
+  severeIssueThreshold: WARNING
+  severeRuleViolationThreshold: WARNING
