@@ -30,6 +30,7 @@ ort:
 
 analyzer:
   skip_excluded: true
+  allow_dynamic_versions: true
 excludes:
   paths:
   - pattern: ".optima/**"
