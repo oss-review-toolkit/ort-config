@@ -27,8 +27,8 @@
  * Variables defining the organization using ORT.
  */
 val orgName = "Example Inc."
-val orgScanIssueTrackerName = "FOSS JIRA"
-val orgScanIssueTrackerMdLink = "[$orgScanIssueTrackerName](https://jira.example.com/FOSS)"
+val orgScanIssueTrackerName = "OSPO Test Jira"
+val orgScanIssueTrackerMdLink = "[$orgScanIssueTrackerName](https://devstack.vwgroup.com/jira/projects/OSSIB/)"
 
 /**
  * Import the license classifications from license-classifications.yml.
@@ -124,7 +124,7 @@ val orgOssProjectsApprovedLicenses = listOf(
 val doNotWorryText = "_Note_: Do not worry about creating a perfect curation or exclude. Reviewers will provide feedback."
 val globTutorialMdLink = "[reference documentation](https://docs.oracle.com/javase/tutorial/essential/io/fileOps.html#glob)"
 val ortConfigContributingMdLink = "[CONTRIBUTING.md](https://github.com/oss-review-toolkit/ort-config/blob/main/CONTRIBUTING.md)"
-val ortConfigVcsMdLink = "[ort-config repository](https://github.com/oss-review-toolkit/ort-config)"
+val ortConfigVcsMdLink = "[Cariad ort-config repository](https://github.com/vwdfive/ort-config)"
 val ortCurationsYmlFileConcludedLicenseMdLink = "[concluded license curation](https://oss-review-toolkit.org/ort/docs/configuration/ort-yml#curations)"
 val ortCurationsYmlFileDeclaredLicenseMdLink = "[declared license curation](https://oss-review-toolkit.org/ort/docs/configuration/ort-yml#curations)"
 val ortCurationsYmlVcsPathMdLink = "[VCS path curation](https://oss-review-toolkit.org/ort/docs/configuration/ort-yml#curations)"
@@ -402,7 +402,7 @@ fun PackageRule.howToFixUnmappedDeclaredLicense(license: String): String {
             |
             |   ```
             |
-            |   - Submit the above change to the $ortConfigVcsMdLink (see $ortConfigContributingMdLink for guidance) with a commit message as shown below.
+            |   - Open a pull request to the $ortConfigVcsMdLink with a commit message as shown below.
             |     Reviewers are set automatically.
             |
             |   ```
@@ -471,7 +471,7 @@ fun resolveViolationInDependencyDeclaredLicenseText(pkg: Package) : String {
             |
             |   ```
             |
-            |   - Submit the above change to the $ortConfigVcsMdLink (see $ortConfigContributingMdLink for guidance) with a commit message as shown below.
+            |   - Submit the above change to the $ortConfigVcsMdLink with a commit message as shown below.
             |     Note that reviewers are set automatically.
             |
             |   ```
@@ -524,7 +524,7 @@ fun resolveViolationInDependencyDeclaredLicenseText(pkg: Package) : String {
             |
             |   ```
             |
-            |   - Submit the above change to the $ortConfigVcsMdLink (see $ortConfigContributingMdLink for guidance) with a commit message as shown below.
+            |   - Submit the above change to the $ortConfigVcsMdLink with a commit message as shown below.
             |     Note that reviewers are set automatically.
             |
             |   ```
@@ -573,7 +573,7 @@ fun resolveViolationInDependencyDeclaredLicenseText(pkg: Package) : String {
             |
             |   ```
             |
-            |   - Submit the above change to the $ortConfigVcsMdLink (see $ortConfigContributingMdLink for guidance) with a commit message as shown below.
+            |   - Submit the above change to the $ortConfigVcsMdLink with a commit message as shown below.
             |     Note that reviewers are set automatically.
             |
             |   ```
@@ -630,7 +630,7 @@ fun resolveViolationInDependencySourceCodeText(pkg: Package, license: String) : 
             |   For information on how to write a glob pattern, please see this $globTutorialMdLink.
             |   The available options for the `reason` field are defined in $ortPathExcludeReasonMdLink.
             |
-            |   - Submit the above change to the $ortConfigVcsMdLink (see $ortConfigContributingMdLink for guidance) with a commit message as shown below.
+            |   - Submit the above change to the $ortConfigVcsMdLink with a commit message as shown below.
             |     Reviewers are set automatically.
             |
             |   ```
@@ -669,7 +669,7 @@ fun resolveViolationInDependencySourceCodeText(pkg: Package, license: String) : 
             |   For information on how to write a glob pattern, visit $globTutorialMdLink.
             |   The available options for the `reason` field are defined in $ortLicenseFindingCurationReasonMdLink.
             |
-            |   - Submit the above change to the $ortConfigVcsMdLink (see $ortConfigContributingMdLink for guidance) with a commit message as shown below.
+            |   - Submit the above change to the $ortConfigVcsMdLink with a commit message as shown below.
             |     Note that reviewers are set automatically.
             |
             |   ```
@@ -701,7 +701,7 @@ fun resolveViolationInDependencySourceCodeText(pkg: Package, license: String) : 
             |
             |   ```
             |
-            |   - Submit the above change to the $ortConfigVcsMdLink (see $ortConfigContributingMdLink for guidance) with a commit message as shown below.
+            |   - Submit the above change to the $ortConfigVcsMdLink with a commit message as shown below.
             |     Note that reviewers are set automatically.
             |
             |   ```
@@ -750,7 +750,7 @@ fun resolveViolationInDependencySourceCodeText(pkg: Package, license: String) : 
             |
             |   ```
             |
-            |   - Submit the above change to the $ortConfigVcsMdLink (see $ortConfigContributingMdLink for guidance) with a commit message as shown below.
+            |   - Submit the above change to the $ortConfigVcsMdLink with a commit message as shown below.
             |     Reviewers are set automatically.
             |
             |   ```
@@ -784,7 +784,7 @@ fun resolveViolationInDependencySourceCodeText(pkg: Package, license: String) : 
             |   For information on how to write a glob pattern, please see this $globTutorialMdLink.
             |   The available options for the `reason` field are defined in $ortPathExcludeReasonMdLink.
             |
-            |   - Submit the above change to the $ortConfigVcsMdLink (see $ortConfigContributingMdLink for guidance) with a commit message as shown below.
+            |   - Submit the above change to the $ortConfigVcsMdLink with a commit message as shown below.
             |     Reviewers are set automatically.
             |
             |   ```
@@ -823,7 +823,7 @@ fun resolveViolationInDependencySourceCodeText(pkg: Package, license: String) : 
             |   For information on how to write a glob pattern, please see this $globTutorialMdLink.
             |   The available options for the `reason` field are defined in $ortLicenseFindingCurationReasonMdLink.
             |
-            |   - Submit the above change to the $ortConfigVcsMdLink (see $ortConfigContributingMdLink for guidance) with a commit message as shown below.
+            |   - Submit the above change to the $ortConfigVcsMdLink with a commit message as shown below.
             |     Reviewers are set automatically.
             |
             |   ```
@@ -856,7 +856,7 @@ fun resolveViolationInDependencySourceCodeText(pkg: Package, license: String) : 
             |
             |   ```
             |
-            |   - Submit the above change to the $ortConfigVcsMdLink (see $ortConfigContributingMdLink for guidance) with a commit message as shown below.
+            |   - Submit the above change to the $ortConfigVcsMdLink with a commit message as shown below.
             |     Reviewers are set automatically.
             |
             |   ```
@@ -895,7 +895,7 @@ fun resolveViolationInDependencySourceCodeText(pkg: Package, license: String) : 
             |
             |   ```
             |
-            |   - Submit the above change to the $ortConfigVcsMdLink (see $ortConfigContributingMdLink for guidance) with a commit message as shown below.
+            |   - Submit the above change to the $ortConfigVcsMdLink with a commit message as shown below.
             |     Reviewers are set automatically.
             |
             |   ```
@@ -928,7 +928,7 @@ fun resolveViolationInDependencySourceCodeText(pkg: Package, license: String) : 
             |   For information on how to write a glob pattern, please see this $globTutorialMdLink.
             |   The available options for the `reason` field are defined in $ortPathExcludeReasonMdLink.
             |
-            |   - Submit the above change to the $ortConfigVcsMdLink (see $ortConfigContributingMdLink for guidance) with a commit message as shown below.
+            |   - Submit the above change to the $ortConfigVcsMdLink with a commit message as shown below.
             |     Reviewers are set automatically.
             |
             |   ```
@@ -966,7 +966,7 @@ fun resolveViolationInDependencySourceCodeText(pkg: Package, license: String) : 
             |   For information on how to write a glob pattern, please see this $globTutorialMdLink.
             |   The available options for the `reason` field are defined in $ortLicenseFindingCurationReasonMdLink.
             |
-            |   - Submit the above change to the $ortConfigVcsMdLink (see $ortConfigContributingMdLink for guidance) with a commit message as shown below.
+            |   - Submit the above change to the $ortConfigVcsMdLink with a commit message as shown below.
             |     Reviewers are set automatically.
             |
             |   ```
