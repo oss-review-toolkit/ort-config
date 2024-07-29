@@ -1,5 +1,10 @@
-- id: "NuGet:Microsoft.Net:Http.Headers:[2.1.7,)"
+- id: "NuGet:Microsoft.Net:Http.Headers:[3.0.0,)"
   curations:
     comment: "Set the VCS path of the module inside the multi-module repository."
     vcs:
       path: "src/Http/Headers/src"
+- id: "NuGet:Microsoft.Net:Http.Headers:(,3.0.0["
+  curations:
+    comment: "Set the VCS path of the module inside the multi-module repository."
+    vcs:
+      path: "src/Microsoft.Net.Http.Headers"
