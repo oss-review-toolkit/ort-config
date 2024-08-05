@@ -1,5 +1,15 @@
 ort:
   force-overwrite: true
+  allowedProcessEnvironmentVariableNames:
+    - PASSPORT
+    - USER_HOME
+    - GITHUB_TOKEN
+  deniedProcessEnvironmentVariablesSubstrings:
+    - PASS
+    - SECRET
+    - TOKEN
+    - USER
+
 
   enableRepositoryPackageConfigurations: true
   enableRepositoryPackageCurations: true
@@ -24,7 +34,7 @@ ort:
 
 analyzer:
   skip_excluded: true
-  allow_dynamic_versions: true
+  allow_dynamic_versions: false
 excludes:
   paths:
   - pattern: ".optima/**"
