@@ -1,10 +1,4 @@
 ort:
-  deniedProcessEnvironmentVariablesSubstrings:
-    - PASS
-    - SECRET
-    - TOKEN
-    - USER
-
   force-overwrite: true
 
   enableRepositoryPackageConfigurations: true
