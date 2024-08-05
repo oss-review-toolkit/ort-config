@@ -10490,6 +10490,10 @@ categorizations:
   categories:
   - "permissive"
   - "include-in-notice-file"
+- id: "SSLeay-standalone"
+  categories:
+  - "permissive"
+  - "include-in-notice-file"
 - id: "PSF"
   categories:
   - "permissive"
