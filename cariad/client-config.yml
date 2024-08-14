@@ -21,13 +21,10 @@ ort:
 
   packageConfigurationProviders:
     - type: DefaultDir
-    - type: OrtConfig
 
   packageCurationProviders:
     - type: DefaultFile
     - type: DefaultDir
-    - type: OrtConfig
-      enabled: "${USE_ORT_CONFIG_CURATIONS:-true}"
 
   severeIssueThreshold: WARNING
   severeRuleViolationThreshold: WARNING
