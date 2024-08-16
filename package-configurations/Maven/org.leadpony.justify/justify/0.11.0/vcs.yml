@@ -1,0 +1,13 @@
+id: "Maven:org.leadpony.justify:justify:0.11.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/leadpony/justify.git"
+  revision: "4a52ac2066bbdd2241140febc224e5387525db83"
+license_finding_curations:
+- path: "justify/src/test/resources/org/ecma_international/test262/built_ins/regexp/README.md"
+  start_lines: "7"
+  line_count: 1
+  detected_license: "BSD-3-Clause WITH LicenseRef-scancode-ecma-no-patent"
+  concluded_license: "BSD-3-Clause"
+  reason: "INCORRECT"
+  comment: "Included on README file, not distributed"
