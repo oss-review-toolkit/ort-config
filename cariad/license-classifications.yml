@@ -235,6 +235,10 @@ categorizations:
   categories:
   - "permissive"
   - "include-in-notice-file"
+- id: "BSD-2-Clause-Views"
+  categories:
+  - "permissive"
+  - "include-in-notice-file"
 - id: "BSD-3-Clause"
   categories:
   - "permissive"
