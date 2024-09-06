@@ -1,6 +1,0 @@
-- id: "Maven:org.apache.curator:curator-x-discovery-server:"
-  curations:
-    comment: |
-      Package resides in its own directory within project's code repository.
-    vcs:
-      path: "curator-x-discovery-server"
