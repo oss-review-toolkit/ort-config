@@ -7,7 +7,6 @@
       below and the license stated in various *.java files in jFormatString.jar.
       https://github.com/findbugsproject/findbugs/releases/tag/2.0.1
       https://github.com/findbugsproject/findbugs/blob/2.0.1/findbugs/licenses/LICENSE-jFormatString.txt
-    concluded_license: "GPL-2.0-only WITH Classpath-exception-2.0"
     source_artifact:
       url: "https://github.com/findbugsproject/findbugs/raw/2.0.1/findbugs/lib/jFormatString.jar"
       hash:

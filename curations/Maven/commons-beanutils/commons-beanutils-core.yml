@@ -4,7 +4,7 @@
       Package resides in its own directory within project's code repository.
     vcs:
       path: "src/java/org/apache/commons/beanutils"
-- id: "Maven:commons-beanutils:commons-beanutils-core:[1.8.3,1.9+]"
+- id: "Maven:commons-beanutils:commons-beanutils-core:[1.8.3,1.9)"
   curations:
     comment: |
       Package resides in its own directory within project's code repository.

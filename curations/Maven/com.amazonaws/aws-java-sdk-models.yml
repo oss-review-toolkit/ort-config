@@ -15,4 +15,4 @@
       for all current and future versions as this package always contains data models (not code) that are used by other
       AWS libraries. Examples: 'AWS Billing and Cost Management User Guide', 'For example, MIT', and 'For example,
       https://opensource.org/licenses/MIT'.
-    concluded_license: "Apache-2.0"
+

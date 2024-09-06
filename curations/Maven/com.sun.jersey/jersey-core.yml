@@ -10,7 +10,6 @@
       in 'javax/ws/rs/core/GenericEntity.java' which is a false positive. The 'Apache-2.0' and 'CDDL-1-0' licenses are
       valid findings inside several source
       files.
-    concluded_license: "CDDL-1.0 AND CDDL-1.1 AND Apache-2.0"
 - id: "Maven:com.sun.jersey:jersey-core:1.9"
   curations:
     comment: |
