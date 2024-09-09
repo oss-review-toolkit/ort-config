@@ -51,6 +51,7 @@ val proprietaryFreeLicenses = getLicensesForCategory("proprietary-free")
 val publicDomainLicenses = getLicensesForCategory("public-domain")
 val unknownLicenses = getLicensesForCategory("unknown")
 val unstatedLicenses = getLicensesForCategory("unstated-license")
+val sourceAvailable = getLicensesForCategory("source-available")
 
 // Set of licenses, which are not acted upon by the below policy rules.
 val ignoredLicenses = listOf(
@@ -97,7 +98,8 @@ val handledLicenses = listOf(
     proprietaryFreeLicenses,
     publicDomainLicenses,
     unknownLicenses,
-    unstatedLicenses
+    unstatedLicenses,
+    sourceAvailable
 ).flatten().let {
     it.getDuplicates().let { duplicates ->
         require(duplicates.isEmpty()) {
@@ -1130,6 +1132,14 @@ fun PackageRule.LicenseRule.isUnstated() =
 
         override fun matches() = license in unstatedLicenses
     }
+
+fun PackageRule.LicenseRule.isSourceAvailable() =
+    object : RuleMatcher {
+        override val description = "isSourceAvailable($license)"
+
+        override fun matches() = license in sourceAvailable
+    }
+
 
 fun PackageRule.packageManagerSupportsDeclaredLicenses(): RuleMatcher =
     NoneOf(
