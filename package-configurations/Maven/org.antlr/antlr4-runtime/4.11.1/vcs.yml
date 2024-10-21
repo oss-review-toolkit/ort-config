@@ -1,6 +1,0 @@
----
-id: "Maven:org.antlr:antlr4-runtime:4.11.1"
-vcs:
-  type: "Git"
-  url: "https://github.com/antlr/antlr4.git"
-  revision: "9239e6ff444420516b44b7621e8dc7691fcf0e16"

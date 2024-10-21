@@ -1,6 +1,0 @@
----
-id: "Maven:com.google.errorprone:error_prone_annotations:2.18.0"
-vcs:
-  type: "Git"
-  url: "https://github.com/google/error-prone.git"
-  revision: "34730decfeb81a35909db858399387f81c06c01f"

@@ -1,6 +1,0 @@
----
-id: "Maven:io.burt:jmespath-jackson:0.5.0"
-vcs:
-  type: "Git"
-  url: "ssh://git@github.com/burtcorp/jmespath-java.git"
-  revision: "6f8d72d62930dd426eed34f87d2dfbc38fe51a28"

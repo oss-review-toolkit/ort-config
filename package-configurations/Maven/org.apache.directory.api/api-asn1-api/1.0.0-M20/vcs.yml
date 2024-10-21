@@ -1,6 +1,0 @@
----
-id: "Maven:org.apache.directory.api:api-asn1-api:1.0.0-M20"
-vcs:
-  type: "Subversion"
-  url: "http://svn.apache.org/repos/asf/directory/shared"
-  revision: "1513760"

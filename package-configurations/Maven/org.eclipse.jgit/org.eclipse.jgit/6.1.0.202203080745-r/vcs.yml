@@ -1,6 +1,0 @@
----
-id: "Maven:org.eclipse.jgit:org.eclipse.jgit:6.1.0.202203080745-r"
-vcs:
-  type: "Git"
-  url: "https://git.eclipse.org/r/jgit/jgit"
-  revision: "e982de3fcb9f3a2e5ec6ceaae44cbb344962ea01"

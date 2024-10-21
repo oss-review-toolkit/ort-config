@@ -1,6 +1,0 @@
----
-id: "Maven:org.springframework:spring-jcl:6.0.3"
-vcs:
-  type: "Git"
-  url: "https://github.com/spring-projects/spring-framework.git"
-  revision: "0fbc94fae002a2bf25b62b0591dcadffab817b94"

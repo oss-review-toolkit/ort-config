@@ -1,6 +1,0 @@
----
-id: "Maven:net.minidev:accessors-smart:2.4.8"
-vcs:
-  type: "Git"
-  url: "https://github.com/netplex/json-smart-v2.git"
-  revision: "509dfaa045a564e38f2aa007a98c539a57e5b2ae"
