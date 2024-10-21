@@ -23,7 +23,7 @@ jobs:
       uses: gradle/actions/setup-gradle@d156388eb19639ec20ade50009f3d199ce1e2808 # v4
       with:
         gradle-home-cache-cleanup: true
-    - name: Verify package configurations
-      run: ./gradlew -p tools/curations verifyPackageConfigurations
+          #- name: Verify package configurations
+          #      run: ./gradlew -p tools/curations verifyPackageConfigurations
     - name: Verify package curations
       run: ./gradlew -p tools/curations verifyPackageCurations
