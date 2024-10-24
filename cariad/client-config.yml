@@ -15,9 +15,9 @@ ort:
   enableRepositoryPackageCurations: true
 
   licenseFilePatterns:
-    licenseFilenames: ["license*"]
+    licenseFilenames: ["license*", "LICENSE*"]
     patentFilenames: ["patents"]
-    rootLicenseFilenames: ["readme*"]
+    otherLicenseFilenames: ["readme*"]
 
   packageConfigurationProviders:
     - type: DefaultDir
