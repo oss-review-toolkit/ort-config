@@ -31,6 +31,9 @@ categories:
 - name: "unknown"
 
 categorizations:
+- id: "0BSD"
+  categories:
+  - "permissive"
 - id: "AGPL-1.0"
   categories:
   - "permissive"
