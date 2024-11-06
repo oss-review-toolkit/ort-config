@@ -3,6 +3,11 @@
     comment: "Set the VCS path of the module inside the multi-module repository."
     vcs:
       path: "src/libraries/System.Drawing.Common"
+- id: "NuGet:System.Drawing:Common:[5.0.0,)"
+  curations:
+    comment: "Set the VCS path of the module inside the multi-module repository."
+    vcs:
+      path: "src/libraries/System.Drawing.Common"
 - id: "NuGet:System.Drawing:Common:[8.0.0,)"
   curations:
     comment: "The package has been moved from directory 'src/libraries/System.Drawing.Common'"

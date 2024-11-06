@@ -8,6 +8,11 @@
     comment: "Set the VCS path of the module inside the multi-module repository."
     vcs:
       path: "src/Mvc/shared/Mvc.TestDiagnosticListener"
+- id: "NuGet:Microsoft.AspNetCore:Mvc.TestDiagnosticListener:[2.1.9,2.1.33]"
+  curations:
+    comment: "Set the VCS path of the module inside the multi-module repository."
+    vcs:
+      path: "src/Mvc/shared/Mvc.TestDiagnosticListener"
 - id: "NuGet:Microsoft.AspNetCore:Mvc.TestDiagnosticListener:[2.2.1,2.2.2]"
   curations:
     comment: "Set the VCS path of the module inside the multi-module repository."

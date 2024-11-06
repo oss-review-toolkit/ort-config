@@ -1,0 +1,5 @@
+- id: "NuGet:AWSSDK:ApplicationSignals:[3.7.828,)"
+  curations:
+    comment: "Set the VCS path of the module inside the multi-module repository."
+    vcs:
+      path: "sdk/src/Services/ApplicationSignals"

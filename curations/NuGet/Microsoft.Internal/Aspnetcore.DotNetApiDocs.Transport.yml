@@ -1,0 +1,5 @@
+- id: "NuGet:Microsoft.Internal:Aspnetcore.DotNetApiDocs.Transport:[8.0.0,)"
+  curations:
+    comment: "Set the VCS path of the module inside the multi-module repository."
+    vcs:
+      path: "src/Framework/Microsoft.Internal.Aspnetcore.DotNetApiDocs.Transport/src"
