@@ -5,7 +5,7 @@ path_excludes:
   - pattern: "PKG-INFO/**"
     reason: "DOCUMENTATION_OF"
   - pattern: "setup.cfg"
-    reason: "CONFIGURATION_FILE"
+    reason: "BUILD_TOOL_OF"
 
 license_finding_curations:
 - path: "**/setup.cfg"

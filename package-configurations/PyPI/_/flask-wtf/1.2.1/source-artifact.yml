@@ -5,5 +5,5 @@ path_excludes:
   - pattern: "PKG-INFO/**"
     reason: "DOCUMENTATION_OF"
   - pattern: "flask_wtf-1.2.1/pyproject.toml"
-    reason: "BUILD_CONFIG"
+    reason: "BUILD_TOOL_OF"
 

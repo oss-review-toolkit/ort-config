@@ -12,4 +12,4 @@ license_finding_curations:
   
 path_excludes:
 - pattern: "setup.cfg"
-  reason: "CONFIGURATION_FILE"
+  reason: "BUILD_TOOL_OF"
