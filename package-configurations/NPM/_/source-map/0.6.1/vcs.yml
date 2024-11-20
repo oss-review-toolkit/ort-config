@@ -1,0 +1,40 @@
+---
+id: "NPM::source-map:0.6.1"
+source_artifact_url: "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
+license_finding_curations:
+- path: "package/dist/source-map.debug.js"
+  start_lines: "59"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "BSD-3-Clause"
+- path: "package/dist/source-map.js"
+  start_lines: "59"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "BSD-3-Clause"
+- path: "package/dist/source-map.min.js.map"
+  start_lines: "74"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "BSD-3-Clause"
+- path: "package/dist/source-map.min.js.map"
+  start_lines: "3305"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "BSD-3-Clause"
+- path: "	package/source-map.js"
+  start_lines: "3"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "BSD-3-Clause"
+  

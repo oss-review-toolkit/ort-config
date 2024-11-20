@@ -1,0 +1,11 @@
+---
+id: "NPM::glob:7.2.3"
+source_artifact_url: "https://registry.npmjs.org/glob/-/glob-7.2.3.tgz"
+license_finding_curations:
+- path: "package/LICENSE"
+  start_lines: "19"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "MIT"

@@ -1,0 +1,14 @@
+---
+id: "NPM::jsbn:0.1.1"
+source_artifact_url: "https://registry.npmjs.org/jsbn/-/jsbn-0.1.1.tgz"
+path_excludes:
+- pattern: "package/index.js"
+  reason: "BUILD_TOOL_OF"
+license_finding_curations:
+- path: "package/LICENSE"
+  start_lines: "4"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "MIT"

@@ -1,0 +1,11 @@
+---
+id: "NPM::astring:1.8.6"
+source_artifact_url: "https://registry.npmjs.org/astring/-/astring-1.8.6.tgz"
+license_finding_curations:
+- path: "package/package.json"
+  start_lines: "47"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "MIT"
