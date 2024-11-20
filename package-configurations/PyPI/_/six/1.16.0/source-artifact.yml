@@ -9,3 +9,7 @@ license_finding_curations:
   concluded_license: "NONE"
   reason: "INCORRECT"
   comment: "Reference to LICENSE file"
+  
+path_excludes:
+- pattern: "setup.cfg"
+  reason: "BUILD_TOOL_OF"
