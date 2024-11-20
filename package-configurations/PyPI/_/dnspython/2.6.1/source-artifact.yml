@@ -2,10 +2,10 @@
 id: "PyPI::dnspython:2.6.1"
 source_artifact_url: "https://files.pythonhosted.org/packages/37/7d/c871f55054e403fdfd6b8f65fd6d1c4e147ed100d3e9f9ba1fe695403939/dnspython-2.6.1.tar.gz"
 path_excludes:
-   - pattern: "**/tests/**"
-    reason: "DOCUMENTATION_OF"
-  - pattern: "examples/**"
-    reason: "EXAMPLE_OF"
+- pattern: "**/tests/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "examples/**"
+  reason: "EXAMPLE_OF"
 license_finding_curations:
 - path: "**/*"
   detected_license: "MPL-2.0"
