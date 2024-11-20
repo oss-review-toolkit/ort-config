@@ -1,0 +1,11 @@
+---
+id: "PyPI::certifi:2024.7.4"
+source_artifact_url: "https://files.pythonhosted.org/packages/c2/02/a95f2b11e207f68bc64d7aae9666fed2e2b3f307748d5123dffb72a1bbea/certifi-2024.7.4.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "25"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

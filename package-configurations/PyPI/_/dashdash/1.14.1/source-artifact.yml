@@ -1,0 +1,7 @@
+---
+id: "NPM::dashdash:1.14.1"
+source_artifact_url: "https://registry.npmjs.org/dashdash/-/dashdash-1.14.1.tgz"
+path_excludes:
+  - pattern: "package/README.md"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains documentation which is not distributed."

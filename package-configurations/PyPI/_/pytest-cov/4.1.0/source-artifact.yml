@@ -1,6 +1,9 @@
 ---
 id: "PyPI::pytest-cov:4.1.0"
 source_artifact_url: "https://files.pythonhosted.org/packages/7a/15/da3df99fd551507694a9b01f512a2f6cf1254f33601605843c3775f39460/pytest-cov-4.1.0.tar.gz"
+path_excludes:
+- pattern: "**/PKG-INFO"
+  reason: "DOCUMENTATION_OF"
 license_finding_curations:
 - path: "**/PKG-INFO"
   start_lines: "34"
@@ -9,3 +12,4 @@ license_finding_curations:
   concluded_license: "NONE"
   reason: "INCORRECT"
   comment: "Reference to LICENSE file"
+  

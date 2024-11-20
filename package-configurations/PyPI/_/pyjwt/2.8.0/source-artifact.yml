@@ -3,7 +3,7 @@ id: "PyPI::pyjwt:2.8.0"
 source_artifact_url: "https://files.pythonhosted.org/packages/30/72/8259b2bccfe4673330cea843ab23f86858a419d8f1493f66d413a76c7e3b/PyJWT-2.8.0.tar.gz"
 license_finding_curations:
 - path: "**/PKG-INFO"
-  start_lines: "28"
+  start_lines: "29"
   line_count: 1
   detected_license: "NOASSERTION"
   concluded_license: "NONE"

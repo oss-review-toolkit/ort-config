@@ -1,0 +1,25 @@
+---
+id: "PyPI::bootstrap-flask:2.3.3"
+source_artifact_url: "https://files.pythonhosted.org/packages/2c/09/214cba688cd2a4f9ffac6f54bb9ba6b3eff13a7ef1e8b47d933044f27c39/Bootstrap-Flask-2.3.3.tar.gz"
+path_excludes:
+  - pattern: "PKG-INFO/**"
+    reason: "DOCUMENTATION_OF"
+  - pattern: "setup.cfg"
+    reason: "CONFIGURATION_FILE"
+
+license_finding_curations:
+- path: "**/setup.cfg"
+  start_lines: "2"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/LICENSE"
+  start_lines: "25"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "BSD-3-clause"
+

@@ -1,0 +1,5 @@
+id: "PyPI::logging-json:0.5.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/c6/25/e57be29b8ceccedd3c271b18b2fd6546bf3a8effa12d74fa116a0993589a/logging_json-0.5.0.tar.gz"
+path_excludes:
+- pattern: "**/PKG-INFO"
+  reason: "DATA_FILE_OF"

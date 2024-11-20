@@ -1,0 +1,9 @@
+---
+id: "PyPI::flask-wtf:1.2.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/9b/ef/b6ec35e02f479f6e76e02ede14594c9cfa5e6dcbab6ea0e82fa413993a2a/flask_wtf-1.2.1.tar.gz"
+path_excludes:
+  - pattern: "PKG-INFO/**"
+    reason: "DOCUMENTATION_OF"
+  - pattern: "flask_wtf-1.2.1/pyproject.toml"
+    reason: "BUILD_CONFIG"
+

@@ -1,0 +1,10 @@
+---
+id: "PyPI::wtforms:3.1.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/6a/c7/96d10183c3470f1836846f7b9527d6cb0b6c2226ebca40f36fa29f23de60/wtforms-3.1.2.tar.gz"
+path_excludes:
+  - pattern: "**/PKG-INFO"
+    reason: "DOCUMENTATION_OF"  
+  - pattern: "**/locale"
+    reason: "DOCUMENTATION_OF"
+  - pattern: "wtforms-3.1.2/pyproject.toml"
+    reason: "DOCUMENTATION_OF"

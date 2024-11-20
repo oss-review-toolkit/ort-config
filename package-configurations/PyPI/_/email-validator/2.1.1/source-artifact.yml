@@ -1,0 +1,10 @@
+---
+id: "PyPI::email-validator:2.1.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/63/82/2914bff80ebee8c027802a664ad4b4caad502cd594e358f76aff395b5e56/email_validator-2.1.1.tar.gz"
+path_excludes:
+  - pattern: "PKG-INFO/**"
+    reason: "DOCUMENTATION_OF"
+  - pattern: "setup.cfg"
+    reason: "CONFIGURATION_FILE"
+  - pattern: "README.md"
+    reason: "DOCUMENTATION_FILE"

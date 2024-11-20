@@ -1,0 +1,10 @@
+---
+id: "PyPI::flask-oidc-ext:1.4.5"
+source_artifact_url: "https://files.pythonhosted.org/packages/4f/44/1e1428c7879778cd4329c2c0dbf7ef228dcb20964c73a1180d0f542f75c2/flask-oidc-ext-1.4.5.tar.gz
+path_excludes:
+  - pattern: "PKG-INFO/**"
+    reason: "DOCUMENTATION_OF"
+  - pattern: "docs/**"
+    reason: "DOCUMENTATION_OF"
+  
+

@@ -1,23 +1,23 @@
 ---
-id: "PyPI::mccabe:0.7.0"
-source_artifact_url: "https://files.pythonhosted.org/packages/e7/ff/0ffefdcac38932a54d2b5eed4e0ba8a408f215002cd178ad1df0f2806ff8/mccabe-0.7.0.tar.gz"
+id: "PyPI::typing-extensions:4.10.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/16/3a/0d26ce356c7465a19c9ea8814b960f8a36c3b0d07c323176620b7b483e44/typing_extensions-4.10.0.tar.gz"
 license_finding_curations:
 - path: "**/LICENSE"
-  start_lines: "5"
+  start_lines: "66"
   line_count: 1
   detected_license: "NOASSERTION"
-  concluded_license: "MIT"
+  concluded_license: "NONE"
   reason: "INCORRECT"
-  comment: "MIT"
-- path: "**/PKG-INFO"
-  start_lines: "27"
+  comment: "Zero clause BSD And PSF 2.0"
+- path: "**/CHANGELOG-md"
+  start_lines: "152"
   line_count: 1
   detected_license: "NOASSERTION"
   concluded_license: "NONE"
   reason: "INCORRECT"
   comment: "Reference to LICENSE file"
-- path: "**/setup.cfg"
-  start_lines: "5"
+- path: "**/pyproject.toml"
+  start_lines: "13"
   line_count: 1
   detected_license: "NOASSERTION"
   concluded_license: "NONE"

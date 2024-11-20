@@ -1,0 +1,10 @@
+---
+id: "PyPI::pyasn1-modules:0.3.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/3b/e4/7dec823b1b5603c5b3c51e942d5d9e65efd6ff946e713a325ed4146d070f/pyasn1_modules-0.3.0.tar.gz"
+path_excludes:
+  - pattern: "PKG-INFO/**"
+    reason: "DOCUMENTATION_OF"
+  - pattern: "setup.cfg"
+    reason: "CONFIGURATION_FILE"
+  
+
