@@ -1,5 +1,4 @@
 ort:
-  force-overwrite: true
   allowedProcessEnvironmentVariableNames:
     - PASSPORT
     - USER_HOME
@@ -17,7 +16,7 @@ ort:
   licenseFilePatterns:
     licenseFilenames: ["license*"]
     patentFilenames: ["patents"]
-    rootLicenseFilenames: ["readme*"]
+    otherLicenseFilenames: ["readme*"]
 
   packageConfigurationProviders:
     - type: DefaultDir
