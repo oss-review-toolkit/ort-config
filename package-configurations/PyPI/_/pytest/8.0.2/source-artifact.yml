@@ -1,0 +1,15 @@
+---
+id: "PyPI::pytest:8.0.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/3f/c0/238f25cb27495fdbaa5c48cef9886162e9df1f3d0e957fc8326d9c24fa2f/pytest-8.0.2.tar.gz"
+license_finding_curations:
+- path: "**/PKG-INFO"
+  start_lines: "36"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+  
+path_excludes:
+- pattern: "setup.cfg"
+  reason: "BUILD_TOOL_OF"

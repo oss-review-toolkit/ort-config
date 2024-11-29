@@ -1,0 +1,15 @@
+---
+id: "PyPI::greenlet:3.0.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/54/df/718c9b3e90edba70fa919bb3aaa5c3c8dabf3a8252ad1e93d33c348e5ca4/greenlet-3.0.1.tar.gz"
+path_excludes:
+  - pattern: "PKG-INFO/**"
+    reason: "DOCUMENTATION_OF"
+
+license_finding_curations:
+- path: "greenlet-3.0.1/LICENSE"
+  start_lines: "7"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE.PSF and http://www.stackless.com/"

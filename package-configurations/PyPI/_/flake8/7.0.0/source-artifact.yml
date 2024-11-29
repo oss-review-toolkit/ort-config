@@ -1,0 +1,9 @@
+---
+id: "PyPI::flake8:7.0.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/40/3c/3464b567aa367b221fa610bbbcce8015bf953977d21e52f2d711b526fb48/flake8-7.0.0.tar.gz"
+path_excludes:
+  - pattern: "PKG-INFO/**"
+    reason: "DOCUMENTATION_OF"
+  - pattern: "setup.cfg"
+    reason: "BUILD_TOOL_OF"
+

@@ -1,0 +1,7 @@
+---
+id: "PyPI::cryptography:42.0.5"
+source_artifact_url: "https://files.pythonhosted.org/packages/13/9e/a55763a32d340d7b06d045753c186b690e7d88780cafce5f88cb931536be/cryptography-42.0.5.tar.gz"
+path_excludes:
+  - pattern: "**/PKG-INFO"
+    reason: "DOCUMENTATION_OF"
+    comment: "This directory contains documentation which is not distributed."

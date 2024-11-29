@@ -1,0 +1,12 @@
+---
+id: "PyPI::flask:3.0.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/3f/e0/a89e8120faea1edbfca1a9b171cff7f2bf62ec860bbafcb2c2387c0317be/flask-3.0.2.tar.gz"
+path_excludes:
+  - pattern: "Flask-3.0.2/artwork/**"
+    reason: "DATA_FILE_OF"
+  - pattern: "Flask-3.0.2/docs/**"
+    reason: "DOCUMENTATION_OF"
+  - pattern: "Flask-3.0.2/examples/**"
+    reason: "EXAMPLE_OF"
+  - pattern: "Flask-3.0.2/tests/**"
+    reason: "TEST_OF"

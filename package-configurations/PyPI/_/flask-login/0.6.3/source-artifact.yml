@@ -1,0 +1,9 @@
+---
+id: "PyPI::flask-login:0.6.3"
+source_artifact_url: "https://files.pythonhosted.org/packages/c3/6e/2f4e13e373bb49e68c02c51ceadd22d172715a06716f9299d9df01b6ddb2/Flask-Login-0.6.3.tar.gz"
+path_excludes:
+   - pattern: "**/docs/**"
+     reason: "DOCUMENTATION_OF"
+   - pattern: "PKG-INFO/**"
+     reason: "DOCUMENTATION_OF"
+

@@ -1,0 +1,12 @@
+---
+id: "NPM::abort-controller:3.0.0"
+source_artifact_url: "https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz"
+path_excludes:
+- pattern: "package/dist/abort-controller.js"
+  reason: "DOCUMENTATION_OF"
+- pattern: "package/dist/abort-controller.mjs"
+  reason: "DOCUMENTATION_OF"
+- pattern: "package/dist/abort-controller.umd.js"
+  reason: "DOCUMENTATION_OF"
+- pattern: "package/dist/abort-controller.umd.js.map"
+  reason: "DOCUMENTATION_OF"

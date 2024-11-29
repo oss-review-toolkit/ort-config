@@ -1,0 +1,35 @@
+---
+id: "NPM::bcrypt-pbkdf:1.0.2"
+source_artifact_url: "https://registry.npmjs.org/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz"
+path_excludes:
+- pattern: "package/README.md"
+  reason: "DOCUMENTATION_OF"
+license_finding_curations:
+- path: "package/index.js"
+  start_lines: "16"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "BSD-3-Clause"
+- path: "package/index.js"
+  start_lines: "48"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "ISC"
+- path: "package/LICENSE"
+  start_lines: "1"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "BSD-3-Clause"
+- path: "package/LICENSE"
+  start_lines: "33"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "ISC"

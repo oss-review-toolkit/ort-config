@@ -1,0 +1,7 @@
+---
+id: "PyPI::flask-sqlalchemy:3.1.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/91/53/b0a9fcc1b1297f51e68b69ed3b7c3c40d8c45be1391d77ae198712914392/flask_sqlalchemy-3.1.1.tar.gz"
+path_excludes:
+- pattern: "pyparsing-3.1.2/pyproject.toml"
+  reason: "BUILD_TOOL_OF"
+

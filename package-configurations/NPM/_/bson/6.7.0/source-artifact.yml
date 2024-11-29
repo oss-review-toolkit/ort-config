@@ -1,0 +1,17 @@
+---
+id: "NPM::bson:6.7.0"
+source_artifact_url: "https://registry.npmjs.org/bson/-/bson-6.7.0.tgz"
+path_excludes:
+- pattern: "package/vendor/text-encoding/index.js"
+  reason: "DOCUMENTATION_OF"
+- pattern: "package/vendor/text-encoding/lib/encoding.js"
+  reason: "DOCUMENTATION_OF"
+license_finding_curations:
+- path: "package/vendor/text-encoding/LICENSE.md"
+  start_lines: "5"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Unlicense"
+  

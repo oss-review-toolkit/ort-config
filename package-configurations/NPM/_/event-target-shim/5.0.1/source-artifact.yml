@@ -1,0 +1,27 @@
+---
+id: "NPM::event-target-shim:5.0.1"
+source_artifact_url: "https://registry.npmjs.org/event-target-shim/-/event-target-shim-5.0.1.tgz"
+license_finding_curations:
+- path: "**/event-target-shim.js"
+  start_lines: "4"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Referring to the LICENSE file"
+- path: "**/event-target-shim.mjs"
+  start_lines: "4"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Referring to the LICENSE file"
+- path: "**/event-target-shim.umd.js"
+  start_lines: "4"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Referring to the LICENSE file"  
+
+

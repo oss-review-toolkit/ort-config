@@ -1,0 +1,79 @@
+---
+id: "PyPI::newrelic:9.8.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/a1/67/2ff7c4daee67f18c966ec4eb441a7bf4406c8495a94591cb9d8f03c7d9c3/newrelic-9.8.0.tar.gz"
+path_excludes:
+  - pattern: "PKG-INFO/**"
+    reason: "DOCUMENTATION_OF"
+license_finding_curations:
+- path: "**/CONTRIBUTING.rst"
+  start_lines: "39"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement "
+- path: "**/CONTRIBUTING.rst"
+  start_lines: "195"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Contributor License Agreement "
+- path: "**/setup.cfg"
+  start_lines: "2"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/THIRD_PARTY_NOTICES.md"
+  start_lines: "15"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "BSD-3-clause"
+- path: "**/THIRD_PARTY_NOTICES.md"
+  start_lines: "24"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "MIT"
+- path: "**/THIRD_PARTY_NOTICES.md"
+  start_lines: "33"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Apache 2.0"
+- path: "**/THIRD_PARTY_NOTICES.md"
+  start_lines: "42"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "MIT"
+- path: "**/THIRD_PARTY_NOTICES.md"
+  start_lines: "51"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "PSF"
+- path: "**/THIRD_PARTY_NOTICES.md"
+  start_lines: "60"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "MIT"
+- path: "**/THIRD_PARTY_NOTICES.md"
+  start_lines: "70"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "BSD-2-clause"  
+  
+

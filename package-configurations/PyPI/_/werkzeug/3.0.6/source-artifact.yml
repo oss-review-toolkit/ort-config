@@ -1,0 +1,9 @@
+---
+id: "PyPI::werkzeug:3.0.6"
+source_artifact_url: "https://files.pythonhosted.org/packages/d4/f9/0ba83eaa0df9b9e9d1efeb2ea351d0677c37d41ee5d0f91e98423c7281c9/werkzeug-3.0.6.tar.gz"
+path_excludes:
+  - pattern: "examples/**"
+    reason: "EXAMPLE_OF"
+  - pattern: "werkzeug-3.0.6/pyproject.toml"
+    reason: "BUILD_TOOL_OF"
+

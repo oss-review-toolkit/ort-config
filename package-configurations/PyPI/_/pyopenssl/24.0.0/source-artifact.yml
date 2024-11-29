@@ -1,0 +1,32 @@
+---
+id: "PyPI::pyopenssl:24.0.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/eb/81/022190e5d21344f6110064f6f52bf0c3b9da86e9e5a64fc4a884856a577d/pyOpenSSL-24.0.0.tar.gz"
+path_excludes:
+- pattern: "PKG-INFO/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "tests/**"
+  reason: "TEST_OF"
+license_finding_curations:
+- path: "pyOpenSSL-24.0.0/setup.cfg"
+  start_lines: "2"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/__init__.py"
+  start_lines: "2"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/version.py"
+  start_lines: "3"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+
+

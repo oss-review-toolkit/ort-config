@@ -1,0 +1,25 @@
+---
+id: "PyPI::typing-extensions:4.10.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/16/3a/0d26ce356c7465a19c9ea8814b960f8a36c3b0d07c323176620b7b483e44/typing_extensions-4.10.0.tar.gz"
+license_finding_curations:
+- path: "**/LICENSE"
+  start_lines: "66"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Zero clause BSD And PSF 2.0"
+- path: "**/CHANGELOG-md"
+  start_lines: "152"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"
+- path: "**/pyproject.toml"
+  start_lines: "13"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "Reference to LICENSE file"

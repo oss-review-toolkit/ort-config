@@ -1,0 +1,11 @@
+---
+id: "NPM::ecc-jsbn:0.1.2"
+source_artifact_url: "https://registry.npmjs.org/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz"
+license_finding_curations:
+- path: "package/lib/LICENSE-jsbn"
+  start_lines: "4"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "MIT"
