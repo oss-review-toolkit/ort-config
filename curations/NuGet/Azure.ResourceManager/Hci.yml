@@ -2,4 +2,4 @@
   curations:
     comment: "Set the VCS path of the module inside the multi-module repository."
     vcs:
-      path: "sdk/azurestackhci/Azure.ResourceManager.Hci"
+      path: "sdk/azurestackhci/Azure.ResourceManager.Hci/src"
