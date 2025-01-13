@@ -1,6 +1,0 @@
----
-id: "Maven:org.codehaus.woodstox:stax2-api:4.2.1"
-vcs:
-  type: "Git"
-  url: "ssh://git@github.com/FasterXML/stax2-api.git"
-  revision: "8f10bb50124cb70048a3ec8dd2dca4421a04733c"

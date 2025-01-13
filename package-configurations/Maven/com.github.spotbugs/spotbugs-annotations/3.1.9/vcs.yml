@@ -1,6 +1,0 @@
----
-id: "Maven:com.github.spotbugs:spotbugs-annotations:3.1.9"
-vcs:
-  type: "Git"
-  url: "ssh://git@github.com/spotbugs/spotbugs.git"
-  revision: "a4388ea9078b32ad1b49bc88178116ae45b2b191"
