@@ -1,0 +1,14 @@
+---
+id: "Swift::github.com/apple/swift-nio-extras:1.24.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-nio-extras.git"
+  revision: "2e9746cfc57554f70b650b021b6ae4738abef3e6"
+license_finding_curations:
+- path: "CONTRIBUTING.md"
+  start_lines: "5"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Concluded license updated
