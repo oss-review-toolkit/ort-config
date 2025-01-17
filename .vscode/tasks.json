@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "presentation": {
+    "echo": true,
+    "reveal": "always",
+    "focus": false,
+    "panel": "new",
+    "showReuseMessage": true,
+    "clear": true
+  },
+  "tasks": [
+    {
+      "label": "Verify Package Configuration",
+      "type": "shell",
+      "command": "./gradlew -p tools/curations verifyPackageConfigurations",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Verify Package Curations",
+      "type": "shell",
+      "command": "./gradlew -p tools/curations verifyPackageCurations",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "All Verifications",
+      "dependsOn": ["Verify Package Configuration", "Verify Package Curations"]
+    }
+  ]
+}
