@@ -3312,6 +3312,15 @@ categorizations:
      - "DC_backend: green"
      - "DC_tools: green"
      - "CARIAD_Rated"
+- id: "MIT-0"
+    categories:
+     - "Permissive"
+     - "DC_car_green"
+     - "DC_mobile_green"
+     - "DC_frontend_green"
+     - "DC_backend_green"
+     - "DC_tools_green"
+     - "CARIAD_Rated"
 - id: "HPND-Markus-Kuhn"
     categories:
      - "Permissive"
@@ -4802,15 +4811,6 @@ categorizations:
 - id: "MITNFA"
     categories:
      - "Permissive"
-- id: "MIT-0"
-    categories:
-     - "Permissive"
-     - "DC_car_green"
-     - "DC_mobile_green"
-     - "DC_frontend_green"
-     - "DC_backend_green"
-     - "DC_tools_green"
-     - "CARIAD_Rated"
 - id: "MIT-testregex"
     categories:
      - "Permissive"
