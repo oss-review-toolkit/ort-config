@@ -71,21 +71,33 @@ categories:
     No explicit licensing terms are provided for a work.
 
 categorizations:
-- id: "CC-BY-NC-3.0"
-   categories:
-   - "Source-available"
 - id: "blessing"
+  categories:
+  - "Public Domain"
+  - "DC_car_green"
+  - "DC_mobile_green"
+  - "DC_frontend_green"
+  - "DC_backend_green"
+  - "DC_tools_green"
+   - "CARIAD_Rated"
+- id: "BlueOak-1.0.0"
+  categories:
+  - "Permissive"
+- id: "0BSD"
    categories:
-   - "Public Domain"
+   - "Permissive"
    - "DC_car_green"
    - "DC_mobile_green"
    - "DC_frontend_green"
    - "DC_backend_green"
    - "DC_tools_green"
    - "CARIAD_Rated"
-- id: "BlueOak-1.0.0"
+- id: "CC-BY-4.0"
    categories:
    - "Permissive"
+- id: "CC-BY-NC-3.0"
+   categories:
+   - "Source-available"
 - id: "apache-exception-llvm"
     categories:
      - "Permissive"
@@ -1528,18 +1540,6 @@ categorizations:
 - id: "CC-BY-NC-ND-2.0"
     categories:
      - "Source-available"
-- id: "0BSD"
-    categories:
-     - "Permissive"
-     - "DC_car_green"
-     - "DC_mobile_green"
-     - "DC_frontend_green"
-     - "DC_backend_green"
-     - "DC_tools_green"
-     - "CARIAD_Rated"
-- id: "CC-BY-4.0"
-    categories:
-     - "Permissive"
 - id: "bzip2-1.0.6"
      categories:
      - "include-in-notice-file" 
@@ -1698,11 +1698,20 @@ categorizations:
      - "DC_tools: green"
      - "CARIAD_Rated"
 - id: "ECL-2.0"
-   categories:
-   - "Permissive"
+  categories:
+  - "Permissive"
 - id: "FSFUL"
+  categories:
+  - "Public Domain"
+  - "DC_car_green"
+  - "DC_mobile_green"
+  - "DC_frontend_green"
+  - "DC_backend_green"
+  - "DC_tools_green"
+   - "CARIAD_Rated"
+- id: "LicenseRef-scancode-dhb-lbnl-bsd-2007"
    categories:
-   - "Public Domain"
+   - "Copyleft Limited"
    - "DC_car_green"
    - "DC_mobile_green"
    - "DC_frontend_green"
@@ -3217,15 +3226,6 @@ categorizations:
 - id: "Info-ZIP"
     categories:
      - "Permissive"
-- id: "LicenseRef-scancode-dhb-lbnl-bsd-2007"
-    categories:
-     - "Copyleft Limited"
-     - "DC_car_green"
-     - "DC_mobile_green"
-     - "DC_frontend_green"
-     - "DC_backend_green"
-     - "DC_tools_green"
-     - "CARIAD_Rated"
 - id: "Spencer-94"
      categories:
      - "include-in-notice-file" 
@@ -3312,10 +3312,20 @@ categorizations:
      - "DC_backend: green"
      - "DC_tools: green"
      - "CARIAD_Rated"
-- id: "LGPL-2.0-only"
-   categories:
-   - "Copyleft Limited"
 - id: "LGPL-2.1-only"
+  categories:
+  - "Copyleft Limited"
+- id: "mentalis"
+   categories:
+   - "Permissive"
+   - "No SPDX for this license available"
+   - "DC_car_green"
+   - "DC_mobile_green"
+   - "DC_frontend_green"
+   - "DC_backend_green"
+   - "DC_tools_green"
+   - "CARIAD_Rated"
+- id: "LGPL-2.0-only"
    categories:
    - "Copyleft Limited"
 - id: "MIT-0"
@@ -4823,16 +4833,6 @@ categorizations:
      - "DC_backend_green"
      - "DC_tools_green"
      - "CARIAD_Rated"
-- id: "mentalis"
-    categories:
-     - "Permissive"
-     - "No SPDX for this license available"
-     - "DC_car_green"
-     - "DC_mobile_green"
-     - "DC_frontend_green"
-     - "DC_backend_green"
-     - "DC_tools_green"
-     - "CARIAD_Rated"
 - id: "Naumen"
      categories:
      - "include-in-notice-file" 
@@ -4917,13 +4917,13 @@ categorizations:
      - "DC_tools: review"
      - "CARIAD_Rated"
 - id: "SAX-PD"
-   categories:
-   - "Public Domain"
-   - "DC_car_green"
-   - "DC_mobile_green"
-   - "DC_frontend_green"
-   - "DC_backend_green"
-   - "DC_tools_green"
+  categories:
+  - "Public Domain"
+  - "DC_car_green"
+  - "DC_mobile_green"
+  - "DC_frontend_green"
+  - "DC_backend_green"
+  - "DC_tools_green"
    - "CARIAD_Rated"
 - id: "OGC-1.0"
     categories:
@@ -6460,6 +6460,19 @@ categorizations:
      - "DC_tools: review"
      - "CARIAD_Rated"
 - id: "Unlicense"
+  categories:
+  - "Public Domain"
+  - "DC_car_green"
+  - "DC_mobile_green"
+  - "DC_frontend_green"
+  - "DC_backend_green"
+  - "DC_tools_green"
+   - "CARIAD_Rated"
+- id: "x11-xconsortium_veillard"
+  categories:
+  - "Permissive"
+  - "No SPDX for this license available"
+- id: "WTFPL"
    categories:
    - "Public Domain"
    - "DC_car_green"
@@ -6468,10 +6481,6 @@ categorizations:
    - "DC_backend_green"
    - "DC_tools_green"
    - "CARIAD_Rated"
-- id: "x11-xconsortium_veillard"
-   categories:
-   - "Permissive"
-   - "No SPDX for this license available"
 - id: "Xdebug-1.03"
     categories:
      - "Permissive"
@@ -7368,15 +7377,6 @@ categorizations:
 - id: "TU-Berlin-1.0"
     categories:
      - "Permissive"
-- id: "WTFPL"
-    categories:
-     - "Public Domain"
-     - "DC_car_green"
-     - "DC_mobile_green"
-     - "DC_frontend_green"
-     - "DC_backend_green"
-     - "DC_tools_green"
-     - "CARIAD_Rated"
 - id: "Zlib"
      categories:
      - "include-in-notice-file" 
