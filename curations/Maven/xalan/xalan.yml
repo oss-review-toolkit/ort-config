@@ -1,0 +1,6 @@
+- id: "Maven:xalan:xalan"
+  curations:
+    comment: |-
+      Sources found on GitHub.
+    vcs:
+      url: "https://github.com/apache/xalan-java.git"
