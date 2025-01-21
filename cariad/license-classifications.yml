@@ -7517,7 +7517,7 @@ categorizations:
 - id: "TU-Berlin-1.0"
   categories:
   - "Permissive"
-- id: "x11-xconsortium_veillard"
+- id: "x11-xconsortium-veillard"
   categories:
   - "Permissive"
   - "No SPDX for this license available"
