@@ -26,8 +26,8 @@
 /**
  * Variables defining the organization using ORT.
  */
-val orgName = "Example Inc."
-val orgScanIssueTrackerName = "OSPO Test Jira"
+val orgName = "Cariad SE"
+val orgScanIssueTrackerName = "OSPO Jira"
 val orgScanIssueTrackerMdLink = "[$orgScanIssueTrackerName](https://devstack.vwgroup.com/jira/projects/OSSIB/)"
 
 /**
@@ -126,7 +126,7 @@ val orgOssProjectsApprovedLicenses = listOf(
 val doNotWorryText = "_Note_: Do not worry about creating a perfect curation or exclude. Reviewers will provide feedback."
 val globTutorialMdLink = "[reference documentation](https://docs.oracle.com/javase/tutorial/essential/io/fileOps.html#glob)"
 val ortConfigContributingMdLink = "[CONTRIBUTING.md](https://github.com/oss-review-toolkit/ort-config/blob/main/CONTRIBUTING.md)"
-val ortConfigVcsMdLink = "[Cariad ort-config repository](https://github.com/vwdfive/ort-config)"
+val ortConfigVcsMdLink = "[Cariad ort-config repository](https://github.com/cariad-optima/ort-config)"
 val ortCurationsYmlFileConcludedLicenseMdLink = "[concluded license curation](https://oss-review-toolkit.org/ort/docs/configuration/ort-yml#curations)"
 val ortCurationsYmlFileDeclaredLicenseMdLink = "[declared license curation](https://oss-review-toolkit.org/ort/docs/configuration/ort-yml#curations)"
 val ortCurationsYmlVcsPathMdLink = "[VCS path curation](https://oss-review-toolkit.org/ort/docs/configuration/ort-yml#curations)"
