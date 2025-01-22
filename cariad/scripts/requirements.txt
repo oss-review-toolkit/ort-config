@@ -1,0 +1,17 @@
+annotated-types==0.7.0
+appdirs==1.4.4
+jedi==0.19.2
+markdown-it-py==3.0.0
+mdurl==0.1.2
+parso==0.8.4
+prompt-toolkit==3.0.50
+ptpython==3.0.29
+pydantic==2.10.5
+pydantic-core==2.27.2
+pydantic-settings==2.7.1
+pygments==2.19.1
+python-dotenv==1.0.1
+pyyaml==6.0.2
+rich==13.9.4
+typing-extensions==4.12.2
+wcwidth==0.2.13
