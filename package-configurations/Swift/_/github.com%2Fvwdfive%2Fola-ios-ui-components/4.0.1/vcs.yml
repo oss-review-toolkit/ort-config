@@ -1,0 +1,10 @@
+---
+id: "Swift::github.com/vwdfive/ola-ios-ui-components:4.0.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/vwdfive/ola-ios-ui-components.git"
+  revision: "d113065b9b1419b2bbf6c03702117033e9da883b"
+path_excludes:
+- pattern: "**/Sources/ui-theme/Resources/**"
+  reason: "OTHER"
+ 
