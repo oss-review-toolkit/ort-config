@@ -1,0 +1,24 @@
+---
+id: "Swift::github.com/apple/swift-nio-http2:1.35.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-nio-http2.git"
+  revision: "170f4ca06b6a9c57b811293cebcb96e81b661310"
+path_excludes:
+- pattern: "**/FuzzTesting/**"
+  reason: "TEST_OF"
+license_finding_curations:
+- path: "CONTRIBUTING.md"
+  start_lines: "5"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "The identified license, Apache-2.0, has been accurately concluded and is confirmed as a true positive finding"
+- path: "NOTICE.txt"
+  start_lines: "41"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "The identified license, Apache-2.0, has been accurately concluded and is confirmed as a true positive finding"
