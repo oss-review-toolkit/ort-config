@@ -1,0 +1,52 @@
+---
+id: "Swift::github.com/devicekit/devicekit:5.5.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/devicekit/DeviceKit.git"
+  revision: "7ff5331960151aec74fb422e1d45f54ef6cc086d"
+path_excludes:
+- pattern: "**/Tests/**"
+  reason: "TEST_OF"
+license_finding_curations:
+- path: "DeviceKit.podspec"
+  start_lines: "11"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
+- path: "LICENSE"
+  start_lines: "1"
+  line_count: 19
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
+- path: "Source/Device.generated.swift"
+  start_lines: "5"
+  line_count: 4
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
+- path: "Source/Device.swift.gyb"
+  start_lines: "5"
+  line_count: 4
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
+- path: "Package.swift"
+  start_lines: "6"
+  line_count: 4
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
+- path: "README.md"
+  start_lines: "3"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
