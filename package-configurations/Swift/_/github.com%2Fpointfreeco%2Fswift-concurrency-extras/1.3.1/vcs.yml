@@ -1,0 +1,14 @@
+---
+id: "Swift::github.com/pointfreeco/swift-concurrency-extras:1.3.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/pointfreeco/swift-concurrency-extras.git"
+  revision: "82a4ae7170d98d8538ec77238b7eb8e7199ef2e8"
+license_finding_curations:
+- path: "README.md"
+  start_lines: "268"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
