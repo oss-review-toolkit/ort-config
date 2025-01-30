@@ -1,0 +1,42 @@
+---
+id: "Swift::github.com/combinecommunity/combineext:1.8.1"
+vcs:
+  type: "Git"
+  url: "github.com/CombineCommunity/CombineExt.git"
+  revision: "d7b896fa9ca8b47fa7bcde6b43ef9b70bf8c1f56"
+license_finding_curations:
+- path: "LICENSE"
+  start_lines: "1"
+  line_count: 19
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
+- path: "Sources/Operators/Internal/Timer.swift"
+  start_lines: "7"
+  line_count: 5
+  detected_license: "NOASSERTION"
+  concluded_license: "Swift-exception"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS Swift-exception"
+- path: "Sources/Operators/Internal/Lock.swift"
+  start_lines: "7"
+  line_count: 5
+  detected_license: "NOASSERTION"
+  concluded_license: "Swift-exception"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS Swift-exception"
+- path: "CombineExt.podspec"
+  start_lines: "10"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
+- path: "Readme.md"
+  start_lines: "921"
+  line_count: 3
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
