@@ -1,0 +1,33 @@
+---
+id: "Swift::github.com/pointfreeco/swift-snapshot-testing:1.17.7"
+vcs:
+  type: "Git"
+  url: "https://github.com/pointfreeco/swift-snapshot-testing.git"
+  revision: "2e6a85b73fc14e27d7542165ae73b1a10516ca9a"
+path_excludes:
+- pattern: "**/Tests/**"
+  reason: "TEST_OF"
+- pattern: "**/.github/snapshot-test-1.png"
+  reason: "OTHER"
+license_finding_curations:
+- path: "LICENSE"
+  start_lines: "1"
+  line_count: 21
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
+- path: "README.md"
+  start_lines: "316"
+  line_count: 3
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
+- path: "Sources/SnapshotTesting/Common/PlistEncoder.swift"
+  start_lines: "22"
+  line_count: 4
+  detected_license: "NOASSERTION"
+  concluded_license: "Swift-exception"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
