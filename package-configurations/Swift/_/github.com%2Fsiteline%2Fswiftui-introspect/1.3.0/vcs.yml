@@ -1,0 +1,21 @@
+---
+id: "Swift::github.com/siteline/swiftui-introspect:1.3.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/siteline/swiftui-introspect.git"
+  revision: "807f73ce09a9b9723f12385e592b4e0aaebd3336"
+license_finding_curations:
+- path: "LICENSE"
+  start_lines: "1"
+  line_count: 7
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
+- path: "SwiftUIIntrospect.podspec"
+  start_lines: "4"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
