@@ -1,0 +1,35 @@
+---
+id: "Swift::github.com/flight-school/anycodable:0.6.7"
+vcs:
+  type: "Git"
+  url: "https://github.com/Flight-School/AnyCodable.git"
+  revision: "862808b2070cd908cb04f9aafe7de83d35f81b05"
+license_finding_curations:
+- path: "AnyCodable-FlightSchool.podspec"
+  start_lines: "13"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
+- path: "LICENSE.md"
+  start_lines: "1"
+  line_count: 19
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
+- path: "README.md"
+  start_lines: "120"
+  line_count: 3
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
+- path: "README.md"
+  start_lines: "130"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
