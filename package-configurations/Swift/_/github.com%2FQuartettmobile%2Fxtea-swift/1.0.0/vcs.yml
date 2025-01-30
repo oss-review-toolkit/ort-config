@@ -7,8 +7,8 @@ vcs:
 license_finding_curations:
 - path: "LICENSE"
   start_lines: "1"
-  line_count: 21
-  detected_license: "NO_LICENSE_IN_DEPENDENCY"
+  line_count: 21  
+  detected_license: "NOASSERTION"
   concluded_license: "MIT"
   reason: "INCORRECT"
   comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
