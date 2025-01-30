@@ -1,0 +1,14 @@
+---
+id: "Swift::github.com/pointfreeco/xctest-dynamic-overlay:1.4.3"
+vcs:
+  type: "Git"
+  url: "https://github.com/pointfreeco/xctest-dynamic-overlay.git"
+  revision: "a3f634d1a409c7979cabc0a71b3f26ffa9fc8af1"
+license_finding_curations:
+- path: "README.md"
+  start_lines: "106"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
