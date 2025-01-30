@@ -1,0 +1,28 @@
+---
+id: "Swift::github.com/marmelroy/phonenumberkit:4.0.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/marmelroy/PhoneNumberKit.git"
+  revision: "4ca759e952bb62162afb8448b3240a63becddd86"
+license_finding_curations:
+- path: "LICENSE"
+  start_lines: "1"
+  line_count: 21
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
+- path: "PhoneNumberKit.podspec"
+  start_lines: "10"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
+- path: "PhoneNumberKit/Resources/Original/PhoneNumberMetadata.xml"
+  start_lines: "1"
+  line_count: 12
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS Apache-2.0"
