@@ -1,0 +1,12 @@
+---
+id: "Swift::github.com/vwdfive/myaudi-audici:4.6.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/vwdfive/myaudi-audici.git"
+  revision: "52b72d1c28239ff6a85710412ca4c40f8dd9547e"
+license_finding_curations:
+- path: ""
+  detected_license: "NOASSERTION"
+  concluded_license: "proprietaryAudi"
+  reason: "INCORRECT"
+  comment: "Concluded license as ProprietaryAudi based on internal review"
