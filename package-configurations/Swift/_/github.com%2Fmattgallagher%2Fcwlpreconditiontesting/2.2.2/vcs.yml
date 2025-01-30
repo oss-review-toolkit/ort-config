@@ -1,0 +1,28 @@
+---
+id: "Swift::github.com/mattgallagher/cwlpreconditiontesting:2.2.2"
+vcs:
+  type: "Git"
+  url: "https://github.com/mattgallagher/CwlPreconditionTesting.git"
+  revision: "0139c665ebb45e6a9fbdb68aabfd7c39f3fe0071"
+license_finding_curations:
+- path: "CwlMachBadInstructionHandler.podspec"
+  start_lines: "6"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "ISC"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "CwlPosixPreconditionTesting.podspec"
+  start_lines: "6"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "ISC"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "CwlPreconditionTesting.podspec"
+  start_lines: "6"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "ISC"
+  reason: "INCORRECT"
+  comment: "True Positive"
