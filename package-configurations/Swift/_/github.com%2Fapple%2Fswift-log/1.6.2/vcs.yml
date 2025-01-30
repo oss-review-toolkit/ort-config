@@ -1,0 +1,21 @@
+---
+id: "Swift::github.com/apple/swift-log:1.6.2"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-log.git"
+  revision: "96a2f8a0fa41e9e09af4585e2724c4e825410b91"
+license_finding_curations:
+- path: "CONTRIBUTING.md"
+  start_lines: "5"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "NOTICE.txt"
+  start_lines: "32"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
