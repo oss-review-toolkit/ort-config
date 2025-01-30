@@ -1,0 +1,14 @@
+---
+id: "Swift::github.com/lucaszischka/bottomsheet:2.5.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/lucaszischka/BottomSheet.git"
+  revision: "17023325f8375a004bb44a5ff9e04f795a393e3a"
+license_finding_curations:
+- path: "README.md"
+  start_lines: "411"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
