@@ -1,0 +1,21 @@
+---
+id: "Swift::github.com/mattgallagher/cwlcatchexception:2.2.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/mattgallagher/CwlCatchException.git"
+  revision: "07b2ba21d361c223e25e3c1e924288742923f08c"
+license_finding_curations:
+- path: "CwlCatchException.podspec"
+  start_lines: "6"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "ISC"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "CwlCatchExceptionSupport.podspec"
+  start_lines: "6"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "ISC"
+  reason: "INCORRECT"
+  comment: "True Positive"
