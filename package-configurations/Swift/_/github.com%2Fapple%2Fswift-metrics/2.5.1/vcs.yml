@@ -1,0 +1,21 @@
+---
+id: "Swift::github.com/apple/swift-metrics:2.5.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-metrics.git"
+  revision: "5e63558d12e0267782019f5dadfcae83a7d06e09"
+license_finding_curations:
+- path: "CONTRIBUTING.md"
+  start_lines: "5"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True positive"
+- path: "NOTICE.txt"
+  start_lines: "32"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True positive"
