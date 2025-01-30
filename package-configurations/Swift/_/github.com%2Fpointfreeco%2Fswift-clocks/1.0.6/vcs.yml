@@ -1,0 +1,28 @@
+---
+id: "Swift::github.com/pointfreeco/swift-clocks:1.0.6"
+vcs:
+  type: "Git"
+  url: "https://github.com/pointfreeco/swift-clocks/tree/1.0.6"
+  revision: "cc46202b53476d64e824e0b6612da09d84ffde8e"
+license_finding_curations:
+- path: "LICENSE"
+  start_lines: "1"
+  line_count: 21
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
+- path: "README.md"
+  start_lines: "382"
+  line_count: 3
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
+- path: "Sources/Clocks/Internal/_AsyncTimerSequence.swift"
+  start_lines: "6"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "Swift-exception"
+  reason: "INCORRECT"
+  comment: "LICENSE FOUND IN FOSSOLOGY AS Swift-exception"
