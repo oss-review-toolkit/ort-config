@@ -8,7 +8,7 @@ license_finding_curations:
 - path: "README.md"
   start_lines: "109"
   line_count: 3
-  detected_license: "NOASSERTION"
+  detected_license: "GPL-2.0-or-later"
   concluded_license: "MIT"
   reason: "INCORRECT"
   comment: "True Positive"
