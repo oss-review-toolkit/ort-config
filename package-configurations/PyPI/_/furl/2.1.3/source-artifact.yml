@@ -1,0 +1,11 @@
+---
+id: "PyPI::furl:2.1.3"
+source_artifact_url: "https://files.pythonhosted.org/packages/2a/0a/31a43d63d25f045b88fe7d3267e9ec3ce3820572205a9342c1cdf2ad2ca3/furl-2.1.3.tar.gz"
+license_finding_curations:
+- path: "furl-2.1.3/setup.cfg"
+  start_lines: "5"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Unlicense"
+  reason: "INCORRECT"
+  comment: "True Positive"
