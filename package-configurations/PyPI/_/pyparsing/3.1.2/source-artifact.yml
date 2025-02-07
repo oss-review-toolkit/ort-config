@@ -8,4 +8,3 @@ path_excludes:
     reason: "EXAMPLE_OF"
   - pattern: "pyparsing-3.1.2/pyproject.toml"
     reason: "BUILD_TOOL_OF"
-
