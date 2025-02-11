@@ -1,0 +1,25 @@
+---
+id: "PyPI::flake8:7.1.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/37/72/e8d66150c4fcace3c0a450466aa3480506ba2cae7b61e100a2613afc3907/flake8-7.1.1.tar.gz"
+license_finding_curations:
+- path: "flake8-7.1.1/PKG-INFO"
+  start_lines: "25"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "flake8-7.1.1/setup.cfg"
+  start_lines: "13"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "flake8-7.1.1/src/flake8.egg-info/PKG-INFO"
+  start_lines: "25"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
