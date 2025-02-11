@@ -1,0 +1,25 @@
+---
+id: "PyPI::flake8-bugbear:24.10.31"
+source_artifact_url: "https://files.pythonhosted.org/packages/a7/1b/5bbbe8646598790f137b40efa74c3bdfb36a46f0a9d524c9ad038452f2c4/flake8_bugbear-24.10.31.tar.gz"
+license_finding_curations:
+- path: "flake8_bugbear-24.10.31/flake8_bugbear.egg-info/PKG-INFO"
+  start_lines: "29"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "flake8_bugbear-24.10.31/PKG-INFO"
+  start_lines: "29"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "flake8_bugbear-24.10.31/pyproject.toml"
+  start_lines: "64"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
