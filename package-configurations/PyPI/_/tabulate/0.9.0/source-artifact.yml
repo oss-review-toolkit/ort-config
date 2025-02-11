@@ -1,8 +1,19 @@
 ---
 id: "PyPI::tabulate:0.9.0"
 source_artifact_url: "https://files.pythonhosted.org/packages/ec/fe/802052aecb21e3797b8f7902564ab6ea0d60ff8ca23952079064155d1ae1/tabulate-0.9.0.tar.gz"
-path_excludes:
-  - pattern: "PKG-INFO/**"
-    reason: "DOCUMENTATION_OF"
-  
+license_finding_curations:
+- path: "tabulate-0.9.0/PKG-INFO"
+  start_lines: "20"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "tabulate-0.9.0/tabulate.egg-info/PKG-INFO"
+  start_lines: "20"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
 
