@@ -1,19 +1,18 @@
-
 ---
 id: "PyPI::azure-mgmt-servicebus:8.2.1"
 source_artifact_url: "https://files.pythonhosted.org/packages/9c/c3/92afefab2efcea35a605910e9aeb229a94907eec6b453566f333b8e5cdff/azure_mgmt_servicebus-8.2.1.tar.gz"
 license_finding_curations:
-- path: "azure_mgmt_servicebus.egg-info/PKG-INFO"
+- path: "azure_mgmt_servicebus-8.2.1/azure_mgmt_servicebus.egg-info/PKG-INFO"
   start_lines: "22"
   line_count: 1
   detected_license: "NOASSERTION"
   concluded_license: "MIT"
   reason: "INCORRECT"
-  comment: "False Positive"
-- path: "PKG-INFO"
+  comment: "True Positive"
+- path: "azure_mgmt_servicebus-8.2.1/PKG-INFO"
   start_lines: "22"
   line_count: 1
   detected_license: "NOASSERTION"
   concluded_license: "MIT"
   reason: "INCORRECT"
-  comment: "False Positive"
+  comment: "True Positive"
