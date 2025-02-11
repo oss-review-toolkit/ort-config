@@ -1,0 +1,11 @@
+---
+id: "PyPI::pip-upgrader:1.4.15"
+source_artifact_url: "https://files.pythonhosted.org/packages/3c/54/d3d6fdc8f5379bb2c0cd2da286796a2bd77e0fdea20b43e37ef1e46f1c46/pip_upgrader-1.4.15.tar.gz"
+license_finding_curations:
+- path: "pip_upgrader-1.4.15/setup.cfg"
+  start_lines: "9"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
