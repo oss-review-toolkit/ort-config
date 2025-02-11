@@ -1,0 +1,11 @@
+---
+id: "PyPI::platformdirs:4.3.6"
+source_artifact_url: "https://files.pythonhosted.org/packages/13/fc/128cc9cb8f03208bdbf93d3aa862e16d376844a14f9a0ce5cf4507372de4/platformdirs-4.3.6.tar.gz"
+license_finding_curations:
+- path: "platformdirs-4.3.6/PKG-INFO"
+  start_lines: "12"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
