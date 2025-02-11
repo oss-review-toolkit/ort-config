@@ -1,0 +1,32 @@
+---
+id: "PyPI::typing-extensions:4.12.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz"
+license_finding_curations:
+- path: "typing_extensions-4.12.2/CHANGELOG.md"
+  start_lines: "258"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "None"
+  reason: "INCORRECT"
+  comment: "FALSE POSITIVE"
+- path: "typing_extensions-4.12.2/LICENSE"
+  start_lines: "66"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "PSF-2.0 OR 0BSD"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "typing_extensions-4.12.2/pyproject.toml"
+  start_lines: "13"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Python-2.0 AND 0BSD "
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "typing_extensions-4.12.2/pyproject.toml"
+  start_lines: "66"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "None"
+  reason: "INCORRECT"
+  comment: "FALSE POSITIVE"
