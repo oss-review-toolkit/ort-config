@@ -1,0 +1,18 @@
+---
+id: "PyPI::wcwidth:0.2.13"
+source_artifact_url: "https://files.pythonhosted.org/packages/6c/63/53559446a878410fc5a5974feb13d31d78d752eb18aeba59c7fef1af7598/wcwidth-0.2.13.tar.gz"
+license_finding_curations:
+- path: "wcwidth-0.2.13/PKG-INFO"
+  start_lines: "29"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "wcwidth-0.2.13/wcwidth.egg-info/PKG-INFO"
+  start_lines: "29"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
