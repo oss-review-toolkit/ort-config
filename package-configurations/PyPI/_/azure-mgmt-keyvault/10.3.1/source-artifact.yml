@@ -2,14 +2,14 @@
 id: "PyPI::azure-mgmt-keyvault:10.3.1"
 source_artifact_url: "https://files.pythonhosted.org/packages/6f/c9/c9cd047729de3996656da854e361636dafa4f5e9b35af449abe23ec75582/azure-mgmt-keyvault-10.3.1.tar.gz"
 license_finding_curations:
-- path: "azure_mgmt_keyvault.egg-info/PKG-INFO"
+- path: "azure-mgmt-keyvault-10.3.1/azure_mgmt_keyvault.egg-info/PKG-INFO"
   start_lines: "22"
   line_count: 1
   detected_license: "NOASSERTION"
   concluded_license: "MIT"
   reason: "INCORRECT"
   comment: "True Positive"
-- path: "PKG-INFO"
+- path: "azure-mgmt-keyvault-10.3.1/PKG-INFO"
   start_lines: "22"
   line_count: 1
   detected_license: "NOASSERTION"
