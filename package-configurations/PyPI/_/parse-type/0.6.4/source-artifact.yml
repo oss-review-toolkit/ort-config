@@ -1,0 +1,25 @@
+---
+id: "PyPI::parse-type:0.6.4"
+source_artifact_url: "https://files.pythonhosted.org/packages/17/e9/a3b2ae5f8a852542788ac1f1865dcea0c549cc40af243f42cabfa0acf24d/parse_type-0.6.4.tar.gz"
+license_finding_curations:
+- path: "parse_type-0.6.4/CHANGES.txt"
+  start_lines: "27"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "parse_type-0.6.4/parse_type.egg-info/PKG-INFO"
+  start_lines: "39"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "parse_type-0.6.4/PKG-INFO"
+  start_lines: "39"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
