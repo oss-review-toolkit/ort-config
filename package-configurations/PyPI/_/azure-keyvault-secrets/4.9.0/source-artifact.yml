@@ -1,0 +1,39 @@
+---
+id: "PyPI::azure-keyvault-secrets:4.9.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/51/53/188681c8b7ec49b6945605efdb91ec9a86ebfa77f8eab8b9a50f458c504a/azure_keyvault_secrets-4.9.0.tar.gz"
+license_finding_curations:
+- path: "azure_keyvault_secrets-4.9.0/azure_keyvault_secrets.egg-info/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_keyvault_secrets-4.9.0/azure_keyvault_secrets.egg-info/PKG-INFO"
+  start_lines: "352"
+  line_count: 10
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_keyvault_secrets-4.9.0/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_keyvault_secrets-4.9.0/PKG-INFO"
+  start_lines: "352"
+  line_count: 10
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_keyvault_secrets-4.9.0/README.md"
+  start_lines: "326"
+  line_count: 10
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
