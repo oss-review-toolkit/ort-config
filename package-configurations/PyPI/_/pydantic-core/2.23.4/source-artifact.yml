@@ -1,0 +1,11 @@
+---
+id: "PyPI::pydantic-core:2.23.4"
+source_artifact_url: "https://files.pythonhosted.org/packages/e2/aa/6b6a9b9f8537b872f552ddd46dd3da230367754b6f707b8e1e963f515ea3/pydantic_core-2.23.4.tar.gz"
+license_finding_curations:
+- path: "pydantic_core-2.23.4/PKG-INFO"
+  start_lines: "24"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
