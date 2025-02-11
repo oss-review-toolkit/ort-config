@@ -1,0 +1,11 @@
+---
+id: "PyPI::flake8-simplify:0.21.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/32/c0/4cd41ef29b5b19da0c87c1de6f7cbae3b238b991e0e12f2d65bf29eea34f/flake8_simplify-0.21.0.tar.gz"
+license_finding_curations:
+- path: "flake8_simplify-0.21.0/pyproject.toml"
+  start_lines: "51"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
