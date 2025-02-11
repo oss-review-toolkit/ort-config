@@ -1,0 +1,11 @@
+---
+id: "PyPI::idna:3.10"
+source_artifact_url: "https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz"
+license_finding_curations:
+- path: "idna-3.10/pyproject.toml"
+  start_lines: "9"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-3-Clause"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
