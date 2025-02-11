@@ -1,0 +1,25 @@
+---
+id: "PyPI::blackduck:1.1.3"
+source_artifact_url: "https://files.pythonhosted.org/packages/2b/b9/eda55de60d78cd77985368203b55ccb8c1282319163c81fd10c87b45b5ef/blackduck-1.1.3.tar.gz"
+license_finding_curations:
+- path: "blackduck-1.1.3/blackduck/Licences.py"
+  start_lines: "29"
+  line_count: 2
+  detected_license: "AGPL-3.0-only"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "FALSE POSITIVE"
+- path: "blackduck-1.1.3/blackduck.egg-info/PKG-INFO"
+  start_lines: "18"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "blackduck-1.1.3/PKG-INFO"
+  start_lines: "18"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
