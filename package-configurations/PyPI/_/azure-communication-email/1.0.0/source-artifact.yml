@@ -1,0 +1,18 @@
+---
+id: "PyPI::azure-communication-email:1.0.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/4c/fc/45a122a7d6b2cc4652aa9c5ce3a151161433447361af98f15e82cae63727/azure-communication-email-1.0.0.zip"
+license_finding_curations:
+- path: "azure-communication-email-1.0.0/azure_communication_email.egg-info/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure-communication-email-1.0.0/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
