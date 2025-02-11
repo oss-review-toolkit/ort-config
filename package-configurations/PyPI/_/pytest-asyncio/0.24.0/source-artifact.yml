@@ -1,0 +1,25 @@
+---
+id: "PyPI::pytest-asyncio:0.24.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/52/6d/c6cf50ce320cf8611df7a1254d86233b3df7cc07f9b5f5cbcb82e08aa534/pytest_asyncio-0.24.0.tar.gz"
+license_finding_curations:
+- path: "pytest_asyncio-0.24.0/PKG-INFO"
+  start_lines: "28"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "pytest_asyncio-0.24.0/pytest_asyncio.egg-info/PKG-INFO"
+  start_lines: "28"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "pytest_asyncio-0.24.0/setup.cfg"
+  start_lines: "16"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
