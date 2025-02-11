@@ -1,0 +1,21 @@
+---
+id: "PyPI::packaging:24.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/d0/63/68dbb6eb2de9cb10ee4c9c14a0148804425e13c4fb20d61cce69f53106da/packaging-24.2.tar.gz"
+path_excludes:
+- pattern: "**/tests/**"
+  reason: "TEST_OF"
+license_finding_curations:
+- path: "packaging-24.2/src/packaging/metadata.py"
+  start_lines: "263"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "False Positive"
+- path: "packaging-24.2/src/packaging/licenses/__init__.py"
+  start_lines: "70"
+  line_count: 2
+  detected_license: "LicenseRef-scancode-proprietary-license"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "False Positive"
