@@ -1,0 +1,11 @@
+---
+id: "PyPI::docopt:0.6.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/a2/55/8f8cab2afd404cf578136ef2cc5dfb50baa1761b68c9da1fb1e4eed343c9/docopt-0.6.2.tar.gz"
+license_finding_curations:
+- path: "docopt-0.6.2/docopt.py"
+  start_lines: "5"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
