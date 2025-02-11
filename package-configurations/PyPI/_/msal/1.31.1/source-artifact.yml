@@ -1,0 +1,18 @@
+---
+id: "PyPI::msal:1.31.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/3f/f3/cdf2681e83a73c3355883c2884b6ff2f2d2aadfc399c28e9ac4edc3994fd/msal-1.31.1.tar.gz"
+license_finding_curations:
+- path: "msal-1.31.1/msal.egg-info/PKG-INFO"
+  start_lines: "27"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "msal-1.31.1/PKG-INFO"
+  start_lines: "27"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
