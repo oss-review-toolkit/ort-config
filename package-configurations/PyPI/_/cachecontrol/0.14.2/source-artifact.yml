@@ -2,7 +2,7 @@
 id: "PyPI::cachecontrol:0.14.2"
 source_artifact_url: "https://files.pythonhosted.org/packages/b7/a4/3390ac4dfa1773f661c8780368018230e8207ec4fd3800d2c0c3adee4456/cachecontrol-0.14.2.tar.gz"
 license_finding_curations:
-- path: "pyproject.toml"
+- path: "cachecontrol-0.14.2/pyproject.toml"
   start_lines: "16"
   line_count: 1
   detected_license: "NOASSERTION"
