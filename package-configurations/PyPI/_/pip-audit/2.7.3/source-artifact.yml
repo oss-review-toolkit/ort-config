@@ -1,0 +1,11 @@
+---
+id: "PyPI::pip-audit:2.7.3"
+source_artifact_url: "https://files.pythonhosted.org/packages/46/2f/d030d0d3a50b776f910dd87dc1d57dd4a27bfad176b85882f463632e4747/pip_audit-2.7.3.tar.gz"
+license_finding_curations:
+- path: "pip_audit-2.7.3/pyproject.toml"
+  start_lines: "10"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
