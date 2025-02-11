@@ -1,0 +1,47 @@
+---
+id: "PyPI::pycodestyle:2.12.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/43/aa/210b2c9aedd8c1cbeea31a50e42050ad56187754b34eb214c46709445801/pycodestyle-2.12.1.tar.gz"
+license_finding_curations:
+- path: "pycodestyle-2.12.1/LICENSE"
+  start_lines: "5"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "pycodestyle-2.12.1/PKG-INFO"
+  start_lines: "5"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "pycodestyle-2.12.1/PKG-INFO"
+  start_lines: "26"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "FALSE POSITIVE"
+- path: "pycodestyle-2.12.1/pycodestyle.egg-info/PKG-INFO"
+  start_lines: "26"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "FALSE POSITIVE"
+- path: "pycodestyle-2.12.1/setup.cfg"
+  start_lines: "5"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "FALSE POSITIVE"
+- path: "pycodestyle-2.12.1/setup.cfg"
+  start_lines: "13"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "FALSE POSITIVE"
+ 
