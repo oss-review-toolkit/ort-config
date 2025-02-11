@@ -2,5 +2,5 @@
 id: "PyPI::behave:1.2.6"
 source_artifact_url: "https://files.pythonhosted.org/packages/c8/4b/d0a8c23b6c8985e5544ea96d27105a273ea22051317f850c2cdbf2029fe4/behave-1.2.6.tar.gz"
 path_excludes:
-- pattern: "docs/**"
+- pattern: "**/docs/**"
   reason: "DOCUMENTATION_OF"
