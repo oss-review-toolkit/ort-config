@@ -1,0 +1,30 @@
+---
+id: "PyPI::pyparsing:3.2.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/8b/1a/3544f4f299a47911c2ab3710f534e52fea62a633c96806995da5d25be4b2/pyparsing-3.2.1.tar.gz"
+path_excludes:
+- pattern: "**/examples/**"
+  reason: "EXAMPLE_OF"
+- pattern: "**/docs/**"
+  reason: "DOCUMENTATION_OF"
+license_finding_curations:
+- path: "pyparsing-3.2.1/pyproject.toml"
+  start_lines: "9"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "pyparsing-3.2.1/CHANGES"
+  start_lines: "485"
+  line_count: 1
+  detected_license: "GPL-1.0-or-later"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "FALSE POSITIVE"
+- path: "pyparsing-3.2.1/CHANGES"
+  start_lines: "2967"
+  line_count: 1
+  detected_license: "GPL-3.0-only"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "FALSE POSITIVE"
