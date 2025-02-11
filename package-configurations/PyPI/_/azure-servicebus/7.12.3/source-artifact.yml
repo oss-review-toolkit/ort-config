@@ -1,0 +1,39 @@
+---
+id: "PyPI::azure-servicebus:7.12.3"
+source_artifact_url: "https://files.pythonhosted.org/packages/71/8a/4eea5dbc1626b4e2cc2fe9abd7b6afeb51eb50f50c0fd9467c3b38560aff/azure_servicebus-7.12.3.tar.gz"
+license_finding_curations:
+- path: "azure_servicebus-7.12.3/azure_servicebus.egg-info/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "azure_servicebus-7.12.3/azure_servicebus.egg-info/PKG-INFO"
+  start_lines: "606"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "azure_servicebus-7.12.3/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "azure_servicebus-7.12.3/PKG-INFO"
+  start_lines: "606"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "azure_servicebus-7.12.3/README.md"
+  start_lines: "580"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "True Positive"
