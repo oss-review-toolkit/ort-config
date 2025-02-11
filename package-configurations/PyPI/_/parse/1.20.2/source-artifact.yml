@@ -1,0 +1,25 @@
+---
+id: "PyPI::parse:1.20.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/4f/78/d9b09ba24bb36ef8b83b71be547e118d46214735b6dfb39e4bfde0e9b9dd/parse-1.20.2.tar.gz"
+license_finding_curations:
+- path: "parse-1.20.2/parse.egg-info/PKG-INFO"
+  start_lines: "35"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "parse-1.20.2/PKG-INFO"
+  start_lines: "35"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "parse-1.20.2/pyproject.toml"
+  start_lines: "10"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
