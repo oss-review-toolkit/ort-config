@@ -1,0 +1,39 @@
+---
+id: "PyPI::azure-functions:1.21.3"
+source_artifact_url: "https://files.pythonhosted.org/packages/ee/6a/614f670cd8d28c68f744d849fafb654e6ab456954eb7160ddee25bfaa373/azure-functions-1.21.3.tar.gz"
+license_finding_curations:
+- path: "azure-functions-1.21.3/azure_functions.egg-info/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "azure-functions-1.21.3/azure_functions.egg-info/PKG-INFO"
+  start_lines: "72"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "azure-functions-1.21.3/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "azure-functions-1.21.3/PKG-INFO"
+  start_lines: "72"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "azure-functions-1.21.3/README.md"
+  start_lines: "49"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "True Positive"
