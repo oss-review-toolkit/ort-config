@@ -1,0 +1,25 @@
+---
+id: "PyPI::dill:0.3.9"
+source_artifact_url: "https://files.pythonhosted.org/packages/70/43/86fe3f9e130c4137b0f1b50784dd70a5087b911fe07fa81e53e0c4c47fea/dill-0.3.9.tar.gz"
+license_finding_curations:
+- path: "dill-0.3.9/dill.egg-info/PKG-INFO"
+  start_lines: "34"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-3-Clause"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "dill-0.3.9/PKG-INFO"
+  start_lines: "34"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-3-Clause"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "dill-0.3.9/version.py"
+  start_lines: "80"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-3-Clause"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
