@@ -1,0 +1,32 @@
+---
+id: "PyPI::astroid:3.3.8"
+source_artifact_url: "https://files.pythonhosted.org/packages/80/c5/5c83c48bbf547f3dd8b587529db7cf5a265a3368b33e85e76af8ff6061d3/astroid-3.3.8.tar.gz"
+license_finding_curations:
+- path: "astroid-3.3.8/astroid.egg-info/PKG-INFO"
+  start_lines: "31"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "LGPL-2.1"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "astroid-3.3.8/PKG-INFO"
+  start_lines: "31"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "LGPL-2.1"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "astroid-3.3.8/pyproject.toml"
+  start_lines: "44"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "LGPL-2.1"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "astroid-3.3.8/setup.cfg"
+  start_lines: "2"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "LGPL-2.1"
+  reason: "INCORRECT"
+  comment: "True Positive"
