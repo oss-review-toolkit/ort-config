@@ -1,0 +1,11 @@
+---
+id: "PyPI::markdown-it-py:3.0.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/38/71/3b932df36c1a044d397a1f92d1cf91ee0a503d91e470cbd670aa66b07ed0/markdown-it-py-3.0.0.tar.gz"
+license_finding_curations:
+- path: "markdown-it-py-3.0.0/pyproject.toml"
+  start_lines: "11"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
