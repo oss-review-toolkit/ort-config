@@ -1,0 +1,25 @@
+---
+id: "PyPI::yarl:1.18.3"
+source_artifact_url: "https://files.pythonhosted.org/packages/b7/9d/4b94a8e6d2b51b599516a5cb88e5bc99b4d8d4583e468057eaa29d5f0918/yarl-1.18.3.tar.gz"
+license_finding_curations:
+- path: "yarl-1.18.3/PKG-INFO"
+  start_lines: "36"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "yarl-1.18.3/setup.cfg"
+  start_lines: "26"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "yarl-1.18.3/yarl.egg-info/PKG-INFO"
+  start_lines: "36"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
