@@ -1,0 +1,11 @@
+---
+id: "PyPI::black:24.10.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/d8/0d/cc2fb42b8c50d80143221515dd7e4766995bd07c56c9a3ed30baf080b6dc/black-24.10.0.tar.gz"
+license_finding_curations:
+- path: "black-24.10.0/PKG-INFO"
+  start_lines: "12"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
