@@ -1,0 +1,11 @@
+---
+id: "PyPI::flake8-builtins:2.5.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/7a/33/fdfe44695094124e0e518fdd4fed0c7a34a5920de7063babd4b2bbdc8a7f/flake8_builtins-2.5.0.tar.gz"
+license_finding_curations:
+- path: "flake8_builtins-2.5.0/PKG-INFO"
+  start_lines: "9"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "GPL-2.0-only"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
