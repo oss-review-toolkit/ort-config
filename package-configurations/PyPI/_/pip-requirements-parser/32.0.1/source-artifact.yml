@@ -1,0 +1,28 @@
+---
+id: "PyPI::pip-requirements-parser:32.0.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/5e/2a/63b574101850e7f7b306ddbdb02cb294380d37948140eecd468fae392b54/pip-requirements-parser-32.0.1.tar.gz"
+path_excludes:
+- pattern: "**/tests/**"
+  reason: "TEST_OF"
+license_finding_curations:
+- path: "pip-requirements-parser-32.0.1/etc/scripts/utils_thirdparty.py"
+  start_lines: "216"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "FALSE POSITIVE"
+- path: "pip-requirements-parser-32.0.1/etc/scripts/utils_thirdparty.py"
+  start_lines: "812"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "FALSE POSITIVE"
+- path: "pip-requirements-parser-32.0.1/etc/scripts/utils_thirdparty.py"
+  start_lines: "915"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "FALSE POSITIVE"
