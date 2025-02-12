@@ -94,6 +94,8 @@ categories:
 - name: "unstated-license"
   description: >-
     No explicit licensing terms are provided for a work.
+- name: "generic"
+- name: "unknown"
 
 categorizations:
 - id: "apache-2.0-runtime-library-exception"
@@ -7729,10 +7731,6 @@ categorizations:
 - id: "TU-Berlin-1.0"
   categories:
   - "permissive"
-- id: "x11-xconsortium_veillard"
-  categories:
-  - "permissive"
-  - "No SPDX for this license available"
 - id: "Watcom-1.0"
   categories:
   - "proprietary-free"
