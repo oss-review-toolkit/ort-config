@@ -1,0 +1,18 @@
+---
+id: "PyPI::pyyaml:6.0.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/54/ed/79a089b6be93607fa5cdaedf301d7dfb23af5f25c398d5ead2525b063e17/pyyaml-6.0.2.tar.gz"
+license_finding_curations:
+- path: "pyyaml-6.0.2/lib/PyYAML.egg-info/PKG-INFO"
+  start_lines: "34"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "pyyaml-6.0.2/PKG-INFO"
+  start_lines: "34"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
