@@ -1,0 +1,25 @@
+---
+id: "PyPI::cryptography:43.0.3"
+source_artifact_url: "https://files.pythonhosted.org/packages/0d/05/07b55d1fa21ac18c3a8c79f764e2514e6f6a9698f1be44994f5adf0d29db/cryptography-43.0.3.tar.gz"
+license_finding_curations:
+- path: "cryptography-43.0.3/PKG-INFO"
+  start_lines: "55"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0 OR BSD-3-Clause"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "cryptography-43.0.3/PKG-INFO"
+  start_lines: "56"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "cryptography-43.0.3/PKG-INFO"
+  start_lines: "57"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-3-Clause"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
