@@ -1,0 +1,32 @@
+---
+id: "PyPI::orderedmultidict:1.0.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/53/4e/3823a27d764bb8388711f4cb6f24e58453e92d6928f4163fdb01e3a3789f/orderedmultidict-1.0.1.tar.gz"
+license_finding_curations:
+- path: "orderedmultidict-1.0.1/orderedmultidict.egg-info/PKG-INFO"
+  start_lines: "20"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Unlicense"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "orderedmultidict-1.0.1/PKG-INFO"
+  start_lines: "20"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Unlicense"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "orderedmultidict-1.0.1/setup.cfg"
+  start_lines: "5"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Unlicense"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "orderedmultidict-1.0.1/setup.py"
+  start_lines: "100"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Unlicense"
+  reason: "INCORRECT"
+  comment: "True Positive"
