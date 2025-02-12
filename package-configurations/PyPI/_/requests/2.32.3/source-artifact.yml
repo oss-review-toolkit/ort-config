@@ -1,0 +1,32 @@
+---
+id: "PyPI::requests:2.32.3"
+source_artifact_url: "https://files.pythonhosted.org/packages/63/70/2bf7780ad2d390a8d301ad0b550f1581eadbd9a20f896afe06353c2a2913/requests-2.32.3.tar.gz"
+license_finding_curations:
+- path: "requests-2.32.3/PKG-INFO"
+  start_lines: "31"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "requests-2.32.3/setup.cfg"
+  start_lines: "2"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "requests-2.32.3/src/requests.egg-info/PKG-INFO"
+  start_lines: "31"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "requests-2.32.3/src/requests/__init__.py"
+  start_lines: "38"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
