@@ -1,0 +1,18 @@
+---
+id: "PyPI::certifi:2025.1.31"
+source_artifact_url: "https://files.pythonhosted.org/packages/1c/ab/c9f1e32b7b1bf505bf26f0ef697775960db7932abeb7b516de930ba2705f/certifi-2025.1.31.tar.gz"
+license_finding_curations:
+- path: "certifi-2025.1.31/certifi.egg-info/PKG-INFO"
+  start_lines: "26"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MPL-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "certifi-2025.1.31/PKG-INFO"
+  start_lines: "26"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MPL-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
