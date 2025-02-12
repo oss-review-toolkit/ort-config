@@ -1,0 +1,25 @@
+---
+id: "PyPI::six:1.17.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz"
+license_finding_curations:
+- path: "six-1.17.0/PKG-INFO"
+  start_lines: "17"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "six-1.17.0/setup.cfg"
+  start_lines: "9"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "six-1.17.0/six.egg-info/PKG-INFO"
+  start_lines: "17"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
