@@ -1,0 +1,25 @@
+---
+id: "PyPI::boolean-py:4.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/a2/d9/b6e56a303d221fc0bdff2c775e4eef7fedd58194aa5a96fa89fb71634cc9/boolean.py-4.0.tar.gz"
+license_finding_curations:
+- path: "boolean.py-4.0/boolean.py.egg-info/PKG-INFO"
+  start_lines: "21"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-2-Clause"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "boolean.py-4.0/PKG-INFO"
+  start_lines: "21"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-2-Clause"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "boolean.py-4.0/setup.cfg"
+  start_lines: "2"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-2-Clause"
+  reason: "INCORRECT"
+  comment: "True Positive"
