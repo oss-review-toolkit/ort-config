@@ -1,4 +1,4 @@
-#This YML-file was created by CARIAD legal on 2025-02-11 using L'ELA.
+#This YML-file was created by CARIAD legal on 2025-02-12 using L'ELA.
 
 categories:
 - name: "CARIAD_Rated"
@@ -96,6 +96,54 @@ categories:
     No explicit licensing terms are provided for a work.
 
 categorizations:
+- id: "apache-2.0-runtime-library-exception"
+  categories:
+  - "permissive"
+  - "No SPDX for this license available"
+  - "DC_car_green"
+  - "DC_mobile_green"
+  - "DC_frontend_green"
+  - "DC_backend_green"
+  - "DC_tools_green"
+  - "CARIAD_Rated"
+- id: "Swift-exception"
+  categories:
+  - "permissive"
+  - "DC_car_green"
+  - "DC_mobile_green"
+  - "DC_frontend_green"
+  - "DC_backend_green"
+  - "DC_tools_green"
+  - "CARIAD_Rated"
+- id: "Apache-2.0"
+  categories:
+  - "permissive"
+  - "include-in-notice-file" 
+  - "include-source-code-offer-in-notice-file" 
+  - "DC_car_review"
+  - "DC_mobile_review"
+  - "DC_frontend_review"
+  - "DC_backend_review"
+  - "DC_tools_review"
+  - "CARIAD_Rated"
+- id: "LicenseRef-scancode-biopython"
+  categories:
+  - "permissive"
+  - "DC_car_green"
+  - "DC_mobile_green"
+  - "DC_frontend_green"
+  - "DC_backend_green"
+  - "DC_tools_green"
+  - "CARIAD_Rated"
+- id: "LicenseRef-scancode-bsd-3-clause-devine"
+  categories:
+  - "permissive"
+  - "DC_car_green"
+  - "DC_mobile_green"
+  - "DC_frontend_green"
+  - "DC_backend_green"
+  - "DC_tools_green"
+  - "CARIAD_Rated"
 - id: "BSD-4-Clause-UC"
   categories:
   - "permissive"
@@ -145,12 +193,6 @@ categorizations:
   - "DC_backend_green"
   - "DC_tools_green"
   - "CARIAD_Rated"
-- id: "Apache-2.0"
-  categories:
-  - "permissive"
-- id: "Swift-exception"
-  categories:
-  - "permissive"
 - id: "BlueOak-1.0.0"
   categories:
   - "permissive"
@@ -825,9 +867,6 @@ categorizations:
   categories:
   - "permissive"
   - "No SPDX for this license available"
-- id: "LicenseRef-scancode-bsd-3-clause-devine"
-  categories:
-  - "permissive"
 - id: "CC0-1.0"
   categories:
   - "public-domain"
@@ -1758,9 +1797,6 @@ categorizations:
 - id: "Bitstream-Vera"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-biopython"
-  categories:
-  - "permissive"
 - id: "BSD-Attribution-HPND-disclaimer"
   categories:
   - "permissive"
@@ -1782,16 +1818,15 @@ categorizations:
 - id: "CC-BY-SA-1.0"
   categories:
   - "copyleft-limited"
-- id: "apache-2.0-runtime-library-exception"
-  categories:
-  - "permissive"
-  - "No SPDX for this license available"
 - id: "AFL-2.0"
   categories:
   - "permissive"
 - id: "CC-BY-NC-1.0"
   categories:
   - "source-available"
+- id: "BSD-3-Clause-flex"
+  categories:
+  - "permissive"
 - id: "Entessa"
   categories:
   - "permissive"
@@ -3430,9 +3465,6 @@ categorizations:
 - id: "LicenseRef-scancode-gcc-exception-3.0"
   categories:
   - "copyleft-limited"
-- id: "BSD-3-Clause-flex"
-  categories:
-  - "permissive"
 - id: "gnu-javamail-exception"
   categories:
   - "copyleft-limited"
@@ -5095,6 +5127,18 @@ categorizations:
   - "DC_backend_green"
   - "DC_tools_green"
   - "CARIAD_Rated"
+- id: "LicenseRef-scancode-python-cwi"
+  categories:
+  - "permissive"
+  - "DC_car_green"
+  - "DC_mobile_green"
+  - "DC_frontend_green"
+  - "DC_backend_green"
+  - "DC_tools_green"
+  - "CARIAD_Rated"
+- id: "OpenSSL-standalone"
+  categories:
+  - "permissive"
 - id: "Saxpath"
   categories:
   - "permissive"
@@ -5121,9 +5165,6 @@ categorizations:
   - "DC_tools_green"
   - "CARIAD_Rated"
 - id: "OpenSSL"
-  categories:
-  - "permissive"
-- id: "OpenSSL-standalone"
   categories:
   - "permissive"
 - id: "LicenseRef-scancode-sglib"
@@ -6067,9 +6108,6 @@ categorizations:
 - id: "LicenseRef-scancode-scansoft-1.2"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-python-cwi"
-  categories:
-  - "permissive"
 - id: "LicenseRef-scancode-oracle-free-2018"
   categories:
   - "proprietary-free"
@@ -6673,6 +6711,49 @@ categorizations:
   - "DC_backend_green"
   - "DC_tools_green"
   - "CARIAD_Rated"
+- id: "x11r5-authors"
+  categories:
+  - "permissive"
+  - "No SPDX for this license available"
+  - "DC_car_green"
+  - "DC_mobile_green"
+  - "DC_frontend_green"
+  - "DC_backend_green"
+  - "DC_tools_green"
+  - "CARIAD_Rated"
+- id: "LicenseRef-scancode-x11-x11r5"
+  categories:
+  - "permissive"
+  - "DC_car_green"
+  - "DC_mobile_green"
+  - "DC_frontend_green"
+  - "DC_backend_green"
+  - "DC_tools_green"
+  - "CARIAD_Rated"
+- id: "LicenseRef-scancode-x11-dec1"
+  categories:
+  - "permissive"
+  - "DC_car_green"
+  - "DC_mobile_green"
+  - "DC_frontend_green"
+  - "DC_backend_green"
+  - "DC_tools_green"
+  - "CARIAD_Rated"
+- id: "TCP-wrappers"
+  categories:
+  - "permissive"
+- id: "HPND-sell-variant"
+  categories:
+  - "permissive"
+- id: "LicenseRef-scancode-w3c-03-bsd-license"
+  categories:
+  - "permissive"
+  - "DC_car_green"
+  - "DC_mobile_green"
+  - "DC_frontend_green"
+  - "DC_backend_green"
+  - "DC_tools_green"
+  - "CARIAD_Rated"
 - id: "XFree86-1.1"
   categories:
   - "permissive"
@@ -7205,9 +7286,6 @@ categorizations:
   - "DC_backend_green"
   - "DC_tools_green"
   - "CARIAD_Rated"
-- id: "LicenseRef-scancode-w3c-03-bsd-license"
-  categories:
-  - "permissive"
 - id: "ICU"
   categories:
   - "permissive"
@@ -7359,16 +7437,9 @@ categorizations:
 - id: "LicenseRef-scancode-x11-acer"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-x11-x11r5"
-  categories:
-  - "permissive"
 - id: "LicenseRef-scancode-vpl-1.2"
   categories:
   - "copyleft-limited"
-- id: "x11r5-authors"
-  categories:
-  - "permissive"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-sun-entitlement-jaf"
   categories:
   - "proprietary-free"
@@ -7391,9 +7462,6 @@ categorizations:
   categories:
   - "copyleft"
 - id: "LicenseRef-scancode-ws-policy-specification"
-  categories:
-  - "permissive"
-- id: "LicenseRef-scancode-x11-dec1"
   categories:
   - "permissive"
 - id: "LicenseRef-scancode-unlimited-link-exception-gpl"
@@ -7663,9 +7731,6 @@ categorizations:
 - id: "Universal-FOSS-exception-1.0"
   categories:
   - "copyleft-limited"
-- id: "HPND-sell-variant"
-  categories:
-  - "permissive"
 - id: "YPL-1.1"
   categories:
   - "copyleft"
@@ -7681,9 +7746,6 @@ categorizations:
 - id: "SWI-exception"
   categories:
   - "copyleft-limited"
-- id: "TCP-wrappers"
-  categories:
-  - "permissive"
 - id: "Adobe-Display-PostScript"
   categories:
   - "permissive"
