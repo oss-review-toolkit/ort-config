@@ -1,0 +1,53 @@
+---
+id: "PyPI::azure-mgmt-core:1.5.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/48/9a/9bdc35295a16fe9139a1f99c13d9915563cbc4f30b479efaa40f8694eaf7/azure_mgmt_core-1.5.0.tar.gz"
+license_finding_curations:
+- path: "azure_mgmt_core-1.5.0/azure_mgmt_core.egg-info/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_mgmt_core-1.5.0/azure_mgmt_core.egg-info/PKG-INFO"
+  start_lines: "23"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_mgmt_core-1.5.0/azure_mgmt_core.egg-info/PKG-INFO"
+  start_lines: "36"
+  line_count: 10
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_mgmt_core-1.5.0/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_mgmt_core-1.5.0/PKG-INFO"
+  start_lines: "23"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_mgmt_core-1.5.0/PKG-INFO"
+  start_lines: "36"
+  line_count: 10
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_mgmt_core-1.5.0/README.md"
+  start_lines: "11"
+  line_count: 10
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
