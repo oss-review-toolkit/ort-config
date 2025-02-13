@@ -6,9 +6,9 @@ license_finding_curations:
   start_lines: "258"
   line_count: 1
   detected_license: "NOASSERTION"
-  concluded_license: "None"
+  concluded_license: "Python-2.0 AND 0BSD"
   reason: "INCORRECT"
-  comment: "FALSE POSITIVE"
+  comment: "TRUE POSITIVE"
 - path: "typing_extensions-4.12.2/LICENSE"
   start_lines: "66"
   line_count: 1
@@ -20,13 +20,13 @@ license_finding_curations:
   start_lines: "13"
   line_count: 1
   detected_license: "NOASSERTION"
-  concluded_license: "Python-2.0 AND 0BSD "
+  concluded_license: "Python-2.0 AND 0BSD"
   reason: "INCORRECT"
   comment: "TRUE POSITIVE"
 - path: "typing_extensions-4.12.2/pyproject.toml"
   start_lines: "66"
   line_count: 1
   detected_license: "NOASSERTION"
-  concluded_license: "None"
+  concluded_license: "Python-2.0 and 0BSD"
   reason: "INCORRECT"
-  comment: "FALSE POSITIVE"
+  comment: "TRUE POSITIVE"
