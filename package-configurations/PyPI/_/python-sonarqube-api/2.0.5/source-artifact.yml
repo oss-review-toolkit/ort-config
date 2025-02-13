@@ -41,6 +41,13 @@ license_finding_curations:
   reason: "INCORRECT"
   comment: "TRUE POSITIVE"
 - path: "python_sonarqube_api-2.0.5/PKG-INFO"
+  start_lines: "27"
+  line_count: 1
+  detected_license: "AGPL-3.0-only"
+  concluded_license: "AGPL-3.0-only"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "python_sonarqube_api-2.0.5/PKG-INFO"
   start_lines: "57"
   line_count: 1
   detected_license: "AGPL-3.0-only"
@@ -69,6 +76,13 @@ license_finding_curations:
   reason: "INCORRECT"
   comment: "TRUE POSITIVE"
 - path: "python_sonarqube_api-2.0.5/python_sonarqube_api.egg-info/PKG-INFO"
+  start_lines: "27"
+  line_count: 1
+  detected_license: "AGPL-3.0-only"
+  concluded_license: "AGPL-3.0-only"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "python_sonarqube_api-2.0.5/python_sonarqube_api.egg-info/PKG-INFO"
   start_lines: "57"
   line_count: 1
   detected_license: "AGPL-3.0-only"
@@ -78,7 +92,7 @@ license_finding_curations:
 - path: "python_sonarqube_api-2.0.5/python_sonarqube_api.egg-info/PKG-INFO"
   start_lines: "67"
   line_count: 1
-  detected_license: "AGPL-3.0-only"
+  detected_license: "AGPL-3.0-only AND MIT"
   concluded_license: "AGPL-3.0-only AND MIT"
   reason: "INCORRECT"
   comment: "TRUE POSITIVE"
@@ -92,7 +106,7 @@ license_finding_curations:
 - path: "python_sonarqube_api-2.0.5/README.rst"
   start_lines: "38"
   line_count: 1
-  detected_license: "AGPL-3.0-only"
+  detected_license: "AGPL-3.0-only AND MIT"
   concluded_license: "AGPL-3.0-only AND MIT"
   reason: "INCORRECT"
   comment: "TRUE POSITIVE"
