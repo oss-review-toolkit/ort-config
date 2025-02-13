@@ -3,10 +3,17 @@ id: "PyPI::azure-cosmos:4.7.0"
 source_artifact_url: "https://files.pythonhosted.org/packages/bf/5a/1ae2e5e58da70ffcb2ee50fadece728b4941489cc8febbbf46d5522f6fff/azure-cosmos-4.7.0.tar.gz"
 license_finding_curations:
 - path: "azure-cosmos-4.7.0/azure_cosmos.egg-info/PKG-INFO"
-  start_lines: "27"
-  line_count: 1
+  start_lines: "897"
+  line_count: 9
   detected_license: "NOASSERTION"
-  concluded_license: "MIT"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure-cosmos-4.7.0/PKG-INFO"
+  start_lines: "897"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
   reason: "INCORRECT"
   comment: "TRUE POSITIVE"
 - path: "azure-cosmos-4.7.0/azure_cosmos.egg-info/PKG-INFO"
@@ -20,7 +27,7 @@ license_finding_curations:
   start_lines: "27"
   line_count: 1
   detected_license: "NOASSERTION"
-  concluded_license: "MIT"
+  concluded_license: "LicenseRef-scancode-ms-cla"
   reason: "INCORRECT"
   comment: "TRUE POSITIVE"
 - path: "azure-cosmos-4.7.0/PKG-INFO"
