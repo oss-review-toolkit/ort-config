@@ -11,7 +11,7 @@ license_finding_curations:
   comment: "True Positive"
 - path: "azure-eventgrid-4.20.0/azure_eventgrid.egg-info/PKG-INFO"
   start_lines: "462"
-  line_count: 5
+  line_count: 4
   detected_license: "NOASSERTION"
   concluded_license: "LicenseRef-scancode-ms-cla"
   reason: "INCORRECT"
@@ -25,14 +25,14 @@ license_finding_curations:
   comment: "True Positive"
 - path: "azure-eventgrid-4.20.0/PKG-INFO"
   start_lines: "462"
-  line_count: 5
+  line_count: 4
   detected_license: "NOASSERTION"
   concluded_license: "LicenseRef-scancode-ms-cla"
   reason: "INCORRECT"
   comment: "True Positive"
 - path: "azure-eventgrid-4.20.0/README.md"
   start_lines: "439"
-  line_count: 5
+  line_count: 4
   detected_license: "NOASSERTION"
   concluded_license: "LicenseRef-scancode-ms-cla"
   reason: "INCORRECT"
