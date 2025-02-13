@@ -28,8 +28,8 @@ license_finding_curations:
   comment: "True Positive"
 - path: "pygments-2.19.1/pygments/lexers/_mql_builtins.py"
   start_lines: "643"
-  line_count: 2
-  detected_license: "NOASSERTION"
+  line_count: 1
+  detected_license: "LicenseRef-scancode-proprietary-license"
   concluded_license: "NONE"
   reason: "INCORRECT"
-  comment: "True Positive"
+  comment: "False Positive"
