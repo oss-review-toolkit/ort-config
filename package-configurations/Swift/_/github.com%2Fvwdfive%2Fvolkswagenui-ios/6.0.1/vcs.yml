@@ -5,5 +5,5 @@ vcs:
   url: "https://github.com/vwdfive/VolkswagenUI-iOS.git"
   revision: "1d9ff71f2c4ab22ef2c5165d78c20eb5011439ae"
 path_excludes:
-- pattern: "**/Module/Tests/**"
+- pattern: "VolkswagenUI-iOS-6.3.0/Module/Tests/**"
   reason: "TEST_OF"
