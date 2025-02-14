@@ -1,0 +1,14 @@
+---
+id: "Swift::github.com/apple/swift-nio-transport-services:1.23.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-nio-transport-services.git"
+  revision: "3c394067c08d1225ba8442e9cffb520ded417b64"
+license_finding_curations:
+- path: "CONTRIBUTING.md"
+  start_lines: "5"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
