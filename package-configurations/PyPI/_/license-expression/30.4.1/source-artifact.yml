@@ -2,7 +2,7 @@
 id: "PyPI::license-expression:30.4.1"
 source_artifact_url: "https://files.pythonhosted.org/packages/74/6f/8709031ea6e0573e6075d24ea34507b0eb32f83f10e1420f2e34606bf0da/license_expression-30.4.1.tar.gz"
 path_excludes:
-- pattern: "**/tests/**"
+- pattern: "license_expression-30.4.1/tests/**"
   reason: "TEST_OF"
 license_finding_curations:
 - path: "license_expression-30.4.1/etc/scripts/utils_thirdparty.py"
@@ -817,7 +817,7 @@ license_finding_curations:
   concluded_license: "GPL-2.0-or-later WITH Classpath-exception-2.0 AND MIT"
   reason: "INCORRECT"
   comment: "True Positive"
-- path: "llicense_expression-30.4.1/README.rst"
+- path: "license_expression-30.4.1/README.rst"
   start_lines: "26"
   line_count: 1
   detected_license: "GPL-2.0-or-later WITH Classpath-exception-2.0"
