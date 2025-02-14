@@ -1,0 +1,14 @@
+---
+id: "Swift::github.com/vwdfive/contoworks-ios:8.0.1"
+vcs:
+  type: "Git"
+  url: "github.com/vwdfive/Contoworks-iOS"
+  revision: "c4e6231560f8428a45369bd3e83cdc9d10687950"
+license_finding_curations:
+- path: "Contoworks.podspec"
+  start_lines: "11"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "False positive"
