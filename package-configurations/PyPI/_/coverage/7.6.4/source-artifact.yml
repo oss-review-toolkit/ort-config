@@ -2,13 +2,13 @@
 id: "PyPI::coverage:7.6.4"
 source_artifact_url: "https://files.pythonhosted.org/packages/52/12/3669b6382792783e92046730ad3327f53b2726f0603f4c311c4da4824222/coverage-7.6.4.tar.gz"
 path_excludes:
-- pattern: "**/doc/**"
+- pattern: "coverage-7.6.4/doc/**"
   reason: "DOCUMENTATION_OF"
-- pattern: "**/tests/**"
+- pattern: "coverage-7.6.4/tests/**"
   reason: "TEST_OF"
-- pattern: "**/lab/**"
+- pattern: "coverage-7.6.4/lab/**"
   reason: "TEST_OF"
-- pattern: "**/.github/**"
+- pattern: "coverage-7.6.4/.github/**"
   reason: "TEST_OF"
 license_finding_curations:
 - path: "coverage-7.6.4/.editorconfig"
