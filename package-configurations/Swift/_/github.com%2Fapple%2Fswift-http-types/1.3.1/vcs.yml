@@ -101,7 +101,7 @@ license_finding_curations:
   comment: "LICENSE FOUND IN FOSSOLOGY AS Apache-2.0"
 - path: "NOTICE.txt"
   start_lines: "9"
-  line_count: 24
+  line_count: 25
   detected_license: "NOASSERTION"
   concluded_license: "Apache-2.0"
   reason: "INCORRECT"
