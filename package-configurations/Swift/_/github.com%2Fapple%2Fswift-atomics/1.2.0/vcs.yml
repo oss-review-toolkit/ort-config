@@ -4,8 +4,11 @@ vcs:
   type: "Git"
   url: "https://github.com/apple/swift-atomics.git"
   revision: "cd142fd2f64be2100422d658e7411e39489da985"
+path_excludes:
+- pattern: "**/Tests/**"
+  reason: "TEST_OF"
 license_finding_curations:
-- path: "github/PULL_REQUEST_TEMPLATE.md"
+- path: ".github/PULL_REQUEST_TEMPLATE.md"
   start_lines: "18"
   line_count: 1
   detected_license: "NOASSERTION"
@@ -20,8 +23,8 @@ license_finding_curations:
   reason: "INCORRECT"
   comment: "True positive"
 - path: "CONTRIBUTING.md"
-  start_lines: "5"
-  line_count: 2
+  start_lines: "3"
+  line_count: 1
   detected_license: "NOASSERTION"
   concluded_license: "Apache-2.0 WITH Swift-exception"
   reason: "INCORRECT"
