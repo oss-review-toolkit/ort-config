@@ -5,7 +5,7 @@ vcs:
   url: "https://github.com/pointfreeco/swift-custom-dump.git"
   revision: "82645ec760917961cfa08c9c0c7104a57a0fa4b1"
 path_excludes:
-- pattern: "**/Tests/**"
+- pattern: "**/tests/**"
   reason: "TEST_OF"
 license_finding_curations:
 - path: "LICENSE"
@@ -16,9 +16,9 @@ license_finding_curations:
   reason: "INCORRECT"
   comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
 - path: "README.md"
-  start_lines: "462"
-  line_count: 3
+  start_lines: "464"
+  line_count: 1
   detected_license: "NOASSERTION"
   concluded_license: "MIT"
   reason: "INCORRECT"
-  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
+  comment: "True Positive"
