@@ -2893,3 +2893,17 @@ license_finding_curations:
   concluded_license: "Apache-2.0"
   reason: "INCORRECT"
   comment: "LICENSE FOUND IN FOSSOLOGY AS Apache-2.0"
+- path: "CONTRIBUTING.md"
+  start_lines: "6"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "FALSE POSITIVE"
+- path: "CONTRIBUTING.md"
+  start_lines: "102"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "FALSE POSITIVE"
