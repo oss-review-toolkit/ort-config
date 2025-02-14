@@ -1,0 +1,17 @@
+---
+id: "Swift::github.com/apple/swift-nio:2.81.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-nio.git"
+  revision: "c51907a839e63ebf0ba2076bba73dd96436bd1b9"
+path_excludes:
+- pattern: "**/Tests/**"
+  reason: "TEST_OF"
+license_finding_curations:
+- path: "NOTICE.txt"
+  start_lines: "77"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
