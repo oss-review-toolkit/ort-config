@@ -44,3 +44,10 @@ license_finding_curations:
   concluded_license: "LicenseRef-scancode-ms-cla"
   reason: "INCORRECT"
   comment: "TRUE POSITIVE"
+- path: "azure-cosmos-4.7.0/azure_cosmos.egg-info/PKG-INFO"
+  start_lines: "27"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
