@@ -1,0 +1,14 @@
+---
+id: "Swift::github.com/pointfreeco/swift-snapshot-testing:1.18.0"
+vcs:
+  type: "Git"
+  url: "ssh://git@github.com/pointfreeco/swift-snapshot-testing.git"
+  revision: "f5bfff796ee8e3bc9a685b7ffba1bf20663eb370"
+license_finding_curations:
+- path: "README.md"
+  start_lines: "318"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
