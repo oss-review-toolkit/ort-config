@@ -1,4 +1,4 @@
-#This YML-file was created by CARIAD legal on 2025-02-12 using L'ELA.
+#This YML-file was created by CARIAD legal on 2025-02-17 using L'ELA.
 
 categories:
 - name: "CARIAD_Rated"
@@ -64,6 +64,9 @@ categories:
 - name: "free-restricted"
   description: >-
     This category are included into NOTICE files.
+- name: "generic"
+  description: >-
+    placeholder category for ort
 - name: "include-in-notice-file"
   description: >-
     This category is checked by templates used by the ORT report generator. The licenses associated with this
@@ -91,11 +94,12 @@ categories:
 - name: "strong-copyleft"
   description: >-
     Strong copyleft is a licensing principle in which any derivative work of a software must be distributed under the same license, ensuring that the software and all ist modifications remain open source and freely available under idential terms.
+- name: "unknown"
+  description: >-
+    placeholder category for ort
 - name: "unstated-license"
   description: >-
     No explicit licensing terms are provided for a work.
-- name: "generic"
-- name: "unknown"
 
 categorizations:
 - id: "apache-2.0-runtime-library-exception"
@@ -3496,6 +3500,9 @@ categorizations:
 - id: "LicenseRef-scancode-fpl"
   categories:
   - "permissive"
+- id: "SSPL-1.0"
+  categories:
+  - "source-available"
 - id: "JasPer-2.0"
   categories:
   - "permissive"
@@ -5067,9 +5074,6 @@ categorizations:
 - id: "LGPL-3.0-or-later"
   categories:
   - "copyleft-limited"
-- id: "SSPL-1.0"
-  categories:
-  - "source-available"
 - id: "MPL-1.1"
   categories:
   - "copyleft-limited"
@@ -5129,6 +5133,9 @@ categorizations:
   - "DC_backend_green"
   - "DC_tools_green"
   - "CARIAD_Rated"
+- id: "OLDAP-2.8"
+  categories:
+  - "permissive"
 - id: "PostgreSQL"
   categories:
   - "permissive"
@@ -6633,9 +6640,6 @@ categorizations:
 - id: "Qhull"
   categories:
   - "copyleft-limited"
-- id: "OLDAP-2.8"
-  categories:
-  - "permissive"
 - id: "Python-2.0.1"
   categories:
   - "permissive"
@@ -6713,6 +6717,15 @@ categorizations:
   - "DC_backend_green"
   - "DC_tools_green"
   - "CARIAD_Rated"
+- id: "LicenseRef-scancode-sun-prop-non-commercial"
+  categories:
+  - "proprietary-free"
+- id: "LicenseRef-scancode-sun-java-transaction-api"
+  categories:
+  - "proprietary-free"
+- id: "Zend-2.0"
+  categories:
+  - "permissive"
 - id: "ZPL-2.0"
   categories:
   - "permissive"
@@ -6820,9 +6833,6 @@ categorizations:
   categories:
   - "permissive"
 - id: "W3C-19980720"
-  categories:
-  - "permissive"
-- id: "Zend-2.0"
   categories:
   - "permissive"
 - id: "LicenseRef-scancode-t-license-2.1"
@@ -7441,9 +7451,6 @@ categorizations:
 - id: "SGI-OpenGL"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-sun-java-transaction-api"
-  categories:
-  - "proprietary-free"
 - id: "LicenseRef-scancode-sun-javamail"
   categories:
   - "proprietary-free"
@@ -7655,9 +7662,6 @@ categorizations:
 - id: "LicenseRef-scancode-toppers-license"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-sun-prop-non-commercial"
-  categories:
-  - "proprietary-free"
 - id: "LicenseRef-scancode-w3c-docs-20021231"
   categories:
   - "free-restricted"
