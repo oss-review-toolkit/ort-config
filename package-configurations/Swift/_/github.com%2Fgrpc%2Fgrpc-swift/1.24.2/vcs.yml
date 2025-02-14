@@ -4,6 +4,9 @@ vcs:
   type: "Git"
   url: "https://github.com/grpc/grpc-swift.git"
   revision: "8c5e99d0255c373e0330730d191a3423c57373fb"
+path_excludes:
+- pattern: "Performance/allocations/tests/**"
+  reason: "TEST_OF"
 license_finding_curations:
 - path: ".editorconfig"
   start_lines: "1"
@@ -2077,3 +2080,24 @@ license_finding_curations:
   concluded_license: "google-patent-license-grpc"
   reason: "INCORRECT"
   comment: "LICENSE FOUND IN FOSSOLOGY AS Apache-2.0"
+- path: "CONTRIBUTING.md"
+  start_lines: "11"
+  line_count: 4
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "False Positive"
+- path: "	Performance/allocations/test-allocation-counts.sh"
+  start_lines: "27"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "False Positive"
+- path: "	Performance/allocations/test-allocation-counts.sh"
+  start_lines: "27"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "False Positive"
