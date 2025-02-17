@@ -1,0 +1,11 @@
+---
+id: "Maven:com.google.code.gson:gson:2.11.0"
+source_artifact_url: "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0-sources.jar"
+license_finding_curations:
+- path: "META-INF/maven/com.google.code.gson/gson/pom.xml"
+  start_lines: "29"
+  line_count: 3
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
