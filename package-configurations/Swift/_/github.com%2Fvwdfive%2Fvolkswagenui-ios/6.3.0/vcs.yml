@@ -1,0 +1,9 @@
+---
+id: "Swift::github.com/vwdfive/volkswagenui-ios:6.3.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/vwdfive/volkswagenui-ios@6.3.0"
+  revision: "c7b005a6b4e46d63b6f8d40926cdfa311be3c933"
+path_excludes:
+- pattern: "Tests/**"
+  reason: "TEST_OF"
