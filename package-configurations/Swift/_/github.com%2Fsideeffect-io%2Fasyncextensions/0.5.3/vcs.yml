@@ -13,9 +13,9 @@ license_finding_curations:
   reason: "INCORRECT"
   comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
 - path: "Sources/Supporting/Result+ErrorMechanism.swift"
-  start_lines: "5"
-  line_count: 4
+  start_lines: "6"
+  line_count: 3
   detected_license: "NOASSERTION"
-  concluded_license: "Swift-exception"
+  concluded_license: "Apache-2.0 AND Swift-exception"
   reason: "INCORRECT"
-  comment: "LICENSE FOUND IN FOSSOLOGY AS Swift-exception"
+  comment: "True positive"
