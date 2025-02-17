@@ -1,0 +1,11 @@
+---
+id: "Maven:it.unimi.dsi:fastutil-core:8.5.12"
+source_artifact_url: "https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil-core/8.5.12/fastutil-core-8.5.12-sources.jar"
+license_finding_curations:
+- path: "src/overview.html"
+  start_lines: "14"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
