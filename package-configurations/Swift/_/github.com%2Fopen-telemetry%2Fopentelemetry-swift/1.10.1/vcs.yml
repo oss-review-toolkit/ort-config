@@ -4,9 +4,9 @@ vcs:
   url: "https://github.com/open-telemetry/opentelemetry-swift.git"
   revision: "0dd37c4a14a6aeeb131eea40a13cb3832c7c6a97"
 path_excludes:
-- pattern: "**/Examples/**"
+- pattern: "Examples/**"
   reason: "EXAMPLE_OF"
-- pattern: "**/Tests/**"
+- pattern: "Tests/**"
   reason: "TEST_OF"
 license_finding_curations:
 - path: "Sources/OpenTelemetryApi/Context/ActivityContextManager.swift"   
@@ -2899,11 +2899,11 @@ license_finding_curations:
   detected_license: "NOASSERTION"
   concluded_license: "NONE"
   reason: "INCORRECT"
-  comment: "FALSE POSITIVE"
+  comment: "False Positive"
 - path: "CONTRIBUTING.md"
   start_lines: "102"
   line_count: 1
   detected_license: "NOASSERTION"
   concluded_license: "NONE"
   reason: "INCORRECT"
-  comment: "FALSE POSITIVE"
+  comment: "False Positive"
