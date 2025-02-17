@@ -106,6 +106,13 @@ license_finding_curations:
   concluded_license: "Apache-2.0"
   reason: "INCORRECT"
   comment: "LICENSE FOUND IN FOSSOLOGY AS Apache-2.0"
+- path: "NOTICE.txt"
+  start_lines: "32"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True positive"
 - path: "Sources/HTTPTypesFoundation/URLRequest+HTTPTypes.swift"
   start_lines: "5"
   line_count: 7
