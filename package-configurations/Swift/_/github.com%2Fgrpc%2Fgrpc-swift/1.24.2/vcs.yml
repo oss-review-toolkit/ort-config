@@ -274,13 +274,6 @@ license_finding_curations:
   concluded_license: "Apache-2.0"
   reason: "INCORRECT"
   comment: "LICENSE FOUND IN FOSSOLOGY AS Apache-2.0"
-- path: "Performance/allocations/tests/shared/Common.swift"
-  start_lines: "1"
-  line_count: 13
-  detected_license: "NOASSERTION"
-  concluded_license: "Apache-2.0"
-  reason: "INCORRECT"
-  comment: "LICENSE FOUND IN FOSSOLOGY AS Apache-2.0"
 - path: "Sources/GRPC/Compression/CompressionAlgorithm.swift"
   start_lines: "1"
   line_count: 13
@@ -1898,13 +1891,6 @@ license_finding_curations:
   concluded_license: "Apache-2.0"
   reason: "INCORRECT"
   comment: "LICENSE FOUND IN FOSSOLOGY AS Apache-2.0"
-- path: "Performance/allocations/tests/run-allocation-counter-tests.sh"
-  start_lines: "3"
-  line_count: 13
-  detected_license: "NOASSERTION"
-  concluded_license: "Apache-2.0"
-  reason: "INCORRECT"
-  comment: "LICENSE FOUND IN FOSSOLOGY AS Apache-2.0"
 - path: "scripts/run-plugin-tests.sh"
   start_lines: "3"
   line_count: 13
@@ -1968,6 +1954,13 @@ license_finding_curations:
   concluded_license: "Apache-2.0"
   reason: "INCORRECT"
   comment: "LICENSE FOUND IN FOSSOLOGY AS Apache-2.0"
+- path: "Performance/allocations/test-allocation-counts.sh"
+  start_lines: "27"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
 - path: "dev/codegen-tests/test-boilerplate.sh"
   start_lines: "3"
   line_count: 13
@@ -1982,6 +1975,13 @@ license_finding_curations:
   concluded_license: "Apache-2.0"
   reason: "INCORRECT"
   comment: "LICENSE FOUND IN FOSSOLOGY AS Apache-2.0"
+- path: "Performance/allocations/test-utils.sh"
+  start_lines: "27"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
 - path: "Sources/GRPCInteroperabilityTestModels/Generated/test.pb.swift"
   start_lines: "1"
   line_count: 13
@@ -2011,41 +2011,6 @@ license_finding_curations:
   reason: "INCORRECT"
   comment: "LICENSE FOUND IN FOSSOLOGY AS Apache-2.0"
 - path: "dev/codegen-tests/05-service-only/proto/test.proto"
-  start_lines: "1"
-  line_count: 13
-  detected_license: "NOASSERTION"
-  concluded_license: "Apache-2.0"
-  reason: "INCORRECT"
-  comment: "LICENSE FOUND IN FOSSOLOGY AS Apache-2.0"
-- path: "Performance/allocations/tests/test_bidi_1k_rpcs.swift"
-  start_lines: "1"
-  line_count: 13
-  detected_license: "NOASSERTION"
-  concluded_license: "Apache-2.0"
-  reason: "INCORRECT"
-  comment: "LICENSE FOUND IN FOSSOLOGY AS Apache-2.0"
-- path: "Performance/allocations/tests/test_embedded_server_bidi_1k_rpcs_10_small_requests.swift"
-  start_lines: "1"
-  line_count: 13
-  detected_license: "NOASSERTION"
-  concluded_license: "Apache-2.0"
-  reason: "INCORRECT"
-  comment: "LICENSE FOUND IN FOSSOLOGY AS Apache-2.0"
-- path: "Performance/allocations/tests/test_embedded_server_bidi_1k_rpcs_1_small_request.swift"
-  start_lines: "1"
-  line_count: 13
-  detected_license: "NOASSERTION"
-  concluded_license: "Apache-2.0"
-  reason: "INCORRECT"
-  comment: "LICENSE FOUND IN FOSSOLOGY AS Apache-2.0"
-- path: "Performance/allocations/tests/test_embedded_server_unary_1k_rpcs_1_small_request.swift"
-  start_lines: "1"
-  line_count: 13
-  detected_license: "NOASSERTION"
-  concluded_license: "Apache-2.0"
-  reason: "INCORRECT"
-  comment: "LICENSE FOUND IN FOSSOLOGY AS Apache-2.0"
-- path: "Performance/allocations/tests/test_unary_1k_ping_pong.swift"
   start_lines: "1"
   line_count: 13
   detected_license: "NOASSERTION"
@@ -2085,19 +2050,5 @@ license_finding_curations:
   line_count: 4
   detected_license: "NOASSERTION"
   concluded_license: "NONE"
-  reason: "INCORRECT"
-  comment: "False Positive"
-- path: "	Performance/allocations/test-allocation-counts.sh"
-  start_lines: "27"
-  line_count: 1
-  detected_license: "NOASSERTION"
-  concluded_license: "Apache-2.0"
-  reason: "INCORRECT"
-  comment: "False Positive"
-- path: "	Performance/allocations/test-allocation-counts.sh"
-  start_lines: "27"
-  line_count: 1
-  detected_license: "NOASSERTION"
-  concluded_license: "Apache-2.0"
   reason: "INCORRECT"
   comment: "False Positive"
