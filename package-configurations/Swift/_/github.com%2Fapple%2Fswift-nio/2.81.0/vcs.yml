@@ -5,9 +5,37 @@ vcs:
   url: "https://github.com/apple/swift-nio.git"
   revision: "c51907a839e63ebf0ba2076bba73dd96436bd1b9"
 path_excludes:
-- pattern: "**/Tests/**"
+- pattern: "Tests/**"
   reason: "TEST_OF"
 license_finding_curations:
+- path: "Sources/NIOFileSystem/Internal/Concurrency Primitives/TokenBucket.swift"
+  start_lines: "6"
+  line_count: 3
+  detected_license: "Apache-2.0 WITH Swift-exception"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "Sources/NIOFileSystem/Internal/Concurrency Primitives/TokenBucket.swift"
+  start_lines: "19"
+  line_count: 3
+  detected_license: "Apache-2.0 WITH Swift-exception"
+  concluded_license: "Apache-2.0 AND Swift-exception"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "Sources/NIOFileSystem/Internal/System Calls/Mocking.swift"
+  start_lines: "6"
+  line_count: 3
+  detected_license: "Apache-2.0 WITH Swift-exception"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "Sources/NIOFileSystem/Internal/System Calls/Mocking.swift"
+  start_lines: "17"
+  line_count: 2
+  detected_license: "Apache-2.0 WITH Swift-exception"
+  concluded_license: "Apache-2.0 AND Swift-exception"
+  reason: "INCORRECT"
+  comment: "True Positive"
 - path: "NOTICE.txt"
   start_lines: "77"
   line_count: 1
