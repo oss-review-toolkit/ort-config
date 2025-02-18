@@ -1,0 +1,83 @@
+---
+id: "Maven:org.jetbrains.kotlin:kotlin-compiler-embeddable:1.9.10"
+source_artifact_url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.9.10/kotlin-compiler-embeddable-1.9.10-sources.jar"
+license_finding_curations:
+- path: "com/google/gwt/dev/js/rhino/BinaryDigitReader.java"
+  start_lines: "3"
+  line_count: 31
+  detected_license: "GPL-1.0-or-later OR NPL-1.1 "
+  concluded_license: "GPL-1.0-or-later OR NPL-1.1"
+  reason: "INCORRECT"
+  comment: "True postive license"
+- path: "com/google/gwt/dev/js/rhino/COPYING"
+  start_lines: "9"
+  line_count: 28
+  detected_license: "GPL-1.0-or-later OR NPL-1.1"
+  concluded_license: "GPL-1.0-or-later OR NPL-1.1"
+  reason: "INCORRECT"
+  comment: "True postive license"
+- path: "com/google/gwt/dev/js/rhino/ErrorReporter.java"
+  start_lines: "3"
+  line_count: 31
+  detected_license: "GPL-1.0-or-later OR NPL-1.1"
+  concluded_license: "GPL-1.0-or-later OR NPL-1.1"
+  reason: "INCORRECT"
+  comment: "True postive license"
+- path: "com/google/gwt/dev/js/rhino/EvaluatorException.java"
+  start_lines: "3"
+  line_count: 31
+  detected_license: "GPL-1.0-or-later OR NPL-1.1"
+  concluded_license: "GPL-1.0-or-later OR NPL-1.1"
+  reason: "INCORRECT"
+  comment: "True postive license"
+- path: "com/google/gwt/dev/js/rhino/IRFactory.java"
+  start_lines: "3"
+  line_count: 31
+  detected_license: "GPL-1.0-or-later OR NPL-1.1"
+  concluded_license: "GPL-1.0-or-later OR NPL-1.1"
+  reason: "INCORRECT"
+  comment: "True postive license"
+- path: "com/google/gwt/dev/js/rhino/JavaScriptException.java"
+  start_lines: "3"
+  line_count: 31
+  detected_license: "GPL-1.0-or-later OR NPL-1.1"
+  concluded_license: "GPL-1.0-or-later OR NPL-1.1"
+  reason: "INCORRECT"
+  comment: "True postive license"
+- path: "com/google/gwt/dev/js/rhino/LineBuffer.java"
+  start_lines: "3"
+  line_count: 31
+  detected_license: "GPL-1.0-or-later OR NPL-1.1"
+  concluded_license: "GPL-1.0-or-later OR NPL-1.1"
+  reason: "INCORRECT"
+  comment: "True postive license"
+- path: "com/google/gwt/dev/js/rhino/Node.java"
+  start_lines: "3"
+  line_count: 33
+  detected_license: "GPL-1.0-or-later OR NPL-1.1"
+  concluded_license: "GPL-1.0-or-later OR NPL-1.1"
+  reason: "INCORRECT"
+  comment: "True postive license"
+- path: "com/google/gwt/dev/js/rhino/Parser.java"
+  start_lines: "3"
+  line_count: 32
+  detected_license: "GPL-1.0-or-later OR NPL-1.1"
+  concluded_license: "GPL-1.0-or-later OR NPL-1.1"
+  reason: "INCORRECT"
+  comment: "True postive license"
+- path: "com/google/gwt/dev/js/rhino/TokenStream.java"
+  start_lines: "3"
+  line_count: 32
+  detected_license: "GPL-1.0-or-later OR NPL-1.1"
+  concluded_license: "GPL-1.0-or-later OR NPL-1.1"
+  reason: "INCORRECT"
+  comment: "True postive license"
+- path: "com/google/gwt/dev/js/rhino/UintMap.java"
+  start_lines: "3"
+  line_count: 31
+  detected_license: "GPL-1.0-or-later OR NPL-1.1"
+  concluded_license: "GPL-1.0-or-later OR NPL-1.1"
+  reason: "INCORRECT"
+  comment: "True postive license"
+
+
