@@ -1,0 +1,11 @@
+---
+id: "Maven:com.googlecode.java-diff-utils:diffutils:1.3.0"
+source_artifact_url: "https://repo.maven.apache.org/maven2/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0-sources.jar"
+license_finding_curations:
+- path: "difflib/myers/package.html"
+  start_lines: "8"
+  line_count: 12
+  detected_license: "GPL-3.0-or-later"
+  concluded_license: "GPL-3.0-or-later"
+  reason: "INCORRECT"
+  comment: "True positive"
