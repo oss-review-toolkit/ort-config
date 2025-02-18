@@ -7,6 +7,6 @@ vcs:
 license_finding_curations:
 - path: ""
   detected_license: "NOASSERTION"
-  concluded_license: "proprietaryAudi"
+  concluded_license: "proprietary"
   reason: "INCORRECT"
-  comment: "Concluded license as ProprietaryAudi based on internal review"
+  comment: "Concluded license is Proprietary for Audi based on internal review"
