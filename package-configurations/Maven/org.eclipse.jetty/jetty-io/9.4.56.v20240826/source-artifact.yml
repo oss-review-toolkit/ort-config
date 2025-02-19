@@ -30,3 +30,17 @@ license_finding_curations:
   concluded_license: "GPL-2.0-with-classpath-exception"
   reason: "INCORRECT"
   comment: "True Positive"
+- path: "META-INF/NOTICE.txt"
+  start_lines: "38"
+  line_count: 2
+  detected_license: "GPL-2.0-only WITH Classpath-exception-2.0"
+  concluded_license: "CDDL-1.0 AND GPL-2.0-with-classpath-exception"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "META-INF/NOTICE.txt"
+  start_lines: "104"
+  line_count: 3
+  detected_license: "GPL-2.0-only WITH Classpath-exception-2.0"
+  concluded_license: "CDDL-1.0 AND GPL-2.0-with-classpath-exception"
+  reason: "INCORRECT"
+  comment: "True Positive"
