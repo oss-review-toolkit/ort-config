@@ -1,0 +1,11 @@
+---
+id: "Maven:com.fasterxml.jackson.module:jackson-module-kotlin:2.18.1"
+source_artifact_url: "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-kotlin/2.18.1/jackson-module-kotlin-2.18.1-sources.jar"
+license_finding_curations:
+- path: "META-INF/NOTICE"
+  start_lines: "15"
+  line_count: 3
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
