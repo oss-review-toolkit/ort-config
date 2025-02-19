@@ -1,0 +1,11 @@
+---
+id: "Maven:androidx.compose.ui:ui-graphics:1.7.3"
+source_artifact_url: "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-graphics/1.7.3/ui-graphics-1.7.3-sources.jar"
+license_finding_curations:
+- path: "commonMain/androidx/compose/ui/graphics/vector/FastFloatParser.kt"
+  start_lines: "29"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
