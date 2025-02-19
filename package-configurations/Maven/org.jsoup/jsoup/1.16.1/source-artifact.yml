@@ -1,0 +1,11 @@
+---
+id: "Maven:org.jsoup:jsoup:1.16.1"
+source_artifact_url: "https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.16.1/jsoup-1.16.1-sources.jar"
+license_finding_curations:
+- path: "META-INF/README.md"
+  start_lines: "34"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
