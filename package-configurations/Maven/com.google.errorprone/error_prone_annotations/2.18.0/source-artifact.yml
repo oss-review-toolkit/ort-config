@@ -1,0 +1,11 @@
+---
+id: "Maven:com.google.errorprone:error_prone_annotations:2.18.0"
+source_artifact_url: "https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0-sources.jar"
+license_finding_curations:
+- path: "META-INF/maven/com.google.errorprone/error_prone_annotations/pom.xml"
+  start_lines: "39"
+  line_count: 3
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
