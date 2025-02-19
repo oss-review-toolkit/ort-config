@@ -1,0 +1,25 @@
+---
+id: "Maven:org.eclipse.jetty:jetty-util-ajax:9.4.56.v20240826"
+source_artifact_url: "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.56.v20240826/jetty-util-ajax-9.4.56.v20240826-sources.jar"
+license_finding_curations:
+- path: "META-INF/NOTICE.txt"
+  start_lines: "58"
+  line_count: 1
+  detected_license: "GPL-2.0-only WITH Classpath-exception-2.0"
+  concluded_license: "GPL-2.0-only WITH Classpath-exception-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "about.html"
+  start_lines: "22"
+  line_count: 3
+  detected_license: "NOASSERTION"
+  concluded_license: "UnixCrypt"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "META-INF/NOTICE.txt"
+  start_lines: "116"
+  line_count: 3
+  detected_license: "NOASSERTION"
+  concluded_license: "UnixCrypt"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
