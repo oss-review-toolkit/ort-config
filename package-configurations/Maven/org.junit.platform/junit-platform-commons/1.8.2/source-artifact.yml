@@ -1,0 +1,18 @@
+---
+id: "Maven:org.junit.platform:junit-platform-commons:1.8.2"
+source_artifact_url: "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2-sources.jar"
+license_finding_curations:
+- path: "META-INF/LICENSE-notice.md"
+  start_lines: "1"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "FALSE POSITIVE"
+- path: "META-INF/LICENSE-notice.md"
+  start_lines: "4"
+  line_count: 5
+  detected_license: "NOASSERTION"
+  concluded_license: "EPL-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
