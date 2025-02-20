@@ -1,0 +1,39 @@
+---
+id: "PyPI::azure-storage-blob:12.24.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/aa/ff/f6e81d15687510d83a06cafba9ac38d17df71a2bb18f35a0fb169aee3af3/azure_storage_blob-12.24.1.tar.gz"
+license_finding_curations:
+- path: "azure_storage_blob-12.24.1/azure_storage_blob.egg-info/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "azure_storage_blob-12.24.1/azure_storage_blob.egg-info/PKG-INFO"
+  start_lines: "495"
+  line_count: 4
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "azure_storage_blob-12.24.1/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "azure_storage_blob-12.24.1/PKG-INFO"
+  start_lines: "495"
+  line_count: 4
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "azure_storage_blob-12.24.1/README.md"
+  start_lines: "466"
+  line_count: 4
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "True Positive"
