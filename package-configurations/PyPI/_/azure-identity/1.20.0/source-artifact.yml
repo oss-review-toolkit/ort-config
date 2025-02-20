@@ -1,0 +1,39 @@
+---
+id: "PyPI::azure-identity:1.20.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/ee/89/7d170fab0b85d9650cdb7abda087e849644beb52bd28f6804620dd0cecd9/azure_identity-1.20.0.tar.gz"
+license_finding_curations:
+- path: "azure_identity-1.20.0/azure_identity.egg-info/PKG-INFO"
+  start_lines: "23"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_identity-1.20.0/azure_identity.egg-info/PKG-INFO"
+  start_lines: "403"
+  line_count: 5
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_identity-1.20.0/PKG-INFO"
+  start_lines: "23"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_identity-1.20.0/PKG-INFO"
+  start_lines: "403"
+  line_count: 5
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_identity-1.20.0/README.md"
+  start_lines: "374"
+  line_count: 5
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
