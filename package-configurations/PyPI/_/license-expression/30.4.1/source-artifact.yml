@@ -2,7 +2,7 @@
 id: "PyPI::license-expression:30.4.1"
 source_artifact_url: "https://files.pythonhosted.org/packages/74/6f/8709031ea6e0573e6075d24ea34507b0eb32f83f10e1420f2e34606bf0da/license_expression-30.4.1.tar.gz"
 path_excludes:
-- pattern: "license_expression-30.4.1/tests/**"
+- pattern: "tests/**"
   reason: "TEST_OF"
 license_finding_curations:
 - path: "license_expression-30.4.1/etc/scripts/utils_thirdparty.py"
