@@ -1,0 +1,39 @@
+---
+id: "PyPI::azure-eventgrid:4.21.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/61/4d/3029224304d6f5cfc6bdb3ef278f7249d8ccfecbb4a335f326b9d2009c98/azure_eventgrid-4.21.0.tar.gz"
+license_finding_curations:
+- path: "azure_eventgrid-4.21.0/azure_eventgrid.egg-info/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_eventgrid-4.21.0/azure_eventgrid.egg-info/PKG-INFO"
+  start_lines: "465"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_eventgrid-4.21.0/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_eventgrid-4.21.0/PKG-INFO"
+  start_lines: "465"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_eventgrid-4.21.0/README.md"
+  start_lines: "439"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
