@@ -1,0 +1,11 @@
+---
+id: "PyPI::pydantic:2.10.6"
+source_artifact_url: "https://files.pythonhosted.org/packages/b7/ae/d5220c5c52b158b1de7ca89fc5edb72f304a70a4c540c84c8844bf4008de/pydantic-2.10.6.tar.gz"
+license_finding_curations:
+- path: "pydantic-2.10.6/PKG-INFO"
+  start_lines: "12"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
