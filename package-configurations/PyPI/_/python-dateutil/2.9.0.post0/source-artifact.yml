@@ -46,7 +46,7 @@ license_finding_curations:
   comment: "TRUE POSITIVE"
 - path: "python-dateutil-2.9.0.post0/NEWS"
   start_lines: "848"
-  line_count: 1
+  line_count: 2
   detected_license: "NOASSERTION"
   concluded_license: "Apache-2.0 AND BSD-3-Clause"
   reason: "INCORRECT"
