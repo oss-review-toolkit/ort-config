@@ -1,0 +1,25 @@
+---
+id: "PyPI::propcache:0.3.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/92/76/f941e63d55c0293ff7829dd21e7cf1147e90a526756869a9070f287a68c9/propcache-0.3.0.tar.gz"
+license_finding_curations:
+- path: "propcache-0.3.0/PKG-INFO"
+  start_lines: "36"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "propcache-0.3.0/setup.cfg"
+  start_lines: "26"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "propcache-0.3.0/src/propcache.egg-info/PKG-INFO"
+  start_lines: "36"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
