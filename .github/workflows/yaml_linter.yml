@@ -1,4 +1,7 @@
 name: Yaml Linter
+permissions:
+  contents: read
+  pull-requests: write
 
 on:
   workflow_dispatch:
@@ -8,12 +11,12 @@ on:
 
 jobs:
   linter:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
       - name: Yaml Lint
-        uses: ibiqlik/action-yamllint@v3
+        uses: ibiqlik/action-yamllint@2576378a8e339169678f9939646ee3ee325e845c
         with:
           config_file: .yamllint.yml

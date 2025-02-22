@@ -1,27 +1,30 @@
-on:
-    workflow_dispatch:
-    push:
-        tags:
-            - "cariad_v*"
-
 name: Create Release
+permissions:
+  contents: read
+  pull-requests: write
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "cariad_v*"
 
 jobs:
-    build:
-        name: Create Release
-        runs-on: ubuntu-latest
-        steps:
-            -   name: Checkout code
-                uses: actions/checkout@master
-            -   name: Create Release
-                id: create_release
-                uses: actions/create-release@latest
-                env:
-                    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                with:
-                    tag_name: ${{ github.ref }}
-                    release_name: Release ${{ github.ref }}
-                    body: |
-                        Update Curation on Cariad Optima ORT
-                    draft: false
-                    prerelease: false
+  build:
+    name: Create Release
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: |
+            Update Curation on Cariad Optima ORT
+          draft: false
+          prerelease: false
