@@ -1,0 +1,40 @@
+
+---
+id: "PyPI::azure-eventhub:5.14.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/71/b1/cac32982e58ee6e20d65d8dc357bccda206ba4b3c5958eda89c7a32a72df/azure_eventhub-5.14.0.tar.gz"
+license_finding_curations:
+- path: "azure_eventhub-5.14.0/azure_eventhub.egg-info/PKG-INFO"
+  start_lines: "23"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_eventhub-5.14.0/azure_eventhub.egg-info/PKG-INFO"
+  start_lines: "563"
+  line_count: 7
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_eventhub-5.14.0/PKG-INFO"
+  start_lines: "23"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_eventhub-5.14.0/PKG-INFO"
+  start_lines: "563"
+  line_count: 7
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "azure_eventhub-5.14.0/README.md"
+  start_lines: "537"
+  line_count: 7
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
