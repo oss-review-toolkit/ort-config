@@ -1,0 +1,39 @@
+---
+id: "PyPI::vulture:2.14"
+source_artifact_url: "https://files.pythonhosted.org/packages/8e/25/925f35db758a0f9199113aaf61d703de891676b082bd7cf73ea01d6000f7/vulture-2.14.tar.gz"
+license_finding_curations:
+- path: "vulture-2.14/CHANGELOG.md"
+  start_lines: "279"
+  line_count: 1
+  detected_license: "GPL-1.0-or-later"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True positive"
+- path: "vulture-2.14/PKG-INFO"
+  start_lines: "674"
+  line_count: 1
+  detected_license: "GPL-1.0-or-later"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True positive"
+- path: "vulture-2.14/vulture.egg-info/PKG-INFO"
+  start_lines: "674"
+  line_count: 1
+  detected_license: "GPL-1.0-or-later"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True positive"
+- path: "vulture-2.14/PKG-INFO"
+  start_lines: "28"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True positive"
+- path: "vulture-2.14/vulture.egg-info/PKG-INFO"
+  start_lines: "28"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True positive"
