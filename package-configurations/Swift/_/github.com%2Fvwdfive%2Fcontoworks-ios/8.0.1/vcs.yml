@@ -6,7 +6,7 @@ vcs:
   revision: "c4e6231560f8428a45369bd3e83cdc9d10687950"
 license_finding_curations:
 - path: "Contoworks.podspec"
-  start_lines: "11"
+  start_lines: "12"
   line_count: 1
   detected_license: "NOASSERTION"
   concluded_license: "NONE"
