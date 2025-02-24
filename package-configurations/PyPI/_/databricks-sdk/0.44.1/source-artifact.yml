@@ -1,0 +1,25 @@
+---
+id: "PyPI::databricks-sdk:0.44.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/60/c1/cad267dba35c6e78c1776cff57382b58c05b93698562bb66877d3a54a156/databricks-sdk-0.44.1.tar.gz"
+license_finding_curations:
+- path: "databricks-sdk-0.44.1/databricks_sdk.egg-info/PKG-INFO"
+  start_lines: "26"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "databricks-sdk-0.44.1/databricks/sdk/service/marketplace.py"
+  start_lines: "1835"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "False Positive"
+- path: "databricks-sdk-0.44.1/PKG-INFO"
+  start_lines: "26"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
