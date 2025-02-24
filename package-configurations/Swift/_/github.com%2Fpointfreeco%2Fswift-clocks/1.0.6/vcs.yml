@@ -23,6 +23,6 @@ license_finding_curations:
   start_lines: "7"
   line_count: 3
   detected_license: "Apache-2.0 WITH Swift-exception"
-  concluded_license: "Apache-2.0 AND Swift-exception"
+  concluded_license: "Apache-2.0-runtime-library-exception"
   reason: "INCORRECT"
   comment: "True Positive"
