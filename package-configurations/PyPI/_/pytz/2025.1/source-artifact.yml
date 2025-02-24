@@ -1,0 +1,25 @@
+---
+id: "PyPI::pytz:2025.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/5f/57/df1c9157c8d5a05117e455d66fd7cf6dbc46974f832b1058ed4856785d8a/pytz-2025.1.tar.gz"
+license_finding_curations:
+- path: "pytz-2025.1/PKG-INFO"
+  start_lines: "40"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "pytz-2025.1/pytz.egg-info/PKG-INFO"
+  start_lines: "40"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "pytz-2025.1/setup.cfg"
+  start_lines: "2"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
