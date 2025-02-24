@@ -1,0 +1,18 @@
+---
+id: "PyPI::pytest:8.3.4"
+source_artifact_url: "https://files.pythonhosted.org/packages/05/35/30e0d83068951d90a01852cb1cef56e5d8a09d20c7f511634cc2f7e0372a/pytest-8.3.4.tar.gz"
+license_finding_curations:
+- path: "pytest-8.3.4/PKG-INFO"
+  start_lines: "31"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "pytest-8.3.4/src/pytest.egg-info/PKG-INFO"
+  start_lines: "31"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
