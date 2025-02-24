@@ -16,14 +16,14 @@ license_finding_curations:
   start_lines: "7"
   line_count: 5
   detected_license: "NOASSERTION"
-  concluded_license: "Apache-2.0 AND Swift-exception"
+  concluded_license: "Apache-2.0-runtime-library-exception"
   reason: "INCORRECT"
   comment: "True Positive"
 - path: "Sources/Operators/Internal/Lock.swift"
   start_lines: "7"
   line_count: 5
   detected_license: "NOASSERTION"
-  concluded_license: "Apache-2.0 AND Swift-exception"
+  concluded_license: "Apache-2.0-runtime-library-exception"
   reason: "INCORRECT"
   comment: "True Positive"
 - path: "CombineExt.podspec"
