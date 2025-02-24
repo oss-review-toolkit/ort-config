@@ -1,0 +1,28 @@
+---
+id: "PyPI::bandit:1.8.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/9b/e2/c229cdb4eefc124e5b77ac2557eb0a3cb5b9fc89bc465dd2b8dc1033dbb8/bandit-1.8.2.tar.gz"
+path_excludes:
+- pattern: "bandit-1.8.2/tests/**"
+  reason: "TEST_OF"
+license_finding_curations:
+- path: "bandit-1.8.2/bandit.egg-info/PKG-INFO"
+  start_lines: "39"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True positive"
+- path: "bandit-1.8.2/ChangeLog"
+  start_lines: "371"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "False positive"
+- path: "bandit-1.8.2/PKG-INFO"
+  start_lines: "39"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True positive"
