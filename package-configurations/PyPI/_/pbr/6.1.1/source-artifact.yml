@@ -1,0 +1,18 @@
+---
+id: "PyPI::pbr:6.1.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/01/d2/510cc0d218e753ba62a1bc1434651db3cd797a9716a0a66cc714cb4f0935/pbr-6.1.1.tar.gz"
+license_finding_curations:
+- path: "pbr-6.1.1/pbr.egg-info/PKG-INFO"
+  start_lines: "31"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "pbr-6.1.1/PKG-INFO"
+  start_lines: "31"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
