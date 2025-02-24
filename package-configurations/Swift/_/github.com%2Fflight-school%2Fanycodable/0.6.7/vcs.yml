@@ -37,6 +37,6 @@ license_finding_curations:
   start_lines: "4"
   line_count: 1
   detected_license: "NOASSERTION"
-  concluded_license: "NONE"
+  concluded_license: "MIT"
   reason: "INCORRECT"
-  comment: "False Positive"
+  comment: "True Positive"
