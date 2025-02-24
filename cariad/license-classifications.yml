@@ -1,4 +1,4 @@
-#This YML-file was created by CARIAD legal on 2025-02-18 using L'ELA.
+#This YML-file was created by CARIAD legal on 2025-02-24 using L'ELA.
 
 categories:
 - name: "CARIAD_Rated"
@@ -3500,6 +3500,9 @@ categorizations:
 - id: "LicenseRef-scancode-fpl"
   categories:
   - "permissive"
+- id: "LGPL-2.1-only"
+  categories:
+  - "copyleft-limited"
 - id: "MPL-2.0"
   categories:
   - "copyleft-limited"
@@ -5005,9 +5008,6 @@ categorizations:
 - id: "LicenseRef-scancode-ldpl-2.0"
   categories:
   - "copyleft"
-- id: "LGPL-2.1-only"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-metrolink-1.0"
   categories:
   - "copyleft"
