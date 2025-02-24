@@ -1,0 +1,28 @@
+---
+id: "PyPI::ruyaml:0.91.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/4b/75/abbc7eab08bad7f47887a0555d3ac9e3947f89d2416678c08e025e449fdc/ruyaml-0.91.0.tar.gz"
+path_excludes:
+- pattern: "_test/**"
+  reason: "TEST_OF"
+license_finding_curations:
+- path: "ruyaml-0.91.0/lib/ruyaml.egg-info/PKG-INFO"
+  start_lines: "33"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "ruyaml-0.91.0/PKG-INFO"
+  start_lines: "33"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "ruyaml-0.91.0/setup.cfg"
+  start_lines: "17"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
