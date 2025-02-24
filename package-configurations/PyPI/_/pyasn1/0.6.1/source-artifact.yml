@@ -1,0 +1,53 @@
+---
+id: "PyPI::pyasn1:0.6.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/ba/e9/01f1a64245b89f039897cb0130016d79f77d52669aae6ee7b159a6c4c018/pyasn1-0.6.1.tar.gz"
+license_finding_curations:
+- path: "pyasn1-0.6.1/docs/source/contents.rst"
+  start_lines: "125"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-2-Clause"
+  reason: "INCORRECT"
+  comment: "TRUE POSIITVE"
+- path: "pyasn1-0.6.1/PKG-INFO"
+  start_lines: "39"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-2-Clause"
+  reason: "INCORRECT"
+  comment: "TRUE POSIITVE"
+- path: "pyasn1-0.6.1/PKG-INFO"
+  start_lines: "215"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-2-Clause"
+  reason: "INCORRECT"
+  comment: "TRUE POSIITVE"
+- path: "pyasn1-0.6.1/pyasn1.egg-info/PKG-INFO"
+  start_lines: "39"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "FALSE POSIITVE"
+- path: "pyasn1-0.6.1/pyasn1.egg-info/PKG-INFO"
+  start_lines: "215"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "FALSE POSIITVE"
+- path: "pyasn1-0.6.1/README.md"
+  start_lines: "175"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "FALSE POSIITVE,175 line not found in the file"
+- path: "pyasn1-0.6.1/setup.cfg"
+  start_lines: "8"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-2-Clause"
+  reason: "INCORRECT"
+  comment: "TRUE POSIITVE"
