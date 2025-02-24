@@ -1,0 +1,18 @@
+---
+id: "PyPI::stevedore:5.4.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/28/3f/13cacea96900bbd31bb05c6b74135f85d15564fc583802be56976c940470/stevedore-5.4.1.tar.gz"
+license_finding_curations:
+- path: "stevedore-5.4.1/PKG-INFO"
+  start_lines: "21"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "stevedore-5.4.1/stevedore.egg-info/PKG-INFO"
+  start_lines: "21"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
