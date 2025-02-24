@@ -1,0 +1,11 @@
+---
+id: "PyPI::wiremock:2.6.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/18/61/9196428a4d0cb75b830c5ba05f48333d6a81d04692d86717eb0eabd3800d/wiremock-2.6.1.tar.gz"
+license_finding_curations:
+- path: "wiremock-2.6.1/PKG-INFO"
+  start_lines: "15"
+  line_count: 1
+  detected_license: "LicenseRef-scancode-proprietary-license"
+  concluded_license: "LicenseRef-scancode-proprietary-license"
+  reason: "INCORRECT"
+  comment: "True positive"
