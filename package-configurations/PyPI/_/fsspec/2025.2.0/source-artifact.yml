@@ -1,0 +1,18 @@
+---
+id: "PyPI::fsspec:2025.2.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/b5/79/68612ed99700e6413de42895aa725463e821a6b3be75c87fcce1b4af4c70/fsspec-2025.2.0.tar.gz"
+license_finding_curations:
+- path: "fsspec-2025.2.0/PKG-INFO"
+  start_lines: "38"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-3-Clause"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "fsspec-2025.2.0/pyproject.toml"
+  start_lines: "10"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-3-Clause"
+  reason: "INCORRECT"
+  comment: "True Positive"
