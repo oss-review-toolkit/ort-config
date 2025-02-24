@@ -1,0 +1,39 @@
+---
+  id: "PyPI::pyspark:3.5.1"
+  source_artifact_url: "https://files.pythonhosted.org/packages/73/e5/c9eb78cc982dafb7b5834bc5c368fe596216c8b9f7c4b4ffa104c4d2ab8f/pyspark-3.5.1.tar.gz"
+  license_finding_curations:
+  - path: "pyspark-3.5.1/pyspark.egg-info/SOURCES.txt"
+    start_lines: "459"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    concluded_license: "MIT"
+    reason: "INCORRECT"
+    comment: "TRUE POSITIVE"
+  - path: "pyspark-3.5.1/pyspark.egg-info/SOURCES.txt"
+    start_lines: "462"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    concluded_license: "BSD-3-Clause"
+    reason: "INCORRECT"
+    comment: "TRUE POSITIVE"
+  - path: "pyspark-3.5.1/pyspark.egg-info/SOURCES.txt"
+    start_lines: "471"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    concluded_license: "MIT OR BSD-3-Clause"
+    reason: "INCORRECT"
+    comment: "TRUE POSITIVE"
+  - path: "pyspark-3.5.1/pyspark.egg-info/SOURCES.txt"
+    start_lines: "473"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    concluded_license: "MIT"
+    reason: "INCORRECT"
+    comment: "TRUE POSITIVE"
+  - path: "pyspark-3.5.1/pyspark.egg-info/SOURCES.txt"
+    start_lines: "474"
+    line_count: 1
+    detected_license: "NOASSERTION"
+    concluded_license: "BSD-3-Clause"
+    reason: "INCORRECT"
+    comment: "TRUE POSITIVE"
