@@ -1,0 +1,18 @@
+---
+id: "PyPI::gherkin-official:29.0.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/f3/d8/7a28537efd7638448f7512a0cce011d4e3bf1c7f4794ad4e9c87b3f1e98e/gherkin_official-29.0.0.tar.gz"
+license_finding_curations:
+- path: "gherkin_official-29.0.0/gherkin_official.egg-info/PKG-INFO"
+  start_lines: "15"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "gherkin_official-29.0.0/PKG-INFO"
+  start_lines: "15"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "True Positive"
