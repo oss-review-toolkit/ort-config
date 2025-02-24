@@ -1,0 +1,53 @@
+---
+id: "PyPI::yamlfix:1.17.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/a9/04/e5061d4c353fad1240356458c999ddd452315a2485c3e8b00159767b3567/yamlfix-1.17.0.tar.gz"
+license_finding_curations:
+- path: "yamlfix-1.17.0/LICENSE"
+  start_lines: "1"
+  line_count: 674
+  detected_license: "GPL-3.0-only"
+  concluded_license: "GPL-3.0-only"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "yamlfix-1.17.0/PKG-INFO"
+  start_lines: "7"
+  line_count: 1
+  detected_license: "GPL-3.0-only"
+  concluded_license: "GPL-3.0-only"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "yamlfix-1.17.0/PKG-INFO"
+  start_lines: "10"
+  line_count: 1
+  detected_license: "GPL-3.0-only"
+  concluded_license: "GPL-3.0-only"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "yamlfix-1.17.0/PKG-INFO"
+  start_lines: "76"
+  line_count: 3
+  detected_license: "GPL-3.0-only"
+  concluded_license: "GPL-3.0-only"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "yamlfix-1.17.0/pyproject.toml"
+  start_lines: "326"
+  line_count: 1
+  detected_license: "GPL-3.0-only"
+  concluded_license: "GPL-3.0-only"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "yamlfix-1.17.0/pyproject.toml"
+  start_lines: "341"
+  line_count: 1
+  detected_license: "GPL-3.0-only"
+  concluded_license: "GPL-3.0-only"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "yamlfix-1.17.0/README.md"
+  start_lines: "46"
+  line_count: 3
+  detected_license: "GPL-3.0-only"
+  concluded_license: "GPL-3.0-only"
+  reason: "INCORRECT"
+  comment: "True Positive"
