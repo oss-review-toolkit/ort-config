@@ -1,0 +1,18 @@
+---
+id: "PyPI::tzdata:2025.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/43/0f/fa4723f22942480be4ca9527bbde8d43f6c3f2fe8412f00e7f5f6746bc8b/tzdata-2025.1.tar.gz"
+license_finding_curations:
+- path: "tzdata-2025.1/PKG-INFO"
+  start_lines: "19"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
+- path: "tzdata-2025.1/setup.cfg"
+  start_lines: "11"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "True Positive"
