@@ -1,4 +1,4 @@
-#This YML-file was created by CARIAD legal on 2025-02-24 using L'ELA.
+#This YML-file was created by CARIAD legal on 2025-02-25 using L'ELA.
 
 categories:
 - name: "CARIAD_Rated"
@@ -3500,6 +3500,9 @@ categorizations:
 - id: "LicenseRef-scancode-fpl"
   categories:
   - "permissive"
+- id: "MS-PL"
+  categories:
+  - "permissive"
 - id: "LGPL-2.1-only"
   categories:
   - "copyleft-limited"
@@ -5060,9 +5063,6 @@ categorizations:
   categories:
   - "copyleft"
 - id: "NTP"
-  categories:
-  - "permissive"
-- id: "MS-PL"
   categories:
   - "permissive"
 - id: "LicenseRef-scancode-ms-net-library"
@@ -6717,6 +6717,17 @@ categorizations:
   - "DC_backend_green"
   - "DC_tools_green"
   - "CARIAD_Rated"
+- id: "dtoa"
+  categories:
+  - "permissive"
+  - "include-in-notice-file" 
+  - "include-source-code-offer-in-notice-file" 
+  - "DC_car_green"
+  - "DC_mobile_green"
+  - "DC_frontend_green"
+  - "DC_backend_green"
+  - "DC_tools_green"
+  - "CARIAD_Rated"
 - id: "LicenseRef-scancode-sun-prop-non-commercial"
   categories:
   - "proprietary-free"
@@ -6784,9 +6795,6 @@ categorizations:
   - "DC_tools_green"
   - "CARIAD_Rated"
 - id: "XFree86-1.1"
-  categories:
-  - "permissive"
-- id: "dtoa"
   categories:
   - "permissive"
 - id: "LicenseRef-scancode-synthesis-toolkit"
