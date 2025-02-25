@@ -1,0 +1,7 @@
+- id: "Maven:com.google.android.gms:play-services-maps:19.0.0"
+  curations:
+    comment: |
+      Declared license links to the LicenseRef-scancode-android-sdk-2021 license, see
+      https://maven.google.com/com/google/android/gms/play-services-maps/19.0.0/play-services-maps-19.0.0.pom#lines-39:45
+    declared_license_mapping:
+      License: "LicenseRef-scancode-android-sdk-2021"
