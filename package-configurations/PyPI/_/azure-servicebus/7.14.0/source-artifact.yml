@@ -30,7 +30,7 @@ license_finding_curations:
   concluded_license: "LicenseRef-scancode-ms-cla"
   reason: "INCORRECT"
   comment: "TRUE POSITIVE"
-- path: "azure_identity-1.20.0/README.md"
+- path: "azure_servicebus-7.14.0/README.md"
   start_lines: "582"
   line_count: 9
   detected_license: "NOASSERTION"
