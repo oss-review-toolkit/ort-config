@@ -1,0 +1,7 @@
+- id: "Maven:com.google.android.gms:play-services-base:18.1.0"
+  curations:
+    comment: |
+      Declared license links to the LicenseRef-scancode-android-sdk-2021 license, see
+      https://maven.google.com/com/google/android/gms/play-services-base/18.1.0/play-services-base-18.1.0.pom#lines-46:52
+    declared_license_mapping:
+      License: "LicenseRef-scancode-android-sdk-2021"
