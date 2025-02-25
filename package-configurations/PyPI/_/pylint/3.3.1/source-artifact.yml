@@ -36,7 +36,7 @@ license_finding_curations:
 - path: "pylint-3.3.1/PKG-INFO"
   start_lines: "252"
   line_count: 1
-  detected_license: "GPL-2.0-only"
+  detected_license: "NOASSERTION"
   concluded_license: "CC-BY-SA-4.0"
   reason: "INCORRECT"
   comment: "True Positive"
@@ -50,7 +50,7 @@ license_finding_curations:
 - path: "pylint-3.3.1/pylint.egg-info/PKG-INFO"
   start_lines: "36"
   line_count: 1
-  detected_license: "GPL-2.0-only"
+  detected_license: "NOASSERTION"
   concluded_license: "GPL-2.0-only"
   reason: "INCORRECT"
   comment: "True Positive"
@@ -64,14 +64,14 @@ license_finding_curations:
 - path: "pylint-3.3.1/pylint.egg-info/PKG-INFO"
   start_lines: "252"
   line_count: 1
-  detected_license: "GPL-2.0-only"
+  detected_license: "NOASSERTION"
   concluded_license: "CC-BY-SA-4.0"
   reason: "INCORRECT"
   comment: "True Positive"
 - path: "pylint-3.3.1/setup.cfg"
   start_lines: "2"
   line_count: 2
-  detected_license: "GPL-2.0-only"
+  detected_license: "NOASSERTION"
   concluded_license: "GPL-2.0-only"
   reason: "INCORRECT"
   comment: "True Positive"
@@ -85,14 +85,14 @@ license_finding_curations:
 - path: "pylint-3.3.1/pyproject.toml"
   start_lines: "74"
   line_count: 1
-  detected_license: "GPL-2.0-only"
+  detected_license: "NOASSERTION"
   concluded_license: "GPL-2.0-only"
   reason: "INCORRECT"
   comment: "True Positive"
 - path: "pylint-3.3.1/README.rst"
   start_lines: "199"
   line_count: 1
-  detected_license: "GPL-2.0-only"
+  detected_license: "NOASSERTION"
   concluded_license: "CC-BY-SA-4.0"
   reason: "INCORRECT"
   comment: "True Positive"
@@ -106,7 +106,7 @@ license_finding_curations:
 - path: "pylint-3.3.1/PKG-INFO"
   start_lines: "18"
   line_count: 1
-  detected_license: "GPL-2.0-only"
+  detected_license: "NOASSERTION"
   concluded_license: "GPL-2.0-only"
   reason: "INCORRECT"
   comment: "True Positive"
