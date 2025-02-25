@@ -23,7 +23,7 @@ license_finding_curations:
   concluded_license: "Python-2.0"
   reason: "INCORRECT"
   comment: "TRUE POSITIVE"
-- path: "aiohappyeyeballs-2.4.4/README.md"
+- path: "aiohappyeyeballs-2.4.6/README.md"
   start_lines: "65"
   line_count: 1
   detected_license: "NOASSERTION"
