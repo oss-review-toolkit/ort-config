@@ -9,15 +9,8 @@ path_excludes:
   reason: "TEST_OF"
 license_finding_curations:
 - path: "LICENSE"
-  start_lines: "21"
-  line_count: 3
-  detected_license: "NOASSERTION"
-  concluded_license: "MIT"
-  reason: "INCORRECT"
-  comment: "LICENSE FOUND IN FOSSOLOGY AS MIT"
-- path: "README.md"
-  start_lines: "462"
-  line_count: 3
+  start_lines: "1"
+  line_count: 21
   detected_license: "NOASSERTION"
   concluded_license: "MIT"
   reason: "INCORRECT"
