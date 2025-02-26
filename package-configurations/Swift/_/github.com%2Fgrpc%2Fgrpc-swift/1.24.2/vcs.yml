@@ -5,7 +5,7 @@ vcs:
   url: "https://github.com/grpc/grpc-swift.git"
   revision: "8c5e99d0255c373e0330730d191a3423c57373fb"
 path_excludes:
-- pattern: "Performance/allocations/tests/**"
+- pattern: "**/Performance/allocations/tests/run-allocation-counter-tests.sh/**"
   reason: "TEST_OF"
 license_finding_curations:
 - path: ".editorconfig"
@@ -2052,3 +2052,24 @@ license_finding_curations:
   concluded_license: "NONE"
   reason: "INCORRECT"
   comment: "False Positive"
+- path: "CONTRIBUTING.md"
+  start_lines: "11"
+  line_count:  4
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "FALSE POSITIVE"
+- path: "Performance/allocations/test-allocation-counts.sh"
+  start_lines: "27"
+  line_count:  1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
+- path: "Performance/allocations/test-utils.sh"
+  start_lines: "27"
+  line_count:  1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
