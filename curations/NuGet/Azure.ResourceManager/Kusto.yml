@@ -1,0 +1,5 @@
+- id: "NuGet:Azure.ResourceManager:Kusto:"
+  curations:
+    comment: "Set the VCS path of the module inside the multi-module repository."
+    vcs:
+      path: "sdk/kusto/Azure.ResourceManager.Kusto"
