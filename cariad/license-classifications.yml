@@ -1,4 +1,4 @@
-#This YML-file was created by CARIAD legal on 2025-02-25 using L'ELA.
+#This YML-file was created by CARIAD legal on 2025-02-26 using L'ELA.
 
 categories:
 - name: "CARIAD_Rated"
@@ -102,25 +102,6 @@ categories:
     No explicit licensing terms are provided for a work.
 
 categorizations:
-- id: "apache-2.0-runtime-library-exception"
-  categories:
-  - "permissive"
-  - "No SPDX for this license available"
-  - "DC_car_green"
-  - "DC_mobile_green"
-  - "DC_frontend_green"
-  - "DC_backend_green"
-  - "DC_tools_green"
-  - "CARIAD_Rated"
-- id: "Swift-exception"
-  categories:
-  - "permissive"
-  - "DC_car_green"
-  - "DC_mobile_green"
-  - "DC_frontend_green"
-  - "DC_backend_green"
-  - "DC_tools_green"
-  - "CARIAD_Rated"
 - id: "Apache-2.0"
   categories:
   - "permissive"
@@ -228,9 +209,6 @@ categorizations:
 - id: "DOC"
   categories:
   - "permissive"
-- id: "GNAT-exception"
-  categories:
-  - "copyleft-limited"
 - id: "Apache-1.0"
   categories:
   - "permissive"
@@ -243,21 +221,12 @@ categorizations:
 - id: "LicenseRef-scancode-cecill-c-en"
   categories:
   - "copyleft-limited"
-- id: "Autoconf-exception-3.0"
-  categories:
-  - "copyleft-limited"
-- id: "Classpath-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "CC-BY-ND-3.0"
   categories:
   - "source-available"
 - id: "Apache-1.1"
   categories:
   - "permissive"
-- id: "Autoconf-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "AGPL-3.0-only"
   categories:
   - "copyleft"
@@ -292,9 +261,6 @@ categorizations:
   categories:
   - "permissive"
 - id: "Artistic-1.0-Perl"
-  categories:
-  - "copyleft-limited"
-- id: "Autoconf-exception-macro"
   categories:
   - "copyleft-limited"
 - id: "BSD-2-Clause-Patent"
@@ -381,9 +347,6 @@ categorizations:
 - id: "AFL-1.1"
   categories:
   - "permissive"
-- id: "Bison-exception-1.24"
-  categories:
-  - "copyleft-limited"
 - id: "CDL-1.0"
   categories:
   - "copyleft-limited"
@@ -405,9 +368,6 @@ categorizations:
 - id: "LicenseRef-scancode-adobe-eula"
   categories:
   - "commercial"
-- id: "CLISP-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-brent-corkum"
   categories:
   - "permissive"
@@ -443,9 +403,6 @@ categorizations:
   - "commercial"
   - "No SPDX for this license available"
 - id: "CERN-OHL-W-2.0"
-  categories:
-  - "copyleft-limited"
-- id: "LicenseRef-scancode-aptana-exception-3.0"
   categories:
   - "copyleft-limited"
 - id: "LicenseRef-scancode-ams-fonts"
@@ -547,9 +504,6 @@ categorizations:
 - id: "LicenseRef-scancode-bsd-3-clause-fda"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-bash-exception-gpl-2.0"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-cc-by-nc-nd-2.0-au"
   categories:
   - "source-available"
@@ -651,9 +605,6 @@ categorizations:
   - "DC_backend_green"
   - "DC_tools_green"
   - "CARIAD_Rated"
-- id: "LicenseRef-scancode-civicrm-exception-to-agpl-3.0"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-cmu-mit"
   categories:
   - "permissive"
@@ -691,15 +642,9 @@ categorizations:
 - id: "Giftware"
   categories:
   - "permissive"
-- id: "Asterisk-exception"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-apple-mpeg-4"
   categories:
   - "free-restricted"
-- id: "LicenseRef-scancode-codelite-exception-to-gpl"
-  categories:
-  - "copyleft-limited"
 - id: "BSD-3-Clause-Clear"
   categories:
   - "permissive"
@@ -778,10 +723,6 @@ categorizations:
   - "DC_backend_green"
   - "DC_tools_green"
   - "CARIAD_Rated"
-- id: "apache-exception-llvm"
-  categories:
-  - "permissive"
-  - "No SPDX for this license available"
 - id: "BSD-2-Clause"
   categories:
   - "permissive"
@@ -948,9 +889,6 @@ categorizations:
 - id: "LicenseRef-scancode-cecill-2.0-fr"
   categories:
   - "copyleft-limited"
-- id: "LicenseRef-scancode-alfresco-exception-0.5"
-  categories:
-  - "copyleft"
 - id: "BSD-3-Clause-Attribution"
   categories:
   - "permissive"
@@ -960,10 +898,6 @@ categorizations:
 - id: "LicenseRef-scancode-beri-hw-sw-1.0"
   categories:
   - "permissive"
-- id: "agpl-3.0-bacula"
-  categories:
-  - "copyleft"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-can-ogl-ontario-1.0"
   categories:
   - "permissive"
@@ -1019,10 +953,6 @@ categorizations:
 - id: "BSD-Advertising-Acknowledgement"
   categories:
   - "permissive"
-- id: "bsd-new-far-manager"
-  categories:
-  - "permissive"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-canonical-ha-cla-any-i-v1.2"
   categories:
   - "cla"
@@ -1132,9 +1062,6 @@ categorizations:
 - id: "LicenseRef-scancode-canonical-ha-cla-any-e-v1.2"
   categories:
   - "cla"
-- id: "LicenseRef-scancode-clojure-exception-to-gpl-3.0"
-  categories:
-  - "copyleft"
 - id: "commercial-option"
   categories:
   - "commercial"
@@ -1145,9 +1072,6 @@ categorizations:
 - id: "AdaCore-doc"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-bcm-linking-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-acm-sla"
   categories:
   - "proprietary-free"
@@ -1203,15 +1127,6 @@ categorizations:
 - id: "LicenseRef-scancode-corporate-accountability-1.1"
   categories:
   - "proprietary-free"
-- id: "389-exception"
-  categories:
-  - "copyleft-limited"
-- id: "LicenseRef-scancode-commons-clause"
-  categories:
-  - "source-available"
-- id: "LicenseRef-scancode-bacula-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-copyheart"
   categories:
   - "public-domain"
@@ -1371,9 +1286,6 @@ categorizations:
 - id: "LicenseRef-scancode-blender-2010"
   categories:
   - "copyleft"
-- id: "LicenseRef-scancode-accountability-commercial-1.1"
-  categories:
-  - "proprietary-free"
 - id: "check-cvs"
   categories:
   - "permissive"
@@ -1473,9 +1385,6 @@ categorizations:
 - id: "LicenseRef-scancode-array-input-method-pl"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-avisynth-linking-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-bakoma-fonts-1995"
   categories:
   - "permissive"
@@ -1551,9 +1460,6 @@ categorizations:
 - id: "CERN-OHL-1.2"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-cockroachdb-use-grant-bsl-1.1"
-  categories:
-  - "source-available"
 - id: "LicenseRef-scancode-codeguru-permissions"
   categories:
   - "permissive"
@@ -1601,9 +1507,6 @@ categorizations:
 - id: "App-s2p"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-autoopts-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-chris-maunder"
   categories:
   - "permissive"
@@ -1640,12 +1543,6 @@ categorizations:
 - id: "LicenseRef-scancode-adobe-color-profile-bundling"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-clause-6-exception-lgpl-2.1"
-  categories:
-  - "copyleft-limited"
-- id: "LicenseRef-scancode-avisynth-c-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-broadcom-raspberry-pi"
   categories:
   - "proprietary-free"
@@ -1673,24 +1570,12 @@ categorizations:
 - id: "LicenseRef-scancode-cc-lgpl-2.1-pt"
   categories:
   - "copyleft-limited"
-- id: "apache-2.0-linking-exception"
-  categories:
-  - "permissive"
-  - "No SPDX for this license available"
 - id: "copyleft-next-0.3.1"
   categories:
   - "copyleft"
 - id: "aop-pd"
   categories:
   - "public-domain"
-  - "No SPDX for this license available"
-- id: "agpl-3.0-linking-exception"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
-- id: "apache-patent-provision-exception"
-  categories:
-  - "permissive"
   - "No SPDX for this license available"
 - id: "CNRI-Jython"
   categories:
@@ -1707,9 +1592,6 @@ categorizations:
 - id: "LicenseRef-scancode-broadcom-opus-patent"
   categories:
   - "patent-license"
-- id: "LicenseRef-scancode-broadcom-unmodified-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-biosl-4.0"
   categories:
   - "unstated-license"
@@ -1722,12 +1604,6 @@ categorizations:
 - id: "ASWF-Digital-Assets-1.0"
   categories:
   - "free-restricted"
-- id: "LicenseRef-scancode-broadcom-linking-unmodified"
-  categories:
-  - "copyleft-limited"
-- id: "LicenseRef-scancode-compuphase-linking-exception"
-  categories:
-  - "permissive"
 - id: "CAL-1.0-Combined-Work-Exception"
   categories:
   - "copyleft-limited"
@@ -1741,9 +1617,6 @@ categorizations:
 - id: "LicenseRef-scancode-cooperative-non-violent-6.0"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-apache-patent-exception"
-  categories:
-  - "permissive"
 - id: "ccrc-1.0"
   categories:
   - "copyleft"
@@ -1757,22 +1630,12 @@ categorizations:
 - id: "LicenseRef-scancode-bsl-1.0"
   categories:
   - "source-available"
-- id: "agpl-3.0-openssl"
-  categories:
-  - "copyleft"
-  - "No SPDX for this license available"
-- id: "LicenseRef-scancode-agpl-generic-additional-terms"
-  categories:
-  - "copyleft"
 - id: "CPAL-1.0"
   categories:
   - "copyleft"
 - id: "CECILL-C"
   categories:
   - "copyleft"
-- id: "Autoconf-exception-generic"
-  categories:
-  - "copyleft-limited"
 - id: "APSL-1.0"
   categories:
   - "copyleft-limited"
@@ -1785,16 +1648,10 @@ categorizations:
 - id: "LicenseRef-scancode-confluent-community-1.0"
   categories:
   - "source-available"
-- id: "Autoconf-exception-generic-3.0"
-  categories:
-  - "copyleft-limited"
 - id: "CC-BY-NC-ND-3.0-DE"
   categories:
   - "source-available"
 - id: "APSL-1.1"
-  categories:
-  - "copyleft-limited"
-- id: "Bison-exception-2.2"
   categories:
   - "copyleft-limited"
 - id: "LicenseRef-scancode-catharon-osl"
@@ -1818,9 +1675,6 @@ categorizations:
 - id: "CC-BY-NC-ND-3.0-IGO"
   categories:
   - "source-available"
-- id: "Bootloader-exception"
-  categories:
-  - "copyleft-limited"
 - id: "CC-BY-SA-1.0"
   categories:
   - "copyleft-limited"
@@ -1891,29 +1745,12 @@ categorizations:
   - "DC_backend_green"
   - "DC_tools_green"
   - "CARIAD_Rated"
-- id: "GCC-exception-3.1"
-  categories:
-  - "copyleft-limited"
 - id: "Cronyx"
   categories:
   - "permissive"
-- id: "GPL-2.0-with-classpath-exception"
-  categories:
-  - "copyleft-limited"
 - id: "IJG-short"
   categories:
   - "permissive"
-- id: "gpl-2.0-plus-openssl"
-  categories:
-  - "copyleft"
-  - "No SPDX for this license available"
-- id: "gpl-3.0-bison"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
-- id: "GPL-2.0-with-GCC-exception"
-  categories:
-  - "copyleft-limited"
 - id: "EUPL-1.1"
   categories:
   - "copyleft-limited"
@@ -1926,13 +1763,6 @@ categorizations:
 - id: "etalab-2.0-fr"
   categories:
   - "unstated-license"
-  - "No SPDX for this license available"
-- id: "GPL-CC-1.0"
-  categories:
-  - "copyleft-limited"
-- id: "digia-qt-exception-lgpl-2.1"
-  categories:
-  - "copyleft-limited"
   - "No SPDX for this license available"
 - id: "LicenseRef-scancode-ecma-patent-coc-2"
   categories:
@@ -1964,9 +1794,6 @@ categorizations:
 - id: "LicenseRef-scancode-google-maps-tos-2020-05-06"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-gpl-generic-additional-terms"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-eclipse-sua-2017"
   categories:
   - "copyleft-limited"
@@ -2004,9 +1831,6 @@ categorizations:
 - id: "LicenseRef-scancode-google-patent-license-webrtc"
   categories:
   - "patent-license"
-- id: "LicenseRef-scancode-generic-exception"
-  categories:
-  - "unstated-license"
 - id: "LicenseRef-scancode-font-alias"
   categories:
   - "permissive"
@@ -2025,32 +1849,15 @@ categorizations:
 - id: "LicenseRef-scancode-gregory-pietsch"
   categories:
   - "permissive"
-- id: "gpl-2.0-uboot"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-elib-gpl"
   categories:
   - "copyleft"
 - id: "Hippocratic-2.1"
   categories:
   - "free-restricted"
-- id: "gpl-2.0-plus-nant"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
-- id: "GPL-2.0-with-font-exception"
-  categories:
-  - "copyleft-limited"
-- id: "eCos-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-icann-public"
   categories:
   - "public-domain"
-- id: "LicenseRef-scancode-geoserver-exception-2.0-plus"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-fabien-tassin"
   categories:
   - "permissive"
@@ -2060,20 +1867,12 @@ categorizations:
 - id: "LicenseRef-scancode-fsf-notice"
   categories:
   - "permissive"
-- id: "gpl-2.0-redhat"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-github-codeql-terms-2020"
   categories:
   - "proprietary-free"
 - id: "DL-DE-ZERO-2.0"
   categories:
   - "permissive"
-- id: "gpl-2.0-plus-subcommander"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-datamekanix-license"
   categories:
   - "permissive"
@@ -2092,10 +1891,6 @@ categorizations:
 - id: "dvipdfm"
   categories:
   - "permissive"
-- id: "gpl-2.0-libgit2"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-dos32a-extender"
   categories:
   - "permissive"
@@ -2135,10 +1930,6 @@ categorizations:
 - id: "GLWTPL"
   categories:
   - "permissive"
-- id: "gpl-2.0-openssl"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-ibm-jre"
   categories:
   - "commercial"
@@ -2175,19 +1966,12 @@ categorizations:
 - id: "HPND-Fenneberg-Livingston"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-cups-apple-os-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-genivia-gsoap"
   categories:
   - "commercial"
 - id: "LicenseRef-scancode-emx-library"
   categories:
   - "permissive"
-- id: "gpl-3.0-openbd"
-  categories:
-  - "copyleft"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-hdf5"
   categories:
   - "permissive"
@@ -2215,17 +1999,7 @@ categorizations:
 - id: "LicenseRef-scancode-infineon-free"
   categories:
   - "permissive"
-- id: "gpl-3.0-font"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
-- id: "Gmsh-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-dwtfnmfpl-3.0"
-  categories:
-  - "permissive"
-- id: "LicenseRef-scancode-errbot-exception"
   categories:
   - "permissive"
 - id: "LicenseRef-scancode-dhb-limited-bsd-2015"
@@ -2276,10 +2050,6 @@ categorizations:
 - id: "LicenseRef-scancode-dmtf-2017"
   categories:
   - "permissive"
-- id: "gpl-2.0-ice"
-  categories:
-  - "copyleft"
-  - "No SPDX for this license available"
 - id: "Ferguson-Twofish"
   categories:
   - "permissive"
@@ -2292,9 +2062,6 @@ categorizations:
 - id: "LicenseRef-scancode-Hippocratic-3.0"
   categories:
   - "free-restricted"
-- id: "eCos-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-flex2sdk"
   categories:
   - "proprietary-free"
@@ -2305,9 +2072,6 @@ categorizations:
   categories:
   - "free-restricted"
 - id: "LicenseRef-scancode-ietf"
-  categories:
-  - "permissive"
-- id: "LicenseRef-scancode-far-manager-exception"
   categories:
   - "permissive"
 - id: "LicenseRef-scancode-ibm-java-portlet-spec-2.0"
@@ -2325,10 +2089,6 @@ categorizations:
 - id: "LicenseRef-scancode-gpl-2.0-adaptec"
   categories:
   - "copyleft"
-- id: "gpl-2.0-freertos"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-foobar2000"
   categories:
   - "proprietary-free"
@@ -2356,9 +2116,6 @@ categorizations:
 - id: "LicenseRef-scancode-idt-notice"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-gstreamer-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-hauppauge-firmware-eula"
   categories:
   - "proprietary-free"
@@ -2374,30 +2131,12 @@ categorizations:
 - id: "LicenseRef-scancode-here-disclaimer"
   categories:
   - "unstated-license"
-- id: "LicenseRef-scancode-cygwin-exception-lgpl-3.0-plus"
-  categories:
-  - "copyleft-limited"
-- id: "gpl-2.0-qt-qca"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
-- id: "gpl-3.0-aptana"
-  categories:
-  - "copyleft"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-cpp-core-guidelines"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-dune-exception"
-  categories:
-  - "copyleft-limited"
 - id: "hdparm"
   categories:
   - "permissive"
-- id: "gpl-2.0-mysql-connector-odbc"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-energyplus-2023"
   categories:
   - "permissive"
@@ -2419,26 +2158,12 @@ categorizations:
 - id: "LicenseRef-scancode-ghostpdl-permissive"
   categories:
   - "permissive"
-- id: "DigiRule-FOSS-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-gitlab-ee"
   categories:
   - "commercial"
 - id: "LicenseRef-scancode-ctl-linux-firmware"
   categories:
   - "proprietary-free"
-- id: "gpl-2.0-bison-2.2"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
-- id: "gpl-2.0-guile"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
-- id: "Font-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-html5"
   categories:
   - "permissive"
@@ -2448,10 +2173,6 @@ categorizations:
 - id: "Eurosym"
   categories:
   - "copyleft-limited"
-- id: "gpl-2.0-plus-geoserver"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-dhtmlab-public"
   categories:
   - "permissive"
@@ -2464,9 +2185,6 @@ categorizations:
 - id: "D-FSL-1.0"
   categories:
   - "copyleft"
-- id: "GStreamer-exception-2005"
-  categories:
-  - "permissive"
 - id: "LicenseRef-scancode-dynarch-developer"
   categories:
   - "commercial"
@@ -2485,10 +2203,6 @@ categorizations:
 - id: "LicenseRef-scancode-divx-open-1.0"
   categories:
   - "copyleft-limited"
-- id: "gpl-2.0-plus-syntext"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "HPND-MIT-disclaimer"
   categories:
   - "permissive"
@@ -2498,10 +2212,6 @@ categorizations:
 - id: "LicenseRef-scancode-geoff-kuenning-1993"
   categories:
   - "permissive"
-- id: "gpl-2.0-proguard"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-hdf4"
   categories:
   - "permissive"
@@ -2511,9 +2221,6 @@ categorizations:
 - id: "LicenseRef-scancode-ftdi"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-cygwin-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-gtpl-v1"
   categories:
   - "permissive"
@@ -2529,17 +2236,9 @@ categorizations:
 - id: "LicenseRef-scancode-embedthis-extension"
   categories:
   - "free-restricted"
-- id: "gpl-2.0-cygwin"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-eclipse-sua-2001"
   categories:
   - "copyleft-limited"
-- id: "gpl-3.0-cygwin"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "HPND-sell-MIT-disclaimer-xserver"
   categories:
   - "permissive"
@@ -2564,13 +2263,6 @@ categorizations:
 - id: "LicenseRef-scancode-filament-group-mit"
   categories:
   - "permissive"
-- id: "gpl-3.0-plus-openssl"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
-- id: "LicenseRef-scancode-ecma-no-patent"
-  categories:
-  - "proprietary-free"
 - id: "DSDP"
   categories:
   - "permissive"
@@ -2601,10 +2293,6 @@ categorizations:
 - id: "HPND-doc"
   categories:
   - "permissive"
-- id: "gpl-2.0-oracle-mysql-foss"
-  categories:
-  - "copyleft"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-gradle-tou-2022-01-13"
   categories:
   - "proprietary-free"
@@ -2614,10 +2302,6 @@ categorizations:
 - id: "LicenseRef-scancode-facebook-nuclide"
   categories:
   - "proprietary-free"
-- id: "gpl-2.0-javascript"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-here-proprietary"
   categories:
   - "commercial"
@@ -2642,10 +2326,6 @@ categorizations:
 - id: "LicenseRef-scancode-egenix-1.0.0"
   categories:
   - "permissive"
-- id: "gpl-2.0-plus-sane"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-info-zip-2002-02"
   categories:
   - "permissive"
@@ -2706,34 +2386,19 @@ categorizations:
 - id: "LicenseRef-scancode-google-tos-2013"
   categories:
   - "proprietary-free"
-- id: "gpl-2.0-gcc-compiler-exception"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "dual-bsd-gpl"
   categories:
   - "permissive"
   - "No SPDX for this license available"
-- id: "gpl-2.0-plus-linking"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-dpl-1.1"
   categories:
   - "copyleft-limited"
-- id: "LicenseRef-scancode-fujion-exception-to-apache-2.0"
-  categories:
-  - "permissive"
 - id: "LicenseRef-scancode-eclipse-sua-2005"
   categories:
   - "copyleft-limited"
 - id: "LicenseRef-scancode-dl-de-by-nc-1-0-en"
   categories:
   - "free-restricted"
-- id: "gpl-2.0-glibc"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-google-cla"
   categories:
   - "cla"
@@ -2768,10 +2433,6 @@ categorizations:
   - "DC_backend_review"
   - "DC_tools_review"
   - "CARIAD_Rated"
-- id: "gpl-2.0-mysql-floss"
-  categories:
-  - "copyleft"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-google-corporate-cla"
   categories:
   - "cla"
@@ -2824,9 +2485,6 @@ categorizations:
   - "DC_backend_green"
   - "DC_tools_green"
   - "CARIAD_Rated"
-- id: "GPL-3.0-linking-source-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-google-tos-2019"
   categories:
   - "proprietary-free"
@@ -2859,16 +2517,6 @@ categorizations:
 - id: "Imlib2"
   categories:
   - "copyleft-limited"
-- id: "FLTK-exception"
-  categories:
-  - "copyleft-limited"
-- id: "LicenseRef-scancode-indie-module-linking-exception"
-  categories:
-  - "copyleft-limited"
-- id: "gpl-2.0-independent-module-linking"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-flora-1.1"
   categories:
   - "permissive"
@@ -2878,10 +2526,6 @@ categorizations:
 - id: "LicenseRef-scancode-ic-shared-1.0"
   categories:
   - "free-restricted"
-- id: "gpl-2.0-rrdtool-floss"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "fwlw"
   categories:
   - "permissive"
@@ -2897,10 +2541,6 @@ categorizations:
 - id: "LicenseRef-scancode-ilmid"
   categories:
   - "permissive"
-- id: "gpl-2.0-iso-cpp"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-google-analytics-tos-2019"
   categories:
   - "proprietary-free"
@@ -2921,9 +2561,6 @@ categorizations:
   - "DC_tools_green"
   - "CARIAD_Rated"
 - id: "LicenseRef-scancode-g10-permissive"
-  categories:
-  - "permissive"
-- id: "GStreamer-exception-2008"
   categories:
   - "permissive"
 - id: "EFL-1.0"
@@ -3014,12 +2651,6 @@ categorizations:
 - id: "LicenseRef-scancode-freebsd-boot"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-genode-agpl-3.0-exception"
-  categories:
-  - "copyleft-limited"
-- id: "GPL-3.0-interface-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-egrappler"
   categories:
   - "commercial"
@@ -3038,13 +2669,6 @@ categorizations:
 - id: "LicenseRef-scancode-free-surfer-1.0"
   categories:
   - "permissive"
-- id: "gpl-2.0-library"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
-- id: "LicenseRef-scancode-ekiga-exception-2.0-plus"
-  categories:
-  - "copyleft-limited"
 - id: "Dotseqn"
   categories:
   - "permissive"
@@ -3054,9 +2678,6 @@ categorizations:
 - id: "LicenseRef-scancode-huggingface-tos-20220915"
   categories:
   - "commercial"
-- id: "LicenseRef-scancode-guile-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-efsl-1.0"
   categories:
   - "proprietary-free"
@@ -3066,10 +2687,6 @@ categorizations:
 - id: "LicenseRef-scancode-crcalc"
   categories:
   - "permissive"
-- id: "gpl-2.0-iolib"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-hp-snmp-pp"
   categories:
   - "permissive"
@@ -3079,20 +2696,12 @@ categorizations:
 - id: "LicenseRef-scancode-hp-ux-java"
   categories:
   - "proprietary-free"
-- id: "gpl-2.0-autoopts"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-google-patent-license"
   categories:
   - "patent-license"
 - id: "LicenseRef-scancode-greg-roelofs"
   categories:
   - "permissive"
-- id: "gpl-2.0-bison"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-helix"
   categories:
   - "proprietary-free"
@@ -3102,9 +2711,6 @@ categorizations:
 - id: "LicenseRef-scancode-hp"
   categories:
   - "proprietary-free"
-- id: "GNOME-examples-exception"
-  categories:
-  - "permissive"
 - id: "LicenseRef-scancode-fancyzoom"
   categories:
   - "proprietary-free"
@@ -3120,9 +2726,6 @@ categorizations:
 - id: "LicenseRef-scancode-dual-commercial-gpl"
   categories:
   - "copyleft"
-- id: "LicenseRef-scancode-cygwin-exception-3.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-cubiware-software-1.0"
   categories:
   - "commercial"
@@ -3135,12 +2738,6 @@ categorizations:
 - id: "LicenseRef-scancode-ibm-as-is"
   categories:
   - "permissive"
-- id: "GCC-exception-2.0-note"
-  categories:
-  - "copyleft-limited"
-- id: "freertos-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-esri"
   categories:
   - "commercial"
@@ -3214,9 +2811,6 @@ categorizations:
 - id: "LicenseRef-scancode-crapl-0.1"
   categories:
   - "proprietary-free"
-- id: "i2p-gpl-java-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-dgraph-cla"
   categories:
   - "source-available"
@@ -3237,10 +2831,6 @@ categorizations:
 - id: "LicenseRef-scancode-google-ml-kit-tos-2022"
   categories:
   - "proprietary-free"
-- id: "gpl-2.0-plus-openmotif"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "Spencer-99"
   categories:
   - "permissive"
@@ -3274,17 +2864,6 @@ categorizations:
 - id: "LicenseRef-scancode-imagen"
   categories:
   - "free-restricted"
-- id: "gpl-2.0-broadcom-linking"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
-- id: "LicenseRef-scancode-dbmx-linking-exception-1.0"
-  categories:
-  - "copyleft-limited"
-- id: "gpl-2.0-openjdk"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-google-maps-tos-2018-02-07"
   categories:
   - "proprietary-free"
@@ -3300,37 +2879,21 @@ categorizations:
 - id: "LicenseRef-scancode-goahead"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-ice-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "RHeCos-1.1"
   categories:
   - "copyleft"
-- id: "gpl-2.0-plus-ada"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
-- id: "GPL-3.0-linking-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-ibpp"
   categories:
   - "permissive"
 - id: "OML"
   categories:
   - "permissive"
-- id: "GPL-3.0-with-autoconf-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-hauppauge-firmware-oem"
   categories:
   - "proprietary-free"
 - id: "LicenseRef-scancode-ecfonts-1.0"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-dbmx-foss-exception-1.0.9"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-dco-1.1"
   categories:
   - "cla"
@@ -3346,30 +2909,15 @@ categorizations:
 - id: "LicenseRef-scancode-examdiff"
   categories:
   - "proprietary-free"
-- id: "Fawkes-Runtime-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-google-tos-2020"
   categories:
   - "proprietary-free"
-- id: "gpl-2.0-plus-upx"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-dennis-ferguson"
   categories:
   - "free-restricted"
 - id: "LicenseRef-scancode-gutenberg-2020"
   categories:
   - "proprietary-free"
-- id: "gpl-2.0-oracle-openjdk"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
-- id: "gpl-2.0-plus-ekiga"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "Furuseth"
   categories:
   - "permissive"
@@ -3379,14 +2927,6 @@ categorizations:
 - id: "LicenseRef-scancode-ian-piumarta"
   categories:
   - "permissive"
-- id: "gpl-2.0-lmbench"
-  categories:
-  - "copyleft"
-  - "No SPDX for this license available"
-- id: "gpl-2.0-kernel"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-info-zip-1997-10"
   categories:
   - "permissive"
@@ -3417,15 +2957,9 @@ categorizations:
 - id: "FSFULLRWD"
   categories:
   - "permissive"
-- id: "GCC-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-generic-export-compliance"
   categories:
   - "unstated-license"
-- id: "LicenseRef-scancode-gcc-compiler-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "GPL-3.0-or-later"
   categories:
   - "copyleft"
@@ -3459,32 +2993,12 @@ categorizations:
 - id: "GPL-1.0-or-later"
   categories:
   - "copyleft"
-- id: "GPL-2.0-with-autoconf-exception"
-  categories:
-  - "copyleft-limited"
 - id: "EUPL-1.2"
   categories:
   - "copyleft-limited"
-- id: "GPL-3.0-with-GCC-exception"
-  categories:
-  - "copyleft-limited"
-- id: "LicenseRef-scancode-gcc-exception-3.0"
-  categories:
-  - "copyleft-limited"
-- id: "gnu-javamail-exception"
-  categories:
-  - "copyleft-limited"
-- id: "gpl-2.0-libtool"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "HPND-export-US"
   categories:
   - "free-restricted"
-- id: "gpl-2.0-plus-gcc"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "CUA-OPL-1.0"
   categories:
   - "copyleft-limited"
@@ -3552,9 +3066,6 @@ categorizations:
 - id: "Intel-ACPI"
   categories:
   - "permissive"
-- id: "MPL-2.0-no-copyleft-exception"
-  categories:
-  - "copyleft-limited"
 - id: "NOSL"
   categories:
   - "copyleft-limited"
@@ -3589,20 +3100,9 @@ categorizations:
 - id: "NLOD-1.0"
   categories:
   - "permissive"
-- id: "nokia-qt-exception-1.1"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
-- id: "lgpl-2.1-nokia-qt-1.1"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-ldpgpl-1a"
   categories:
   - "copyleft"
-- id: "Linux-syscall-note"
-  categories:
-  - "copyleft-limited"
 - id: "LPL-1.02"
   categories:
   - "copyleft-limited"
@@ -3618,9 +3118,6 @@ categorizations:
 - id: "LiLiQ-Rplus-1.1"
   categories:
   - "copyleft"
-- id: "LicenseRef-scancode-linking-exception-agpl-3.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-ms-rsl"
   categories:
   - "proprietary-free"
@@ -3631,10 +3128,6 @@ categorizations:
 - id: "LicenseRef-scancode-ms-windows-sdk-win10"
   categories:
   - "commercial"
-- id: "lgpl-2.1-nokia-qt-1.0"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "NLOD-2.0"
   categories:
   - "permissive"
@@ -3651,18 +3144,6 @@ categorizations:
 - id: "LicenseRef-scancode-no-license"
   categories:
   - "unstated-license"
-- id: "lgpl-2.1-qt-company-2017"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
-- id: "lgpl-2.1-digia-qt"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
-- id: "lgpl-2.1-spell-checker"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-leap-motion-sdk-2019"
   categories:
   - "proprietary-free"
@@ -3690,10 +3171,6 @@ categorizations:
 - id: "BSD-3-Clause-acpica"
   categories:
   - "permissive"
-- id: "linking-exception-lgpl-3.0"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-msppl"
   categories:
   - "proprietary-free"
@@ -3724,9 +3201,6 @@ categorizations:
 - id: "LicenseRef-scancode-itc-eula"
   categories:
   - "commercial"
-- id: "QPL-1.0-INRIA-2004-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-ms-pre-release-sla-2023"
   categories:
   - "proprietary-free"
@@ -3799,15 +3273,9 @@ categorizations:
 - id: "LicenseRef-scancode-ms-device-emulator-3.0"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-kfqf-accepted-gpl"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-ms-windows-os-2018"
   categories:
   - "commercial"
-- id: "LZMA-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-mattkruse"
   categories:
   - "permissive"
@@ -3895,9 +3363,6 @@ categorizations:
 - id: "LicenseRef-scancode-nonexclusive"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-mysql-linking-exception-2018"
-  categories:
-  - "copyleft-limited"
 - id: "NetCDF"
   categories:
   - "permissive"
@@ -3913,10 +3378,6 @@ categorizations:
 - id: "LicenseRef-scancode-ms-web-developer-tools-1.0"
   categories:
   - "proprietary-free"
-- id: "lgpl-2.0-plus-gcc"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-libmng-2007"
   categories:
   - "permissive"
@@ -3932,10 +3393,6 @@ categorizations:
 - id: "LicenseRef-scancode-ms-programsynthesis-7.22.0"
   categories:
   - "proprietary-free"
-- id: "mini-xml"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-kfgqpc-uthmanic-script-hafs"
   categories:
   - "proprietary-free"
@@ -3957,13 +3414,6 @@ categorizations:
 - id: "Leptonica"
   categories:
   - "permissive"
-- id: "lgpl-3.0-plus-openssl"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
-- id: "LicenseRef-scancode-magpie-exception-1.0"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-itu-t"
   categories:
   - "free-restricted"
@@ -4054,10 +3504,6 @@ categorizations:
 - id: "LicenseRef-scancode-ipca"
   categories:
   - "cla"
-- id: "lgpl-2.1-qt-company"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-ms-asp-net-tools-pre-release"
   categories:
   - "proprietary-free"
@@ -4088,12 +3534,6 @@ categorizations:
 - id: "LicenseRef-scancode-ms-edge-webview2-fixed"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-liberation-font-exception"
-  categories:
-  - "copyleft"
-- id: "libpri-OpenH323-exception"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-microsoft-windows-rally-devkit"
   categories:
   - "proprietary-free"
@@ -4118,10 +3558,6 @@ categorizations:
 - id: "LicenseRef-scancode-ms-specification"
   categories:
   - "free-restricted"
-- id: "lgpl-3-plus-linking"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-jamon"
   categories:
   - "free-restricted"
@@ -4218,9 +3654,6 @@ categorizations:
 - id: "LicenseRef-scancode-mediatek-no-warranty"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-nicta-exception"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-newton-king-cla"
   categories:
   - "cla"
@@ -4233,10 +3666,6 @@ categorizations:
 - id: "libcap"
   categories:
   - "permissive"
-  - "No SPDX for this license available"
-- id: "lgpl-2.1-nokia-qt"
-  categories:
-  - "copyleft-limited"
   - "No SPDX for this license available"
 - id: "LicenseRef-scancode-mit-no-trademarks"
   categories:
@@ -4277,15 +3706,9 @@ categorizations:
 - id: "LicenseRef-scancode-ms-iis-container-eula-2020"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-nant-exception-2.0-plus"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-intel-master-eula-sw-dev-2016"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-mysql-con-odbc-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-inno-setup"
   categories:
   - "permissive"
@@ -4328,13 +3751,6 @@ categorizations:
 - id: "NIST-PD-fallback"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-linking-exception-2.1-plus"
-  categories:
-  - "copyleft-limited"
-- id: "lgpl-3.0-zeromq"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "Motosoto"
   categories:
   - "copyleft"
@@ -4360,10 +3776,6 @@ categorizations:
 - id: "LicenseRef-scancode-marvell-firmware"
   categories:
   - "proprietary-free"
-- id: "lgpl-2.0-fltk"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-mit-readme"
   categories:
   - "permissive"
@@ -4384,9 +3796,6 @@ categorizations:
   - "DC_backend_review"
   - "DC_tools_review"
   - "CARIAD_Rated"
-- id: "LicenseRef-scancode-linking-exception-lgpl-2.0plus"
-  categories:
-  - "copyleft-limited"
 - id: "magaz"
   categories:
   - "permissive"
@@ -4562,10 +3971,6 @@ categorizations:
 - id: "LicenseRef-scancode-ms-net-library-2020-09"
   categories:
   - "proprietary-free"
-- id: "lgpl-2.1-plus-linking"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "MS-LPL"
   categories:
   - "permissive"
@@ -4588,9 +3993,6 @@ categorizations:
 - id: "LicenseRef-scancode-lyubinskiy-dropdown"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-linking-exception-2.0-plus"
-  categories:
-  - "copyleft-limited"
 - id: "NBPL-1.0"
   categories:
   - "copyleft-limited"
@@ -4604,9 +4006,6 @@ categorizations:
   categories:
   - "proprietary-free"
 - id: "JPNIC"
-  categories:
-  - "permissive"
-- id: "LLVM-exception"
   categories:
   - "permissive"
 - id: "ms-permissive-1.1"
@@ -4689,9 +4088,6 @@ categorizations:
 - id: "LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06"
   categories:
   - "proprietary-free"
-- id: "LLGPL"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-ms-win-container-eula-2020"
   categories:
   - "proprietary-free"
@@ -4704,13 +4100,6 @@ categorizations:
 - id: "LicenseRef-scancode-ldpm-1998"
   categories:
   - "copyleft"
-- id: "mif-exception"
-  categories:
-  - "copyleft-limited"
-- id: "lgpl-2.1-plus-unlimited-linking"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "Multics"
   categories:
   - "permissive"
@@ -4744,10 +4133,6 @@ categorizations:
 - id: "LicenseRef-scancode-mozilla-ospl-1.0"
   categories:
   - "patent-license"
-- id: "lgpl-3.0-cygwin"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-info-zip-2007-03"
   categories:
   - "permissive"
@@ -4760,9 +4145,6 @@ categorizations:
 - id: "LicenseRef-scancode-iso-14496-10"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-javascript-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "Newsletr"
   categories:
   - "permissive"
@@ -4790,9 +4172,6 @@ categorizations:
 - id: "LicenseRef-scancode-java-research-1.6"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-libwebsockets-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-libsrv-1.0.2"
   categories:
   - "permissive"
@@ -4814,9 +4193,6 @@ categorizations:
 - id: "LicenseRef-scancode-mod-dav-1.0"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-musl-exception"
-  categories:
-  - "permissive"
 - id: "LicenseRef-scancode-lha"
   categories:
   - "free-restricted"
@@ -4832,12 +4208,6 @@ categorizations:
 - id: "LicenseRef-scancode-mx4j"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-make-human-exception"
-  categories:
-  - "permissive"
-- id: "LicenseRef-scancode-lmbench-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-mit-nagy"
   categories:
   - "permissive"
@@ -4853,9 +4223,6 @@ categorizations:
 - id: "LicenseRef-scancode-mulle-kybernetik"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-lzma-sdk-2006-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-ms-asp-net-software"
   categories:
   - "proprietary-free"
@@ -4946,10 +4313,6 @@ categorizations:
 - id: "LicenseRef-scancode-nice"
   categories:
   - "permissive"
-- id: "lgpl-2.1-rxtx"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-katharos-0.1.0"
   categories:
   - "proprietary-free"
@@ -5002,9 +4365,6 @@ categorizations:
 - id: "mailprio"
   categories:
   - "permissive"
-- id: "KiCad-libraries-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-lzma-sdk-original"
   categories:
   - "copyleft-limited"
@@ -5041,24 +4401,12 @@ categorizations:
 - id: "LGPL-2.0-only"
   categories:
   - "copyleft-limited"
-- id: "LicenseRef-scancode-libtool-exception-lgpl"
-  categories:
-  - "copyleft-limited"
-- id: "Libtool-exception"
-  categories:
-  - "copyleft-limited"
 - id: "GD"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-mini-xml-exception-lgpl-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "HPND-export-US-modify"
   categories:
   - "permissive"
-- id: "LGPL-3.0-linking-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LPPL-1.1"
   categories:
   - "copyleft"
@@ -5098,19 +4446,9 @@ categorizations:
 - id: "NASA-1.3"
   categories:
   - "copyleft-limited"
-- id: "LicenseRef-scancode-mysql-floss-exception-2.0"
-  categories:
-  - "copyleft-limited"
-- id: "libtool-exception"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "Interbase-1.0"
   categories:
   - "copyleft"
-- id: "GNU-compiler-exception"
-  categories:
-  - "copyleft-limited"
 - id: "MirOS"
   categories:
   - "permissive"
@@ -5227,30 +4565,15 @@ categorizations:
 - id: "SSLeay-standalone"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-spell-exception-lgpl-2.1-plus"
-  categories:
-  - "copyleft-limited"
 - id: "SPL-1.0"
   categories:
   - "copyleft-limited"
 - id: "LicenseRef-scancode-rsa-md4"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-proguard-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "libselinux-1.0"
   categories:
   - "public-domain"
-- id: "LicenseRef-scancode-openjdk-classpath-exception2.0"
-  categories:
-  - "copyleft-limited"
-- id: "LicenseRef-scancode-qt-company-exception-lgpl-2.1"
-  categories:
-  - "copyleft-limited"
-- id: "LicenseRef-scancode-npsl-exception-0.94"
-  categories:
-  - "copyleft"
 - id: "OFL-1.0-no-RFN"
   categories:
   - "permissive"
@@ -5280,16 +4603,9 @@ categorizations:
 - id: "LicenseRef-scancode-oculus-sdk-2020"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-npsl-exception-0.95"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-responsible-ai-source-1.1"
   categories:
   - "proprietary-free"
-- id: "qt-company-exception-2017-lgpl-2.1"
-  categories:
-  - "copyleft-limited"
-  - "No SPDX for this license available"
 - id: "LicenseRef-scancode-philippe-de-muyter"
   categories:
   - "permissive"
@@ -5317,15 +4633,6 @@ categorizations:
   categories:
   - "copyleft-limited"
   - "No SPDX for this license available"
-- id: "LicenseRef-scancode-openssl-exception-mongodb-sspl"
-  categories:
-  - "copyleft"
-- id: "LicenseRef-scancode-openmrs-exception-to-mpl-2.0"
-  categories:
-  - "copyleft-limited"
-- id: "LicenseRef-scancode-npsl-exception-0.93"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-red-hat-attribution"
   categories:
   - "permissive"
@@ -5341,18 +4648,12 @@ categorizations:
 - id: "OFL-1.1-no-RFN"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-sencha-app-floss-exception"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-oculus-sdk"
   categories:
   - "copyleft-limited"
 - id: "LicenseRef-scancode-psytec-freesoft"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-openssl-exception-gpl-2.0-plus"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-owl-0.9.4"
   categories:
   - "permissive"
@@ -5365,18 +4666,12 @@ categorizations:
 - id: "LicenseRef-scancode-opnl-1.0"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-openssl-exception-agpl-3.0"
-  categories:
-  - "copyleft"
 - id: "OPUBL-1.0"
   categories:
   - "permissive"
 - id: "LicenseRef-scancode-stanford-pvrg"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-npsl-exception-0.92"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-sun-bcl-11-07"
   categories:
   - "proprietary-free"
@@ -5389,9 +4684,6 @@ categorizations:
 - id: "LicenseRef-scancode-solace-software-eula-2020"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-openbd-exception-3.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-smartlabs-freeware"
   categories:
   - "proprietary-free"
@@ -5399,9 +4691,6 @@ categorizations:
   categories:
   - "commercial"
 - id: "LicenseRef-scancode-service-comp-arch"
-  categories:
-  - "permissive"
-- id: "SHL-2.0"
   categories:
   - "permissive"
 - id: "LicenseRef-scancode-oracle-gftc-2023-06-12"
@@ -5413,9 +4702,6 @@ categorizations:
 - id: "AML-glslang"
   categories:
   - "permissive"
-- id: "OCaml-LGPL-linking-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-owf-cla-1.0-copyright"
   categories:
   - "cla"
@@ -5476,9 +4762,6 @@ categorizations:
 - id: "RPL-1.5"
   categories:
   - "copyleft-limited"
-- id: "LicenseRef-scancode-qskinny-exception-lgpl-2.1"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-psf-3.7.2"
   categories:
   - "permissive"
@@ -5500,9 +4783,6 @@ categorizations:
 - id: "LicenseRef-scancode-otn-dev-dist"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-qt-qca-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-owal-1.0"
   categories:
   - "proprietary-free"
@@ -5647,15 +4927,9 @@ categorizations:
 - id: "LicenseRef-scancode-oasis-ws-security-spec"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-oracle-mysql-foss-exception2.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-st-mcd-2.0"
   categories:
   - "proprietary-free"
-- id: "Qwt-exception-1.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-qaplug"
   categories:
   - "proprietary-free"
@@ -5684,9 +4958,6 @@ categorizations:
   categories:
   - "proprietary-free"
 - id: "RSCPL"
-  categories:
-  - "copyleft-limited"
-- id: "LicenseRef-scancode-subcommander-exception-2.0plus"
   categories:
   - "copyleft-limited"
 - id: "LicenseRef-scancode-nysl-0.9982-jp"
@@ -5752,15 +5023,9 @@ categorizations:
 - id: "LicenseRef-scancode-qt-commercial-agreement-4.4.1"
   categories:
   - "commercial"
-- id: "LicenseRef-scancode-openssl-exception-lgpl3.0plus"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-sun-bsd-extra"
   categories:
   - "free-restricted"
-- id: "LicenseRef-scancode-signal-gpl-3.0-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-scola-en"
   categories:
   - "proprietary-free"
@@ -5782,12 +5047,6 @@ categorizations:
 - id: "SGI-B-1.0"
   categories:
   - "free-restricted"
-- id: "LicenseRef-scancode-qcad-exception-gpl"
-  categories:
-  - "copyleft-limited"
-- id: "LicenseRef-scancode-qt-kde-linking-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-pdf-creator-pilot"
   categories:
   - "commercial"
@@ -5819,9 +5078,6 @@ categorizations:
   categories:
   - "permissive"
 - id: "LicenseRef-scancode-stu-nicholls"
-  categories:
-  - "permissive"
-- id: "LicenseRef-scancode-snapeda-design-exception-1.0"
   categories:
   - "permissive"
 - id: "LicenseRef-scancode-ntpl-origin"
@@ -5884,9 +5140,6 @@ categorizations:
 - id: "LicenseRef-scancode-slint-royalty-free-1.0"
   categories:
   - "free-restricted"
-- id: "LicenseRef-scancode-oracle-openjdk-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-ozplb-1.1"
   categories:
   - "permissive"
@@ -5939,9 +5192,6 @@ categorizations:
 - id: "LicenseRef-scancode-quicktime"
   categories:
   - "proprietary-free"
-- id: "stunnel-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-sun-bcl-sdk-6.0"
   categories:
   - "proprietary-free"
@@ -5981,9 +5231,6 @@ categorizations:
 - id: "LicenseRef-scancode-pd-mit"
   categories:
   - "permissive"
-- id: "x11vnc-openssl-exception"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-softfloat"
   categories:
   - "permissive"
@@ -6077,9 +5324,6 @@ categorizations:
 - id: "LicenseRef-scancode-nxp-linux-firmware"
   categories:
   - "proprietary-free"
-- id: "cryptsetup-OpenSSL-exception"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-ralink-firmware"
   categories:
   - "proprietary-free"
@@ -6102,15 +5346,9 @@ categorizations:
   - "DC_backend_review"
   - "DC_tools_review"
   - "CARIAD_Rated"
-- id: "LicenseRef-scancode-openssl-exception-lgpl"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-public-domain-disclaimer"
   categories:
   - "public-domain"
-- id: "LicenseRef-scancode-openssl-exception-agpl3.0plus"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-sun-bcl-sdk-5.0"
   categories:
   - "proprietary-free"
@@ -6129,9 +5367,6 @@ categorizations:
 - id: "LicenseRef-scancode-otn-dev-dist-2016"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-rrdtool-floss-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-softfloat-2.0"
   categories:
   - "permissive"
@@ -6141,9 +5376,6 @@ categorizations:
 - id: "LicenseRef-scancode-oracle-java-ee-sdk-2010"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-openjdk-exception"
-  categories:
-  - "copyleft-limited"
 - id: "CMU-Mach-nodoc"
   categories:
   - "permissive"
@@ -6153,9 +5385,6 @@ categorizations:
 - id: "LicenseRef-scancode-paul-mackerras-simplified"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-openssl-exception-lgpl2.0plus"
-  categories:
-  - "copyleft-limited"
 - id: "QPL-1.0-INRIA-2004"
   categories:
   - "copyleft-limited"
@@ -6244,9 +5473,6 @@ categorizations:
 - id: "OLDAP-2.7"
   categories:
   - "permissive"
-- id: "Qt-LGPL-exception-1.1"
-  categories:
-  - "copyleft-limited"
 - id: "OLDAP-1.3"
   categories:
   - "copyleft-limited"
@@ -6295,9 +5521,6 @@ categorizations:
 - id: "LicenseRef-scancode-paolo-messina-2000"
   categories:
   - "permissive"
-- id: "SANE-exception"
-  categories:
-  - "copyleft-limited"
 - id: "Soundex"
   categories:
   - "permissive"
@@ -6310,9 +5533,6 @@ categorizations:
 - id: "LicenseRef-scancode-skip-2014"
   categories:
   - "copyleft-limited"
-- id: "LicenseRef-scancode-openssl-exception-agpl3.0monit"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-openmarket-fastcgi"
   categories:
   - "permissive"
@@ -6331,13 +5551,7 @@ categorizations:
 - id: "OPL-UK-3.0"
   categories:
   - "permissive"
-- id: "OCCT-exception-1.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-rh-eula-lgpl"
-  categories:
-  - "copyleft-limited"
-- id: "LicenseRef-scancode-openmotif-exception-2.0-plus"
   categories:
   - "copyleft-limited"
 - id: "LicenseRef-scancode-pivotal-tou"
@@ -6364,9 +5578,6 @@ categorizations:
 - id: "LicenseRef-scancode-pine"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-sencha-dev-floss-exception"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-rh-eula"
   categories:
   - "copyleft"
@@ -6394,9 +5605,6 @@ categorizations:
 - id: "LicenseRef-scancode-sparky"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-openssl-nokia-psk-contribution"
-  categories:
-  - "patent-license"
 - id: "LicenseRef-scancode-rcsl-3.0"
   categories:
   - "proprietary-free"
@@ -6442,9 +5650,6 @@ categorizations:
 - id: "LicenseRef-scancode-other-copyleft"
   categories:
   - "copyleft"
-- id: "SHL-2.1"
-  categories:
-  - "permissive"
 - id: "LicenseRef-scancode-plural-20211124"
   categories:
   - "source-available"
@@ -6454,9 +5659,6 @@ categorizations:
 - id: "LicenseRef-scancode-nxp-microctl-proprietary"
   categories:
   - "proprietary-free"
-- id: "fmt-exception"
-  categories:
-  - "permissive"
 - id: "LicenseRef-scancode-shital-shah"
   categories:
   - "permissive"
@@ -6466,9 +5668,6 @@ categorizations:
 - id: "LicenseRef-scancode-slint-commercial-2.0"
   categories:
   - "commercial"
-- id: "PS-or-PDF-font-exception-20170817"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-nucleusicons-eula"
   categories:
   - "proprietary-free"
@@ -6481,9 +5680,6 @@ categorizations:
 - id: "LicenseRef-scancode-qualcomm-turing"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-rxtx-exception-lgpl-2.1"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-qpopper"
   categories:
   - "permissive"
@@ -6514,9 +5710,6 @@ categorizations:
 - id: "pnmstitch"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-openpace-exception-gpl"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-nxp-warranty-disclaimer"
   categories:
   - "proprietary-free"
@@ -6535,9 +5728,6 @@ categorizations:
 - id: "LicenseRef-scancode-prosperity-1.0.1"
   categories:
   - "proprietary-free"
-- id: "openvpn-openssl-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-otn-dev-dist-2014"
   categories:
   - "proprietary-free"
@@ -6571,9 +5761,6 @@ categorizations:
 - id: "LicenseRef-scancode-ooura-2001"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-strongswan-exception"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-pd-programming"
   categories:
   - "permissive"
@@ -6598,9 +5785,6 @@ categorizations:
 - id: "LicenseRef-scancode-quin-street"
   categories:
   - "proprietary-free"
-- id: "Qt-GPL-exception-1.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-scancode-acknowledgment"
   categories:
   - "permissive"
@@ -6626,9 +5810,6 @@ categorizations:
   categories:
   - "permissive"
 - id: "Sendmail-8.23"
-  categories:
-  - "copyleft-limited"
-- id: "OpenJDK-assembly-exception-1.0"
   categories:
   - "copyleft-limited"
 - id: "BSD-3-Clause-No-Nuclear-License"
@@ -6711,6 +5892,15 @@ categorizations:
   - "public-domain"
   - "include-in-notice-file" 
   - "include-source-code-offer-in-notice-file" 
+  - "DC_car_green"
+  - "DC_mobile_green"
+  - "DC_frontend_green"
+  - "DC_backend_green"
+  - "DC_tools_green"
+  - "CARIAD_Rated"
+- id: "Apache-2.0 WITH Swift-exception"
+  categories:
+  - "permissive"
   - "DC_car_green"
   - "DC_mobile_green"
   - "DC_frontend_green"
@@ -6890,12 +6080,6 @@ categorizations:
 - id: "LicenseRef-scancode-w3c-community-cla"
   categories:
   - "cla"
-- id: "LicenseRef-scancode-unlimited-binary-linking"
-  categories:
-  - "permissive"
-- id: "LicenseRef-scancode-unlimited-binary-use-exception"
-  categories:
-  - "permissive"
 - id: "LicenseRef-scancode-sun-jta-spec-1.0.1"
   categories:
   - "proprietary-free"
@@ -6972,9 +6156,6 @@ categorizations:
 - id: "TOSL"
   categories:
   - "copyleft"
-- id: "LicenseRef-scancode-trolltech-gpl-exception-1.2"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-x11-doc"
   categories:
   - "permissive"
@@ -7035,9 +6216,6 @@ categorizations:
 - id: "LicenseRef-scancode-vita-nuova-liberal"
   categories:
   - "copyleft"
-- id: "WxWindows-exception-3.1"
-  categories:
-  - "copyleft-limited"
 - id: "UnixCrypt"
   categories:
   - "permissive"
@@ -7134,12 +6312,6 @@ categorizations:
 - id: "TermReadKey"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-syntext-serna-exception-1.0"
-  categories:
-  - "copyleft-limited"
-- id: "LicenseRef-scancode-unlimited-link-exception-lgpl"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-yahoo-browserplus-eula"
   categories:
   - "proprietary-free"
@@ -7180,9 +6352,6 @@ categorizations:
 - id: "LicenseRef-scancode-tim-janik-2003"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-zrythm-exception-agpl-3.0"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-sun-sissl-1.0"
   categories:
   - "free-restricted"
@@ -7255,9 +6424,6 @@ categorizations:
 - id: "Zeeff"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-vcvrack-exception-to-gpl-3.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-tenable-nessus"
   categories:
   - "proprietary-free"
@@ -7295,9 +6461,6 @@ categorizations:
 - id: "LicenseRef-scancode-wxwidgets"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-trolltech-gpl-exception-1.1"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-zipeg"
   categories:
   - "proprietary-free"
@@ -7450,9 +6613,6 @@ categorizations:
 - id: "LicenseRef-scancode-sunsoft"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-zeromq-exception-lgpl-3.0"
-  categories:
-  - "copyleft-limited"
 - id: "TPL-1.0"
   categories:
   - "copyleft-limited"
@@ -7486,15 +6646,9 @@ categorizations:
 - id: "UCL-1.0"
   categories:
   - "copyleft-limited"
-- id: "LicenseRef-scancode-trolltech-gpl-exception-1.0"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-ws-policy-specification"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-unlimited-link-exception-gpl"
-  categories:
-  - "copyleft"
 - id: "LicenseRef-scancode-xilinx-2016"
   categories:
   - "free-restricted"
@@ -7544,9 +6698,6 @@ categorizations:
   categories:
   - "permissive"
   - "No SPDX for this license available"
-- id: "u-boot-exception-2.0"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-zeusbench"
   categories:
   - "permissive"
@@ -7562,9 +6713,6 @@ categorizations:
 - id: "LicenseRef-scancode-takao-abe"
   categories:
   - "permissive"
-- id: "UBDL-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-zuora-software"
   categories:
   - "permissive"
@@ -7619,9 +6767,6 @@ categorizations:
 - id: "LicenseRef-scancode-things-i-made-public-license"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-upx-exception-2.0-plus"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-tanuki-development"
   categories:
   - "commercial"
@@ -7722,18 +6867,9 @@ categorizations:
 - id: "LicenseRef-scancode-yahoo-messenger-eula"
   categories:
   - "proprietary-free"
-- id: "LicenseRef-scancode-viewflow-agpl-3.0-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-william-alexander"
   categories:
   - "permissive"
-- id: "vsftpd-openssl-exception"
-  categories:
-  - "copyleft-limited"
-- id: "LicenseRef-scancode-xenomai-gpl-exception"
-  categories:
-  - "copyleft-limited"
 - id: "LicenseRef-scancode-whistle"
   categories:
   - "permissive"
@@ -7749,9 +6885,6 @@ categorizations:
 - id: "URT-RLE"
   categories:
   - "copyleft-limited"
-- id: "Universal-FOSS-exception-1.0"
-  categories:
-  - "copyleft-limited"
 - id: "YPL-1.1"
   categories:
   - "copyleft"
@@ -7761,15 +6894,9 @@ categorizations:
 - id: "Unicode-3.0"
   categories:
   - "permissive"
-- id: "SWI-exception"
-  categories:
-  - "copyleft-limited"
 - id: "Adobe-Display-PostScript"
   categories:
   - "permissive"
-- id: "Texinfo-exception"
-  categories:
-  - "copyleft-limited"
 - id: "Unicode-TOU"
   categories:
   - "proprietary-free"
