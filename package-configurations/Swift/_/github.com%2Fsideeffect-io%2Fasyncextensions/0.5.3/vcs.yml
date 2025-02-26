@@ -16,6 +16,6 @@ license_finding_curations:
   start_lines: "6"
   line_count: 3
   detected_license: "NOASSERTION"
-  concluded_license: "Apache-2.0-Runtime-Library-Exception"
+  concluded_license: "Apache-2.0 WITH Swift-exception"
   reason: "INCORRECT"
   comment: "True positive"
