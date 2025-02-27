@@ -54,63 +54,63 @@ license_finding_curations:
   start_lines: "23"
   line_count: 1
   detected_license: "GPL-1.0-or-later"
-  concluded_license: "Apache-2.0"
+  concluded_license: "OpenSSL-standalone AND BSD-3-Clause"
   reason: "INCORRECT"
   comment: "TRUE POSITIVE"
 - path: "Sources/CNIOBoringSSL/gen/bcm/sha256-armv8-apple.S"
   start_lines: "17"
-  line_count: 4
+  line_count: 5
   detected_license: "GPL-2.0-only"
-  concluded_license: "Apache-2.0"
+  concluded_license: "OpenSSL-standalone AND BSD-3-Clause"
   reason: "INCORRECT"
   comment: "True Positive"
 - path: "Sources/CNIOBoringSSL/gen/bcm/sha256-armv8-linux.S"
   start_lines: "17"
-  line_count: 4
+  line_count: 5
   detected_license: "GPL-2.0-only"
-  concluded_license: "Apache-2.0"
+  concluded_license: "OpenSSL-standalone AND BSD-3-Clause"
   reason: "INCORRECT"
   comment: "True Positive"
 - path: "Sources/CNIOBoringSSL/gen/bcm/sha256-armv8-win.S"
   start_lines: "17"
-  line_count: 4
+  line_count: 5
   detected_license: "GPL-2.0-only"
-  concluded_license: "Apache-2.0"
+  concluded_license: "OpenSSL-standalone AND BSD-3-Clause"
   reason: "INCORRECT"
   comment: "True Positive"
 - path: "Sources/CNIOBoringSSL/gen/bcm/sha512-armv8-apple.S"
   start_lines: "17"
-  line_count: 4
+  line_count: 5
   detected_license: "GPL-2.0-only"
-  concluded_license: "Apache-2.0"
+  concluded_license: "OpenSSL-standalone AND BSD-3-Clause"
   reason: "INCORRECT"
   comment: "True Positive"
 - path: "Sources/CNIOBoringSSL/gen/bcm/sha512-armv8-linux.S"
   start_lines: "17"
-  line_count: 4
+  line_count: 5
   detected_license: "GPL-2.0-only"
-  concluded_license: "Apache-2.0"
+  concluded_license: "OpenSSL-standalone AND BSD-3-Clause"
   reason: "INCORRECT"
   comment: "True Positive"
 - path: "Sources/CNIOBoringSSL/gen/bcm/sha512-armv8-win.S"
   start_lines: "17"
-  line_count: 4
+  line_count: 5
   detected_license: "GPL-2.0-only"
-  concluded_license: "Apache-2.0"
+  concluded_license: "OpenSSL-standalone AND BSD-3-Clause"
   reason: "INCORRECT"
   comment: "True Positive"
 - path: "Sources/CNIOBoringSSL/gen/bcm/sha256-armv4-linux.S"
   start_lines: "18"
-  line_count: 4
+  line_count: 5
   detected_license: "OpenSSL OR BSD-3-Clause OR GPL-1.0-or-later"
-  concluded_license: "Apache-2.0"
+  concluded_license: "OpenSSL-standalone AND BSD-3-Clause"
   reason: "INCORRECT"
   comment: "True Positive"
 - path: "Sources/CNIOBoringSSL/gen/bcm/sha512-armv4-linux.S"
   start_lines: "18"
-  line_count: 4
+  line_count: 5
   detected_license: "OpenSSL OR BSD-3-Clause OR GPL-1.0-or-later"
-  concluded_license: "Apache-2.0"
+  concluded_license: "OpenSSL-standalone AND BSD-3-Clause"
   reason: "INCORRECT"
   comment: "True Positive"
 - path: "Sources/CNIOBoringSSL/include/CNIOBoringSSL_ssl.h"
@@ -129,9 +129,9 @@ license_finding_curations:
   comment: "True Positive"
 - path: "Sources/CNIOBoringSSL/ssl/handshake_client.cc"
   start_lines: "113"
-  line_count: 6
+  line_count: 7
   detected_license: "LicenseRef-scancode-openssl-nokia-psk-contribution"
-  concluded_license: "LicenseRef-scancode-openssl-nokia-psk-contribution"
+  concluded_license: "OpenSSL-standalone"
   reason: "INCORRECT"
   comment: "True Positive"
 - path: "Sources/CNIOBoringSSL/ssl/handshake_client.cc"
@@ -152,7 +152,7 @@ license_finding_curations:
   start_lines: "113"
   line_count: 7
   detected_license: "LicenseRef-scancode-openssl-nokia-psk-contribution"
-  concluded_license: "LicenseRef-scancode-openssl-nokia-psk-contribution"
+  concluded_license: "OpenSSL-standalone"
   reason: "INCORRECT"
   comment: "True Positive"
 - path: "Sources/CNIOBoringSSL/ssl/internal.h"
@@ -166,7 +166,7 @@ license_finding_curations:
   start_lines: "113"
   line_count: 7
   detected_license: "LicenseRef-scancode-openssl-nokia-psk-contribution"
-  concluded_license: "LicenseRef-scancode-openssl-nokia-psk-contribution"
+  concluded_license: "OpenSSL-standalone"
   reason: "INCORRECT"
   comment: "True Positive"
 - path: "Sources/CNIOBoringSSL/ssl/s3_lib.cc"
