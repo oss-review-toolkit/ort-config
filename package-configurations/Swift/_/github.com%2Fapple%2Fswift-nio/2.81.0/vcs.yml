@@ -46,14 +46,14 @@ license_finding_curations:
 - path: "Sources/NIOFileSystem/Internal/Concurrency Primitives/TokenBucket.swift"
   start_lines: "19"
   line_count: 3
-  detected_license: "Apache-2.0-Runtime-Library-Exception"
+  detected_license: "Apache-2.0 WITH Swift-exception"
   concluded_license: "Apache-2.0 WITH Swift-exception"
   reason: "INCORRECT"
   comment: "True Positive"
 - path: "Sources/NIOFileSystem/Internal/System Calls/Mocking.swift"
   start_lines: "17"
   line_count: 2
-  detected_license: "Apache-2.0-Runtime-Library-Exception"
+  detected_license: "Apache-2.0 WITH Swift-exception"
   concluded_license: "Apache-2.0 WITH Swift-exception"
   reason: "INCORRECT"
   comment: "True Positive"
