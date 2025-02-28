@@ -1,4 +1,4 @@
-* @cariad-optima/optima-core-team @britoOSS
-cariad/ @cariad-optima/optima-curators/core-curators
-package-configurations/ @cariad-optima/optima-curators/core-curators
-curations/ @cariad-optima/optima-curators/core-curators
+* @cariad-optima/optima-core-team
+cariad/ @cariad-optima/optima-core-curators
+package-configurations/ @cariad-optima/optima-core-curators @cariad-optima/Embitel
+curations/ @cariad-optima/optima-core-curators @cariad-optima/Embitel
