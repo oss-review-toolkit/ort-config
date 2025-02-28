@@ -1,4 +1,4 @@
-#This YML-file was created by CARIAD legal on 2025-02-27 using L'ELA.
+#This YML-file was created by CARIAD legal on 2025-02-28 using L'ELA.
 
 categories:
 - name: "CARIAD_Rated"
@@ -1684,6 +1684,9 @@ categorizations:
 - id: "CC-BY-NC-1.0"
   categories:
   - "source-available"
+- id: "LicenseRef-scancode-indiana-extreme"
+  categories:
+  - "permissive"
 - id: "BSD-3-Clause-flex"
   categories:
   - "permissive"
@@ -2567,9 +2570,6 @@ categorizations:
   categories:
   - "permissive"
 - id: "EFL-2.0"
-  categories:
-  - "permissive"
-- id: "LicenseRef-scancode-indiana-extreme"
   categories:
   - "permissive"
 - id: "GFDL-1.1-invariants-only"
