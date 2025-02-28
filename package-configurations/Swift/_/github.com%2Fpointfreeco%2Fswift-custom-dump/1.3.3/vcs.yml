@@ -5,7 +5,7 @@ vcs:
   url: "https://github.com/pointfreeco/swift-custom-dump.git"
   revision: "82645ec760917961cfa08c9c0c7104a57a0fa4b1"
 path_excludes:
-- pattern: "**/Tests/**"
+- pattern: "Tests/**"
   reason: "TEST_OF"
 license_finding_curations:
 - path: "LICENSE"
