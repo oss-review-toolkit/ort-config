@@ -1,6 +1,7 @@
 - id: "NuGet:System.Memory:Data:[1.0.0,1.0.2]"
   curations:
-    comment: "Manually located the VCS path of the module inside the multi-module repository."
+    comment: "Manually located the VCS path of the module inside the multi-module\
+      \ repository."
     vcs:
       path: "sdk/core/System.Memory.Data"
 - id: "NuGet:System.Memory:Data:[6.0.0,)"
