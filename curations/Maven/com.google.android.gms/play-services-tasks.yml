@@ -1,7 +1,28 @@
-- id: "Maven:com.google.android.gms:play-services-tasks:18.0.2"
+- id: "Maven:com.google.android.gms:play-services-tasks:18.2.0"
   curations:
     comment: |
-      Declared license links to the LicenseRef-scancode-android-sdk-2021 license, see
-      https://maven.google.com/com/google/android/gms/play-services-tasks/18.0.2/play-services-tasks-18.0.2.pom#lines-18:24
+      Declared license links to the LicenseRef-scancode-android-sdk-2021,see
+      https://dl.google.com/android/maven2/com/google/android/gms/play-services-tasks/18.2.0/play-services-tasks-18.2.0.pom
     declared_license_mapping:
+      License: "LicenseRef-scancode-android-sdk-2021"
+- id: "Maven:com.google.android.gms:play-services-tasks:18.0.1"
+  curations:
+    comment: |
+      Declared license links to the LicenseRef-scancode-android-sdk-2021,see
+      https://dl.google.com/android/maven2/com/google/android/gms/play-services-tasks/18.0.1/play-services-tasks-18.0.1.pom
+    declared_license_mapping:
+      License: "LicenseRef-scancode-android-sdk-2021"
+- id: "Maven:com.google.android.gms:play-services-tasks:16.0.1"
+  curations:
+    comment: |
+      Declared license links to the LicenseRef-scancode-android-sdk-2021,see
+      https://dl.google.com/android/maven2/com/google/android/gms/play-services-tasks/16.0.1/play-services-tasks-16.0.1.pom
+    declared_license_mapping:
+      License: "LicenseRef-scancode-android-sdk-2021"
+- id: "Maven:com.google.android.gms:play-services-tasks:18.0.2"
+  curations:
+   comment: |
+      Declared license links to the LicenseRef-scancode-android-sdk-2021 license,see
+      https://dl.google.com/android/maven2/com/google/android/gms/play-services-tasks/18.0.2/play-services-tasks-18.0.2.pom
+   declared_license_mapping:
       License: "LicenseRef-scancode-android-sdk-2021"
