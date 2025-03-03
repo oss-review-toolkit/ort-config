@@ -1,4 +1,4 @@
-#This YML-file was created by CARIAD legal on 2025-02-28 using L'ELA.
+#This YML-file was created by CARIAD legal on 2025-03-03 using L'ELA.
 
 categories:
 - name: "CARIAD_Rated"
@@ -1684,6 +1684,26 @@ categorizations:
 - id: "CC-BY-NC-1.0"
   categories:
   - "source-available"
+- id: "GPL-2.0-or-later"
+  categories:
+  - "copyleft"
+  - "DC_car_review"
+  - "DC_mobile_review"
+  - "DC_frontend_review"
+  - "DC_backend_review"
+  - "DC_tools_review"
+  - "CARIAD_Rated"
+- id: "GPL-2.0-only"
+  categories:
+  - "copyleft"
+  - "include-source-code-offer-in-notice-file" 
+  - "include-in-notice-file" 
+  - "DC_car_review"
+  - "DC_mobile_review"
+  - "DC_frontend_review"
+  - "DC_backend_review"
+  - "DC_tools_review"
+  - "CARIAD_Rated"
 - id: "LicenseRef-scancode-indiana-extreme"
   categories:
   - "permissive"
@@ -1724,15 +1744,6 @@ categorizations:
   - "permissive"
   - "include-in-notice-file" 
   - "include-source-code-offer-in-notice-file" 
-  - "DC_car_review"
-  - "DC_mobile_review"
-  - "DC_frontend_review"
-  - "DC_backend_review"
-  - "DC_tools_review"
-  - "CARIAD_Rated"
-- id: "GPL-2.0-or-later"
-  categories:
-  - "copyleft"
   - "DC_car_review"
   - "DC_mobile_review"
   - "DC_frontend_review"
@@ -2814,17 +2825,6 @@ categorizations:
 - id: "LicenseRef-scancode-dgraph-cla"
   categories:
   - "source-available"
-- id: "GPL-2.0-only"
-  categories:
-  - "copyleft"
-  - "include-source-code-offer-in-notice-file" 
-  - "include-in-notice-file" 
-  - "DC_car_review"
-  - "DC_mobile_review"
-  - "DC_frontend_review"
-  - "DC_backend_review"
-  - "DC_tools_review"
-  - "CARIAD_Rated"
 - id: "LicenseRef-scancode-free-fork"
   categories:
   - "copyleft-limited"
@@ -3014,6 +3014,9 @@ categorizations:
 - id: "LicenseRef-scancode-fpl"
   categories:
   - "permissive"
+- id: "LicenseRef-scancode-ms-net-library-2018-11"
+  categories:
+  - "proprietary-free"
 - id: "LGPL-2.1-only"
   categories:
   - "copyleft-limited"
@@ -3237,9 +3240,6 @@ categorizations:
 - id: "LicenseRef-scancode-installsite"
   categories:
   - "free-restricted"
-- id: "LicenseRef-scancode-ms-net-library-2018-11"
-  categories:
-  - "proprietary-free"
 - id: "LicenseRef-scancode-jide-sla"
   categories:
   - "commercial"
@@ -4471,6 +4471,12 @@ categorizations:
   - "DC_backend_green"
   - "DC_tools_green"
   - "CARIAD_Rated"
+- id: "SSLeay-standalone"
+  categories:
+  - "permissive"
+- id: "OpenSSL"
+  categories:
+  - "permissive"
 - id: "OLDAP-2.8"
   categories:
   - "permissive"
@@ -4514,9 +4520,6 @@ categorizations:
   - "DC_backend_green"
   - "DC_tools_green"
   - "CARIAD_Rated"
-- id: "OpenSSL"
-  categories:
-  - "permissive"
 - id: "LicenseRef-scancode-sglib"
   categories:
   - "permissive"
@@ -4562,9 +4565,6 @@ categorizations:
 - id: "LicenseRef-scancode-sun-bcl-j2re-5.0"
   categories:
   - "proprietary-free"
-- id: "SSLeay-standalone"
-  categories:
-  - "permissive"
 - id: "SPL-1.0"
   categories:
   - "copyleft-limited"
