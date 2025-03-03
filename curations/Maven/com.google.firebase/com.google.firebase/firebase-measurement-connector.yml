@@ -1,0 +1,7 @@
+- id: "Maven:com.google.firebase:firebase-measurement-connector:19.0.0"
+  curations:
+    comment: |
+      Declared license links to the LicenseRef-scancode-android-sdk-2021,see
+      https://dl.google.com/android/maven2/com/google/firebase/firebase-measurement-connector/19.0.0/firebase-measurement-connector-19.0.0.pom
+    declared_license_mapping:
+      License: "LicenseRef-scancode-android-sdk-2021"
