@@ -1,0 +1,7 @@
+- id: "Maven:com.google.android.odml:image:1.0.0-beta1"
+  curations:
+    comment: |
+      Declared license links to the Android Software Development Kit License,see
+      https://maven.google.com/com/google/android/odml/image/1.0.0-beta1/image-1.0.0-beta1.pom 
+    declared_license_mapping:
+      License: "LicenseRef-scancode-android-sdk-2021"
