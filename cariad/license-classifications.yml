@@ -1,4 +1,4 @@
-#This YML-file was created by CARIAD legal on 2025-03-03 using L'ELA.
+#This YML-file was created by CARIAD legal on 2025-03-04 using L'ELA.
 
 categories:
 - name: "CARIAD_Rated"
@@ -3014,12 +3014,12 @@ categorizations:
 - id: "LicenseRef-scancode-fpl"
   categories:
   - "permissive"
-- id: "LicenseRef-scancode-ms-net-library-2018-11"
-  categories:
-  - "proprietary-free"
 - id: "LGPL-2.1-only"
   categories:
   - "copyleft-limited"
+- id: "LicenseRef-scancode-ms-net-library-2018-11"
+  categories:
+  - "proprietary-free"
 - id: "MS-PL"
   categories:
   - "permissive"
@@ -5897,6 +5897,15 @@ categorizations:
   - "DC_frontend_green"
   - "DC_backend_green"
   - "DC_tools_green"
+  - "CARIAD_Rated"
+- id: "GPL-2.0-only WITH Classpath-exception-2.0"
+  categories:
+  - "copyleft-limited"
+  - "DC_car_review"
+  - "DC_mobile_review"
+  - "DC_frontend_review"
+  - "DC_backend_review"
+  - "DC_tools_review"
   - "CARIAD_Rated"
 - id: "Apache-2.0 WITH Swift-exception"
   categories:
