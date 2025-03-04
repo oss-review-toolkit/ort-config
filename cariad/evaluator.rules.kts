@@ -28,7 +28,7 @@
  */
 val orgName = "Cariad SE"
 val orgScanIssueTrackerName = "OSPO Jira"
-val orgScanIssueTrackerMdLink = "[$orgScanIssueTrackerName](https://devstack.vwgroup.com/jira/projects/OSSIB/)"
+val orgScanIssueTrackerMdLink = "[$orgScanIssueTrackerName](https://devstack.vwgroup.com/jira/projects/OSPO/)"
 
 /**
  * Import the license classifications from license-classifications.yml.
@@ -52,6 +52,7 @@ val publicDomainLicenses = getLicensesForCategory("public-domain")
 val unknownLicenses = getLicensesForCategory("unknown")
 val unstatedLicenses = getLicensesForCategory("unstated-license")
 val sourceAvailable = getLicensesForCategory("source-available")
+val cariadRated = getLicensesForCategory("CARIAD_Rated")
 
 // Set of licenses, which are not acted upon by the below policy rules.
 val ignoredLicenses = listOf(
@@ -99,7 +100,7 @@ val handledLicenses = listOf(
     publicDomainLicenses,
     unknownLicenses,
     unstatedLicenses,
-    sourceAvailable
+    sourceAvailable,
 ).flatten().let {
     it.getDuplicates().let { duplicates ->
         require(duplicates.isEmpty()) {
@@ -1140,6 +1141,12 @@ fun PackageRule.LicenseRule.isSourceAvailable() =
         override fun matches() = license in sourceAvailable
     }
 
+fun PackageRule.LicenseRule.isCariadRated() =
+    object: RuleMatcher {
+        override val description = "isCariadRated($license)"
+
+        override fun matches() = license in cariadRated
+    }
 
 fun PackageRule.packageManagerSupportsDeclaredLicenses(): RuleMatcher =
     NoneOf(
@@ -1644,6 +1651,26 @@ fun RuleSet.wrongLicenseInLicenseFileRule() = projectSourceRule("WRONG_LICENSE_I
     }
 }
 
+fun RuleSet.missingCariadRatedRule() = packageRule("CARIAD_NOT_RATED") {
+    require {
+        -isProject()
+        -isExcluded()
+    }
+
+    licenseRule("CARIAD_NOT_RATED", LicenseView.CONCLUDED_OR_DECLARED_AND_DETECTED) {
+        require {
+            -isCariadRated()
+            -isIgnored()
+            -isExcluded()
+        }
+
+        warning(
+            message = "The detected license  " + license.toString() + " is nor rated by Cariad Legal",
+            howToFix = "Ths will be handled by Cariad Legal"
+        )
+    }
+}
+
 fun RuleSet.commonRules() {
     unhandledLicenseRule()
     unmappedDeclaredLicenseRule()
@@ -1670,6 +1697,10 @@ fun RuleSet.commonRules() {
         missingTestsRule()
         wrongLicenseInLicenseFileRule()
     }
+}
+
+fun RuleSet.cariadRules() {
+    missingCariadRatedRule()
 }
 
 fun RuleSet.ossProjectRules() {
@@ -1700,6 +1731,7 @@ val ruleSet = ruleSet(ortResult, licenseInfoResolver, resolutionProvider) {
         PolicyRules.PROPRIETARY_PROJECT -> proprietaryProjectRules()
         PolicyRules.OSS_PROJECT -> ossProjectRules()
     }
+    cariadRules()
 }
 
 // Populate the list of policy rule violations to return.
