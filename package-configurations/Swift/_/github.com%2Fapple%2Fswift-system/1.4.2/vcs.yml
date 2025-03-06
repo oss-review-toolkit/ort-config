@@ -40,7 +40,7 @@ license_finding_curations:
   start_lines: "5"
   line_count: 3
   detected_license: "Apache-2.0 WITH Swift-exception"
-  concluded_license: "Apache-2.0 WITH Swift-exceptionn"
+  concluded_license: "Apache-2.0 WITH Swift-exception"
   reason: "INCORRECT"
   comment: "Runtime Library Exception to the Apache-2.0 is detected by ORT as Apache-2.0 WITH Swift-exception"
 - path: "CMakeLists.txt"
