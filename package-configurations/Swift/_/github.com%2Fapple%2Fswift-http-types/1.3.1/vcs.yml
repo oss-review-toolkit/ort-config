@@ -5,7 +5,7 @@ vcs:
   url: "https://github.com/apple/swift-http-types.git"
   revision: "ef18d829e8b92d731ad27bb81583edd2094d1ce3"
 path_excludes:
-- pattern: "**/Tests/**"
+- pattern: "Tests/**"
   reason: "TEST_OF"
 license_finding_curations:
 - path: "NOTICE.txt"
