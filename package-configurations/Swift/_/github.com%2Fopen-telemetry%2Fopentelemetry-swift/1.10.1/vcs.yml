@@ -15,15 +15,15 @@ license_finding_curations:
   line_count: 1
   detected_license: "NOASSERTION"
   concluded_license: "NONE"
-  reason: "INCORRECT"
+  reason: "DOCUMENTATION_OF"
   comment: "False Positive"
 - path: "CONTRIBUTING.md"
   start_lines: "102"
-  line_count: 4
+  line_count: 1
   detected_license: "NOASSERTION"
-  concluded_license: "LicenseRef-scancode-cncf-corporate-cla-1.0"
-  reason: "INCORRECT"
-  comment: "True Positive"
+  concluded_license: "NONE"
+  reason: "DOCUMENTATION_OF"
+  comment: "False Positive"
 - path: "Sources/OpenTelemetryApi/Context/ActivityContextManager.swift"   
   start_lines: "2"
   line_count: 2
