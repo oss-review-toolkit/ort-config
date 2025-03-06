@@ -2103,14 +2103,7 @@ license_finding_curations:
 - path: "README.md"
   start_lines: "117"
   line_count: 1
-  detected_license: "Apache-2.0 WITH Swift-exception"
-  concluded_license: "Apache-2.0 WITH Swift-exception"
-  reason: "INCORRECT"
-  comment: "LICENSE FOUND as Apache-2.0 WITH Swift-exception"
-- path: "README.md"
-  start_lines: "117"
-  line_count: 1
   detected_license: "NOASSERTION"
   concluded_license: "Apache-2.0 WITH Swift-exception"
-  reason: "INCORRECT"
+  reason: "DOCUMENTATION_OF"
   comment: "True Positive"
