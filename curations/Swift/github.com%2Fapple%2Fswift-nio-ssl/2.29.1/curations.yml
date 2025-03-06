@@ -1,4 +1,0 @@
-- id: "Swift::github.com/apple/swift-nio-ssl:2.29.1"
-  curations:
-    - declaredLicense: "Apache-2.0"
-      concludedLicense: "Apache-2.0 AND ISC AND 0BSD AND SSLeay AND OpenSSL"
