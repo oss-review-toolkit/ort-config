@@ -86,3 +86,10 @@ license_finding_curations:
   concluded_license: "BSD-3-Clause"
   reason: "INCORRECT"
   comment: "True Positive"
+- path: "pandas-2.2.3/LICENSES/PSF_LICENSE"
+  start_lines: "66"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "PSF-2.0 AND 0BSD"
+  reason: "INCORRECT"
+  comment: "True Positive"
