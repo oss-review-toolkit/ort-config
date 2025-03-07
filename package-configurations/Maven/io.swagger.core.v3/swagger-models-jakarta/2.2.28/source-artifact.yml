@@ -1,0 +1,11 @@
+---
+id: "Maven:io.swagger.core.v3:swagger-models-jakarta:2.2.28"
+source_artifact_url: "https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-models-jakarta/2.2.28/swagger-models-jakarta-2.2.28-sources.jar"
+license_finding_curations:
+- path: "io/swagger/v3/oas/models/info/License.java"
+  start_lines: "14"
+  line_count: 2
+  detected_license: "LicenseRef-scancode-proprietary-license"
+  concluded_license: "NONE"
+  reason: "CODE"
+  comment: "False positive,as in the License.java we not find any license information for line no:14 and 15"
