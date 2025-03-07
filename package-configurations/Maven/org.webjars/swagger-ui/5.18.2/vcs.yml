@@ -1,0 +1,9 @@
+---
+id: "Maven:org.webjars:swagger-ui:5.18.2"
+vcs:
+  type: "Git"
+  url: "https://github.com/swagger-api/swagger-ui.git"
+  revision: "3c7e281d97fd3e70b25f7ff4a001eabd56e375d7"
+path_excludes:
+- pattern: "test/**"
+  reason: "TEST_OF"
