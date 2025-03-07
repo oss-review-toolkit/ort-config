@@ -1,0 +1,11 @@
+---
+id: "Maven:jakarta.xml.ws:jakarta.xml.ws-api:4.0.2"
+source_artifact_url: "https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.2/jakarta.xml.ws-api-4.0.2-sources.jar"
+license_finding_curations:
+- path: "META-INF/NOTICE.md"
+  start_lines: "47"
+  line_count: 8
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "False Positive"
