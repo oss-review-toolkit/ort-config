@@ -1,0 +1,11 @@
+---
+id: "Maven:jakarta.xml.bind:jakarta.xml.bind-api:4.0.2"
+source_artifact_url: "https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2-sources.jar"
+license_finding_curations:
+- path: "META-INF/NOTICE.md"
+  start_lines: "40"
+  line_count: 8
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-3-Clause"
+  reason: "INCORRECT"
+  comment: "TRUE POSIITVE"
