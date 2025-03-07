@@ -1,0 +1,11 @@
+---
+id: "Maven:com.intuit.karate:karate-core:1.4.1"
+source_artifact_url: "https://repo.maven.apache.org/maven2/com/intuit/karate/karate-core/1.4.1/karate-core-1.4.1-sources.jar"
+license_finding_curations:
+- path: "com/intuit/karate/Main.java"
+  start_lines: "2"
+  line_count: 21
+  detected_license: "LicenseRef-scancode-proprietary-license"
+  concluded_license: "MIT"
+  reason: "DATA_OF"
+  comment: "True positive as we found MIT as valid license main.java file"
