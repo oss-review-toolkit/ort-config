@@ -1,0 +1,25 @@
+---
+id: "Maven:jakarta.annotation:jakarta.annotation-api:2.1.1"
+source_artifact_url: "https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1-sources.jar"
+license_finding_curations:
+- path: "META-INF/NOTICE.md"
+  start_lines: "31"
+  line_count: 8
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "False Positive"
+- path: "META-INF/LICENSE.md"
+  start_lines: "620"
+  line_count: 18
+  detected_license: "GPL-2.0-only WITH Classpath-exception-2.0"
+  concluded_license: "GPL-2.0-only WITH Classpath-exception-2.0"
+  reason: "DOCUMENTATION_OF"
+  comment: "True Positive"
+- path: "META-INF/LICENSE.md"
+  start_lines: "281"
+  line_count: 336
+  detected_license: "GPL-2.0-only"
+  concluded_license: "GPL-2.0-only"
+  reason: "DOCUMENTATION_OF"
+  comment: "True Positive"
