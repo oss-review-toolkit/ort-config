@@ -2,7 +2,7 @@
 id: "PyPI::sqlalchemy:2.0.38"
 source_artifact_url: "https://files.pythonhosted.org/packages/e4/08/9a90962ea72acd532bda71249a626344d855c4032603924b1b547694b837/sqlalchemy-2.0.38.tar.gz"
 path_excludes:
-- pattern: "doc/**"
+- pattern: "sqlalchemy-2.0.38/doc/**"
   reason: "DOCUMENTATION_OF"
 license_finding_curations:
 - path: "sqlalchemy-2.0.38/lib/SQLAlchemy.egg-info/PKG-INFO"
