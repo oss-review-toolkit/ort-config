@@ -462,14 +462,14 @@ license_finding_curations:
 - path: "license_expression-30.4.1/README.rst" 
   start_lines: "203" 
   line_count: 1
-  detected_license: "BSD-3-Clause OR GPL-1.0-or-later"
+  detected_license: "GPL-2.0-only"
   concluded_license: "NONE"
   reason: "INCORRECT"
   comment: "False Positive"
 - path: "license_expression-30.4.1/README.rst" 
   start_lines: "204" 
   line_count: 1
-  detected_license: "BSD-3-Clause OR GPL-1.0-or-later"
+  detected_license: "GPL-2.0-only"
   concluded_license: "NONE"
   reason: "INCORRECT"
   comment: "False Positive"
@@ -483,14 +483,14 @@ license_finding_curations:
 - path: "license_expression-30.4.1/README.rst" 
   start_lines: "211" 
   line_count: 1
-  detected_license: "BSD-3-Clause OR GPL-1.0-or-later"
+  detected_license: "GPL-2.0-only"
   concluded_license: "NONE"
   reason: "INCORRECT"
   comment: "False Positive"
 - path: "license_expression-30.4.1/README.rst" 
   start_lines: "212" 
   line_count: 1
-  detected_license: "BSD-3-Clause OR GPL-1.0-or-later"
+  detected_license: "GPL-2.0-only"
   concluded_license: "NONE"
   reason: "INCORRECT"
   comment: "False Positive"
@@ -763,7 +763,7 @@ license_finding_curations:
 - path: "license_expression-30.4.1/src/license_expression/__init__.py" 
   start_lines: "1801" 
   line_count: 2
-  detected_license: "MIT OR GPL-1.0-or-later"
+  detected_license: "GPL-1.0-or-later"
   concluded_license: "NONE"
   reason: "INCORRECT"
   comment: "False Positive"
