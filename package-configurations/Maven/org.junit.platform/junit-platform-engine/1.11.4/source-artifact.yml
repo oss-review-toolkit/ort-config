@@ -1,0 +1,18 @@
+---
+id: "Maven:org.junit.platform:junit-platform-engine:1.11.4"
+source_artifact_url: "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4-sources.jar"
+license_finding_curations:
+- path: "META-INF/LICENSE-notice.md"
+  start_lines: "1"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "FALSE POSITIVE, as we didn't find any open source licenses in the specific file"
+- path: "META-INF/LICENSE-notice.md"
+  start_lines: "4"
+  line_count: 5
+  detected_license: "NOASSERTION"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "FALSE POSITIVE, as we didn't find any open source licenses in the specific file"
