@@ -1,0 +1,11 @@
+---
+id: "PyPI::opentelemetry-instrumentation-wsgi:0.49b1"
+source_artifact_url: "https://files.pythonhosted.org/packages/66/6b/4ef472608f68ecfa532c4af647e3b27cf25a12def0e2ec036268f464a6ab/opentelemetry_instrumentation_wsgi-0.49b1.tar.gz"
+license_finding_curations:
+- path: "opentelemetry_instrumentation_wsgi-0.49b1/PKG-INFO"
+  start_lines: "8"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "TRUE POSITIVE"
