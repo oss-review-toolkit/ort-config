@@ -1,0 +1,11 @@
+---
+id: "PyPI::opentelemetry-instrumentation-flask:0.49b1"
+source_artifact_url: "https://files.pythonhosted.org/packages/10/03/ca7b879aad7baee0cd6110e6debc10a25cfc12b6e51aebe5ac6acac580e2/opentelemetry_instrumentation_flask-0.49b1.tar.gz"
+license_finding_curations:
+- path: "opentelemetry_instrumentation_flask-0.49b1/PKG-INFO"
+  start_lines: "8"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "TRUE POSITIVE"
