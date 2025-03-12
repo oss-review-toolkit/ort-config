@@ -1,0 +1,11 @@
+---
+id: "PyPI::marshmallow:3.22.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/70/40/faa10dc4500bca85f41ca9d8cefab282dd23d0fcc7a9b5fab40691e72e76/marshmallow-3.22.0.tar.gz"
+license_finding_curations:
+- path: "marshmallow-3.22.0/pyproject.toml"
+  start_lines: "6"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "TRUE POSITIVE"
