@@ -1,0 +1,11 @@
+---
+id: "PyPI::opentelemetry-semantic-conventions:0.49b1"
+source_artifact_url: "https://files.pythonhosted.org/packages/bf/61/2715d9d24842ef2250cbd6a44198b6d134b6238d515c6b2f9042ea5aee63/opentelemetry_semantic_conventions-0.49b1.tar.gz"
+license_finding_curations:
+- path: "opentelemetry_semantic_conventions-0.49b1/PKG-INFO"
+  start_lines: "8"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "TRUE POSITIVE"
