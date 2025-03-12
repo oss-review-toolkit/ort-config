@@ -1,0 +1,11 @@
+---
+id: "PyPI::httpcore:1.0.6"
+source_artifact_url: "https://files.pythonhosted.org/packages/b6/44/ed0fa6a17845fb033bd885c03e842f08c1b9406c86a2e60ac1ae1b9206a6/httpcore-1.0.6.tar.gz"
+license_finding_curations:
+- path: "httpcore-1.0.6/PKG-INFO"
+  start_lines: "10"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-3-Clause"
+  reason: "REFERENCE"
+  comment: "TRUE POSITIVE"
