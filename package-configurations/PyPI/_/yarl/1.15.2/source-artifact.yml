@@ -1,0 +1,25 @@
+---
+id: "PyPI::yarl:1.15.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/06/e1/d5427a061819c9f885f58bb0467d02a523f1aec19f9e5f9c82ce950d90d3/yarl-1.15.2.tar.gz"
+license_finding_curations:
+- path: "yarl-1.15.2/PKG-INFO"
+  start_lines: "37"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "TRUE POSITIVE"
+- path: "yarl-1.15.2/setup.cfg"
+  start_lines: "26"
+  line_count: 2
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "TRUE POSITIVE"
+- path: "yarl-1.15.2/yarl.egg-info/PKG-INFO"
+  start_lines: "37"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "TRUE POSITIVE"
