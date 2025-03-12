@@ -1,0 +1,39 @@
+---
+id: "PyPI::requests-toolbelt:1.0.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/f3/61/d7545dafb7ac2230c70d38d31cbfe4cc64f7144dc41f6e4e4b78ecd9f5bb/requests-toolbelt-1.0.0.tar.gz"
+license_finding_curations:
+- path: "requests-toolbelt-1.0.0/PKG-INFO"
+  start_lines: "30"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "TRUE POSITIVE"
+- path: "requests-toolbelt-1.0.0/requests_toolbelt.egg-info/PKG-INFO"
+  start_lines: "30"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "TRUE POSITIVE"
+- path: "requests-toolbelt-1.0.0/requests_toolbelt/__init__.py"
+  start_lines: "9"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "TRUE POSITIVE"
+- path: "requests-toolbelt-1.0.0/requests_toolbelt/adapters/__init__.py"
+  start_lines: "9"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "TRUE POSITIVE"
+- path: "requests-toolbelt-1.0.0/requests_toolbelt/multipart/__init__.py"
+  start_lines: "8"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "TRUE POSITIVE"
