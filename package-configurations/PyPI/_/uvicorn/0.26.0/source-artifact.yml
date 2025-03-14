@@ -1,0 +1,11 @@
+---
+id: "PyPI::uvicorn:0.26.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/22/fb/f85e32b605ead5a186d4279b3981ef498fa914423289000332eab4fe0385/uvicorn-0.26.0.tar.gz"
+license_finding_curations:
+- path: "uvicorn-0.26.0/PKG-INFO"
+  start_lines: "11"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-3-Clause"
+  reason: "REFERENCE"
+  comment: "True positive as BSD 3 Clause license declared in license.md file"
