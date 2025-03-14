@@ -1,0 +1,21 @@
+---
+id: "Swift::github.com/apple/swift-log:1.6.3"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-log.git"
+  revision: "3d8596ed08bd13520157f0355e35caed215ffbfa"
+license_finding_curations:
+- path: "CONTRIBUTING.md"
+  start_lines: "5"
+  line_count: 2
+  detected_license: "LicenseRef-scancode-unknown-license-reference"
+  concluded_license: "Apache-2.0"
+  reason: "DOCUMENTATION_OF"
+  comment: "True Positive"
+- path: "NOTICE.txt"
+  start_lines: "32"
+  line_count: 1
+  detected_license: "LicenseRef-scancode-unknown-license-reference"
+  concluded_license: "Apache-2.0"
+  reason: "DOCUMENTATION_OF"
+  comment: "True Positive"
