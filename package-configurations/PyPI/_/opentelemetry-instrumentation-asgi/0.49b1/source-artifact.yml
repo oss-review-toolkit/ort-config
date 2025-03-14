@@ -1,0 +1,11 @@
+---
+id: "PyPI::opentelemetry-instrumentation-asgi:0.49b1"
+source_artifact_url: "https://files.pythonhosted.org/packages/44/ad/4ba8c2d42c264792e0acf2f689d80545fab4e903cea0375bd348dedd8b22/opentelemetry_instrumentation_asgi-0.49b1.tar.gz"
+license_finding_curations:
+- path: "opentelemetry_instrumentation_asgi-0.49b1/PKG-INFO"
+  start_lines: "8"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "True positive as Apache 2.0 found in license file"
