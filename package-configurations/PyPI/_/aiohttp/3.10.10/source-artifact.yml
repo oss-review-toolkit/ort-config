@@ -1,0 +1,25 @@
+---
+id: "PyPI::aiohttp:3.10.10"
+source_artifact_url: "https://files.pythonhosted.org/packages/17/7e/16e57e6cf20eb62481a2f9ce8674328407187950ccc602ad07c685279141/aiohttp-3.10.10.tar.gz"
+license_finding_curations:
+- path: "aiohttp-3.10.10/aiohttp.egg-info/PKG-INFO"
+  start_lines: "35"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "True Positive"
+- path: "aiohttp-3.10.10/PKG-INFO"
+  start_lines: "35"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "True Positive"
+- path: "aiohttp-3.10.10/setup.cfg"
+  start_lines: "20"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "True Positive"
