@@ -1,0 +1,39 @@
+---
+id: "PyPI::azure-monitor-opentelemetry:1.6.4"
+source_artifact_url: "https://files.pythonhosted.org/packages/2b/5e/8c65c97a4210ef6df7593676c3c2c95766f1114363016e5c78ba5cd47996/azure_monitor_opentelemetry-1.6.4.tar.gz"
+license_finding_curations:
+- path: "azure_monitor_opentelemetry-1.6.4/azure_monitor_opentelemetry.egg-info/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "REFERENCE"
+  comment: "True Positive"
+- path: "azure_monitor_opentelemetry-1.6.4/azure_monitor_opentelemetry.egg-info/PKG-INFO"
+  start_lines: "224"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "DOCUMENTATION_OF"
+  comment: "True Positive"
+- path: "azure_monitor_opentelemetry-1.6.4/PKG-INFO"
+  start_lines: "22"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "REFERENCE"
+  comment: "True Positive"
+- path: "azure_monitor_opentelemetry-1.6.4/PKG-INFO"
+  start_lines: "224"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "DOCUMENTATION_OF"
+  comment: "True Positive"
+- path: "azure_monitor_opentelemetry-1.6.4/README.md"
+  start_lines: "188"
+  line_count: 9
+  detected_license: "NOASSERTION"
+  concluded_license: "LicenseRef-scancode-ms-cla"
+  reason: "DOCUMENTATION_OF"
+  comment: "True Positive"
