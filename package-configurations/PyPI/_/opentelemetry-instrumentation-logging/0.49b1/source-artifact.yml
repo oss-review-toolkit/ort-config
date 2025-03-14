@@ -1,0 +1,11 @@
+---
+id: "PyPI::opentelemetry-instrumentation-logging:0.49b1"
+source_artifact_url: "https://files.pythonhosted.org/packages/e8/25/be1e945f291bf5a77e51405520b181986ab95dd2ff7a089b55fddacfc860/opentelemetry_instrumentation_logging-0.49b1.tar.gz"
+license_finding_curations:
+- path: "opentelemetry_instrumentation_logging-0.49b1/PKG-INFO"
+  start_lines: "8"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "This line refers to the license file, which includes the Apache 2.0 license; therefore, it is considered a true positive."
