@@ -1,0 +1,19 @@
+---
+id: "PyPI::jsonpatch:1.33"
+source_artifact_url: "https://files.pythonhosted.org/packages/42/78/18813351fe5d63acad16aec57f94ec2b70a09e53ca98145589e185423873/jsonpatch-1.33.tar.gz"
+license_finding_curations:
+- path: "jsonpatch-1.33/jsonpatch.egg-info/PKG-INFO"
+  start_lines: "33"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-3-Clause"
+  reason: "REFERENCE"
+  comment: "True positive as we found BSD 3 clause in License File"
+- path: "jsonpatch-1.33/PKG-INFO"
+  start_lines: "33"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-3-Clause"
+  reason: "REFERENCE"
+  comment: "True positive as we found BSD 3 clause in License File"
+  
