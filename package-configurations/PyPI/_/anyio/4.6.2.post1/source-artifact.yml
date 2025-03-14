@@ -1,0 +1,18 @@
+---
+id: "PyPI::anyio:4.6.2.post1"
+source_artifact_url: "https://files.pythonhosted.org/packages/9f/09/45b9b7a6d4e45c6bcb5bf61d19e3ab87df68e0601fa8c5293de3542546cc/anyio-4.6.2.post1.tar.gz"
+license_finding_curations:
+- path: "anyio-4.6.2.post1/PKG-INFO"
+  start_lines: "25"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "REFERENCE"
+  comment: "True Positive"
+- path: "anyio-4.6.2.post1/src/anyio.egg-info/PKG-INFO"
+  start_lines: "25"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "REFERENCE"
+  comment: "True Positive"
