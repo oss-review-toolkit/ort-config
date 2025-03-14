@@ -1,0 +1,11 @@
+---
+id: "PyPI::httpx:0.27.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/78/82/08f8c936781f67d9e6b9eeb8a0c8b4e406136ea4c3d1f89a5db71d42e0e6/httpx-0.27.2.tar.gz"
+license_finding_curations:
+- path: "httpx-0.27.2/PKG-INFO"
+  start_lines: "11"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-3-Clause"
+  reason: "REFERENCE"
+  comment: "It refered to License File,License File having BSD-3-Clause,So Its True Positive"
