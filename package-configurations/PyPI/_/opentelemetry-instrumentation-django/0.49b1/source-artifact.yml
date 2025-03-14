@@ -1,0 +1,11 @@
+---
+id: "PyPI::opentelemetry-instrumentation-django:0.49b1"
+source_artifact_url: "https://files.pythonhosted.org/packages/50/ca/4a8153b7bb7e1a911050701cf24d67c38d33dc7a21dae1f2ad5153b72b61/opentelemetry_instrumentation_django-0.49b1.tar.gz"
+license_finding_curations:
+- path: "opentelemetry_instrumentation_django-0.49b1/PKG-INFO"
+  start_lines: "8"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "True positive as Apache 2.0 found in license file"
