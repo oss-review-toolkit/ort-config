@@ -1959,7 +1959,7 @@ license_finding_curations:
   line_count: 1
   detected_license: "NOASSERTION"
   concluded_license: "Apache-2.0"
-  reason: "INCORRECT"
+  reason: "REFERENCE"
   comment: "True Positive"
 - path: "dev/codegen-tests/test-boilerplate.sh"
   start_lines: "3"
@@ -1980,7 +1980,7 @@ license_finding_curations:
   line_count: 1
   detected_license: "NOASSERTION"
   concluded_license: "Apache-2.0"
-  reason: "INCORRECT"
+  reason: "REFERENCE"
   comment: "True Positive"
 - path: "Sources/GRPCInteroperabilityTestModels/Generated/test.pb.swift"
   start_lines: "1"
