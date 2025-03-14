@@ -1,0 +1,11 @@
+---
+id: "PyPI::attrs:24.2.0"
+source_artifact_url: "https://files.pythonhosted.org/packages/fc/0f/aafca9af9315aee06a89ffde799a10a582fe8de76c563ee80bbcdc08b3fb/attrs-24.2.0.tar.gz"
+license_finding_curations:
+- path: "attrs-24.2.0/PKG-INFO"
+  start_lines: "12"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "REFERENCE"
+  comment: "True positive as MIT license found in License File"
