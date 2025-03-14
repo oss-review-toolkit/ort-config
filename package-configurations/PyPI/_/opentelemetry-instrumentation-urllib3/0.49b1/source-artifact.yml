@@ -1,0 +1,11 @@
+---
+id: "PyPI::opentelemetry-instrumentation-urllib3:0.49b1"
+source_artifact_url: "https://files.pythonhosted.org/packages/a0/c9/d23c0b9b92048e2ec61a7bd939fa4aafabfed8c50d3c53759115ca174c24/opentelemetry_instrumentation_urllib3-0.49b1.tar.gz"
+license_finding_curations:
+- path: "opentelemetry_instrumentation_urllib3-0.49b1/PKG-INFO"
+  start_lines: "8"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "True positive as Apache 2.0 license declared in license file"
