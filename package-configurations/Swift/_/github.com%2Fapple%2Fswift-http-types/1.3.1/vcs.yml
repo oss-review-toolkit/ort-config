@@ -13,7 +13,7 @@ license_finding_curations:
   line_count: 1
   detected_license: "NOASSERTION"
   concluded_license: "Apache-2.0"
-  reason: "INCORRECT"
+  reason: "DOCUMENTATION_OF"
   comment: "True Positive"
 - path: "Benchmarks/Benchmarks/HTTPFieldsBenchmarks/Benchmarks.swift"
   start_lines: "5"
