@@ -1,0 +1,21 @@
+---
+id: "Swift::github.com/apple/swift-metrics:2.6.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/apple/swift-metrics.git"
+  revision: "3c0f419970ae1c9f942d3abfd4f562e243e9f9e8"
+license_finding_curations:
+- path: "CONTRIBUTING.md"
+  start_lines: "5"
+  line_count: 2
+  detected_license: "LicenseRef-scancode-unknown-license-reference"
+  concluded_license: "Apache-2.0"
+  reason: "DOCUMENTATION_OF"
+  comment: "True positive"
+- path: "NOTICE.txt"
+  start_lines: "32"
+  line_count: 1
+  detected_license: "LicenseRef-scancode-unknown-license-reference"
+  concluded_license: "Apache-2.0"
+  reason: "DOCUMENTATION_OF"
+  comment: "True positive"
