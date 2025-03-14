@@ -1,0 +1,11 @@
+---
+id: "PyPI::opentelemetry-sdk:1.28.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/f2/c8/83996963ca80c149583260c22492022c9b48c854d4ca877aa3b6be8fbd3d/opentelemetry_sdk-1.28.1.tar.gz"
+license_finding_curations:
+- path: "opentelemetry_sdk-1.28.1/PKG-INFO"
+  start_lines: "8"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "True Positive"
