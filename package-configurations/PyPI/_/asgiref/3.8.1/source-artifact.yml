@@ -1,0 +1,18 @@
+---
+id: "PyPI::asgiref:3.8.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/29/38/b3395cc9ad1b56d2ddac9970bc8f4141312dbaec28bc7c218b0dfafd0f42/asgiref-3.8.1.tar.gz"
+license_finding_curations:
+- path: "asgiref-3.8.1/asgiref.egg-info/PKG-INFO"
+  start_lines: "27"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-3-Clause"
+  reason: "REFERENCE"
+  comment: "True Positive"
+- path: "asgiref-3.8.1/PKG-INFO"
+  start_lines: "27"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "BSD-3-Clause"
+  reason: "REFERENCE"
+  comment: "True Positive"
