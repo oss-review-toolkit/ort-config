@@ -1,0 +1,25 @@
+---
+id: "PyPI::pre-commit:4.0.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/2e/c8/e22c292035f1bac8b9f5237a2622305bc0304e776080b246f3df57c4ff9f/pre_commit-4.0.1.tar.gz"
+license_finding_curations:
+- path: "pre_commit-4.0.1/PKG-INFO"
+  start_lines: "16"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "REFERENCE"
+  comment: "True Positive"
+- path: "pre_commit-4.0.1/pre_commit.egg-info/PKG-INFO"
+  start_lines: "16"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "REFERENCE"
+  comment: "True Positive"
+- path: "pre_commit-4.0.1/setup.cfg"
+  start_lines: "11"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "REFERENCE"
+  comment: "True Positive"
