@@ -1,0 +1,12 @@
+
+---
+id: "PyPI::opentelemetry-instrumentation-httpx:0.49b1"
+source_artifact_url: "https://files.pythonhosted.org/packages/c8/de/ec441935033e655fd710eaebef026b810fd2cbe6062fb90ca1224daaeb69/opentelemetry_instrumentation_httpx-0.49b1.tar.gz"
+license_finding_curations:
+- path: "opentelemetry_instrumentation_httpx-0.49b1/PKG-INFO"
+  start_lines: "8"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "True Positive"
