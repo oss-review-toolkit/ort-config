@@ -1,0 +1,18 @@
+---
+id: "PyPI::pytest-env:1.1.5"
+source_artifact_url: "https://files.pythonhosted.org/packages/1f/31/27f28431a16b83cab7a636dce59cf397517807d247caa38ee67d65e71ef8/pytest_env-1.1.5.tar.gz"
+license_finding_curations:
+- path: "pytest_env-1.1.5/PKG-INFO"
+  start_lines: "30"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "REFERENCE"
+  comment: "True Positive"
+- path: "pytest_env-1.1.5/pyproject.toml"
+  start_lines: "16"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "REFERENCE"
+  comment: "True Positive"
