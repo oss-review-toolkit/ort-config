@@ -1,0 +1,18 @@
+---
+id: "PyPI::loguru:0.7.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/9e/30/d87a423766b24db416a46e9335b9602b054a72b96a88a241f2b09b560fa8/loguru-0.7.2.tar.gz"
+license_finding_curations:
+- path: "loguru-0.7.2/loguru.egg-info/PKG-INFO"
+  start_lines: "34"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "REFERENCE"
+  comment: "True Positive"
+- path: "loguru-0.7.2/PKG-INFO"
+  start_lines: "34"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "MIT"
+  reason: "REFERENCE"
+  comment: "True Positive"
