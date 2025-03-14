@@ -1,0 +1,11 @@
+---
+id: "PyPI::opentelemetry-resource-detector-azure:0.1.5"
+source_artifact_url: "https://files.pythonhosted.org/packages/67/e4/0d359d48d03d447225b30c3dd889d5d454e3b413763ff721f9b0e4ac2e59/opentelemetry_resource_detector_azure-0.1.5.tar.gz"
+license_finding_curations:
+- path: "opentelemetry_resource_detector_azure-0.1.5/PKG-INFO"
+  start_lines: "8"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "True Positive"
