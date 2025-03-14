@@ -1,0 +1,11 @@
+---
+id: "PyPI::openai:1.51.2"
+source_artifact_url: "https://files.pythonhosted.org/packages/95/64/9a5279138b5ea6c2f0e5443d5d93b4510cb87fa6fe7be0c92b837087124e/openai-1.51.2.tar.gz"
+license_finding_curations:
+- path: "openai-1.51.2/PKG-INFO"
+  start_lines: "9"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "REFERENCE"
+  comment: "True Positive"
