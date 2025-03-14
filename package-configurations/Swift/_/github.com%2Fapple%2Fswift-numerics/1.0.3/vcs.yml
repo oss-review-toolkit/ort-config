@@ -17,7 +17,7 @@ license_finding_curations:
   line_count: 1
   detected_license: "Apache-2.0 WITH Swift-exception"
   concluded_license: "Apache-2.0 WITH Swift-exception"
-  reason: "INCORRECT"
+  reason: "DOCUMENTATION_OF"
   comment: "Reference to LICENSE file"
 - path: "cmake/modules/SwiftSupport.cmake"
   start_lines: "5"
@@ -236,3 +236,10 @@ license_finding_curations:
   concluded_license: "Apache-2.0 WITH Swift-exception"
   reason: "INCORRECT"
   comment: "TRUE POSITIVE"
+- path: "CONTRIBUTING.md"
+  start_lines: "3"
+  line_count: 1
+  detected_license: "LicenseRef-scancode-unknown-license-reference"
+  concluded_license: "Apache-2.0 WITH Swift-exception"
+  reason: "DOCUMENTATION_OF"
+  comment: "Reference to LICENSE file"
