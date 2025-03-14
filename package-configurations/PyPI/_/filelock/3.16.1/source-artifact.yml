@@ -1,0 +1,25 @@
+---
+id: "PyPI::filelock:3.16.1"
+source_artifact_url: "https://files.pythonhosted.org/packages/9d/db/3ef5bb276dae18d6ec2124224403d1d67bccdbefc17af4cc8f553e341ab1/filelock-3.16.1.tar.gz"
+license_finding_curations:
+- path: "filelock-3.16.1/PKG-INFO"
+  start_lines: "11"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Unlicense"
+  reason: "REFERENCE"
+  comment: "This line refers to the license file, which includes the Unlicense license; therefore, it is considered a true positive"
+- path: "filelock-3.16.1/PKG-INFO"
+  start_lines: "15"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Unlicense"
+  reason: "DATA_OF"
+  comment: "This line indicates that the software or package is released under 'The Unlicense,' an OSI-approved open-source license; therefore, I consider it a true positive."
+- path: "filelock-3.16.1/pyproject.toml"
+  start_lines: "27"
+  line_count: 1
+  detected_license: "NOASSERTION"
+  concluded_license: "Unlicense"
+  reason: "DATA_OF"
+  comment: "This line indicates that the software or package is released under 'The Unlicense,' an OSI-approved open-source license; therefore, I consider it a true positive."
