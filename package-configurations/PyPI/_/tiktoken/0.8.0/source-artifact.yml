@@ -1,0 +1,25 @@
+---
+    id: "PyPI::tiktoken:0.8.0"
+    source_artifact_url: "https://files.pythonhosted.org/packages/37/02/576ff3a6639e755c4f70997b2d315f56d6d71e0d046f4fb64cb81a3fb099/tiktoken-0.8.0.tar.gz"
+    license_finding_curations:
+    - path: "tiktoken-0.8.0/PKG-INFO"
+      start_lines: "34"
+      line_count: 1
+      detected_license: "NOASSERTION"
+      concluded_license: "MIT"
+      reason: "REFERENCE"
+      comment: "True positive as MIT license declared in license file"
+    - path: "tiktoken-0.8.0/pyproject.toml"
+      start_lines: "6"
+      line_count: 1
+      detected_license: "NOASSERTION"
+      concluded_license: "MIT"
+      reason: "REFERENCE"
+      comment: "True positive as MIT license declared in license file"
+    - path: "tiktoken-0.8.0/tiktoken.egg-info/PKG-INFO"
+      start_lines: "34"
+      line_count: 1
+      detected_license: "NOASSERTION"
+      concluded_license: "MIT"
+      reason: "REFERENCE"
+      comment: "True positive as MIT license declared in license file"
