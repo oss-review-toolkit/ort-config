@@ -1699,10 +1699,6 @@ fun RuleSet.commonRules() {
     }
 }
 
-fun RuleSet.cariadRules() {
-    missingCariadRatedRule()
-}
-
 fun RuleSet.ossProjectRules() {
     // Rules for project sources:
     unapprovedOssProjectLicenseRule()
@@ -1723,6 +1719,7 @@ fun RuleSet.proprietaryProjectRules() {
     proprietaryFreeInDependencyRule()
     unkownInDependencyRule()
     unstatedInDependencyRule()
+    missingCariadRatedRule()
 }
 
 val ruleSet = ruleSet(ortResult, licenseInfoResolver, resolutionProvider) {
@@ -1731,7 +1728,7 @@ val ruleSet = ruleSet(ortResult, licenseInfoResolver, resolutionProvider) {
         PolicyRules.PROPRIETARY_PROJECT -> proprietaryProjectRules()
         PolicyRules.OSS_PROJECT -> ossProjectRules()
     }
-    cariadRules()
+    
 }
 
 // Populate the list of policy rule violations to return.
