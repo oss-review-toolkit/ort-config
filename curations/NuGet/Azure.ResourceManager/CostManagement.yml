@@ -1,0 +1,5 @@
+- id: "NuGet:Azure.ResourceManager:CostManagement:"
+  curations:
+    comment: "Set the VCS path of the module inside the multi-module repository."
+    vcs:
+      path: "sdk/costmanagement/Azure.ResourceManager.CostManagement"

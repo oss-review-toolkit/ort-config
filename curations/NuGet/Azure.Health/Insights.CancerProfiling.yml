@@ -1,0 +1,5 @@
+- id: "NuGet:Azure.Health:Insights.CancerProfiling:"
+  curations:
+    comment: "Set the VCS path of the module inside the multi-module repository."
+    vcs:
+      path: "sdk/healthinsights/Azure.Health.Insights.CancerProfiling"
