@@ -1,0 +1,8 @@
+- id: "NPM:@jridgewell:sourcemap-codec:1.5.5"
+  curations:
+    comment: "The repository contains code for multiple packages."
+    vcs:
+      type: "Git"
+      url: "https://github.com/jridgewell/sourcemaps.git"
+      revision: "e53a6dfb18f404a0cc77d1c92aa4bcc11dac16a6"
+      path: "packages/sourcemap-codec"
