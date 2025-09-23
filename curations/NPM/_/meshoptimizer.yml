@@ -1,0 +1,7 @@
+- id: "NPM::meshoptimizer:0.18.1"
+  curations:
+    comment: "Commit of release 0.18.1 is not tagged."
+    vcs:
+      type: "Git"
+      url: "https://github.com/zeux/meshoptimizer.git"
+      revision: "371a9b9871075c512b0d374ffca5423c41bbd741"
