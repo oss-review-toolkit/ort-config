@@ -1,0 +1,8 @@
+- id: "NPM::lit:2.2.2"
+  curations:
+    comment: "Commit of release 2.2.2 is not tagged. Repository contains multiple packages."
+    vcs:
+      type: "Git"
+      url: "https://github.com/lit/lit.git"
+      revision: "3677f3faac8c3d6ea6e04f0f06c70c9637f501b8"
+      path: "packages/lit"
