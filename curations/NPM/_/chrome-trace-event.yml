@@ -1,0 +1,7 @@
+- id: "NPM::chrome-trace-event:1.0.4"
+  curations:
+    comment: "Commit of release 1.0.4 is not tagged."
+    vcs:
+      type: "Git"
+      url: "https://github.com/samccone/chrome-trace-event.git"
+      revision: "7b70e7ea882647bebfdcf7dbddecd568eef0389c"
