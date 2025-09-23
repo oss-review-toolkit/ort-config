@@ -1,0 +1,7 @@
+- id: "NPM::fastest-levenshtein:1.0.16"
+  curations:
+    comment: "Commit of release 1.0.16 is not tagged."
+    vcs:
+      type: "Git"
+      url: "https://github.com/ka-weihe/fastest-levenshtein.git"
+      revision: "03d621ba324d0f665b3b7f557429ca622560d9a3"
