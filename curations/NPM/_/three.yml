@@ -1,0 +1,7 @@
+- id: "NPM::three:0.178.0"
+  curations:
+    comment: "Commit of release 0.178.0 is tagged r178."
+    vcs:
+      type: "Git"
+      url: "https://github.com/mrdoob/three.js.git"
+      revision: "3b1ff7661884f26e6d9af1d94c293129aaba885c"
