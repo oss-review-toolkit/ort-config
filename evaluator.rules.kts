@@ -1173,7 +1173,7 @@ fun RuleSet.copyleftInDependencyRule() = packageRule("COPYLEFT_IN_DEPENDENCY") {
         -isExcluded()
     }
 
-    licenseRule("COPYLEFT_IN_DEPENDENCY", LicenseView.CONCLUDED_OR_DECLARED_AND_DETECTED) {
+    licenseRule("COPYLEFT_IN_DEPENDENCY", LicenseView.CONCLUDED_OR_DECLARED_AND_DETECTED, false) {
         require {
             +isCopyleft()
             -isExcluded()
@@ -1181,8 +1181,7 @@ fun RuleSet.copyleftInDependencyRule() = packageRule("COPYLEFT_IN_DEPENDENCY") {
 
         error(
             "The dependency '${pkg.metadata.id.toCoordinates()}' is licensed under the ScanCode 'copyleft' " +
-                    "categorized license $license.",
-            howToFixLicenseViolationDefault(license.toString(), licenseSources.single())
+                    "categorized license $license.",""
         )
     }
 }
