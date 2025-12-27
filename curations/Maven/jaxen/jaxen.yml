@@ -1,0 +1,9 @@
+- id: "Maven:jaxen:jaxen:1.1.4"
+  curations:
+    comment: |
+      The license tag in POM refers to an outdated and not working URL "http://jaxen.codehaus.org/license.html". The
+      project is more than 13 years old. The POM refers to a git project which states the license clearly as 
+      "BSD-3-Clause" (https://github.com/doncorley/jaxen/tree/jaxen-1.1.4-final) and the same license repeats in the 
+      majority of the source files. There's no indication of any other license.
+    declared_license_mapping:
+      "http://jaxen.codehaus.org/license.html": "BSD-3-Clause"
