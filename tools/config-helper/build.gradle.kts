@@ -1,10 +1,10 @@
-import org.ossreviewtoolkit.tools.curations.GenerateAspNetCoreCurationsTask
-import org.ossreviewtoolkit.tools.curations.GenerateAwsSdkForNetCurationsTask
-import org.ossreviewtoolkit.tools.curations.GenerateAzureSdkForNetCurationsTask
-import org.ossreviewtoolkit.tools.curations.GenerateDotNetRuntimeCurationsTask
-import org.ossreviewtoolkit.tools.curations.GenerateLicenseClassificationsTask
-import org.ossreviewtoolkit.tools.curations.VerifyPackageConfigurationsTask
-import org.ossreviewtoolkit.tools.curations.VerifyPackageCurationsTask
+import org.ossreviewtoolkit.tools.config.helper.GenerateAspNetCoreCurationsTask
+import org.ossreviewtoolkit.tools.config.helper.GenerateAwsSdkForNetCurationsTask
+import org.ossreviewtoolkit.tools.config.helper.GenerateAzureSdkForNetCurationsTask
+import org.ossreviewtoolkit.tools.config.helper.GenerateDotNetRuntimeCurationsTask
+import org.ossreviewtoolkit.tools.config.helper.GenerateLicenseClassificationsTask
+import org.ossreviewtoolkit.tools.config.helper.VerifyPackageConfigurationsTask
+import org.ossreviewtoolkit.tools.config.helper.VerifyPackageCurationsTask
 
 tasks {
     register<GenerateLicenseClassificationsTask>("generateLicenseClassifications")
