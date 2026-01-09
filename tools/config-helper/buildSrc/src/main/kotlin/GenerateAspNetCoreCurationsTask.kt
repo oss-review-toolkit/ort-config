@@ -1,4 +1,4 @@
-package org.ossreviewtoolkit.tools.curations
+package org.ossreviewtoolkit.tools.config.helper
 
 import org.gradle.api.tasks.TaskAction
 import org.ossreviewtoolkit.plugins.packagemanagers.nuget.utils.getIdentifierWithNamespace

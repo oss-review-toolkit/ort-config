@@ -1,4 +1,4 @@
-package org.ossreviewtoolkit.tools.curations
+package org.ossreviewtoolkit.tools.config.helper
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategies
 import com.fasterxml.jackson.databind.json.JsonMapper
@@ -21,8 +21,8 @@ import org.ossreviewtoolkit.utils.spdx.SpdxSingleLicenseExpression
 
 private const val INDEX_JSON_URL =  "https://scancode-licensedb.aboutcode.org/index.json"
 private const val DISCLAIMER_TEXT = """
-License classification generated based on https://scancode-licensedb.aboutcode.org/.    
-    
+License classification generated based on https://scancode-licensedb.aboutcode.org/.
+
 This ORT configuration file is provided as an example only. It
 demonstrates the general configuration capabilities of ORT and does not
 reflect any real-world configuration used by the ORT contributors, nor
