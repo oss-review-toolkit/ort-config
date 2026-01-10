@@ -1,4 +1,4 @@
-package org.ossreviewtoolkit.tools.curations
+package org.ossreviewtoolkit.tools.config.helper
 
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory
 import com.fasterxml.jackson.dataformat.yaml.YAMLGenerator
