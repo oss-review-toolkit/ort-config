@@ -1,4 +1,4 @@
-package org.ossreviewtoolkit.tools.curations
+package org.ossreviewtoolkit.tools.config.helper
 
 import org.gradle.api.DefaultTask
 import org.gradle.api.logging.Logging
