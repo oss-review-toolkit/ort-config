@@ -271,6 +271,12 @@ fun isVcsScanned(id: Identifier): Boolean =
     ortResult.getScanResultsForId(id).any { it.provenance is RepositoryProvenance }
 
 /**
+ * Return a comma separated string of expressions in single quotes.
+ */
+fun Collection<SpdxExpression>.joinExpressions(): String =
+    map { it.toString() }.distinct().sorted().joinToString(prefix = "'", separator = "','", postfix = "'")
+
+/**
  * Return the coordinates without the version.
  *
  * For example, this function will return 'PyPI:flower' for package id 'PyPI::flower:0.9.7'
@@ -1427,9 +1433,6 @@ fun RuleSet.noLicenseInDependencyRule() = packageRule("NO_LICENSE_IN_DEPENDENCY"
 }
 
 fun RuleSet.nonApplicablePackageLicenseChoicesInOrtYmlRule() = ortResultRule("NON_APPLICABLE_PACKAGE_LICENSE_CHOICES_IN_ORT_YML") {
-    fun Collection<SpdxExpression>.joinExpressions(): String =
-        map { it.toString() }.distinct().sorted().joinToString(prefix = "'", separator = "','", postfix = "'")
-
     val existingIds = ortResult.getIdentifiers()
 
     getNonApplicablePackageLicenseChoices(LicenseView.CONCLUDED_OR_DECLARED_AND_DETECTED).forEach { (id, choices) ->
@@ -1452,6 +1455,16 @@ fun RuleSet.nonApplicablePackageLicenseChoicesInOrtYmlRule() = ortResultRule("NO
                     "following 'choice' expressions which are not applicable: " +
                     "${nonApplicableChoiceExpressions.joinExpressions()}.")
         }
+    }
+}
+
+fun RuleSet.nonApplicableRepositoryLicenseChoicesInOrtYmlRule() = ortResultRule("NON_APPLICABLE_REPOSITORY_LICENSE_CHOICES_IN_ORT_YML") {
+    val nonApplicableGivenExpressions = getNonApplicableRepositoryLicenseChoices(LicenseView.CONCLUDED_OR_DECLARED_AND_DETECTED)
+        .mapNotNull { it.given }
+
+    if (nonApplicableGivenExpressions.isNotEmpty()) {
+        warning("The repository license choices, in the .ort.yml file, contain the following 'given' expressions " +
+                "which are not applicable: ${nonApplicableGivenExpressions.joinExpressions()}.")
     }
 }
 
@@ -1671,6 +1684,7 @@ fun RuleSet.commonRules() {
     // Rules applicable to the `.ort.yml` file:
     deprecatedScopeExludeInOrtYmlRule()
     nonApplicablePackageLicenseChoicesInOrtYmlRule()
+    nonApplicableRepositoryLicenseChoicesInOrtYmlRule()
     packageConfigurationInOrtYmlRule()
     packageCurationInOrtYmlRule()
 
