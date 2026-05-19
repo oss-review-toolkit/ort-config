@@ -1426,6 +1426,35 @@ fun RuleSet.noLicenseInDependencyRule() = packageRule("NO_LICENSE_IN_DEPENDENCY"
     )
 }
 
+fun RuleSet.nonApplicablePackageLicenseChoicesInOrtYmlRule() = ortResultRule("NON_APPLICABLE_PACKAGE_LICENSE_CHOICES_IN_ORT_YML") {
+    fun Collection<SpdxExpression>.joinExpressions(): String =
+        map { it.toString() }.distinct().sorted().joinToString(prefix = "'", separator = "','", postfix = "'")
+
+    val existingIds = ortResult.getIdentifiers()
+
+    getNonApplicablePackageLicenseChoices(LicenseView.CONCLUDED_OR_DECLARED_AND_DETECTED).forEach { (id, choices) ->
+        if (id !in existingIds) {
+            warning("The package license choices for ${id.toCoordinates()}, in the ort.yml file, uses a packageId " +
+                    "which is not present in ORT's result.")
+            return@forEach
+        }
+
+        val nonApplicableGivenExpressions = choices.mapNotNull { it.given }
+        if (nonApplicableGivenExpressions.isNotEmpty()) {
+            warning("The package license choices for ${id.toCoordinates()}, in the .ort.yml file, contain the " +
+                    "following 'given' expressions which are not applicable: " +
+                    "${nonApplicableGivenExpressions.joinExpressions()}.")
+        }
+
+        val nonApplicableChoiceExpressions = choices.filter { it.given == null }.map { it.choice }
+        if (nonApplicableChoiceExpressions.isNotEmpty()) {
+            warning("The package license choice for ${id.toCoordinates()}, in the .ort.yml file, contain the " +
+                    "following 'choice' expressions which are not applicable: " +
+                    "${nonApplicableChoiceExpressions.joinExpressions()}.")
+        }
+    }
+}
+
 fun RuleSet.packageConfigurationInOrtYmlRule() = ortResultRule("PACKAGE_CONFIGURATION_IN_ORT_YML") {
     if (ortResult.repository.config.packageConfigurations.isNotEmpty()) {
         warning(
@@ -1641,6 +1670,7 @@ fun RuleSet.commonRules() {
 
     // Rules applicable to the `.ort.yml` file:
     deprecatedScopeExludeInOrtYmlRule()
+    nonApplicablePackageLicenseChoicesInOrtYmlRule()
     packageConfigurationInOrtYmlRule()
     packageCurationInOrtYmlRule()
 
