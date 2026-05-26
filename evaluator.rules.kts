@@ -372,6 +372,48 @@ fun PackageRule.howToFixUnhandledLicense(
     }
 }
 
+fun OrtResultRule.howToFixNonApplicablePackageLicenseChoiceInOrtYmlInvalidPackageId() =
+    """
+    | Try to resolve this violation by following the advice below:
+    |
+    | 1. Navigate to the $ortYmlFileMdLink for this project, typically located in the root of the code repository.
+    | 2. Open the .ort.yml using a text editor and search for the `package_license_choices` section.
+    | 3. Update the `package_id:` entry with non applicable package id reported in the message of this violation with a package identifier found in ORT's results.
+    | 4. Once your changes to the $ortYmlFileMdLink is merged, re-scan to see if the violation has been resolved.
+    """.trimMargin()
+
+fun OrtResultRule.howToFixNonApplicablePackageLicenseChoiceInOrtYmlNonApplicableGivenExpressions() =
+    """
+    | Try to resolve this violation by following the advice below:
+    |
+    | 1. Navigate to the $ortYmlFileMdLink for this project, typically located in the root of the code repository.
+    | 2. Open the .ort.yml using a text editor and search for the `package_license_choices` section.
+    | 3. Navigate to the entry for the packageId reported in the message of this violation.
+    | 4. Update the `given:` entry for the non-applicable given value reported in the message of this violation to SPDX license expression corresponding to packageId found in ORT's results.
+    | 5. Once your changes to the $ortYmlFileMdLink is merged, re-scan to see if the violation has been resolved.
+    """.trimMargin()
+
+fun OrtResultRule.howToFixNonApplicablePackageLicenseChoiceInOrtYmlNonApplicableChoiceExpressions() =
+    """
+    | Try to resolve this violation by following the advice below:
+    |
+    | 1. Navigate to the $ortYmlFileMdLink for this project, typically located in the root of the code repository.
+    | 2. Open the .ort.yml using a text editor and search for the `package_license_choices` section.
+    | 3. Navigate to the entry for the packageId reported in the message of this violation.
+    | 4. Update the `choices:` entry for the non-applicable choices value reported in the message of this violation to an SPDX license expression which is a valid choice for the license for packageId found in ORT's results.
+    | 5. Once your changes to the $ortYmlFileMdLink is merged, re-scan to see if the violation has been resolved.
+    """.trimMargin()
+
+fun OrtResultRule.howToFixNonApplicableRepositoryLicenseChoiceInOrtYml() =
+    """
+    | Try to resolve this violation by following the advice below:
+    |
+    | 1. Navigate to the $ortYmlFileMdLink file for this project, typically located in the root of the code repository.
+    | 2. Open the .ort.yml using a text editor and search for the `repository_license_choices` section.
+    | 3. Update the `given:` entry for the non-applicable given value reported in the message of this violation to SPDX license expression found in ORT's results .
+    | 4. Once your changes to the $ortYmlFileMdLink is merged, re-scan to see if the violation has been resolved.
+    """.trimMargin()
+
 fun PackageRule.howToFixOssProjectDefault() = """
         A text written in MarkDown to help users resolve policy violations
         which may link to additional resources.
@@ -1437,23 +1479,32 @@ fun RuleSet.nonApplicablePackageLicenseChoicesInOrtYmlRule() = ortResultRule("NO
 
     getNonApplicablePackageLicenseChoices(LicenseView.CONCLUDED_OR_DECLARED_AND_DETECTED).forEach { (id, choices) ->
         if (id !in existingIds) {
-            warning("The package license choices for ${id.toCoordinates()}, in the ort.yml file, uses a packageId " +
-                    "which is not present in ORT's result.")
+            warning(
+                message = "The package license choices for ${id.toCoordinates()}, in the ort.yml file, uses a " +
+                        "packageId which is not present in ORT's result.",
+                howToFix = howToFixNonApplicablePackageLicenseChoiceInOrtYmlInvalidPackageId()
+            )
             return@forEach
         }
 
         val nonApplicableGivenExpressions = choices.mapNotNull { it.given }
         if (nonApplicableGivenExpressions.isNotEmpty()) {
-            warning("The package license choices for ${id.toCoordinates()}, in the .ort.yml file, contain the " +
+            warning(
+                message = "The package license choices for ${id.toCoordinates()}, in the .ort.yml file, contain the " +
                     "following 'given' expressions which are not applicable: " +
-                    "${nonApplicableGivenExpressions.joinExpressions()}.")
+                    "${nonApplicableGivenExpressions.joinExpressions()}.",
+                howToFix = howToFixNonApplicablePackageLicenseChoiceInOrtYmlNonApplicableGivenExpressions()
+            )
         }
 
         val nonApplicableChoiceExpressions = choices.filter { it.given == null }.map { it.choice }
         if (nonApplicableChoiceExpressions.isNotEmpty()) {
-            warning("The package license choice for ${id.toCoordinates()}, in the .ort.yml file, contain the " +
+            warning(
+                message = "The package license choice for ${id.toCoordinates()}, in the .ort.yml file, contain the " +
                     "following 'choice' expressions which are not applicable: " +
-                    "${nonApplicableChoiceExpressions.joinExpressions()}.")
+                    "${nonApplicableChoiceExpressions.joinExpressions()}.",
+                howToFix = howToFixNonApplicablePackageLicenseChoiceInOrtYmlNonApplicableChoiceExpressions()
+            )
         }
     }
 }
@@ -1463,8 +1514,11 @@ fun RuleSet.nonApplicableRepositoryLicenseChoicesInOrtYmlRule() = ortResultRule(
         .mapNotNull { it.given }
 
     if (nonApplicableGivenExpressions.isNotEmpty()) {
-        warning("The repository license choices, in the .ort.yml file, contain the following 'given' expressions " +
-                "which are not applicable: ${nonApplicableGivenExpressions.joinExpressions()}.")
+        warning(
+            message = "The repository license choices, in the .ort.yml file, contain the following 'given' expressions " +
+                "which are not applicable: ${nonApplicableGivenExpressions.joinExpressions()}.",
+            howToFix = howToFixNonApplicableRepositoryLicenseChoiceInOrtYml()
+        )
     }
 }
 
