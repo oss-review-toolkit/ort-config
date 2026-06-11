@@ -20,9 +20,7 @@ repositories {
 }
 
 dependencies {
-    implementation(ortLibs.evaluator) // Contains the script definition for \"*.rules.kts\" files.
-    implementation(ortLibs.notifier)  // Contains the script definition for \"*.notifications.kts\" files.
-    implementation(ortLibs.reporter)  // Contains the script definition for \"*.how-to-fix-text-provider.kts\" files.
+    implementation(ortLibs.utils.script) // Contains all custom script definitions.
 }
 
 java {
