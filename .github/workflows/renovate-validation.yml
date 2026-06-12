@@ -10,7 +10,6 @@ on:
 
 jobs:
   renovate-validation:
-    if: false
     runs-on: ubuntu-24.04
     steps:
     - name: Checkout Repository
