@@ -4,10 +4,14 @@ import com.fasterxml.jackson.module.kotlin.readValue
 import org.gradle.api.DefaultTask
 import org.gradle.api.GradleException
 import org.gradle.api.tasks.TaskAction
+import org.ossreviewtoolkit.model.Identifier
+import org.ossreviewtoolkit.model.SourceCodeOrigin
 import org.ossreviewtoolkit.model.config.PackageConfiguration
+import org.ossreviewtoolkit.model.config.VcsMatcher
 import org.ossreviewtoolkit.model.mapper
 import org.semver4j.range.RangeList
 import org.semver4j.range.RangeListFactory
+import java.io.File
 
 open class VerifyPackageConfigurationsTask : DefaultTask() {
     init {
@@ -19,6 +23,8 @@ open class VerifyPackageConfigurationsTask : DefaultTask() {
         var fileCount = 0
         val issues = mutableListOf<String>()
 
+        val packageConfigurationForRelativePath = mutableMapOf<String, PackageConfiguration>()
+
         packageConfigurationsDir.walk().filter { it.isFile }.forEach { file ->
             fileCount++
 
@@ -29,7 +35,9 @@ open class VerifyPackageConfigurationsTask : DefaultTask() {
                     issues += "The file '$relativePath' does not use the expected extension '.yml'."
                 }
 
-                val config = file.mapper().readValue<PackageConfiguration>(file)
+                val config = file.mapper().readValue<PackageConfiguration>(file).also {
+                    packageConfigurationForRelativePath[relativePath] = it
+                }
 
                 if (config.id.name.isBlank()) {
                     issues += "Only package configurations for specific packages are allowed, but the configuration " +
@@ -84,6 +92,15 @@ open class VerifyPackageConfigurationsTask : DefaultTask() {
             }
         }
 
+        packageConfigurationForRelativePath.entries
+            .groupBy({ it.value.matcher }, { it.key })
+            .filter { it.value.size > 1 }
+            .map { (_, files) -> files }
+            .forEach { filesWithIdenticalMatchers ->
+                issues += "The following package configuration files use identical matchers: " +
+                        "${filesWithIdenticalMatchers.joinToString(prefix = "'", separator = "', '", postfix = "'")}."
+            }
+
         if (issues.isNotEmpty()) {
             throw GradleException(
                 "Found ${issues.size} package configuration issue(s) in $fileCount package configuration file(s):\n" +
@@ -96,3 +113,14 @@ open class VerifyPackageConfigurationsTask : DefaultTask() {
         }
     }
 }
+
+private data class Matcher(
+    val id: Identifier?,
+    val sourceArtifactUrl: String?,
+    val vcs: VcsMatcher?,
+    val sourceCodeOrigin: SourceCodeOrigin?
+)
+
+private val PackageConfiguration.matcher: Matcher
+    get() = Matcher(id, sourceArtifactUrl, vcs, sourceCodeOrigin)
+
