@@ -99,14 +99,14 @@ ${copyrights?join("\n", "")}
     --]
     [#assign resolvedLicenseInfo = LicenseView.CONCLUDED_OR_DECLARED_AND_DETECTED.filter(package.license, package.licenseChoices)]
     [#assign resolvedLicenses = helper.filterForCategory(
-        package.licensesNotInLicenseFiles(resolvedLicenseInfo.licenses),
+        package.licensesNotInLicenseFiles(resolvedLicenseInfo.licenses, true),
         noticeCategoryName
     )]
     [#assign isFirst = true]
     [#list resolvedLicenses as resolvedLicense]
-        [#assign licenseName = resolvedLicense.license.simpleLicense()]
-        [#assign licenseText = licenseFactProvider.getLicenseText(licenseName)!]
-        [#if !licenseText?has_content][#continue][/#if]
+        [#assign singleLicenseExpression = resolvedLicense.license.toString()]
+        [#assign licenseTexts = licenseFactProvider.getLicenseTextsString(singleLicenseExpression, package.id)!]
+        [#if !licenseTexts?has_content][#continue][/#if]
         [#if isFirst]
             [#if !hasNoticePackageLicenses]
 ----
@@ -114,22 +114,22 @@ ${copyrights?join("\n", "")}
 Package: [#if package.id.namespace?has_content]${package.id.namespace}:[/#if]${package.id.name}:${package.id.version}
                 [#assign hasNoticePackageLicenses = true]
             [/#if]
-
-The following copyrights and licenses were found in the source code of this package:
             [#assign isFirst = false]
-        [#else]
-  --
         [/#if]
+
+  --
         [#assign copyrights = resolvedLicense.getCopyrights()]
         [#if copyrights?has_content]
 
-        [/#if]
+The following copyrights correspond to the ${singleLicenseExpression} license in [#if package.id.namespace?has_content]${package.id.namespace}:[/#if]${package.id.name}:${package.id.version}:
+
 ${copyrights?join("\n", "", "\n")}
-${licenseText}
-        [#assign exceptionName = resolvedLicense.license.exception()!]
-        [#assign exceptionText = licenseFactProvider.getLicenseText(exceptionName)!]
-        [#if exceptionText?has_content]
-${exceptionText}
         [/#if]
+        [#list licenseTexts as licenseText]
+
+The following license text corresponds to the ${singleLicenseExpression} license in [#if package.id.namespace?has_content]${package.id.namespace}:[/#if]${package.id.name}:${package.id.version}:
+
+${licenseText}
+        [/#list]
     [/#list]
 [/#list]
