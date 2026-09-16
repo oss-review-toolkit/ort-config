@@ -45,6 +45,7 @@ val copyleftLicenses = getLicensesForCategory("copyleft")
 val copyleftLimitedLicenses = getLicensesForCategory("copyleft-limited")
 val freeRestrictedLicenses = getLicensesForCategory("free-restricted")
 val genericLicenses = getLicensesForCategory("generic")
+val nonCommercialLicenses = getLicensesForCategory("non-commercial")
 val patentLicenses = getLicensesForCategory("patent-license")
 val permissiveLicenses = getLicensesForCategory("permissive")
 val proprietaryFreeLicenses = getLicensesForCategory("proprietary-free")
@@ -92,6 +93,7 @@ val handledLicenses = listOf(
     copyleftLimitedLicenses,
     freeRestrictedLicenses,
     genericLicenses,
+    nonCommercialLicenses,
     patentLicenses,
     permissiveLicenses,
     proprietaryFreeLicenses,
@@ -1151,6 +1153,13 @@ fun PackageRule.LicenseRule.isIgnored() =
         override fun matches() = license in ignoredLicenses
     }
 
+fun PackageRule.LicenseRule.isNonCommercial() =
+    object : RuleMatcher {
+        override val description = "isNonCommercial($license)"
+
+        override fun matches() = license in nonCommercialLicenses
+    }
+
 fun PackageRule.LicenseRule.isProprietaryFree() =
     object : RuleMatcher {
         override val description = "isProprietaryFree($license)"
@@ -1522,6 +1531,26 @@ fun RuleSet.nonApplicableRepositoryLicenseChoicesInOrtYmlRule() = ortResultRule(
     }
 }
 
+fun RuleSet.nonCommercialInDependencyRule() = packageRule("NON_COMMERCIAL_IN_DEPENDENCY") {
+    require {
+        -isProject()
+        -isExcluded()
+    }
+
+    licenseRule("NON_COMMERCIAL_IN_DEPENDENCY", LicenseView.CONCLUDED_OR_DECLARED_AND_DETECTED) {
+        require {
+            +isNonCommercial()
+            -isExcluded()
+        }
+
+        error(
+            "The dependency '${pkg.metadata.id.toCoordinates()}' is licensed under the ScanCode 'non-commercial' " +
+                    "categorized license $license. This requires approval.",
+            howToFixLicenseViolationDefault(license.toString(), licenseSource)
+        )
+    }
+}
+
 fun RuleSet.packageConfigurationInOrtYmlRule() = ortResultRule("PACKAGE_CONFIGURATION_IN_ORT_YML") {
     if (ortResult.repository.config.packageConfigurations.isNotEmpty()) {
         warning(
@@ -1777,6 +1806,7 @@ fun RuleSet.proprietaryProjectRules() {
     copyleftLimitedInDependencyRule()
     freeRestrictedInDependencyRule()
     genericInDependencyRule()
+    nonCommercialInDependencyRule()
     patentInDependencyRule()
     proprietaryFreeInDependencyRule()
     unkownInDependencyRule()
