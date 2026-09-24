@@ -1219,7 +1219,7 @@ fun RuleSet.commercialInDependencyRule() = packageRule("COMMERCIAL_IN_DEPENDENCY
         error(
             "The dependency '${pkg.metadata.id.toCoordinates()}' is licensed under the ScanCode 'commercial' " +
                     "categorized license $license. This requires approval.",
-            howToFixLicenseViolationDefault(license.toString(), licenseSource)
+            howToFixLicenseViolationDefault(license.toString(), licenseSources.single())
         )
     }
 }
@@ -1230,7 +1230,7 @@ fun RuleSet.copyleftInDependencyRule() = packageRule("COPYLEFT_IN_DEPENDENCY") {
         -isExcluded()
     }
 
-    licenseRule("COPYLEFT_IN_DEPENDENCY", LicenseView.CONCLUDED_OR_DECLARED_AND_DETECTED) {
+    licenseRule("COPYLEFT_IN_DEPENDENCY", LicenseView.CONCLUDED_OR_DECLARED_AND_DETECTED, false) {
         require {
             +isCopyleft()
             -isExcluded()
@@ -1238,8 +1238,7 @@ fun RuleSet.copyleftInDependencyRule() = packageRule("COPYLEFT_IN_DEPENDENCY") {
 
         error(
             "The dependency '${pkg.metadata.id.toCoordinates()}' is licensed under the ScanCode 'copyleft' " +
-                    "categorized license $license.",
-            howToFixLicenseViolationDefault(license.toString(), licenseSource)
+                    "categorized license $license.",""
         )
     }
 }
@@ -1259,7 +1258,7 @@ fun RuleSet.copyleftLimitedInDependencyRule() = dependencyRule("COPYLEFT_LIMITED
         error(
             "The dependency '${pkg.metadata.id.toCoordinates()}' is statically linked and licensed under the " +
                     "ScanCode 'copyleft-limited' categorized license $license.",
-            howToFixLicenseViolationDefault(license.toString(), licenseSource)
+            howToFixLicenseViolationDefault(license.toString(), licenseSources.single())
         )
     }
 }
@@ -1277,9 +1276,9 @@ fun RuleSet.copyleftInSourceRule() = packageRule("COPYLEFT_IN_SOURCE") {
         }
 
         error(
-            "The ScanCode 'copyleft' categorized license $license was ${licenseSource.name.lowercase()} in project " +
+            "The ScanCode 'copyleft' categorized license $license was ${licenseSources.single().name.lowercase()} in project " +
                     "'${pkg.metadata.id.toCoordinates()}'.",
-            howToFixLicenseViolationDefault(license.toString(), licenseSource)
+            howToFixLicenseViolationDefault(license.toString(), licenseSources.single())
         )
     }
 }
@@ -1297,9 +1296,9 @@ fun RuleSet.copyleftLimitedInSourceRule() = packageRule("COPYLEFT_LIMITED_IN_SOU
         }
 
         error(
-            "The ScanCode 'copyleft-limited' categorized license $license was ${licenseSource.name.lowercase()} in " +
+            "The ScanCode 'copyleft-limited' categorized license $license was ${licenseSources.single().name.lowercase()} in " +
                     "project '${pkg.metadata.id.toCoordinates()}'.",
-            howToFixLicenseViolationDefault(license.toString(), licenseSource)
+            howToFixLicenseViolationDefault(license.toString(), licenseSources.single())
         )
     }
 }
@@ -1354,7 +1353,7 @@ fun RuleSet.freeRestrictedInDependencyRule() = packageRule("FREE_RESTRICTED_IN_D
         error(
             "The dependency '${pkg.metadata.id.toCoordinates()}' is licensed under the ScanCode 'free-restricted' " +
                     "categorized license $license. This requires approval.",
-            howToFixLicenseViolationDefault(license.toString(), licenseSource)
+            howToFixLicenseViolationDefault(license.toString(), licenseSources.single())
         )
     }
 }
@@ -1376,7 +1375,7 @@ fun RuleSet.genericInDependencyRule() = packageRule("GENERIC_IN_DEPENDENCY") {
             "The dependency '${pkg.metadata.id.toCoordinates()}' might contain a license which is unknown to the " +
                     " tooling. It was detected as $license which is just a trigger, but not a real license. Please " +
                     "create a dedicated license identifier if the finding is valid.",
-            howToFixLicenseViolationDefault(license.toString(), licenseSource)
+            howToFixLicenseViolationDefault(license.toString(), licenseSources.single())
         )
     }
 }
@@ -1584,7 +1583,7 @@ fun RuleSet.patentInDependencyRule() = packageRule("PATENT_IN_DEPENDENCY") {
         error(
             "The dependency '${pkg.metadata.id.toCoordinates()}' is licensed under the ScanCode 'patent-license' " +
                     "categorized license $license. This requires approval.",
-            howToFixLicenseViolationDefault(license.toString(), licenseSource)
+            howToFixLicenseViolationDefault(license.toString(), licenseSources.single())
         )
     }
 }
@@ -1604,7 +1603,7 @@ fun RuleSet.proprietaryFreeInDependencyRule() = packageRule("PROPRIETARY_FREE_IN
         error(
             "The dependency '${pkg.metadata.id.toCoordinates()}' is licensed under the ScanCode 'proprietary-free' " +
                     "categorized license $license. This requires approval.",
-            howToFixLicenseViolationDefault(license.toString(), licenseSource)
+            howToFixLicenseViolationDefault(license.toString(), licenseSources.single())
         )
     }
 }
@@ -1626,7 +1625,7 @@ fun RuleSet.unkownInDependencyRule() = packageRule("UNKNOWN_IN_DEPENDENCY") {
             "The dependency '${pkg.metadata.id.toCoordinates()}' might contain a license which is unknown to the " +
                     " tooling. It was detected as $license which is just a trigger, but not a real license. Please " +
                     "create a dedicated license identifier if the finding is valid.",
-            howToFixLicenseViolationDefault(license.toString(), licenseSource)
+            howToFixLicenseViolationDefault(license.toString(), licenseSources.single())
         )
     }
 }
@@ -1646,7 +1645,7 @@ fun RuleSet.unstatedInDependencyRule() = packageRule("UNSTATED_IN_DEPENDENCY") {
         error(
             "The dependency '${pkg.metadata.id.toCoordinates()}' is licensed under the ScanCode 'unstated-licenses' " +
                     "categorized license $license. This requires approval.",
-            howToFixLicenseViolationDefault(license.toString(), licenseSource)
+            howToFixLicenseViolationDefault(license.toString(), licenseSources.single())
         )
     }
 }
@@ -1716,9 +1715,9 @@ fun RuleSet.unhandledLicenseRule() = packageRule("UNHANDLED_LICENSE") {
 
         error(
             "The license $license is currently not covered by policy rules. " +
-                    "The license was ${licenseSource.name.lowercase()} in package " +
+                    "The license was ${licenseSources.single().name.lowercase()} in package " +
                     "'${pkg.metadata.id.toCoordinates()}'.",
-            howToFixUnhandledLicense(license.toString(), licenseSource)
+            howToFixUnhandledLicense(license.toString(), licenseSources.single())
         )
     }
 }
