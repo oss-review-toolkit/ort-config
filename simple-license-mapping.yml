@@ -1,0 +1,11 @@
+# This file defines an additional mapping for ORT's [SpdxSimpleLicenseMapper], which augments the built-in one and
+# can override entries from the build in one, see
+# https://github.com/oss-review-toolkit/ort/blob/main/utils/spdx-expression/src/main/resources/simple-license-mapping.yml.
+#
+# This mapping only contains license strings which *can* be parsed by [SpdxExpression.parse] but have a corresponding
+# valid SPDX license ID that should be used instead. See [SpdxDeclaredLicenseMapper] for mapping unparsable license
+# strings.
+#
+# Sort the entries below via IntelliJ's "Edit" -> "Sort Lines".
+# Map a declared license string to "NONE" in order to discard it.
+---
