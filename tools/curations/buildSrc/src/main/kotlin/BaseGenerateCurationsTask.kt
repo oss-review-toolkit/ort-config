@@ -22,8 +22,11 @@ open class BaseGenerateCurationsTask : DefaultTask() {
     private val githubUsername: String by project
     private val githubToken: String by project
 
-    private val mapper =
-        YAMLMapper(YAMLFactory().disable(YAMLGenerator.Feature.WRITE_DOC_START_MARKER)).apply(mapperConfig)
+    private val mapper = YAMLMapper.builder()
+        .apply(mapperConfig)
+        .disable(YAMLGenerator.Feature.WRITE_DOC_START_MARKER)
+        .build()
+        .let { YAMLMapper(it) }
 
     private val httpClient = OkHttpClient()
 
