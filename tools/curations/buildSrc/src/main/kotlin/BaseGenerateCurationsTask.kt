@@ -8,7 +8,6 @@ import okhttp3.Credentials
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.gradle.api.DefaultTask
-import org.gradle.kotlin.dsl.provideDelegate
 import org.ossreviewtoolkit.model.Identifier
 import org.ossreviewtoolkit.model.PackageCuration
 import org.ossreviewtoolkit.model.PackageCurationData
@@ -19,8 +18,8 @@ import org.ossreviewtoolkit.utils.common.safeMkdirs
 import java.io.IOException
 
 open class BaseGenerateCurationsTask : DefaultTask() {
-    private val githubUsername: String by project
-    private val githubToken: String by project
+    private val githubUsername = project.property("githubUsername") as String
+    private val githubToken = project.property("githubToken") as String
 
     private val mapper = YAMLMapper.builder()
         .apply(mapperConfig)
