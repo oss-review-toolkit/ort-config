@@ -18,9 +18,6 @@ import org.ossreviewtoolkit.utils.common.safeMkdirs
 import java.io.IOException
 
 open class BaseGenerateCurationsTask : DefaultTask() {
-    private val githubUsername = project.property("githubUsername") as String
-    private val githubToken = project.property("githubToken") as String
-
     private val mapper = YAMLMapper.builder()
         .apply(mapperConfig)
         .disable(YAMLGenerator.Feature.WRITE_DOC_START_MARKER)
@@ -34,7 +31,13 @@ open class BaseGenerateCurationsTask : DefaultTask() {
     }
 
     private fun gitHubRequestBuilder() =
-        Request.Builder().header("Authorization", Credentials.basic(githubUsername, githubToken))
+       Request.Builder().header(
+            name = "Authorization",
+            value = Credentials.basic(
+                username = project.property("githubUsername") as String,
+                password = project.property("githubToken") as String
+            )
+       )
 
     fun getFilesFromRepository(
         owner: String,
