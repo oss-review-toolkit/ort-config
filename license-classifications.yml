@@ -986,12 +986,14 @@ categorizations:
   - "include-in-notice-file"
 - id: "ESA-PL-strong-copyleft-2.4"
   categories:
-  - "permissive"
+  - "copyleft"
   - "include-in-notice-file"
+  - "include-source-code-offer-in-notice-file"
 - id: "ESA-PL-weak-copyleft-2.4"
   categories:
-  - "permissive"
+  - "copyleft-limited"
   - "include-in-notice-file"
+  - "include-source-code-offer-in-notice-file"
 - id: "EUDatagrid"
   categories:
   - "permissive"
@@ -4553,12 +4555,14 @@ categorizations:
   - "include-in-notice-file"
 - id: "LicenseRef-scancode-esa-pl-strong-copyleft-2.4"
   categories:
-  - "permissive"
+  - "copyleft"
   - "include-in-notice-file"
+  - "include-source-code-offer-in-notice-file"
 - id: "LicenseRef-scancode-esa-pl-weak-copyleft-2.4"
   categories:
-  - "permissive"
+  - "copyleft-limited"
   - "include-in-notice-file"
+  - "include-source-code-offer-in-notice-file"
 - id: "LicenseRef-scancode-esri"
   categories:
   - "commercial"
